@@ -1,0 +1,22 @@
+html{
+    background-color: azure;
+}
+#myImage {
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-top: -140px;
+}
+#title{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center; 
+    
+}
+#adress{
+    text-align: center; 
+    float: center;
+}
+#description{
+    font-style: italic;
+}
