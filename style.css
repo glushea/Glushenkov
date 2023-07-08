@@ -4,19 +4,54 @@ html{
 #myImage {
     width: 150px;
     height: 150px;
-    float: right;
-    margin-top: -140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    /* float: center; */
+    /* margin-top: -140px; */
 }
 #title{
     font-weight: bold;
     font-size: 60px;
     text-align: center; 
+    font-family: 'Dancing Script', cursive;
     
 }
 #adress{
     text-align: center; 
     float: center;
+    font-family: 'Inter', sans-serif;
+
 }
 #description{
     font-style: italic;
+    font-family: 'Arvo', serif;
+    font-size: 10pt;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    font-family: 'Arvo', serif;
+    font-size: 10pt;
+    display:inline; 
+}
+nav {
+  
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    font-family: 'Arvo', serif;
+    font-size: 10pt;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+ 
+} 
+
+nav a {
+    text-decoration: none;
 }
