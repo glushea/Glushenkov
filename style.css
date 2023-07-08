@@ -19,9 +19,6 @@ html{
     font-size: 60px;
     text-align: center; 
     font-family: 'Dancing Script', cursive;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
     
 }
 #adress{
@@ -37,6 +34,9 @@ html{
 }
 h2{
     font-family: 'Inter', sans-serif;
+    margin: 10px;
+    
+
 }
 .header{
     font-family: 'Arvo', serif;
@@ -60,4 +60,29 @@ nav ul {
 
 nav a {
     text-decoration: none;
+}
+
+.position{
+    display: inline-flex;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+.jobDesciption{
+    font-family: 'Arvo', serif;
+    font-size: 10pt;
+    padding-left: 43px;
+
+}
+.otherDescription{
+    font-family: 'Arvo', serif;
+    font-size: 10pt;
+    padding-left: 71px;
+}
+.pubLink{
+    text-decoration: none;
+    color: black;
 }
