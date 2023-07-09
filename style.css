@@ -35,9 +35,19 @@ html{
 h2{
     font-family: 'Inter', sans-serif;
     margin: 10px;
-    
 
 }
+@media (max-width: 600px){
+    h2{
+        font-family: 'Inter', sans-serif;
+        margin: 5px;
+        font-size: 15px;
+        
+    
+    }
+} 
+ 
+
 .header{
     font-family: 'Arvo', serif;
     font-size: 10pt;
@@ -57,30 +67,82 @@ nav ul {
     display: inline-block;
  
 } 
+@media (max-width: 600px){
+    #adress{
+
+        display: grid;
+    
+    }
+}
+@media (max-width: 600px){
+    #addressPoint{
+        display: none;
+    }
+}
 
 nav a {
     text-decoration: none;
 }
 
 .position{
+    display: inline-block;
+
+}
+.title{
     display: inline-flex;
 }
+.title h2{
+    display: -webkit-inline-box;
+    font-size: 20px;
+}
+@media (max-width: 600px){
+    .title h2{
+         font-size: 15px;
+    }
+} 
 .logo{
     width: 50px;
     height: 50px;
     border-radius: 10%;
     margin-right: 10px;
+    float: left;
 }
 .jobDesciption{
     font-family: 'Arvo', serif;
     font-size: 10pt;
     padding-left: 43px;
+    /* position: relative;
+    left: 10px;
+    top: 10px;
+    display: inline-grid; */
+
 
 }
+@media (max-width: 600px){
+
+    .jobDesciption{
+        font-family: 'Arvo', serif;
+        font-size: 9pt;
+        padding-left: 43px;
+        margin:5px;
+    
+    }
+
+
+}
+
 .otherDescription{
     font-family: 'Arvo', serif;
     font-size: 10pt;
     padding-left: 43px;
+}
+@media (max-width: 600px){
+    .otherDescription{
+     font-family: 'Arvo', serif;
+     font-size: 9pt;
+     padding-left: 43px;
+ }
+ 
 }
 .pubLink{
     text-decoration: none;
@@ -98,3 +160,16 @@ ul {
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
   }
+  ul li[draggable]{
+    margin: 5px;
+    padding: 5px;
+  }
+  #titleDate{
+    font-style: italic;
+    font-size: 19px;;
+  }
+  @media (max-width: 600px){
+    #titleDate{
+        font-size: 15px;
+    }
+} 
