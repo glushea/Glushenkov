@@ -8,8 +8,14 @@ html{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    /* border-color: orange; */
-    border: 5px solid orange;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image-source: url(./images/Circle.gif);
+    border-image-slice: 2% fill;
+    border-image-width: 10px;
+     /* background-image: url("./images/Circle.gif");
+    border-color: orange; 
+    border: 5px solid orange; */
   
     /* float: center; */
     /* margin-top: -140px; */
@@ -182,6 +188,7 @@ ul {
     padding: 0px;
     border: none;
     margin: auto;
+  
     
 }
 @media (max-width: 600px){
@@ -211,6 +218,7 @@ ul {
     font-size: 11pt;
     display: block;
     font-weight: bold;
+
 }
 @media (max-width: 600px){
     .articleTitle{
@@ -221,4 +229,8 @@ ul {
     display: block;
     background-color: white;
 }
-
+.avatar-frame {
+    display: block;
+}
+ 
+  
