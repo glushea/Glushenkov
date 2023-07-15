@@ -226,8 +226,8 @@ li[draggable]::before {
       }
          /* Customize the spinner */
     .custom-spinner {
-      width: 60px;
-      height: 60px;
+      width: 200px;
+      height: 200px;
       background-image: url('./images/Loading\ Animation-3.gif'); /* Replace with your custom image URL */
       background-size: cover;
       animation: spin 2s linear infinite;
@@ -236,3 +236,15 @@ li[draggable]::before {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
+    #title{
+      font-weight: bold;
+      font-size: 60px;
+      text-align: center; 
+      font-family: 'Dancing Script', cursive;
+      
+  }
+  @media (max-width: 768px) {
+    #title{
+      font-size: 40px;
+    }
+  }
