@@ -228,7 +228,7 @@ li[draggable]::before {
     .custom-spinner {
       width: 200px;
       height: 200px;
-      background-image: url('https://res.cloudinary.com/dxsuizt1v/image/upload/v1689447416/loader_mexo1t.gif'); /* Replace with your custom image URL */
+      background-image: url("https://res.cloudinary.com/dxsuizt1v/image/upload/v1689447416/loader_mexo1t.gif"); /* Replace with your custom image URL */
       background-size: cover;
       animation: spin 2s linear infinite;
       align-items: flex-start;
