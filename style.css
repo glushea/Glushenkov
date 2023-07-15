@@ -90,7 +90,21 @@ li[draggable]::before {
       border-color: #007bff;
     }
     
-    /* .btn:hover {
-      background-color: #0069d9;
-      border-color: #0069d9;
-    } */
+    .carousel-control-next {
+      opacity: 2; /* Adjust the opacity as needed */
+      /* Add any other custom styles here */
+    }
+    
+    .carousel-control-next:hover {
+      opacity: 3; /* Increase the opacity on hover */
+      /* Add any other custom hover styles here */
+    }
+    .carousel-control-prev {
+      opacity: 2; /* Adjust the opacity as needed */
+      /* Add any other custom styles here */
+    }
+    
+    .carousel-control-prev:hover {
+      opacity: 3; /* Increase the opacity on hover */
+      /* Add any other custom hover styles here */
+    }
