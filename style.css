@@ -231,6 +231,7 @@ li[draggable]::before {
       background-image: url('./images/Loading\ Animation-3.gif'); /* Replace with your custom image URL */
       background-size: cover;
       animation: spin 2s linear infinite;
+      align-items: flex-start;
     }
     @keyframes spin {
       0% { transform: rotate(0deg); }
@@ -246,5 +247,10 @@ li[draggable]::before {
   @media (max-width: 768px) {
     #title{
       font-size: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    #loading-screen {
+        align-items: flex-start;
     }
   }
