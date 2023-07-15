@@ -228,15 +228,15 @@ li[draggable]::before {
     .custom-spinner {
       width: 200px;
       height: 200px;
-      background-image: url('./images/Loading\ Animation-3.gif'); /* Replace with your custom image URL */
+      background-image: url('https://res.cloudinary.com/dxsuizt1v/image/upload/v1689447416/loader_mexo1t.gif'); /* Replace with your custom image URL */
       background-size: cover;
       animation: spin 2s linear infinite;
       align-items: flex-start;
     }
-    @keyframes spin {
+    /* @keyframes spin {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
-    }
+    } */
     #title{
       font-weight: bold;
       font-size: 60px;
@@ -251,13 +251,13 @@ li[draggable]::before {
   }
   @media (max-width: 768px) {
     #loading-screen {
-        /* align-items: flex-start; */
-        display: none;
+        align-items: center
+        /* display: none;*/
     }
     .custom-spinner {
-      /* width: 100px;
-      height: 100px; */
-      display: none;
+      width: 100px;
+      height: 100px;
+      /* display: none; */
 
   }
 }
