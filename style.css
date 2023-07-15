@@ -52,3 +52,45 @@ li[draggable]::before {
   background-color: orange; /* Adjust the hex color code as per your preference */
   border-color: orange;
 }
+
+.shirtTitle{
+  color: aliceblue;
+  font-weight: bold;}
+  .imgTitle{
+    color: aliceblue;
+    font-weight: bold;}
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    
+    .form-control {
+      border-radius: 0;
+      border-color: #ddd;
+    }
+    
+    .form-control:focus {
+      border-color: #8fbdff;
+      box-shadow: none;
+    }
+    
+    .btn .contact{
+      border-radius: 0;
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+    
+    /* .btn:hover {
+      background-color: #0069d9;
+      border-color: #0069d9;
+    } */
