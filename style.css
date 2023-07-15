@@ -251,6 +251,14 @@ li[draggable]::before {
   }
   @media (max-width: 768px) {
     #loading-screen {
-        align-items: flex-start;
+        /* align-items: flex-start; */
+        display: none;
     }
+    .custom-spinner {
+      /* width: 100px;
+      height: 100px; */
+      display: none;
+
   }
+}
+  
