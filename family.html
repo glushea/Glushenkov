@@ -1,0 +1,2360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Glushenkov</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Dancing+Script:wght@600&family=Inter&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+      $(document).ready(function () {
+            $(".btn-show").click(function () {
+                var sectionId = $(this).data("section");
+                $(".section").hide();
+                $("#" + sectionId).show();
+            });
+        });
+        function zoomIn() {
+            var image = document.getElementById('zoomImage');
+            image.style.cursor = 'zoom-out';
+            image.setAttribute('onclick', 'zoomOut()');
+        }
+
+        function zoomOut() {
+            var image = document.getElementById('zoomImage');
+            image.style.cursor = 'zoom-in';
+            image.setAttribute('onclick', 'zoomIn()');
+        }
+</script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-alexa" viewBox="0 0 16 16">
+            <path d="M7.996 0A7.998 7.998 0 0 0 0 8a8 8 0 0 0 6.93 7.93v-1.613a1.06 1.06 0 0 0-.717-1.008A5.602 5.602 0 0 1 2.4 7.865 5.579 5.579 0 0 1 8.054 2.4a5.599 5.599 0 0 1 5.535 5.81l-.002.046a6.116 6.116 0 0 1-.012.192l-.005.061a4.85 4.85 0 0 1-.033.284l-.01.068c-.685 4.516-6.564 7.054-6.596 7.068A7.998 7.998 0 0 0 15.992 8 7.998 7.998 0 0 0 7.996.001Z"/>
+         </svg>
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  My Publications
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/how-to-manage-effective-peace-rooms-9a7539234e08">War or Peace — How to manage effective and positive Peace rooms?</a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/tetris-how-to-assemble-a-ruthless-and-lean-prioritization-framework-5be3478fdc6b">Tetris — how to assemble a ruthless and lean prioritization framework?</a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/the-vendor-quest-how-to-choose-the-right-one-bd7f40f9704b">The Vendor Quest: How to choose the right one and reduce mistakes</a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/the-ambiguity-paradox-embracing-uncertainty-for-creative-thinking-and-growth-3a94310de135">The Ambiguity paradox: Embracing Uncertainty for Creative Thinking and Growth</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/silencing-the-inner-critic-ways-to-overcome-impostor-syndrome-and-thriving-in-your-life-and-career-8c3ef980cb1e">Silencing the Inner Critic: Ways to overcome Impostor Syndrome and Thriving in Your Life and Career </a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/the-art-of-doing-more-with-less-strategies-for-building-efficiency-dba19f1f624d">The Art of Doing More with Less: Strategies for Building Efficiency</a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/qas-dilemma-to-be-or-not-to-be-relevant-in-the-software-of-the-future-f17c088916ce">QA’s Dilemma: To Be or Not to Be Relevant in the Software of the Future? </a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/the-compass-for-success-a-path-to-choose-the-right-offshore-center-ce231f7bd886">The compass for success: A path to choose the right offshore center </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/how-to-lead-a-new-team-with-love-49d823d62d49">How To Lead A New Team With LOVE</a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/if-you-want-to-get-things-done-hire-more-women-c317dec19f61">If you want to get things done — Hire MORE Women</a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/cascading-chaos-navigating-the-domino-effect-in-software-development-95ec1c5813af">Cascading Chaos: Navigating the Domino Effect in Software Development</a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/acquiring-companies-and-avoiding-heartaches-a-playful-guide-to-m-a-due-diligence-bedb01b136fa">Acquiring Companies and Avoiding Heartaches: A Playful Guide to M&A Due Diligence</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/from-hamburger-hummus-to-peking-duck-a-cultural-odyssey-through-6-diffrent-countries-71de2fce677">From Hamburger, Hummus to Peking Duck: A Cultural Odyssey Through 6 different countries</a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/the-power-of-guardrails-metrics-boosting-quality-and-productivity-in-software-development-dcb1f212fd50">The Power of Guardrails Metrics: Boosting Quality and Productivity in Software Development</a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/streamlining-software-development-how-to-reduce-friction-and-leakage-a866085024b6">Streamlining Software Development: How to Reduce Friction and Leakage</a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/lost-in-the-rabbit-hole-navigating-distractions-in-software-development-607b63bf252e">Lost in the Rabbit Hole: Navigating Distractions in Software Development</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/notifying-the-masses-the-benefits-and-challenges-of-the-observer-pattern-in-software-development-5decd1c008e3">Notifying the Masses: The Benefits and Challenges of the Observer Pattern in Software Development</a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/the-magnitude-of-software-development-its-not-as-big-as-you-think-or-is-it-7d51d0fad447">SThe Magnitude of Software Development: It’s Not as Big as You Think (Or Is It?)</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./mypub.html">View all</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./myCities.html">My Favorite Cities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shirts.html">My Shirts Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./family.html">My Family details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 id="title"  class="display-4 fw-bold text-body-emphasis">My Family story</h1>
+        <div class="container px-5">
+            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573054/jpeg/Glushea_jpeg_1_no0fvc.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Alex's image" width="600" height="600" loading="lazy">
+          </div>
+
+          <div class="container">
+          <div class="container col-xxl-8 px-0 pb-0 border-bottom">
+              <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+              
+                <div class="col-lg">
+                  
+<p class="lead">My family story is a combination of great Jewish- Russian families : Glushenkov , Evdasin, Zak, Melamed, Radashkovich and Kivelevich
+</p>                 
+                </div>
+              </div>
+          </div>
+
+          <button class="btn-show" data-section="section1">Lev Kokin first letter</button>
+          <button class="btn-show" data-section="section2">Lev Kokin second letter</button>
+          <button class="btn-show" data-section="section3">Gabriel Zak in USA</button>
+          <button class="btn-show" data-section="section4">Zak family in Voloshin</button>
+          <button class="btn-show" data-section="section5">Memories of Gregory Zak</button>
+          <button class="btn-show" data-section="section10">Sonia Zak details</button>
+          <button class="btn-show" data-section="section6">Memories of Elena Zak/Melamed</button>
+          <button class="btn-show" data-section="section7">More details about Zak family</button>
+          <button class="btn-show" data-section="section8">More details about Melamed/Radashkovich family</button>
+          <button class="btn-show" data-section="section9">Glushenkov family</button>
+          <button class="btn-show" data-section="section11">Vladimir (Vova) Glushenkov</button>
+          <button class="btn-show" data-section="section13">Isanna Glushenkov</button>
+          <button class="btn-show" data-section="section12">Isanna (Zak) Glushenkov - my speech from the funeral</button>
+
+
+
+          <div id="section1" class="section container col-xxl-8 px-0 pb-0 border-bottom">
+
+              <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                <div class="col-lg">
+                    <p class="lead">My mom’s family is a combination of the Zak and Melamed families. Her father was Gregory Zak, formerly known as Hirsh before the communist revolution. His parents were Gabriel Zak and Khasya-Itke Kevilevich. Now, let me share the Zak family story from Lev Kokin (he went to the war at the age of 18 and got wounded in the leg near Kenigsberg. He has a diverse repertoire of written works, including scripts for multiple films and a poignant story centered around his mother—an inspiring revolutionary figure who was put in prison under Stalin’s depression in 1937. Among his notable achievements is the screenplay for the film “Yasha Toporkov’s Easy Life,” skillfully directed by E. Karelov and brilliantly portrayed by the talented E. Evstigneev.  ), who was my mother’s cousin:
+                    </p>
+                    <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573087/mom_side/lev_kokin_rcu1zl.jpg" width="400px" >
+                    <p class="lead">On May 2nd, 1998, I visited the former Jewish cemetery on Collectornaya Street in Minsk, where our grandmother Khasya rests. However, it was not exactly at the grave, as the cemetery had been demolished in the 60s by bulldozers and covered with black soil. I recall seeing the dump trucks transporting the debris. Khasya-Itke, whose premarital surname was Kivelevich, had an impressive education, being fluent in Russian, Polish, German, Yiddish, and Hebrew. She possessed a range of skills, including midwifery and nursing, which made her highly respected among the Belarusian community.
+                    </p>
+                    <br>
+                    <p class="lead">Khasya got married relatively late for those times, at 27 years old, to our grandfather Gabriel, who was younger than her. Our great-grandfather remains somewhat of a mystery, as his name was unknown, but he was a cantonist, one of the Jewish boys conscripted into the Russian Tzar’s army. He survived and received land, nobility, and awards for his service. Aunt Rosa, who showed interest in our family history, shared stories of his strong character and physical prowess.
+                    </p>
+                    <br>
+                    <p class="lead">After retiring from the army, our great-grandfather supported Gabriel’s marriage with a substantial sum of money. With this, they leased land from a Polish countess, bought cows, and produced butter to make a living. Life was prosperous until 1908, when a law prohibiting Jews from renting land caused their downfall. This law, along with other discriminatory measures, drove thousands of Jews into poverty and confined them to ghettos, giving rise to Russian anti-Semitism.
+                    </p>
+                    <br>
+                    <p class="lead">The impact of this law was profound, forcing Jews into certain professions, which perpetuated stereotypes and prejudice within the broader society. It was a tragic and brutal turn of events that significantly affected the lives of many Jewish families.</p>
+                    <br>
+                    <p class="lead">Due to the oppressive circumstances, the Zak family fell into poverty. Grandmother Khasya worked as a floor washer in affluent houses in Volozhin, earning two kopecks, which was equivalent to one white bun at the time. In an attempt to escape poverty, grandfather Gabriel sought a better life in the United States with the help of Zionists. However, his dreams were shattered as he fell ill with Parkinson’s disease and struggled to find employment. He returned to Minsk in 1920, after a seven-year absence, penniless and in a single suit, as evidenced by a photograph with my mother.
+                    </p>
+                    <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/gabriel_zak_guu4vi.jpg" width="400px">
+                    <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573098/mom_side/gz_us1_xwk4na.jpg" width="400px">
+                    <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573098/mom_side/gz_us2_fiphuu.jpg" width="400px">
+                    <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/gz_us3_hm05u6.jpg" width="400px">
+                    <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/gz_us4_rrcnkt.jpg" width="400px"> 
+                    <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573086/mom_side/gz_us5_hvsw26.jpg" width="400px">
+                    <p class="lead">Surprisingly, the outbreak of the 1914 war saved the Zak from extinction, as they were granted refugee status, which provided them with free meals and housing. They were relocated to Minsk in 1915, settling in a house near the former Red Barracks, now at the corner of Kuibyshev and Varvashenka streets. 
+                    </p>
+                    <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573084/mom_side/khaya_itke_wa2tre.jpg" width="600px">
+                    <p class="lead">Despite the challenging conditions with no heating, indoor latrine, and scarce food supplies like bread, meat, butter, and sugar, the family managed to survive and even pursue higher education. The available information is limited, but the Zak family undoubtedly has an ancient history, with their surname possibly having German origins. “Sak” meaning a bag suggests that their ancestors might have lived in Germany and were either very wealthy (having a bag of money) or extremely poor. The exact truth behind their origins remains uncertain.
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div id="section2" class="section container col-xxl-8 px-0 pb-0 border-bottom">
+
+              <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                <div class="col-lg">
+                     <p class="lead">Another letter of Lev Kokin that he address to us (me and Danny):
+                    </p>
+                    <br>
+                    <p class="lead">This letter is not addressed to you and Vladimir but to your dear sons, Sasha and Dima. I’ve been wanting to write it for quite some time, and now I’ve finally decided to do so. Let’s discuss the family inheritance of the Zak family. As the eldest in the family and with not much time left, I feel it is my duty to pass on this knowledge, hence why I’m reaching out to you both.</p>
+                     <br>
+                     <p class="lead">Dear boys, God willing, you are still young, full of hope, and there’s so much for you to learn, if not almost everything, about your relatives on both your father’s and mother’s side, especially concerning the Zak family. It’s essential to know and cherish your family history, and you should pass this knowledge on to your descendants.
+                    </p>
+                    <br>
+                    <p class="lead">I’m delighted to share with you that our ancestors were honest and upright people who never harmed anyone. Their names, in order of age, were Sonia, Hirsch, Shail, Rivka, Sholem, and Rosa. None of them were involved in any wrongdoings, never relied on others for support, and worked hard to lead respectable lives. Now, I’ll focus on the men for this moment, as writing about women can be more intricate, and I’ll save that for another time.
+                    </p>
+                    <br>
+                    <p class="lead">The unnamed Zak was born in Volozin, Belarus. Though his name has been lost to time, my dear and late aunt Rosa, in her blessed memory, told me that he was among the Cantonists. These were impoverished children, aged 10-12, who were forcibly taken from their mothers to serve in the Russian army between 1826-1830. The heartless Czar Nicholas I aimed to fill his army ranks, subjecting these children to unimaginable hardships, abuse, and scarce provisions. It’s been recorded that thousands of Cantonists perished, with only one in ten surviving. Fortunately, our great grandfather managed to endure and showed great bravery in battles against Poles and Hungarians. He earned several decorations and eventually received the highest rank of Feldfabel, granting him Russian land that cannot be inherited. This land was bestowed upon him akin to a Polish nobleman. Aunt Rosa described him as a stern figure, a strict authoritarian, always dedicated to his work. While he instilled fear in the family, he also loved and cared deeply for the children. His voice was hoarse, and he demanded obedience both in family matters and labor from a very young age. Unfortunately, we don’t know where he lived or where he passed away.
+                    </p>
+                    <br>
+                    <p class="lead">As you continue to learn about your family heritage, may you hold your ancestors’ stories close to your heart and pass them down to future generations with pride and reverence.
+                    </p>
+                 </div>
+              </div>
+              </div>
+              <div id="section3" class="section container col-xxl-8 px-0 pb-0 border-bottom">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                    <div class="col-lg">
+                        <p class="lead">Records about Gabriel Zak in USA that recieved from local reasher:
+                        </p>
+                        <br>
+                        <p class="lead">I located two records that may be interesting for you. The first is a 1920 census record for a Gabriell Zak, who was a 'roomer' (he rented a room) on Moon Street in Akron, in Summit County. This may or may not be your great-grandfather, but I think it is. His age is given as 40 and year of immigration is given as 1913; these details are similar enough that I think it must be the same person, but I can't be sure. </p>
+                        <br>
+                        <p class="lead">I also found a record of naturalization for Gabriell Zak living at 4810 Scovill Avenue in Cleveland, the address on your post card. (We were very near this area on the bus, but this street no longer exists in that part of the neighborhood.) Gabriell Zak's birthdate is given as October 15, 1877. He arrived in the US on July 1, 1912 in Baltimore, Maryland. He applied for naturalization in Cleveland, but his naturalization was denied on June 26, 1925. The record does not say why naturalization was denied, but it's possible this may have been the reason he eventually returned to Minsk. Because the address is the same on the post card, I assume this is your relative. But, if the census record is also true, this means that he arrived in Cleveland and then moved to Akron but then moved back to the same address in Cleveland, from where he applied for naturalization. Of course, he may simply have used the address of friends at 4810 Scovill to apply for naturalization.</p>
+                        <br>
+                        <p class="lead">What evidence do you have that he returned to Belarus in 1919? The records here indicate that he stayed in Cleveland, since he was denied naturalization in 1925. Also, 1919 would not have been a very good year to return to Belarus. It's much more likely that he returned after 1925, when the border between Poland and the Soviet Union was much clearer and the war had really ended.
+                        </p>
+                    </div>
+                </div>
+              </div>
+              <div id="section4" class="section container col-xxl-8 px-0 pb-0 border-bottom">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                    <div class="col-lg">
+                      <p class="lead">I also found records of the Zak family in Voloshin:
+                    </p>
+                    <a href="http://www.eilatgordinlevitan.com/volozhin/vol_pages/vol_1858.html">Record</a>
+                    <p class="lead">ZAK Abel Nokhim Head of Household 35 <br>
+                        ZAK Sheyna Rubin Wife 34 <br>
+                        ZAK Rivka Abel Daughter 16 <br>
+                        ZAK Peska Abel Daughter 14 <br>
+                        ZAK Girsh Abel Son 11 missing <br>
+                        </p>
+                        <p class="lead">Maybe the missing Girsh in the one who was taken by force to the Russian Tzar army as cantonist. And maybe my grandfather was named after him as Girsh.  
+                        </p>
+                    </div>
+                </div>
+              </div>
+              <div id="section5" class="section container col-xxl-8 px-0 pb-0 border-bottom">
+              <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                  <div class="col-lg">
+                      <p class="lead">Memories of my grandfather Gregory (Hirsh) Zak:<br><br>
+
+                        I was born in 1905 in the town of Volotsin. Until 1913, my father, Gabriel, worked as a farmer on rented land. In that year, he decided to immigrate to USA and found employment in various factories. However, due to his medical condition, he had to return to Minsk  in 1922 and rely on the care of his children. Tragically, he passed away in the Minsk ghetto in 1942.<br><br>
+                        
+                        My mother was a devoted housewife and unfortunately, she passed away in 1941. My own educational journey involved schooling until 1916, after which I started working as an employee. From 1924 to 1927, I pursued further studies at the Vitebsk Polytechnic. Subsequently, I was assigned to work at the Kirov machine factory in Gomel until the outbreak of the war. Then, I was sent to Sverdlovsk and became a senior technologist at the Kalinin factory from 1941 to 1948.<br><br>
+                        
+                        In 1948, I began working at the Chakalov tool factory. As for my relatives, I must convey the heartbreaking news that my brother lost his life in the war in 1942. My surviving brother, Alexander, works as an electrical engineer at Belpromproject in Minsk. My sisters, Riva and Rosa, are both housewives. Riva’s husband is an economist, and they reside in Cheboksary. Rosa’s husband holds the position of director in the party department of the Red Star newspaper in Moscow.<br><br>
+                        
+                        Regrettably, we have no remaining relatives in the world.<br><br>
+
+                        Mom told me that grandfather Gregory was Zionist and was hearing Israeli radio - Kol Israel, specially during Six day war. <br>
+                        </p>
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573198/grand/grand3_bgduyh.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573177/grand/grand5_sna113.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573170/grand/grand6_dl5xhw.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573144/grand/grand9_fzrxns.jpg" width="400px">
+                        <img src ="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/grand/IMG_7250_yhxas6.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573142/grand/grand10_adnynq.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573147/grand/IMG_7244_tvkbdn.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573154/grand/IMG_7246_lbdl7h.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573214/grand/IMG_7253_w0qjsk.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573185/grand/grand12_te2xzc.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/grand/grand14_yknc37.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573144/grand/grand22_qq79gh.jpg" width="400px">
+                  </div>
+                </div>
+              </div>
+              <div id="section6" class="section container col-xxl-8 px-0 pb-0 border-bottom">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                    <div class="col-lg">
+                    <p class="lead">Memories of my grandmother Elena Zak (Melamed) 24.4.1966: <br><br>
+
+                        I was born on May 7, 1912, into the family of an official in the city of Gomel. My educational journey began in 1919 when I enrolled in school, and I successfully graduated in 1928. Following that, I started my career at a bread factory in Gomel and worked there until 1931.<br><br>
+                        
+                        In 1931, I was accepted into the prestigious Plytechnic University of Minsk, where I pursued my studies until 1936. However, due to my family situation and health issues, I had to leave the university before completing my degree. From 1936 to 1939, I worked at the Kirov factory in Gomel as a mechanical technician in the technical department.<br><br>
+                        
+                        In 1939, another change in my family situation prompted me to leave my job. Subsequently, in 1941, we were relocated to the city of Sverdlovsk, where we resided until 1948. At that time, the local Ministry of Industry invited my husband to work in Minsk, and our entire family moved there.<br><br>
+                        
+                        In 1962, I found employment at the Opera Theater as a ticket seller (cashier). Later that year, I transitioned to work at the central theater box office, where I have remained employed to this day. The theater has become a significant part of my life, and I cherish the memories I’ve made throughout my career.<br><br>
+                        </p>
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573147/grand/grand1_c71mjf.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573147/grand/grand2_vxipii.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573212/grand/grand7_duzgrm.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573173/grand/IMG_7254_brffuo.jpg" width="400px">
+
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573143/grand/grand8_atfomh.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573167/grand/grand11_svftqz.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/grand/IMG_7252_vbpxdm.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573159/grand/IMG_7255_iexg5y.jpg" width="400px">
+
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573144/grand/grand13_inkefb.jpg" width="400px">
+≈                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573180/grand/grand15_md3p46.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573166/grand/grand16_y5nbmt.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573193/grand/grand17_ugpqo3.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573184/grand/grand18_snekur.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573234/grand/grand19_zuwte9.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573211/grand/grand20_ethcg3.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/grand/grand21_y0cnar.jpg" width="400px">
+
+                    </div>
+                </div>
+              </div>
+              <div id="section7" class="section container col-xxl-8 px-0 pb-0 border-bottom">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                    <div class="col-lg">
+                        <p class="lead">More details about Zak family :<br><br>
+                            Gabriel Zak and Khasya Zak were married and had six children: Sonya, Rosa, Riva, Sasha , Shalom (also known as Sasha), and Gregory. Tragically, Gabriel Zak passed away in Minsk during the invasion of the Nazis. As for the grandmother, it is believed that she passed away before the war’s onset.<br><br>
+                            
+                            Sonia Zak married Kokin Grigori, and they had two children: Galia and Lev. Galia is a mother to a daughter named Masha, while Lev has two children of his own: Sasha and Lena Kokin.<br><br>
+                            
+                            Rosa, unfortunately, did not have any children.<br><br>
+                            
+                            Riva has been blessed with two daughters: Asia and Tamara.<br><br>
+                            
+                            Sasha Zak faced heartbreaking tragedy when the Nazis took the lives of his wife Luba and their two children. After the war, he married to Rosa. They have a daughter named Natasha, who now has a son called Maksim<br><br>
+                            Here are his medals from second world war:<br>
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573092/mom_side/Zak1_ak836x.png" width="400px"><br><br>
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573096/mom_side/Zak2_weybaf.png" width="400px"><br><br>
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573092/mom_side/Zak3_wanqls.png" width="400px"><br><br>
+
+                            <br>
+                            Shalom (Sasha) married Mania and has a son named Leonid. Leonid was a founding father of the Soviet computers. He is buried in  Dolgoprudnenskoye Kladbishche in Moscow<br><br>
+                            </p>
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573089/mom_side/Lz1_dawwfz.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573089/mom_side/Lz2_b2dkyp.jpg" width="400px"><br>
+                            <a href="https://ru.m.wikipedia.org/wiki/Зак,_Леонид_Александрович">Here is the link to Leonid's wiki page</a><br>
+                            <a href="https://www.computer-museum.ru/articles/predpriyatiya-i-nii/2926/">Here is another article where he is mentioned</a>
+                            <p class="lead">Here is the translation of a paragraph where he is mentioned:<br><br>
+                                Our group became part of the team working on the BESM-1 computer, which included notable figures like Andrey Andreevich Sokolov, Valery Nazarovich Laut, Mark Valeriyanovich Tyapkin, and Leonid Aleksandrovich Zak. Meeting Leonid Zak in the computer room was a delightful surprise for me, considering we both graduated from Moscow’s School No. 370 in Sokolniki in 1950. I was in grade 10B, while Lenya was in grade 10A, where he earned a gold medal and later joined MPEI, and I went to the Naval Engineering School in Leningrad.<br><br>
+                               
+                               Leonid Alexandrovich Zak proved to be an incredibly talented engineer, always modest, hardworking, and compassionate. He was ever-ready to assist his colleagues, and his dedication led him to receive the State Prize of the USSR twice, rightfully earning his place among the “luminaries.” Throughout his career, he devoted himself to ITM and VT.<br><br>
+                               
+                               A school friend, Sergey Sergeevich Karinsky, a doctor of technical sciences and a leading specialist in fiber-optic information transmission systems at RTI im. Mints, once made a remark about our school days, saying: “In our school, two people were developing computers: Lenya Zak, a genius, and Dod Feinberg, a lazy person.”<br><br>
+                               </p>
+                               <p class="lead">Here is another paragraph where he is mentioned:<br><br>
+
+                                The last time I had the chance to see Lenya Zak was in 2008. Leonid Aleksandrovich worked tirelessly in a small room on the top floor of the main building of ITM and VT. It was a windowless space, previously used as a utility room, but he had transformed it into his workspace. There, he took care of debugging the TEZs himself to fulfill various orders. Work was an integral part of Leonid’s life; he couldn’t imagine a life without it. May he rest in blessed memory.
+                                </p>
+                    </div>
+                </div>
+              </div>
+              <div id="section8" class="section container col-xxl-8 px-0 pb-0 border-bottom">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                    <div class="col-lg">
+                      <p class="lead">More details about Melamed family :<br><br>
+
+                        Israel (played the violin in Warsaw and became an accountant) and Chaya Radashkovich had three daughters:<br>
+                        1. Sarah and her husband Geller. Sara had one son - Boris Rubenstein<br>
+                        2. Elena is my grandmother. Elena had two sons, Anatoly and Dmitri, but they died young from illness. Then Boris was born (my mother's brother) and then my mother. <br>
+                        3.Rima is married to Roman and has a son, Arseny. Arseny have 2 daughters: Anna (second marriage) and Meela (first marriage) <br><br>
+                        
+                        Israel died before the war<br><br>
+                        
+                        Here is the picture of Israel and Chaya Melamed:<br><br>
+                        My great grandmother Chaya’s parents were Israel and Batia (Basia) Radashkovich, and they resided in Dolgovino, Belarus.<br>
+                        Chaya had a brother named Mordechay, who was married to Dvora. Mordechay had three children: <br><br>
+
+                        1.	Israel, who married Vicktoria and had two children named Dora and Itzik. Itzik is now married to Shuli Rotenberg, and they have two sons named Mody (Mordechay) and Yonathan (Yoni). <br>
+                        2.	Fira, who had two daughters named Inna and Lena. <br>
+                        3.	Lena, who was married to David Rosinov and had one daughter named Berta. <br>
+
+
+                        Here is the picture of Basya/Batya Radashkovich in Dolginovo, Belarus ( Chaya Melamed’s mother):
+                        </p>
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573087/mom_side/Basia_zmwdor.jpg" width="400px"><br><br>
+                        <p class="lead">Here is the picture of Israel and Chaya Melamed:
+                        </p>
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573100/mom_side/Israel_chaya_ld7psj.jpg" width="400px"><br><br>
+                        <p class="lead">Here is the picture of Israel Melamed:
+                        </p>
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573084/mom_side/Israel_ehq4cf.jpg" width="400px"><br> <br>
+                        <p class="lead">Here is the pictures of Chaya Melamed:
+                        </p>
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573096/mom_side/Chaya_girls_sljxfd.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573088/mom_side/Chaya2PG_du4imj.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/Chaya_zuhnhl.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573087/mom_side/Chaya_arseney_yn0y9j.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573101/mom_side/Chaya_old_otx4uz.jpg" width="400px">
+                    </div>
+                </div>
+              </div>
+              <div id="section9" class=" section container col-xxl-8 px-0 pb-0 border-bottom">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                    <div class="col-lg">
+                            <p class="lead">My grandfather Andrey Glushenkov was a KGB officer that fought and was wounded in the Finland war in 1939. He was born in Smolensk, Russia. He forced my grandmother Maya to marry him by threatening her parents at the age of 18 as she was a very beautiful woman. Here my grandmother with my father Vladimir (Vova)
+                            </p>
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573203/papa_side/Maya_vova_rjujwi.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573176/papa_side/Maya1_cw5r1e.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573178/papa_side/Maya2_ah8s0y.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573156/papa_side/grandm_lvwbtv.jpg" width="400px">
+
+                            <p class="lead">Here are my grandfather Andrey's pictures:</p><br>
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573162/papa_side/Andrey1_jwp51d.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573159/papa_side/Andrey2_hahjpk.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/papa_side/Andrey3_b5ydls.jpg" width="400px">
+                            <p class="lead">Here are my grandfather Andrey's medal:</p><br>
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573146/papa_side/Glushenkov2_hixbwz.png" width="600px"><br>
+
+                            <p class="lead">Beside my father Andrey and Maya had twins : Olga and Alexander (Sasha). Here is a picture of my father with his sister Olga:</p><br>
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573160/papa_side/olga_vova_ymkpzf.jpg" width="400px"><br>
+                            <p class="lead">Olga has one son - Evgeniy:</p><br>
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573165/papa_side/three_cousins_qnqqv2.jpg" width="400px"><br>
+                            <p class="lead">My great-grandmother, Tzila Evdasin, was married to Josef Sazar, who happened to be my grandmother’s father. However, Josef left the family when Tzila was pregnant with my grandmother Maya, leading my grandmother to marry Vladimir Borisenko, a colonel in the Soviet Air Force. When Maya was born they sent her  to a Jewish village near Crimea, where she learned Yiddish. Tzila and Vladimir later welcomed two more children, Valia and Peter.
+                            </p><br>
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573153/papa_side/Tzila_vladimir_p9vehw.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573161/papa_side/greatgf_nirorj.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573160/papa_side/greatgg_tgnpnx.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/papa_side/me_great_eesn2b.jpg" width="400px">
+
+                            <p class="lead">Originating from the Evdasin family in Gomel, Tzila’s father was Simcha, the son of Pesach, and her mother’s name was Rivka (with her father’s name being Zalman). Simcha had a successful tea factory, and during the time of the communist revolution, he possibly invested his money in Buenos Aires, Argentina.
+                            </p><br>
+                            <p class="lead">Tzila had three siblings: Evgeniya, Pesach, and Berta (also known as Bubenia). Bubenia had a son named Anatoly (Tolik). Tragically, Pesach lost his life during the Second World War in a Soviet prison camp after someone betrayed him to the Nazis, revealing that he was Jewish.
+                            </p>
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573216/papa_side/three_sisters_sfh00r.jpg" width="400px">
+                            <p class="lead">Here are the documents we found regarding Evdsin family:</p><br>
+                            <div class="zoom-container">
+                                <img id="zoomImage" class="zoom-image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573166/papa_side/doc1_u1sslg.jpg" width="400px" onclick="zoomIn()"></div>
+                               <div class="zoom-container">
+                                <img id="zoomImage" class="zoom-image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573170/papa_side/doc2_dd9328.jpg" width="400px" onclick="zoomIn()"></div>
+                                <div class="zoom-container">
+                                <img id="zoomImage" class="zoom-image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573165/papa_side/doc3_l5rywn.jpg" width="400px" onclick="zoomIn()">
+                            </div>
+                    </div>
+                </div>
+              </div>
+
+              <div id="section11" class=" section container col-xxl-8 px-0 pb-0 border-bottom">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                    <div class="col-lg">
+                         <p class="lead>">My father, Vladimir Glushenkov, was born in 1946 in Minsk to parents Maya and Andrey Glushenkov. Two years later, his twin siblings, Olga and Alexander (Sashka), were born. Due to his mother’s young age and inability to care for him, she entrusted him to her mother, Tzila, who lovingly raised him alongside his cousin Toma.<br><br>
+
+                            Growing up with his grandmother, my father often spoke fondly of her and the valuable life lessons she instilled in him. At the age of 14, he left school and began working as an optical expert at Vovilov military factory, where he built lenses for Katuasha missiles.<br><br>
+                            
+                            In 1975, he married a Russian woman and had a daughter named Yulia. However, the marriage ended in divorce a year later. In 1977, he met my mother, Isanna, and they got married in November of the same year. Together, they had two children, me in 1978 and my brother Danny (Dimitriy) in 1981.<br><br>
+                            
+                    
+                            In the summer of 1989, during a family trip to Moscow, my father applied for an Israeli visa and received it in January 1990. Due to the rising antisemitism in the USSR, my parents decided to emigrate to Israel with us on July 17, 1990.<br><br>
+                            
+                            Shortly after arriving in Israel, the Gulf War began, but my father remained fearless, not even bothering to wear a gas protection mask during sirens.<br><br>
+                            
+                            
+                            In 1996, he was diagnosed with CPOD illness, which was attributed to excessive smoking. He underwent experimental surgery, where half of his lungs were removed on each side. Although he stopped working after the surgery, he remained functional and even traveled abroad several times.<br><br>
+                            
+                            However, in January 2018, his lungs collapsed, and he spent almost a month in the ER in a sedated condition. Subsequently, he underwent a tracheotomy and was transferred to a special hospital for weaning. Despite the efforts, he couldn’t recover and passed away in November 2018.<br><br>
+                            </p>
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573200/papa/vova1_qb6vvo.png" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573193/papa/vova2_upahb8.png" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573155/papa/vova3_u64fa7.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573189/papa/vova4_liwjau.png" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573184/papa/vova5_ymion1.png" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/papa/vova6_oiwyac.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573197/papa/vova7_r4hhql.png" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/papa/vova8_nmronu.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/papa/vova9_yao7vr.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573149/papa/vova10_g1x4jr.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573234/papa/vova11_gmbix3.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573208/papa/vova12_r9mbkd.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573160/papa/vova13_afhlge.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573163/papa/vova14_fiv0mw.jpg" width="400px">
+                            <img src=".https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573151/papa/vova15_h30dox.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573186/papa/vova16_zatz3k.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/papa/vova17_mncyhi.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573163/papa/vova18_pe2brg.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573161/papa/vova19_adp3vg.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573173/papa/vova20_ubupjl.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573173/papa/vova21_lt7fws.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573182/papa/vova22_fuqb7j.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573149/papa/vova23_thuah7.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/papa/vova24_xf3n6o.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/papa/vova25_ylb2xg.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/papa/vova26_sm6ov7.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/papa/vova27_nib5kx.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573172/papa/vova28_fpiwa3.jpg" width="400px">
+                            <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573230/papa/vova29_gihb66.jpg" width="400px">
+
+
+                    </div>
+                </div>
+              </div>
+              <div id="section13" class=" section container col-xxl-8 px-0 pb-0 border-bottom">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                    <div class="col-lg">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573146/mama/isanna1_d6tbld.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/mama/isanna2JPG_frihwz.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/mama/isanna23_lyivyc.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/mama/isanna3_jspi7g.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573219/mama/isanna4_ek0hnr.png" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573214/mama/isanna5_msi0dh.png" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573149/mama/isanna6_xdewo2.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/mama/isanna7_xuvyoh.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/mama/isanna8_qmq222.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573163/mama/isanna24_wiyesf.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/mama/isanna25_dk0cft.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573146/mama/isanna26_xkb3zx.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573147/mama/isanna27_col8vw.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573223/mama/isanna9_wbbc4w.png" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573229/mama/isanna10_pjt4wl.png" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573228/mama/IMG_7259_vyazwt.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573200/mama/isanna28_vllg9z.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573203/mama/isanna11_mbzwhc.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573162/mama/isanna12_lkg8ta.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573229/mama/isanna14_mzmlub.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573225/mama/isanna15_sgioz7.png" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573183/mama/isanna16_cb91by.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573187/mama/isanna17_t88lbt.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573160/mama/isanna18_wk9hrj.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573155/mama/isanna19_hjtp84.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573197/mama/isanna20_vlfitf.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573155/mama/isanna21_xfaxkm.jpg" width="400px">
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/mama/isanna22_sqd6wo.jpg" width="400px">
+
+
+                    </div>
+                </div>
+              </div>
+              <div id="section12" class=" section container col-xxl-8 px-0 pb-0 border-bottom">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                    <div class="col-lg">
+<p class="lead">If I had to describe my mom in one word, she was a warrior - a fearless woman who fearlessly confronted any challenge with a big heart and a vast soul. These qualities aren’t something taught in any school or university. <br><br>
+
+    Her life journey commenced in January 1942, amidst the turmoil of World War II. Before her birth, the Nazis were deeply entrenched inside the USSR, and our late grandmother considered aborting her out of fear for her survival. However, despite several attempts, she survived, and grandma chose the name Isanna  to honor her father Israel.<br><br>
+    
+    
+    Throughout her life, she excelled in all aspects. She was an exceptional student with beautiful penmanship, top-notch grades, and a warm heart. Despite the 5% restriction on Jews in higher education, she managed to pursue an engineering major at the university due to her outstanding grades.<br><br>
+    
+    
+    Sadly, our grandmother and grandfather passed away within a year of each other while she was 34-35 years old. Subsequently, she met our late father and started a family. From the moment we were born, she enveloped us with love and warmth, taking care of our every need. She taught us practical skills like riding bikes, swimming, and fixing things, but more importantly, she instilled the value of respecting people, no matter where they came from. Her demeanor was gentle, never raising her voice or shouting, always giving her best to ensure our well-being.<br><br>
+    
+    
+    Throughout her life, she had no enemies. Even in the face of illness, she remained humane, spreading love, respect, and care to everyone around her.<br><br>
+    
+    During her medical journey, she displayed remarkable strength and consideration for others. After surgery, her first concern was whether we had eaten. Even in her last days, she prioritized the well-being of her relatives and friends. The medical teams were captivated by her resilience, as she never complained or cried, always showing respect and a smile despite the intense pain.<br><br>
+    
+    In her final moments, she waited for me to finish breakfast before passing away. Her enduring lesson to us was to love and never give up, no matter the challenges we face, for it’s not the length of life that matters, but how we live it.<br><br>
+    
+    We hope that we, Danny, and the grandchildren brought her peace and happiness as bright spots in her life.<br><br>
+    
+    Mom, we will always cherish your memory, and may you rest in peace alongside dad. As we continue our journey, we know you’ll watch over us from above until we meet again. Your love will forever remain in our hearts, and we’ll remember you until our last breath.<br><br>
+    </p>
+                    </div>
+                </div>
+              </div>
+
+              <div id="section10" class=" section container col-xxl-8 px-0 pb-0 border-bottom">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                    <div class="col-lg">
+                     <p class="lead">Sofia Gavrilovna Zak was born in 1903 in Belarus, into a poor Jewish family. Due to financial constraints, she had to start working at an early age. She joined the Minsk Brewery as a worker and became involved in meetings of working youth, where she was inspired by the idea of creating a united youth organization to fight for workers’ interests.<br><br>
+
+                        In December 1918, during a meeting at a youth club, she became one of the first members of the Komsomol (Communist Youth League). Later, during the Belopolskaya occupation, she actively participated in underground activities alongside fellow Komsomol members. Unfortunately, she was arrested by Polish counterintelligence and spent several months in prison in Vilna until she was exchanged for other underground workers.<br><br>
+                        
+                        After Belarus was liberated, Sofia G. Zak was sent by the Central Bureau of the Communist Bolshevik Party to study at the Sverdlov University in Moscow from 1921 to 1924. Upon graduation, she and her husband, who was also a university graduate, were assigned to party work. Sofia wanted to pursue higher education and attended the chemical faculty of a technical university in Samara, but her studies were cut short when her husband was transferred to a new location.<br><br>
+                        
+                        She became a mother to a son in 1924 and a daughter in 1926. However, in 1937, she faced repression. Prior to her arrest, she worked as the head of the Cult Propaganda Department at the Michurinsky city committee of the CPSU (b). Sofia G. Zak, a member of the CPSU (b) since 1919, was expelled in 1937 and subsequently arrested on October 15, 1937.<br><br>
+                        
+                        She was sentenced to ten years in labor camps and five years of disqualification, with her property confiscated. During her sentence in Norilsk, she worked in a mine at the Norilsk Mining and Metallurgical Combine. In 1942, she was involved in organizing a bacteriological laboratory, where she and other imprisoned specialists created bacteriophages that saved the lives of thousands of prisoners and civilian workers at the plant, fighting against serious diseases such as dysentery, tuberculosis, and syphilis.<br><br>
+                        
+                        On February 22, 1947, she was released after serving her sentence and having it reduced by 8 months. Sofia continued to work as the head of the bacteriological department at the sanitary and epidemiological station. In September 1952, she was transferred to a children’s place of residence in Kazakhstan by the special commandant’s office.<br><br>
+                        
+                        Finally, on October 5, 1955, she was half-rehabilitated by the decision of the Military Collegium of the Supreme Court of the USSR. She later lived with her daughter in the Moscow region and her son in Minsk until her passing in 1981.<br><br>
+
+                        A famouse Belarusian writer Piatrus Broyka included Sonia in his poem called "This is how youth began"
+                        </p>
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573088/mom_side/soniaz1_ezdiqe.png" width="400px"><br>
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573084/mom_side/soniaz2_wkltug.png" width="400px"><br>
+                        <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573088/mom_side/soniaz3_rvbt1f.png" width="400px"><br>
+
+                        <p class="lead">Here is the poem in Belarussin language:<br><br>
+                            ТАК ПАЧЫНАЛАСЯ МАЛАДОСЦЬ<br>
+                            (паэма)<br><br>
+                            
+                            I. Ноч Зайдэнвара<br><br>
+                            
+                            Над краінай заняўся пажар.<br>
+                            Акупанты прышлі, што звяры,<br>
+                            І краіна закутая стогне ад болю.<br>
+                            Ходзіць Менскам жандар.<br>
+                            І бунтоўна гарыць<br>
+                            Комсомольскае сэрца ў глыбокім падполлі.<br><br>
+                            
+                            Не спазнаеш, хто свой, хто чужы?<br>
+                            На рагу вартавы, быццам корч,<br>
+                            Да асфальта прырос нерухомаю глыбай.<br>
+                            Менск прыціх. Менск дрыжыць...<br>
+                            Толькі вуліцай злосная ноч<br>
+                            Б’е вар’яцкім крылом анямелыя шыбы.<br><br>
+                            
+                            На рагу вартавы, быццам корч.<br>
+                            Дэфензіва. Нязмоўчна гудуць гаражы,<br>
+                            Заліваюцца шпоры канаркаў ўсю ноч.<br>
+                            Менск прыціх. Менск дрыжыць...<br><br>
+                            
+                            Як-жа спаць Зайдэнвару, калі<br>
+                            Хоць жывому кідайся ў вяроўку —<br>
+                            Сёння вечарам бачыў: зноў трое ішлі<br>
+                            Між багнэтаў спакойна на Камароўку.<br>
+                            І ў вачах іхні воблік праходзіць цяпер,<br>
+                            Сэрца б’ецца ў агні, і балючым і палкім:<br>
+                            Яны йдуць, як героі, спакойна на смерць,<br>
+                            Быццам толькі ідуць на партыйную яўку. <br><br>
+                            
+                            Яны побліз ідуць. Не адходзяць ад воч.<br>
+                            Яны кажуць: “Бывай-жа, таварыш!”<br>
+                            Як-жа спаць Зайдэнвару ў гэткую ноч,<br>
+                            Як-жа спаць Зайдэнвару?<br><br>
+                            
+                            І пакойчык яго абціскае адно:<br>
+                            Сцены душаць бакі без ніякай патолі.<br>
+                            Сторчма рушыцца столь. Сэрца б’ецца ў акно,<br>
+                            Яно просіцца выйсці на волю.<br><br>
+                            
+                            Захістаўся пакой. І такая грызня —<br>
+                            Ад газоўкі нясцерпны кідаецца жар.<br>
+                            Цісне. Душыць кругом. І рукі не узняць.<br>
+                            Што-ж ты робіш цяпер, Зайдэнвар? —<br><br>
+                            
+                            Крыкнуў так. А потым збянтэжана змоўк.<br>
+                            — Што ты робіш, вар’ят? Свае зубы вазьмі на<br>
+                            замок... —<br>
+                            Зашаптаў ён сабе і пачуў: за сцяною гамонка,<br>
+                            Шуміць самавар. Стала ясна кругом.<br>
+                            Прасвятлела ў ваччу.<br>
+                            Я... які-ж я цяпер Зайдэнвар?<br><br>
+                            
+                            І успомніўся дзень. І падпольны партком.<br>
+                            І не стала трывог і ніякага жару.<br>
+                            Пашпарт выдалі там. Абвялі алуўком:<br>
+                            — “Ты ўжо Цукер, таварыш...”<br><br>
+                            
+                            За сцяною-ж гамонка ўжо ледзьве чуваць<br>
+                            Пра адвечную тэму: аб грашох і аб хлебе.<br>
+                            Стала смешна самому, хоць ідзі жартаваць:<br>
+                            “Можа цукер патрэбен?..” <br><br>
+                            
+                            Цукер... Цукер салодкая рэч, ды не ўсім,<br>
+                            Прад вачыма паўсталі канаркі крылатыя,<br>
+                            Замільгалі пагоны у злой мітусні...<br>
+                            — Вам я куляю буду, праклятыя!<br><br>
+                            
+                            Вам я куляю буду за пакуту і смерць,<br>
+                            Што на вісельнях граеце першую скрыпку...<br>
+                            Ноч гула за акном, як раз’юшаны звер,<br>
+                            То як злодзей хадзіла за сценкай на цыпках.<br><br>
+                            
+                            Нарастала рашучасць, выціскаючы жах,<br>
+                            Думкі рушылі сцены неўтаймованым гурмам...<br>
+                            Цукер слухаў, як сэрца гарэла ў грудзях,<br>
+                            Як гарачая кроў узнімалася бурна.<br><br>
+                            
+                            I хацелася зараз-жа выйсці, і стаць,<br>
+                            І падужацца сілай з дэфензіўшчыкам кожным.<br>
+                            А на памяць ўсплыло — загадаў сакратар:<br>
+                            “Цукер, будзь асцярожным...<br><br>
+                            
+                            У глыбокім падполлі не месца свавольцам!”<br>
+                            І пячатка задумы лягла на абліччы.<br>
+                            Заўтра сход... Комсомольцы...<br>
+                            Саўчык... Соня... Прашчыцкі...<br><br>
+                            
+                            Трэба моладзь агнём барацьбы запаліць,<br>
+                            Навучыць быць упартай і разам старожкай.<br>
+                            Мірыяды малюнкаў па столі плылі,<br>
+                            І ўсхвалёваны Цукер кідаўся на ложку.<br><br>
+                            
+                            Яны-ж лезлі бясконца, бунтоўныя мары,<br>
+                            І сціскалася моцна да болю рука.<br>
+                            Так праходзіла ноч Зайдэнвара —<br>
+                            Маладога падпольшчыка-большэвіка. <br><br>
+                            
+                            ІІ. Сходка на рэчцы<br><br>
+                            
+                            Вецер дзьме шалёны<br>
+                            Восеньскаю трасцай.<br>
+                            Хвалі узнімаюць<br>
+                            Свой вар’яцкі шум...<br>
+                            Самая пагодка —<br>
+                            Ў чоўне прагуляцца, —<br>
+                            Сцюжа чортам лезе<br>
+                            Проста у душу.<br><br>
+                            
+                            Дзе-ж такой часінай<br>
+                            Ім цяпер падзецца?<br>
+                            Хіба йсці на ложак<br>
+                            Заваліцца спаць?<br>
+                            Грай-жа, чортаў вецер!<br>
+                            Данімай да сэрца!<br>
+                            Маладыя хлопцы<br>
+                            Едуць пагуляць,<br><br>
+                            
+                            Каб ляцелі пырскі<br>
+                            У разгоне прыткім<br>
+                            І кружыла з песень<br>
+                            Хмелем галава.<br>
+                            Хай там за фіранкамі<br>
+                            Кіснуць гімназісткі.<br>
+                            Ім-жа ў буру злую<br>
+                            Човен падавай! <br><br>
+                            
+                            Дзе-ж вальней параіцца,<br>
+                            Дзе-ж вальней сустрэцца?<br>
+                            Самая часіна<br>
+                            З бурай ваяваць.<br>
+                            Адплывае човен<br>
+                            Па крутлявай рэчцы,<br>
+                            Іх пяцёх сабралася<br>
+                            Ў чоўне пагуляць.<br><br>
+                            
+                            І бунтуюць хвалі<br>
+                            Снегавою пенай...<br>
+                            Толькі хвалям вёсел<br>
+                            Хлопцаў не стрымаць.<br>
+                            Застаецца горад<br>
+                            У імжы асенняй,<br>
+                            Сіратліва трубы<br>
+                            Ў шэрані стаяць...<br><br>
+                            
+                            І ўжо полем ходзіць<br>
+                            Апантаны вецер...<br>
+                            Больш нясцерпна твары<br>
+                            Распякае золь.<br>
+                            Першы ўзняўся Цукер:<br>
+                            “Хлопцы, паглядзіце!<br>
+                            Быццам мы смяемся,<br>
+                            А на сэрцы боль.<br><br>
+                            
+                            Мы цяпер далёка <br>
+                            Адплылі ад згубы.<br>
+                            Хлопцы, досыць смеху,<br>
+                            Будзем гаварыць. <br>
+                            Толькі знайце тайну,<br>
+                            Каб знямелі губы.<br>
+                            Мы-ж для калектыва<br>
+                            З гэтае пары.<br><br>
+                            
+                            Добра, што паспелі<br>
+                            Сёння тут сабрацца.<br>
+                            Маю я на мэце<br>
+                            Вам паведаміць:<br>
+                            Партыя ў падполлі<br>
+                            Разгарнула працу.<br>
+                            Мы-ж павінны партыі<br>
+                            Працай пасабіць!<br><br>
+                            
+                            На змаганне клікаць <br>
+                            Маладых рабочых,<br>
+                            Супроць акупантаў,<br>
+                            Супроць ўсіх паноў...”<br>
+                            І гарэлі ў хлопцаў<br>
+                            Агнявыя вочы<br>
+                            І ўставала ў грудзях<br>
+                            Маладая кроў.<br><br>
+                            
+                            “Знайце-ж канспірацыю...<br>
+                            І працуйце сцісла...<br>
+                            Каб ні слова гадам,<br>
+                            Пападзеш калі...”<br>
+                            І здаецца з ветрам<br>
+                            Вылятала Свіслач,<br>
+                            Буйнаю паводкай<br>
+                            Мчала на палі.<br><br>
+                            
+                            “Будзе ў нас патрэба —<br>
+                            Мы збярэмся зноўку...<br>
+                            А цяпер за працу,<br>
+                            Як мага раней.<br>
+                            Трэба йсці у масы,<br>
+                            Працаваць па тройках...<br>
+                            Яўка на кватэры<br>
+                            Будзе у мяне.<br><br>
+                            
+                            Мы-ж павінны ведаць —<br>
+                            Перамога скора.<br>
+                            Хутка нашай зоркай<br>
+                            Запылае свет...”<br>
+                            Пасядаў на чоўні<br>
+                            Сярод хваль суровых<br>
+                            Першы у падполлі<br>
+                            Менскі камітэт.<br><br>
+                            
+                            Узнімаў гамонку,<br>
+                            Там адзін... другі...<br>
+                            Вырасталі плечы<br>
+                            Пад кашуляй мулкай<br>
+                            Быццам уставалі<br>
+                            Гнеўна берагі,<br>
+                            І грымелі скалы<br>
+                            У разгоне гулкім.<br><br>
+                            
+                            Нарастала бура, <br>
+                            Стала ў чоўне цесна.<br>
+                            Як стрымаць, не знаўшы,<br>
+                            Пачуццё сваё — <br>
+                            Соня Зак сказала:<br>
+                            “Хлопцы, дайце песню,<br>
+                            Хоць на ціхі голас<br>
+                            Песню запяём...”<br><br>
+                            
+                            Саўчык быццам толькі<br>
+                            Гэтага чакаў, <br>
+                            З ветрам усхапіўся<br>
+                            Песняй маладой.<br>
+                            І тады знямела <br>
+                            Гнеўная рака,<br>
+                            Песня паляцела,<br>
+                            Паплыла вадой.<br><br>
+                            
+                            Быццам абудзіўся<br>
+                            Сонцавейны ранак.<br>
+                            Сілы гаманілі.<br>
+                            Узнімаўся дух:<br>
+                            “Паўстань пракляццем<br>
+                            Катаваны...<br>
+                            Паўстань, хто з голаду...<br>
+                            ...Век пух...”<br><br>
+                            
+                            Ружавелі твары,<br>
+                            Як чырвоны мак,<br>
+                            І яснела ў полі<br>
+                            Дзікая пагода.<br>
+                            Ён ўзляцеў, як сокал,<br>
+                            Наш сусветны марш,<br>
+                            На прасторы ўзвіўся,<br>
+                            Як вяшчун свабоды. <br><br>
+                            
+                            Ён на горад мчаўся.<br>
+                            Ён ляцеў на вёскі, —<br>
+                            Дзе бізун жандара,<br>
+                            Дзе расстрэл і здзек...<br>
+                            То спяваў на чоўні<br>
+                            Сэрцам комсомольскім<br>
+                            Першы у падполлі<br>
+                            Менскі камітэт.<br><br>
+                            
+                            Комсомол не знае<br>
+                            Ні тугі, ні суму,<br>
+                            Комсомольскім сэрцам<br>
+                            Ў сцюжу не астыць.<br>
+                            Цукер пеў з хлапцамі,<br>
+                            І ляцелі думы<br>
+                            Недзе там за Менскам,<br>
+                            Дзе стаяць франты,<br><br>
+                            
+                            Армія Чырвоная —<br>
+                            Першая у свеце<br>
+                            Вышла на рашучы<br>
+                            астатні бой.<br>
+                            Б’юцца комсомольцы —<br>
+                            Чырвонаармейцы,<br>
+                            Б’ецца ўся Рэспубліка<br>
+                            гарыць крывёй.<br><br>
+                            
+                            Яны знаюць добра —<br>
+                            Перамога блізка...<br>
+                            Яны йдуць наперад<br>
+                            З баявым штыхом... <br>
+                            
+                            У лясах бясконцых,<br>
+                            У тайзе сібірскай —<br>
+                            Б’юцца комсомольцы<br>
+                            З гадам Калчаком.<br><br>
+                            
+                            Розныя палкоўнікі <br>
+                            Наляцелі хмарай,<br>
+                            Кожнаму ўладання<br>
+                            Дай кавалак свой!<br><br>
+                            
+                            Б’юцца-ж міліёны<br>
+                            З імі пролетараў,<br>
+                            Б’ецца ўся Рэспубліка<br>
+                            I гарыць крывёй.<br><br>
+                            
+                            Тут-жа з ласкі божай <br>
+                            Край ўвесь разбурылі <br>
+                            І з-пад ласкі панскай <br>
+                            Вісельня рыпіць...<br>
+                            Трэба так ў падполлі<br>
+                            Рыхтаваць нам сілы<br>
+                            Потым, каб аднойчы<br>
+                            Ворага дабіць.<br><br>
+                            
+                            На касцях спраўляе<br>
+                            Вораг тут вяселле,<br>
+                            Кіпцюры да горла,<br>
+                            Да грудзей узнёс...<br>
+                            Цукер пеў з хлапцамі<br>
+                            Думы ўслед ляцелі<br>
+                            Па усёй краіне,<br>
+                            Змучанай да слёз.<br><br>
+                            
+                            Човен плыў на горад.<br>
+                            Ўжо касцёл затрынкаў...<br>
+                            Пачалі кварталы<br>
+                            З-за імжы яснець.<br><br>
+                            
+                            Соня Зак сказала:<br>
+                            “Замяняй пласцінку,<br>
+                            Пачынай “Каробачку”,<br>
+                            Будзе спакайней”.<br><br>
+                            
+                            Човен рэзаў хвалі<br>
+                            Вострым носам шпарка.<br>
+                            Гралі балалайкі<br>
+                            Як мага званчэй.<br>
+                            Пад’яжджалі к саду.<br>
+                            Дзівяцца канаркі —<br>
+                            Ў гэтую пагодку<br>
+                            Гульні на рацэ?..<br><br>
+                            
+                            Садам йшоў палкоўнік<br>
+                            Пад руку з какоткай...<br>
+                            Хіба-ж ім дазнацца<br>
+                            Хоць праз цэлы свет,<br>
+                            Што вярнуўся з першай<br>
+                            Патаемнай сходкі<br>
+                            Першы у падполлі<br>
+                            Менскі камітэт? <br><br>
+                            
+                            ІІІ. У падпольнай друкарні<br><br>
+                            
+                            Сіні золак зоры гасіць, <br>
+                            Б’ецца птушкай у аконцы.<br>
+                            За падпольнай пыльнай касай <br>
+                            Набіраюць комсомольцы. <br><br>
+                            
+                            Хай што шрыфту выбар малы,<br>
+                            Што ён збіты і няновы,<br>
+                            А кладуцца у рэалы,<br>
+                            Як маланкі, тыя словы!<br><br>
+                            
+                            Набіраючы, тут мараць<br>
+                            Пра агні іх пракламацый.<br>
+                            Хай, што пот цячэ па твары<br>
+                            І нямеюць ў стоме пальцы!<br><br>
+                            
+                            Хай! затое сінім ранкам<br>
+                            Будзе радасці ў іх поўна —<br>
+                            Заблішчаць жывыя гранкі<br>
+                            Сваёй сілаю бунтоўнай,<br><br>
+                            
+                            Як пачнуць жа друкавацца,<br>
+                            Вось тады ў імпэце гонкім,<br>
+                            Што аратары, заскачуць<br>
+                            Пракламацыі з “Бастонкі”.<br><br>
+                            
+                            Так без стомы, познім часам,<br>
+                            Без святла, амаль упоцем,<br>
+                            За падпольнай пыльнай касай<br>
+                            Набіраюць комсомольцы.<br><br>
+                            
+                            І жаданне іх збылося:<br>
+                            Вось, трывожным ранкам гэтым —<br>
+                            Ўжо гатовыя палосы<br>
+                            Маладзёжнае газеты.<br><br>
+                            
+                            Кожны з іх душою вызнаў,<br>
+                            Што, як ноч ізноў настане,<br>
+                            Пойдзе “Факел Комунізма”<br>
+                            Клікаць моладзь на змаганне.<br><br>
+                            
+                            А ў друкарні за сцяною<br>
+                            Комсомольскіх думак схова, —<br>
+                            Кожнай літарай жывою<br>
+                            Яны ў бой рыхтуюць словы.<br><br>
+                            
+                            І ў хлапцоў хутчэй на мэце<br>
+                            Друкаваць літаратуру.<br>
+                            Толькі дзе падзеўся Пеця,<br>
+                            Не прыносіць карэктуры?<br><br>
+                            
+                            Хутка дзень. Відно ўжо будзе,<br>
+                            Дзе тады з наборам дзецца?<br>
+                            І расце трывога ў грудзях:<br>
+                            Дзе той Пеця?<br><br>
+                            
+                            Меркаванняў, думак розных<br>
+                            Тут праносіцца багата...<br>
+                            А па вуліцы марознай<br>
+                            Ходзіць Яшка-правакатар.<br><br>
+                            
+                            Кожны гук бярэ на слух ён,<br>
+                            Правярае яго тройчы,<br>
+                            Ловіць ён сабачым нюхам,<br>
+                            Дзе працуюць комсомольцы.<br><br>
+                            
+                            Сцежку толькі ён спазнай —<br>
+                            І для хлопцаў будуць краты.<br>
+                            Ходзіць Яшка Розеншайн,<br>
+                            Ходзіць Яшка-правакатар.<br><br>
+                            
+                            І яму сягоння горна,<br>
+                            Што не можа ён дазнацца.<br>
+                            На яго-ж сумленні чорным<br>
+                            Шмат загінула змаганцаў.<br><br>
+                            
+                            Ходзіць ён. Яго-ж прымеціў<br>
+                            Ўсю сабачую натуру —<br>
+                            І за мост схаваўся Пеця<br>
+                            З комсомольскай карэктурай.<br><br>
+                            
+                            Яшка-ж ходзіць у абнове,<br>
+                            Па кварталах носам вудзіць.<br>
+                            Злосць у Пеці Вараб’ёва<br>
+                            Душыць грудзі.<br><br>
+                            
+                            Ён знаёмы з гэтым спрытам,<br>
+                            З гэтым ворагам ліслівым.<br>
+                            Яшка ўжо амаль адкрыта —<br>
+                            На рабоце ў дэфензіве.<br><br>
+                            
+                            Злотым там яго узялі,<br>
+                            Ён сваіх прадаў дачыста,<br>
+                            А раней, пакуль не зналі,<br>
+                            Прыкідаўся актывістам.<br><br>
+                            
+                            Помніць Пеця, як на тройцы,<br>
+                            Хіба хто гэта забудзе:<br>
+                            “Я загіну комсомольцам”, —<br>
+                            Кляўся Яшка, біў у грудзі.<br><br>
+                            
+                            І крычаў: “Мае ўсе мары —<br>
+                            За Комуну хоць памерці”, —<br>
+                            Маску ён насіў на твары<br>
+                            І вужаку ў сваім сэрцы.<br><br>
+                            
+                            А цяпер ён ціха крочыць<br>
+                            За сваім чарговым кладам.<br>
+                            І хацелася ускочыць,<br>
+                            Задушыць рукамі гада.<br><br>
+                            
+                            Так гарэў жаданнем Пеця,<br>
+                            І ў душы ўставалі буры.<br>
+                            Толькі муляла пад сэрцам<br>
+                            І трымала карэктура.<br><br>
+                            
+                            Тут цяпер не месца. Рана.<br>
+                            Ты загубіш ўсю друкарню.<br>
+                            Яшка-ж ходзіць апантаны, <br>
+                            Колькі дзён прайшло ўжо марна.<br><br>
+                            
+                            Як ён з’явіцца сягоння<br>
+                            Да палкоўніка з дакладам, <br>
+                            Там без вестак ў шыю гоняць<br>
+                            Госцям гэткім там не рады.<br>
+                            
+                            А даведацца няпроста,<br>
+                            Дык з’явіцца сёння з чым-жа?<br>
+                            І палкоўнікава постаць<br>
+                            У яго перад вачыма. <br><br>
+                            
+                            Гнеў з палкоўніка іскрыцца,<br>
+                            Ён плюецца злосцю п’янай,<br>
+                            І ў руках яго дыміцца<br>
+                            Саладкавая “гаванна”.<br><br>
+                            
+                            I ў грудзях у Яшкі прыкра,<br>
+                            Быццам лёд на сэрцы тае.<br>
+                            — Цо-ж, дзе вашы большэвікі? <br>
+                            Пан палкоўнік запытае.<br><br>
+                            
+                            Яшку-ж клопатаў багата,<br>
+                            Усю ноч дарэмна зблоціў.<br>
+                            Як-жа пойдзеш да дзяўчатак,<br>
+                            Калі грошы не заплоцяць?<br><br>
+                            
+                            Што за ноч ужо такая? <br>
+                            Яшка лаецца ад стомы...<br>
+                            Як на ліха не спаткаеш,<br>
+                            Хоць адзін-бы след знаёмы.<br><br>
+                            
+                            Ну, няхай-жа, пачакай,<br>
+                            Усе вы трапіце за краты...<br>
+                            Грозіць Яшка Розеншайн,<br>
+                            Грозіць Яшка-правакатар.<br><br>
+                            
+                            А тымчасам асцярожна, <br>
+                            Калі Яшка блыкаў марна,<br>
+                            Як клубок агню, з марозу<br>
+                            Вараб’ёў прымчаў ў друкарню.<br><br>
+                            
+                            I ў кружку ужо размова,<br>
+                            Як трымацца Пецька вучыць:<br>
+                            “Будзьце, хлопцы, нагатове,<br>
+                            Калі што — мяшайце ў кучу.<br><br>
+                            
+                            Разбірайце поўным ходам,<br>
+                            Ўсё рассыпце з-пад машыны.<br>
+                            Чорта з два канаркі знойдуць<br>
+                            У свінцовай мешаніне!<br><br>
+                            
+                            А там Яшка ходзіць франтам,<br>
+                            Будзе дрэнна, як пачуе.<br>
+                            Дык пакуль — пастаўце варту,<br>
+                            Як мага хутчэй друкуйце”.<br><br>
+                            
+                            Стала ціха. Ані гуку.<br>
+                            Дзень прыходзіў працы цяжкай,<br>
+                            І хлапцы узнялі рукі<br>
+                            І кляліся кончыць Яшку.<br><br>
+                            
+                            Ліха ён раскрые тайны,<br>
+                            Мы-ж яму дамо заробіць!<br>
+                            Смерць-жа Яшку Розеншайну!<br>
+                            А работу сваю зробім.<br><br>
+                            
+                            IV. Пракламацыі<br><br>
+                            
+                            Восень злосна дрэвы чысціць.<br>
+                            Сквер дрыжыць у дзікім гуле.<br>
+                            Дрэвы ляскаюць сукамі.<br>
+                            Вецер кружыць жоўтым лісцем.<br>
+                            I трывожна так шапочуць<br>
+                            Ўсе дарожкі пад нагамі.<br><br>
+                            
+                            Ноч праходзіцца па бруку.<br>
+                            Разам свісне дзе канарык.<br>
+                            Свіст закружыцца, растае...<br>
+                            На спатканне вышаў Цукер,<br>
+                            Але ў гэткую цямноту<br>
+                            Анікога не спазнаеш.<br><br>
+                            
+                            А на скверы акупанты.<br>
+                            Прастытуткі ходзяць гужам,<br>
+                            Каля іх вядуць ігрышча.<br>
+                            Б’юць дванаццаць ўжо куранты.<br>
+                            І шукае пільна ў ценях<br>
+                            Цукер дзеўчыны аблічча.<br><br>
+                            
+                            Дзе-ж магла яна падзецца?<br>
+                            Цукер помніць, як заўчора<br>
+                            Умаўляліся ўдвох самі.<br>
+                            Што-ж няма яе на месцы?<br>
+                            А на яўцы патаемнай<br>
+                            Вараб’ёў сядзіць з блінамі.<br><br>
+                            
+                            Ёв глядзіць праз плямы вокан<br>
+                            І нервуе, што няма іх.<br>
+                            Гэта-ж позна на двары ўжо. Гэта-ж позна!<br>
+                            Не чуваць ніякіх крокаў...<br>
+                            А пад світкай дынамітам<br>
+                            Узрываюцца адозвы.<br><br>
+                            
+                            Што-ж няма яе сягоння?<br>
+                            Цукер ходзіць цёмным скверам.<br>
+                            І расце трывог багата.<br>
+                            Узнялася падазронасць:<br>
+                            Можа Сонька з Розеншайнам,<br>
+                            Можа Сонька правакатар?<br><br>
+                            
+                            Так гадае ён нясмела,<br>
+                            Бо у гэтай завірусе<br>
+                            Цяжка ўдумліва разважыць.<br>
+                            — Цукер!.. — ззаду даляцела.<br>
+                            Стала сорамна да болю,<br>
+                            За дарэмную абразу.<br>
+                            “Я спазнілася, выбачце!..”<br>
+                            І яна падходзіць блізка,<br>
+                            Па-сяброўску цісне рукі:<br>
+                            “Затрымала мяне маці...”<br>
+                            I яны ўжо крочаць з Цукрам<br>
+                            Праз крывенькія завулкі.<br><br>
+                            
+                            Так!.. спазніцца ў нас нянова,<br>
+                            На падпольшчыка дарозе <br>
+                            Шмат заўсёды сцежак цяжкіх.<br>
+                            Яны йдуць да Вараб’ёва.<br>
+                            Сонька шопатам тлумачыць,<br>
+                            Як хавалася ад Яшкі.<br><br>
+                            
+                            Што-ж магло такое стацца?<br>
+                            І трывожная цямнота<br>
+                            Напаўняла вокны страхам...<br>
+                            Вараб’ёў нервуе ў хаце.<br>
+                            І паўзуць хвіліны нудна,<br>
+                            Як валы разбітым шляхам.<br><br>
+                            
+                            І калі клапот без меры<br>
+                            Праляцела ў сэрцы Пеці<br>
+                            За адозвы і газеты, —<br>
+                            Соня Зак адкрыла дзверы<br>
+                            І здалося — ўвесь пакойчык<br>
+                            Загарэўся цёплым светам.<br><br>
+                            
+                            Яна шчыра цісне рукі,<br>
+                            І на твар яе кладзецца<br>
+                            Прывітальная усмешка.<br>
+                            І ўжо шэпча Пецю Цукер<br>
+                            Пра свае блуканні ў скверы,<br>
+                            Пра прыгодлівыя сцежкі.<br><br>
+                            
+                            І хутчэй усе за справу.<br>
+                            Будзе сёння урачыстасць,<br>
+                            Будзе ночка комсомольскай,<br>
+                            Забушуюць ўсе кварталы<br>
+                            Бурнай сілаю лістовак<br>
+                            Супроць здзекаў белапольскіх.<br><br>
+                            
+                            А пакуль парадкам стройным<br>
+                            Раскладалі матар’ялы<br>
+                            Па кварталах і заводах,<br>
+                            І разбілі па раёнах<br>
+                            Там людзей і ўсе адозвы<br>
+                            Да бунтоўнага пахода.<br><br>
+                            
+                            * * *<br><br>
+                            
+                            Месяц першае чаканкі<br>
+                            Свеціць каскаю бліскучай,<br>
+                            Што пажарны.<br>
+                            Месяц вышаў на гулянку,<br>
+                            Закружыў між правадамі...<br>
+                            Спіць казарма.<br><br>
+                            
+                            Там жаўнеры маладыя<br>
+                            Сняць пра родную хаціну,<br>
+                            Мчацца крозы.<br>
+                            Толькі ходзяць вартавыя<br>
+                            З карабінамі ліхімі<br>
+                            Па марозе.<br><br>
+                            
+                            А ў казарме дум без меры<br>
+                            Ходзіць моракам трывожным<br>
+                            Да світання.<br>
+                            І да шмат якіх жаўнераў<br>
+                            Думы лезуць неадчэпна,<br>
+                            Сэрца раняць.<br><br>
+                            
+                            Хто-ж душу людскую змерыць,<br>
+                            Калі розум абкруцілі<br>
+                            Павучыннем.<br>
+                            І не спяць тыя жаўнеры<br>
+                            Праз увесь расклад казённы.<br>
+                            Ні хвіліны.<br><br>
+                            
+                            І асілкам усплывае<br>
+                            Фронт чырвоны,<br>
+                            Там рабочыя усталі<br>
+                            І сяляне бараніцца.<br>
+                            І ў грудзях пячэ дакорна,<br>
+                            Узнімаюцца сумненні:<br>
+                            З кім-жа біцца?<br><br>
+                            
+                            Афіцэры-ж ходзяць зверам,<br>
+                            Паміраць на фронце гоняць<br>
+                            За айчыну.<br>
+                            І не могуць спаць жаўнеры<br>
+                            Праз увесь расклад казённы,<br>
+                            Ні хвіліны.<br><br>
+                            
+                            За сцяною-ж вецер вые,<br>
+                            І на сэрцы так пякуча,<br>
+                            Так нягожа.<br>
+                            Толькі ходзяць вартавыя<br>
+                            З карабінамі ліхімі<br>
+                            Па марозе.<br><br>
+                            
+                            А за рогам вельмі проста<br>
+                            Комсомольцы шпацыруюць <br>
+                            Вартавога кожны поступ<br>
+                            Яны чуюць.<br><br>
+                            
+                            I як толькі вартавыя<br>
+                            За другой сцяной пачэзлі,<br>
+                            Комсомольцы вельмі жыва<br>
+                            Усе адозвы паразнеслі.<br><br>
+                            
+                            Хай лютуюць сабе шпегі,<br>
+                            Гэта ноч не пройдзе дарма.<br>
+                            І адозвы белым снегам<br>
+                            Забялелі ля казармаў.<br><br>
+                            
+                            Іх на раніцу падымуць,<br>
+                            Прачытаюць можа тройчы.<br>
+                            Падыходзяць вартавыя...<br>
+                            І няма ўжо комсомольцаў.<br><br>
+                            
+                            * * *<br><br>
+                            
+                            Яны вышлі па вуліцы гэтай,<br>
+                            Калі ноч на Траецкай гары,<br>
+                            Калі грукаюць стаўні ад ветру<br>
+                            І — калекі — дрыжаць ліхтары.<br><br>
+                            
+                            Яны вышлі у поступе грозным<br>
+                            Вось на гэты азлоблены шлях <br>
+                            І павешаны бомбы-адозвы<br>
+                            Пад кашулямі ў іх на грудзях.<br><br>
+                            
+                            Так ідуць яны пляцам ізноўку,<br>
+                            І, калі не трывожыць ніхто <br>
+                            Ў іх лятуць, як гранаты, лістоўкі<br>
+                            Праз кішэні ірваных пальто.<br><br>
+                            
+                            Кружыць снег, кружыць снег пракламацый,<br>
+                            Саўчык з Сонькай раскідалі іх...<br>
+                            Толькі слуп нерухомы на пляцы<br>
+                            На вятры, як скаваны, стаіць.<br><br>
+                            
+                            Саўчык з Сонькай ідуць ля слупа;<br>
+                            Потым раптам уразіла іх:<br>
+                            Слуп ажыў, захадзіў, засвістаў,<br>
+                            І пад месяцам выбліснуў штых.<br><br>
+                            
+                            Значыць трапілі да пастарунка,<br>
+                            Можна тут і бяды прычакаць.<br>
+                            “Паліцэйскі” — пранеслася ў думках.<br>
+                            Саўчык з Сонькай пакінулі пляц.<br><br>
+                            
+                            Але ў сэрцах іх радасць без меры,<br>
+                            Што падпольны свой здзейснілі план.<br>
+                            Заўтра выйдуць з казармаў жаўнеры,<br>
+                            Шмат наедзе на рынак сялян.<br><br>
+                            
+                            ЦІмат хто з іх, над сваёю вінтоўкай <br>
+                            Там падумаюць тысячы крат.<br>
+                            Заўтра будуць чытаць іх лістоўкі<br>
+                            І сяброў ў іх народзіцца шмат.<br><br>
+                            
+                            Між штыхоў ў небяспецы бясконцай<br>
+                            Па пляцах, па трывожных рагох <br>
+                            Ходзяць цэлую ноч комсомольцы,<br>
+                            Сеюць дум сваіх буйны агонь.<br><br>
+                            
+                            І няхай ад штыха уцякалі,<br>
+                            Каб ён працу сарваць іх не мог.<br>
+                            Саўчык з Сонькай на новым квартале<br>
+                            Шпацыруюць павольна удвох.<br><br>
+                            
+                            Быццам вышлі, каб ночкай асенняй<br>
+                            Прагуляцца і глянуць на свет, <br>
+                            І ляціць праз разрэз у кішэні<br>
+                            Ужо апошні закрыты канверт.<br><br>
+                            
+                            “Ну, цяпер можна нам адпачнуць!<br>
+                            Заўтра стрэнемся зноўку на яўцы”.<br>
+                            Раптам голас халодны ў спіну:<br>
+                            — Пачакайце!<br>
+                            
+                            І ўзняліся мільёны трывог:<br>
+                            — Хто там ззаду за імі ішоў?<br>
+                            Закалолі іголкі ў грудзёх <br>
+                            Няўжо?..<br><br>
+                            
+                            Лёд трывог хутка зноў растае.<br>
+                            Абываталь прышоў, як услужлівы ліс,<br>
+                            Ён спакойна канверт падае:<br>
+                            — Вы, напэўна, згубілі свой ліст.<br><br>
+                            
+                            Саўчык ліст той узяў у прызнанні глыбокім,<br>
+                            Саўчык цісне руку яму некалькі крат:<br>
+                            — Вельмі дзякую вам. — А праз некалькі крокаў<br>
+                            Зноў канверт паляцеў на халодны асфальт...<br><br>
+                            
+                            Праца скончана. Не дагледзела панская варта.<br>
+                            Маладых комсомольцаў нічым не стрымаць.<br>
+                            Саўчык з Сонькай ідуць адпачыць, каб назаўтра<br>
+                            Зноў падпольнымі думамі жыць, бунтаваць.<br><br>
+                            
+                            * * *<br><br>
+                            
+                            Ты прышла, тая гадзіна,<br>
+                            Калі біўся вечар сіні<br>
+                            І па цэхах змоўклі пілы.<br>
+                            На заводзе перапынак. <br>
+                            І ў кутку за розным ломам<br>
+                            Моладзь голавы схіліла.<br><br>
+                            
+                            Там юнак, на твар сур’ёзны,<br>
+                            Ўвесь у словах таямнічых,<br>
+                            Выняў ім з-пад сотні латак:<br>
+                            “Вось, таварышы, адозва,<br>
+                            Комуністы палка клічуць<br>
+                            Выйсці супраць акупантаў,<br><br>
+                            
+                            На пляцы знашоў я ноччу.<br>
+                            Дык давайце тут каротка,<br>
+                            Прачытаем, пагаворым...”<br>
+                            Шмат старых прышло рабочых<br>
+                            Там да моладзі на сходку.<br>
+                            Ўсе гарэлі з кожным словам...<br><br>
+                            
+                            Баявым ўзляталі духам<br>
+                            Выйсці, хоць насустрач смерці,<br>
+                            Біцца з ворагамі злымі...<br>
+                            А юнак чытаў і слухаў,<br>
+                            Як-жа моцна б’юцца сэрцы<br>
+                            Ў гэтым дружным калектыве.<br><br>
+                            
+                            Ён чытаў, што — звер крывавы<br>
+                            Зруйнаваў усю старонку<br>
+                            Дзікім шалам навальнічым, <br>
+                            Пролетарыі, за справу!<br>
+                            Пролетарыі, на бойку!<br>
+                            За Комуну, за Кастрычнік!<br><br>
+                            
+                            Ўсе сціскалі моцна рукі,<br>
+                            Кроў ўзнімалася па жылах,<br>
+                            Каб нарэшце расквітацца...<br>
+                            Так па цёмных заканурках<br>
+                            Нарасталі грозна сілы<br>
+                            Супроць ворага змагацца.<br><br>
+                            
+                            Так чыталі крадкам, спехам.<br>
+                            І ламачча цесным гурмам<br>
+                            Прыкрывала зборку вольных.<br>
+                            Зноў гудок, і ўсе па цэхах<br>
+                            Паняслі жывыя думы,<br>
+                            Думы партыі падпольнай.<br><br>
+                            
+                            Так прыходзіў час расплаты.<br>
+                            Рыхтаваўся ён употай.<br>
+                            Быць-жа бойцы зноў за волю!<br>
+                            І юнак каля варштата<br>
+                            Ўспомніў горкую бядоту.<br>
+                            Стала горача да болю.<br><br>
+                            
+                            Тут гаруй без перапынку,<br>
+                            Калі-ж сілы пакідаюць <br>
+                            Майстар зверам цябе стрэне.<br>
+                            Ў хаце-ж хлеба ні скарынкі,<br>
+                            Ў хаце-ж маці галадае,<br>
+                            А ўся хата — сутарэнне.<br>
+                            
+                            А жандар, як чорт паганы,<br>
+                            Ўжо ахвяр сваіх не злічыць, <br>
+                            Іх бясконца. І расло ў хлапца жаданне<br>
+                            Быць пад сцягам большэвіцкім<br>
+                            Разам ў бойцы.<br><br>
+                            
+                            V. Перад Кастрычнікам<br><br>
+                            
+                            Кожны рог іх страчаў<br>
+                            Небяспекай бясконцай,<br>
+                            Кожнай вуліцай<br>
+                            Шпег дэфензівы сцярог.<br>
+                            Так праходзілі дні<br>
+                            Комсомольцаў<br>
+                            І суровыя ночы<br>
+                            Барацьбы і трывог.<br><br>
+                            
+                            Яны йшлі у бунтоўнай<br>
+                            З’яднанай кагорце,<br>
+                            Яны йшлі непагодай<br>
+                            Праз сцюжу і золь.<br>
+                            Так мацнеў і гарэў<br>
+                            На партыйнай рабоце,<br>
+                            У глыбокім падполлі<br>
+                            Баявы комсомол.<br><br>
+                            
+                            Гэтай раніцай зноўку<br>
+                            Чыталі “бліны”.<br>
+                            Хай пакуль што употай,<br>
+                            Няхай палахліва!<br>
+                            І нямелі ў трывожным<br>
+                            Адчаі паны,<br>
+                            І дрыжэла ад злосці<br>
+                            Сваёй дэфензіва. <br><br>
+                            
+                            Ў дзікім шале круціўся<br>
+                            Паранены звер, <br>
+                            На людзей ён рабочых кідаўся<br>
+                            Зубамі бясконца.<br>
+                            І пляваўся адозвамі<br>
+                            “Минский Курьер”:<br>
+                            “Вешаць ўсіх комуністаў,<br>
+                            Вешаць ўсіх комсомольцаў.<br><br>
+                            
+                            Знішчыць іх неадкладна<br>
+                            Моцнай сілаю карнай,<br>
+                            Потым стане, нарэшце,<br>
+                            Ў краіне спакой”.<br>
+                            Комсомольцы-ж на яўцы,<br>
+                            Комсомольцы ў друкарні<br>
+                            Рыхтавалі ізноў<br>
+                            Супроць ворага бой.<br><br>
+                            
+                            І шмат маладых<br>
+                            І гарачых галоў<br>
+                            Сабралася ў Цукера<br>
+                            Зноўку на сходзе.<br>
+                            Бліжэла ўжо свята.<br>
+                            Праз грукат франтоў<br>
+                            Трэці Кастрычнік<br>
+                            Ў падполле прыходзіў.<br><br>
+                            
+                            Кастрычнік ішоў<br>
+                            Загартованы ў бойцы,<br>
+                            Ішоў перамогай<br>
+                            Над светам гарэць.<br>
+                            I доўга у цесным пакойчыку<br>
+                            Хлопцы<br>
+                            Сядзелі над планам,<br>
+                            Як свята сустрэць.<br><br>
+                            
+                            Здавалася, ў сэрцы<br>
+                            Ўздымаўся пажар.<br>
+                            Здавалася, бура<br>
+                            Ў грудзях занялася...<br>
+                            Там Олікер ўголас<br>
+                            Чытаў лемантар,<br>
+                            А Бампі павольна<br>
+                            З сябрамі шаптаўся:<br><br>
+                            
+                            “Мы мусім пайсці<br>
+                            Па заводах усіх,<br>
+                            З рабочымі гутаркі<br>
+                            Весці такія,<br>
+                            Каб кожны рабочы<br>
+                            У сэрцы насіў<br>
+                            Вялікага свята<br>
+                            Агні баявыя.<br><br>
+                            
+                            Таварышы, хутка<br>
+                            Кастрычнік ідзе.<br>
+                            Дык болей рашучасці,<br>
+                            Болей адвагі!<br>
+                            Каб сталі заводы<br>
+                            На гэты дзень<br>
+                            I горда гарэлі<br>
+                            Чырвоныя сцягі.<br><br>
+                            
+                            Каб горадам свята<br>
+                            Грымела, як гром,<br>
+                            Каб біліся сэрцы<br>
+                            Ў задорным уздыме,<br>
+                            Каб вуліцай сыпалі,<br>
+                            Быццам дажджом,<br>
+                            Сваімі лістоўкамі<br>
+                            Мы агнявымі”.<br><br>
+                            
+                            Той вечар кружыўся<br>
+                            Лятункамі мар,<br>
+                            І ў душным пакойчыку<br>
+                            Думы ліліся...<br>
+                            Там Олікер ўголас<br>
+                            Чытаў лемантар,<br>
+                            А Бампі праектамі<br>
+                            Там захапіўся,<br><br>
+                            
+                            Што Олікер з чыткай<br>
+                            Згубіўся на час,<br>
+                            І Цукер, адказны<br>
+                            За гэтую зборку,<br>
+                            Стрымаць мусіў Бампі<br>
+                            У самы экстаз,<br>
+                            Каб зноў паранейшаму<br>
+                            Весці гаворку.<br><br>
+                            
+                            І так без канца,<br>
+                            Аж да позняе ночы<br>
+                            Хлопцы гарэлі<br>
+                            Ў размовах іскрыстых.<br>
+                            Гаворка ішла<br>
+                            Пра заводы, рабочых,<br>
+                            Гаворка ішла<br>
+                            Пра сусветны Кастрычнік,<br>
+                            Гаворка ішла,<br> 
+                            Што яго прывітаць <br>
+                            Трэба ўпартым<br>
+                            Змаганнем за волю,<br><br>
+                            
+                            Гаворка ішла,<br>
+                            Як у Менску спаткаць<br>
+                            Трэці Кастрычнік<br>
+                            Ў суровым падполлі.<br><br>
+                            
+                            * * *<br><br>
+                            
+                            I вось хлапцы агітаваць<br>
+                            Ішлі ў парадку тых нагрузак <br>
+                            На Койданаўскую дваццаць два,<br>
+                            У дом легальных прафсаюзаў.<br><br>
+                            
+                            Спакой там здраду прытуліў,<br>
+                            І ў палітычным тым гарэме<br>
+                            І бундаўцы сліўнём жылі<br>
+                            І беларускія нацдэмы.<br><br>
+                            
+                            І з акупанскай ласкі той<br>
+                            Сабе гняздо яны звівалі.<br>
+                            І там ачмутаю сваёй<br>
+                            Лакеяў панству рыхтавалі.<br><br>
+                            
+                            Якіх там сетак не плялі<br>
+                            Яны сваім прадажным тварам,<br>
+                            Але за імі мала ішлі <br>
+                            Раслі шарэнгі комунараў.<br><br>
+                            
+                            Цану спазнаўшы панскім хлусам<br>
+                            Яны збіраліся употай <br>
+                            Расла па шмат якіх саюзах<br>
+                            Рэволюцыйная работа.<br><br>
+                            
+                            Прадажных сук мінуўшы зборы,<br>
+                            Каб волю сілаю здабыць, <br>
+                            Там па тых душных карыдорах<br>
+                            Агні гарэлі барацьбы.<br><br>
+                            
+                            І зналі ўсе, што прыдзе выйсце,<br>
+                            Што час не пройдзе там дарэмна.<br>
+                            Там працавалі комуністы<br>
+                            Па ўсіх законах патаемных.<br><br>
+                            
+                            Сваіх ішлі там спазнаваць<br>
+                            I потым, стрэўшыся ў бакоўцы,<br>
+                            Па Койданаўскай дваццаць два,<br>
+                            На свята звалі комсомольцы.<br><br>
+                            
+                            Яны ішлі, як змагары,<br>
+                            Надзеяй іх пылалі вочы.<br>
+                            Вось Бампі ўвесь, як жар, гарыць<br>
+                            І нешта гутарыць з рабочым.<br><br>
+                            
+                            Хай ледзь праносяцца іх гукі,<br>
+                            А думкі ў іх суладна ідупь,<br>
+                            І ўжо відно, як ціснуць рукі<br>
+                            Яны абодвы і цвітуць.<br><br>
+                            
+                            Вось Олікер, раскрыўшы кніжку,<br>
+                            Стаіць, мармыча, абы як,<br>
+                            А ў ёй чытае ўжо запіску<br>
+                            Кружком сабраны маладняк.<br><br>
+                            
+                            Вось Соня Зак і шмат дзяўчат<br>
+                            Па цёмным сноўдаюць пакоі,<br>
+                            Іх шчокі чырванню гараць<br>
+                            І ўжо узбуджаным настроем.<br><br>
+                            
+                            Дык як-жа іх уздым стрымаць,<br>
+                            Калі бурліць ён ўдзень і ўночы?<br>
+                            Па Койданаўскай дваццаць два,<br>
+                            На свята клічуць комсомольцы.<br><br>
+                            
+                            Кастрычнік клічуць сустракаць<br>
+                            Праз усе аблогі і заставы.<br>
+                            І правакатары не спяць <br>
+                            Яны свае капканы ставяць.<br><br>
+                            
+                            Таксама ім клапот багата,<br>
+                            Каб мець з Кастрычніка спажыву <br>
+                            “Партыец” Плоткін ладзіць свята<br>
+                            У хмурых сценах дэфензівы.<br><br>
+                            
+                            Ён выкладае вестак безліч,<br>
+                            У злоты ён паверыў шчыра,<br>
+                            Ён лісам коўзае па крэсле<br>
+                            Перад палкоўніцкім мундзірам.<br><br>
+                            
+                            Ён знае — ў гэтыя часы<br>
+                            За комуністаў плоцяць шмат там <br>
+                            І прадае ўсе адрасы<br>
+                            За жменьку злотых акупантам.<br><br>
+                            
+                            Палкоўнік рад. Яму шанцуе.<br>
+                            Сябе ён марыць генералам.<br>
+                            Адну руку яму цалуюць,<br>
+                            З другой — дукаты забіраюць.<br><br>
+                            
+                            Ён не шкадуе нагарод,<br>
+                            Каб комсомольцаў толькі скончыць.<br>
+                            Іуда-Плоткін ліжа бот,<br>
+                            Прадаўшы катам комсомольцаў.<br><br>
+                            
+                            * * *<br><br>
+                            
+                            Прыбраўся Менск у гмахі крат,<br>
+                            Ў жаўнерскія страі.<br>
+                            І восень, што паліцыянт,<br>
+                            Суровая стаіць.<br><br>
+                            
+                            Яна плюецца злосна ў твар,<br>
+                            Ды злуйся, восень, кроч!..<br>
+                            Над Менскам ходзіць дзікі шал,<br>
+                            Дрыжаць кварталы ўноч.<br><br>
+                            
+                            Дамы пужлівыя стаяць<br>
+                            Ў абдымках злых вятроў.<br>
+                            Над Менскам вісельні рыпяць<br>
+                            “Культурных” ўладароў.<br><br>
+                            
+                            Да менскай вуліцы прырос<br>
+                            Жандар, нібыта корч.<br>
+                            Дык хай шалеюць! Хай! Дармо!<br>
+                            Дык злуйся, восень, кроч!<br><br>
+                            
+                            Тут забушуе новы ліст<br>
+                            Над стараю карой <br>
+                            Расце падпольны комуніст<br>
+                            І комсомольцаў строй.<br><br>
+                            
+                            Няхай вятры марозяць дол<br>
+                            І выюць, што звяры.<br>
+                            Дык злуйся, восень, — комсомол<br>
+                            Мацнее на вятры!<br><br>
+                            
+                            Іх шмат ідзе барацьбітоў<br>
+                            Ад сутарэнняў, хат <br>
+                            Вунь Цукер ў рваным паліто<br>
+                            Спакойна мерыць сад.<br><br>
+                            
+                            Хай зол пячэцца, быццам вар,<br>
+                            І вецер — у нагах,<br>
+                            Хай дождж сячэ яму у твар <br>
+                            Нішто яму не страх.<br><br>
+                            
+                            Ён сёння жыць бясконца рад,<br>
+                            Ён шлях свой тут знайшоў <br>
+                            Спакойна мерае ён сад,<br>
+                            Чакаючы хлапцоў.<br><br>
+                            
+                            Ён знае: пройдзе, быццам дым,<br>
+                            Усіх пакут агонь,<br>
+                            І думы кружаць перад ім,<br>
+                            І радасць у яго,<br><br>
+                            
+                            Што хутка будзе бурна зноў,<br>
+                            Што з працы будзе толк,<br>
+                            Што пачастунак для паноў<br>
+                            Рыхтуе комсомол,<br><br>
+                            
+                            Што дні прыходзяць перамог<br>
+                            І барацьбы нашчэнт,<br>
+                            Што свята стрэне у баёх<br>
+                            Падпольны камітэт.<br><br>
+                            
+                            Што вызвалення дні прыдуць<br>
+                            Для Беларусі зноў.<br>
+                            І Цукер ходзіць па саду,<br>
+                            Чакаючы хлапцоў.<br><br>
+                            
+                            Ідзе па восеньскіх лістох<br>
+                            Чырвоных, што пажар,<br>
+                            І вецер сцелецца ля ног,<br>
+                            І зол марозіць твар.<br><br>
+                            
+                            Лісты ляжаць, нібыта шоўк,<br>
+                            Пад ботамі шумяць...<br>
+                            А ў сад спяшае Вараб’ёў,<br>
+                            Каб Цукера спаткаць.<br><br>
+                            
+                            Пячэ ў сярэдзіне агонь<br>
+                            І паліць сэрца злосць,<br>
+                            І сотні думак у яго<br>
+                            Прарэзалі чало.<br><br>
+                            
+                            Яны ляглі навалай хмар,<br>
+                            Клапот няслі багата:<br>
+                            Сказаў ў парткоме сакратар,<br>
+                            Што Плоткін правакатар,<br><br>
+                            
+                            Што трэба ворага скасіць<br>
+                            Як наймага хутчэй,<br>
+                            Што трэба берагчыся ўсім<br>
+                            Ад Плоткіна вачэй.<br><br>
+                            
+                            Дарогай склаўшы новы план,<br>
+                            Ён ў цёмны сад прышоў.<br>
+                            Насустрач Цукер, быццам здань,<br>
+                            Выходзіць з-за кустоў.<br><br>
+                            
+                            І вецер б’ецца каля ног,<br>
+                            І дрэвы так гудуць...<br>
+                            І вось яны ужо удвох<br>
+                            Дарожкаю ідуць.<br><br>
+                            
+                            Ідуць, нібыта блізнюкі,<br>
+                            З агністай злосцю воч,<br>
+                            Яны сціскаюць кулакі<br>
+                            I грозяцца праз ноч:<br><br>
+                            
+                            — Пастой-жа, вораг, пачакай!..<br>
+                            За намі воля мас!..<br>
+                            Шалей, зладзюга, правака...<br>
+                            Кастрычнік будзе наш! <br><br>
+                            
+                            VI. Комсомольская варта<br><br>
+                            
+                            Яны час не хочуць траціць.<br>
+                            Трэба хутка знішчыць гада <br>
+                            Ходзяць хлопцы там на варце<br>
+                            З комсомольскага атрада.<br><br>
+                            
+                            Ходзяць ноч яны без змены,<br>
+                            У парадку тайнай змовы,<br>
+                            І халодныя ў кішэнях<br>
+                            Рэвальверы нагатове.<br><br>
+                            
+                            Хлопцы помстаю сагрэты <br>
+                            Будзе ворагу за ласку!..<br>
+                            А ў гатэлі вельмі светла<br>
+                            Ззяюць лямпы воўчым бляскам...<br><br>
+                            
+                            Там карнізамі чачоткай<br>
+                            Вецер кружыцца гуллівы...<br>
+                            А ў вакне балюе Плоткін<br>
+                            З афіцэрам дэфензівы.<br><br>
+                            
+                            Там віно, што мора, пеніць,<br>
+                            Быццам хоча вокны выбіць,<br>
+                            І дрыжаць ад смеху сцены,<br>
+                            І звіняць блудліва шыбы.<br><br>
+                            
+                            Вораг там сядзіць без маскі.<br> 
+                            Ён святкуе, ён рагоча.<br>
+                            Вораг думае — шампанскім<br>
+                            Пахавае комсомольцаў,<br><br>
+                            
+                            І пагаснуць ў тым разводдзі<br>
+                            Рэволюцыі пажары.<br>
+                            Хлопцы-ж вуліцаю ходзяць<br>
+                            І трывога ў іх на твары.<br><br>
+                            
+                            Дзе-ж той час, што ганьбу змые?<br>
+                            Каб сканаў насмерць пракляты!<br>
+                            Вось дзе ён, былы “партыец”,<br>
+                            Першай маркі правакатар.<br><br>
+                            
+                            А над Менскам ў непакоі<br>
+                            Вецер вые дзікім спевам.<br>
+                            Месяц стомлены гульнёю,<br>
+                            Захістаўся ўжо на дрэве.<br><br>
+                            
+                            Помста-ж выканаць наспела<br>
+                            Свой прысуд па-комсомольску...<br>
+                            — Калі-ж выйдзеш ты з гатэлю?<br>
+                            Ты, прыслужнік белапольскі!<br><br>
+                            
+                            Хлопцам нельга часу траціць:<br>
+                            У падполлі час кароткі <br>
+                            Ужо вятох па стрэхах скача,<br>
+                            Не выходзіць, сволач, Плоткін.<br><br>
+                            
+                            Што за ліха, ані гуку...<br>
+                            Хоць-бы рыпнулі дзе дзверы.<br>
+                            І мацней сціскаюць рукі<br>
+                            Рукаяткі рэвальвераў.<br><br>
+                            
+                            Што-ж такое! Гэта-ж позна!..<br>
+                            І як бліснула ўжо сонца,<br>
+                            Прышоў Олікер трывожны<br>
+                            Клікаць варту комсомольцаў:<br><br>
+                            
+                            “Хлопцы! Пойдзем, не паспелі...<br>
+                            Тут не месца на размовы...”<br>
+                            Хлопцы здзіўлена глядзелі<br>
+                            На ягоны твар нервовы.<br><br>
+                            
+                            Твар, што з белае бяросты,<br>
+                            Быццам з кужалю сатканы...<br>
+                            Хлопцы йшлі, і ў сэрцы роспач,<br>
+                            Што не здзейснілі задання, <br><br>
+                            
+                            Кончыць гада-чалавека.<br>
+                            І бурліў ў іх гнеў гарачы,<br>
+                            Як, мінуўшы небяспеку,<br>
+                            Пачаў Олікер тлумачыць:<br><br>
+                            
+                            “Нам, таварышы, на дзіва<br>
+                            Ў гэту ноч не шанцавала,<br>
+                            Сёння ноччу дэфензівай<br>
+                            Камітэт арыштаваны.<br><br>
+                            
+                            Нам нанеслі зноўку раны<br>
+                            Іх канарыкі ліхія <br>
+                            Цукер там, “Абрам” забраны,<br>
+                            Танхілевіч і другія.<br><br>
+                            
+                            Перад святам шпегаў многа<br>
+                            Па усіх кварталах ходзіць,<br>
+                            З яшчэ большай асцярогай<br>
+                            Трэба працу нам праводзіць.<br><br>
+                            
+                            Ліха нас яны загубяць,<br>
+                            Не загінуць сэрцам юным.<br>
+                            Аж да болю сціснем зубы,<br>
+                            А памром мы за Комуну!”<br><br>
+                            
+                            Хлопцаў злосцю калаціла,<br>
+                            Сэрца крыўдаю смылела,<br>
+                            Што дарэмна смерць хадзіла<br>
+                            Каля Плоткіна ў гатэлі,<br><br>
+                            
+                            Што сяброў закрылі краты,<br>
+                            І адтуль не скора выйсці,<br>
+                            Што застаўся правакатар<br>
+                            На няшчасці весяліцца,<br><br>
+                            
+                            Што прадасць ён хлопцаў болей,<br>
+                            Каб ізноў напіцца п’яным,<br>
+                            Што Кастрычнік у падполлі<br>
+                            Будзе ворагам сарваны.<br><br>
+                            
+                            Хлопцы йшлі у задуменні<br>
+                            З невясёлага спаткання <br>
+                            Зноўку ў глыб, у сутарэнні,<br>
+                            Каб сабрацца на змаганне.<br><br>
+                            
+                            Яны йшлі, і ў сэрцы кожны<br>
+                            Правяраў сябе аж тройчы...<br>
+                            Менск нахмураны, трывожны<br>
+                            Слухаў думы комсомольцаў... <br><br>
+                            
+                            VII. У турме<br><br>
+                            
+                            Ты стаяў ў каземаце,<br>
+                            Таварыш Абрам,<br>
+                            І твае дружбакі па падполлю<br>
+                            Стаялі...<br>
+                            Ты стаяў, як скаваны,<br>
+                            Таварыш Абрам,<br>
+                            І не знаў, ці злаваць,<br>
+                            Ці заплакаць ад жалю,<br><br>
+                            
+                            Што сагналі сюды<br>
+                            У такія часы,<br>
+                            Калі працы ў падполлі<br>
+                            Надзвычай багата,<br>
+                            Што шалёная ноч<br>
+                            Пазбірала усіх <br>
+                            І замкнула у душных мурах<br>
+                            Казематаў,<br><br>
+                            
+                            Калі ў самым разгары<br>
+                            Падпольніцкі план,<br>
+                            Калі ў бойках на часткі<br>
+                            Рассыпаўся свет.<br><br>
+                            
+                            Ты стаяў з дружбакамі,<br>
+                            Таварыш Абрам, <br>
+                            І стаяў там з табою<br>
+                            Увесь камітэт.<br><br>
+                            
+                            Кожны з вас адчуваў <br>
+                            Зневальненне прышло.<br>
+                            Сцены душных муроў<br>
+                            Да адчаю сціскалі.<br>
+                            І над вашай юнацкай<br>
+                            Бунтоўнай душой<br>
+                            Рад багнэтаў<br>
+                            Жандары сурова трымалі.<br><br>
+                            
+                            Злосць ад гэтых штыхоў<br>
+                            Дзікім бляскам плыла, <br>
+                            Ёй скарыць захацелася<br>
+                            Юных змаганцаў.<br>
+                            А за сценамі ноч<br>
+                            Павар’яцку гула<br>
+                            І лажыла на краты<br>
+                            Крывавыя пальцы.<br><br>
+                            
+                            Так! Жандары дабіліся<br>
+                            Сёння свайго, <br>
+                            Камітэт пад багнэтамі<br>
+                            Іхнімі змоўчыў,<br>
+                            I ў Абрама грудзях<br>
+                            Загарэўся агонь,<br>
+                            I гарэлі у палкай<br>
+                            Нянавісці вочы,<br><br>
+                            
+                            Што сурова стаяў<br>
+                            Над галоўмі багнэт, <br>
+                            Што жалезныя моцна<br>
+                            Трымалі засовы...<br>
+                            Ён пракляў ў гэты час<br>
+                            І вучнёўскі білет,<br>
+                            І гімназію разам<br>
+                            У Ключ-Пузырове.<br><br>
+                            
+                            Гэты чортаў білет<br>
+                            Толькі болей назводзіў:<br>
+                            Плоткін знае усё,<br>
+                            І яму не зманіць,<br>
+                            Там у Ключ-Пузырове<br>
+                            Ў гімназіі Гольдзін,<br>
+                            Гольдзін самы сапраўдны<br>
+                            Жыве гімназіст.<br><br>
+                            
+                            Што яму, што жандары,<br>
+                            Як лютыя тыгры,<br>
+                            Комсомольцаў катуюць<br>
+                            За гмахамі крат.<br>
+                            Гольдзін ходзіць вясёлы<br>
+                            У чыстым мундзіры.<br>
+                            Гольдзін, пэўне,<br>
+                            Жыццю акупанцкаму рад.<br><br>
+                            
+                            Гольдзін знае,<br>
+                            Яго прытуліла багацце,<br>
+                            Што яго добрабыт<br>
+                            За паліцамі крам.<br>
+                            Што яму да таго,<br>
+                            Што гніе ў каземаце <br>
+                            Па ягоным білеце<br>
+                            Таварыш Абрам,<br><br>
+                            
+                            Што за кратамі чорных<br>
+                            Турэмных акон<br>
+                            Комсомольскія сэрцы<br>
+                            Бунтоўна гараць,<br>
+                            Што стаіць ў каземаце<br>
+                            Абрам Моўшэнзон<br>
+                            І яго дружбакі<br>
+                            Па падполлю стаяць!?<br><br>
+                            
+                            * * *<br><br>
+                            
+                            Там прыгадаў дзесяткі кар<br>
+                            Раз’юшаны жандар <br>
+                            Гудзіць суровая турма<br>
+                            Пакутамі ахвяр.<br><br>
+                            
+                            Там рэволюцыі сыны<br>
+                            Закутыя на здзек,<br>
+                            Там ў душнай камеры турмы<br>
+                            Падпольны камітэт.<br><br>
+                            
+                            Хлапцы пазбыліся там сну.<br>
+                            Ў агні трывожных дум:<br>
+                            Ім дзень прыносіць навіну <br>
+                            Ці допыт, ці бізун.<br><br>
+                            
+                            Там шал канарыкаў ліхіх<br>
+                            Ім суліць пэўна смеріць,<br>
+                            Але нішто не страшыць іх <br>
+                            Бунтуюць і ў турме.<br><br>
+                            
+                            Хай там пакуты! Хай жуда,<br>
+                            Якой не бачыў свет,<br>
+                            А толькі тайны не аддасць,<br>
+                            Што знае, Камітэт!<br><br>
+                            
+                            Не першы раз бяду страчаць<br>
+                            І класціся на дол.<br>
+                            Ён будзе верным да канца <br>
+                            Бунтоўны комсомол.<br><br>
+                            
+                            І вось, стаіўшыся пакуль,<br>
+                            Пад сховаю начы,<br>
+                            Ў смуродным камеры кутку<br>
+                            Сабраліся хлапцы.<br><br>
+                            
+                            Ледзь копціць ў камеры ліхтар<br>
+                            І кружыць чаду дым,<br>
+                            Адозву піша Зайдэнвар<br>
+                            Рабочым маладым,<br><br>
+                            
+                            Што комсомола не закуць<br>
+                            Турэмным тут звяром<br>
+                            (Абрам-жа ходзіць на чаку<br>
+                            І сочыць за ваўчком),<br><br>
+                            
+                            Што як ні катуюць паны <br>
+                            Хлапцоў ім не зламаць.<br>
+                            На волю рвуцца ўсе яны,<br>
+                            Каб разам бунтаваць.<br><br>
+                            
+                            VIII. Ліст расійскім таварышам<br><br>
+                            
+                            На волі-ж знёсшы ўвесь цяжар,<br>
+                            Крывавых дзён вязьмо,<br>
+                            Партком, залечыўшы ўдар,<br>
+                            Збірае комсомол.<br>
+                            
+                            І там праз сёлы й гарады<br>
+                            Змагання кліч ідзе.<br>
+                            І зноў кагорта маладых<br>
+                            Барацьбітоў расце.<br><br>
+                            
+                            Ад акупантаў скрыўшы след,<br>
+                            Свой новы шлях знайшоў <br>
+                            І хутка новы камітэт<br>
+                            На барацьбу прышоў.<br><br>
+                            
+                            Каб на рабоце зноў гарэць<br>
+                            З запалам маладым, <br>
+                            Прашчыцкі, Бампі, Олікер<br>
+                            У камітэце тым.<br><br>
+                            
+                            І вырас зноўку агнявы,<br>
+                            Злучыўшы сотні воль,<br>
+                            На працы моцны, баявы<br>
+                            Падпольны комсомол. <br><br>
+                            
+                            * * *<br><br>
+                            
+                            І праз жахі франтоў і праз грукат вайны,<br>
+                            Праз разбітыя бойкай палі <br>
+                            Расійскім таварышам пішуць яны<br>
+                            Бунтоўны гарачы свой ліст:<br><br>
+                            
+                            “Адсюль мы вам пішам, дзе турмы гудуць,<br>
+                            Дзе цела краіны рабуюць нашчэнт.<br>
+                            І ўсе нашы хлопцы з падполля вам шлюць<br>
+                            Свой комсомольскі прывет.<br><br>
+                            
+                            Мы горда трымаем свой Кімаўскі сцяг.<br>
+                            Хай цяжка ў падполлі тут нам, <br>
+                            Клянёмся змагацца усе да канца,<br>
+                            І мы абяцаем вам,<br><br>
+                            
+                            Што мы перашкодзім варожым штыхам<br>
+                            У самы адказны час <br>
+                            Равамі мы ляжам на іхных шляхах,<br>
+                            І мы прычакаем вас!<br><br>
+                            
+                            Клянёмся дашчэнту разбурыць іх тыл.<br>
+                            Мы пройдзем праз жудасць начы <br>
+                            Мы збурым дарогі, мы знішчым масты,<br>
+                            Каб вораг не мог уцячы.<br><br>
+                            
+                            Калі-ж вы ударыце сілай сваёй,<br>
+                            Гарматы пачнуць грукатаць, <br>
+                            Мы выйдзем насустрач вялікай сям’ёй,<br>
+                            Каб разам у бойках стаць.<br><br>
+                            
+                            Мы будзем змагацца, мы будзем жыць!<br>
+                            Мы з партыяй нашай ідзём,<br>
+                            Клянёмся — мы з вамі, таварышы,<br>
+                            Да самых апошніх дзён.<br><br>
+                            
+                            Мы шчыра вітаем расійскіх братоў<br>
+                            Упартай работай сваёй.<br>
+                            Дык хай-жа жыве комсомол на франтах,<br>
+                            Што вышаў ў апошні бой...”<br><br>
+                            
+                            * * *<br><br>
+                            
+                            Той ліст напісалі удумліва так.<br>
+                            І радасць пылае з узбуджаных воч,<br>
+                            I Бампі хавае той ліст на грудзях,<br>
+                            І Бампі ідзе з даручэннем праз ноч.<br><br>
+                            
+                            Ён знае, што некалі сёння чакаць,<br>
+                            І Бампі рашыў, хоць цаной галавы,<br>
+                            Той ліст комсомольцам Расіі паслаць<br>
+                            З падпольнага Менска да вольнай Масквы.<br><br>
+                            
+                            IX. Комсомолец з Бабруйска<br><br>
+                            
+                            Так дні ішлі за працай той,<br>
+                            І ўпарта білася падполле.<br>
+                            І вось аднойчы, ужо вясной,<br>
+                            Прышоў з Бабруйска комсомолец.<br><br>
+                            
+                            Дарожным пылам ён аброс,<br>
+                            Ён крыўду ў сэрцы затаіў.<br>
+                            Ён вестку страшную прынёс<br>
+                            Пра лёс таварышаў сваіх.<br><br>
+                            
+                            І тут ў кругу сяброў ажыў,<br>
+                            Сябе адчуў ён тут лягчэй.<br>
+                            Ён ўвесь дрыжэў. Ён гаварыў,<br>
+                            І боль струілася з вачэй:<br><br>
+                            
+                            “Таварышы! З-пад цяжкіх мук<br>
+                            Я перад вамі тут увесь.<br>
+                            Я вырваўся з жандарскіх рук,<br>
+                            Я проста з шыбеніцы злез.<br><br>
+                            
+                            Я пяць начэй пакуты знёс,<br>
+                            За мною кат, жандар гайсаў...<br>
+                            Я пешкам йшоў сто дваццаць вёрст,<br>
+                            Як звер, сланяўся па лясах.<br><br>
+                            
+                            Я падаў ў процьмы сотні раз,<br>
+                            Я падымаўся і ізноў,<br>
+                            Я не глядзеў, я йшоў да вас<br>
+                            З астатняй просьбаю хлапцоў.<br><br>
+                            
+                            Іх вобраз у мяне не змерк,<br>
+                            Іх вобраз будзе век гарэць.<br>
+                            Вось помню, быццам як цяпер,<br>
+                            Вядуць Залоціна на смерць.<br><br>
+                            
+                            Хай проста над душой багнэт,<br>
+                            Ні кроплі на вачах расы...<br>
+                            I жонка з дзіцем бяжыць ўслед<br>
+                            І рве з адчаю валасы.<br><br>
+                            
+                            А твар у Піні малады,<br>
+                            Н’ат не парушыла сляза,<br>
+                            І калі смерць была над ім,<br>
+                            Залоцін Піня так сказаў:<br><br>
+                            
+                            “Не плач!<br>
+                            Няхай мяне на смерць вядуць,<br>
+                            Мне будзе лёгка там стаяць.<br>
+                            Не плач! І сына так гадуй,<br>
+                            Каб вырас гэткім, як і я.<br><br>
+                            
+                            А сонца ўжо гарыць ясней,v
+                            Яму шчасліва будзе жыць!<br>
+                            А вы ці чуеце мяне,<br>
+                            Мае сябры-таварышы?!<br><br>
+                            
+                            Наперад крочце праз вякі<br>
+                            Вы сэрцам сваім юным! <br>
+                            Няхай жывуць большэвікі!<br>
+                            Няхай жыве Комуна!”<br><br>
+                            
+                            Але прабіў апошні час<br>
+                            І смерць ляцела шпарка,<br>
+                            І змоўк Залоцін Піня наш<br>
+                            Пад кулямі канаркаў.<br><br>
+                            
+                            Я-ж падаў ў процьмы сотні раз,<br>
+                            Я падымаўся і ізноў,<br>
+                            Я не глядзеў, я йшоў да вас<br>
+                            З астатняй просьбаю хлапцоў.<br><br>
+                            
+                            Я йшоў да вас, каб перадаць<br>
+                            Аб тым, што наш адкрылі след,<br>
+                            Што правакатар нас прадаў,<br>
+                            І паў наш першы камітэт.<br><br>
+                            
+                            За камітэтчыкаў усіх,<br>
+                            Там плоціць шмат жандар.<br>
+                            Жаночы ўбор Гершон насіў,<br>
+                            Каб як схаваць свой твар.<br><br>
+                            
+                            А правакатар — проста жах,<br>
+                            Нібы галодны воўк.<br>
+                            Гершон туляўся па начах,<br>
+                            Пакуль за фронт не ўцёк.<br><br>
+                            
+                            Я-ж падаў ў процьмы сотні раз,<br>
+                            Я падымаўся і ізноў,<br>
+                            Я не гледзяў, я йшоў да вас<br>
+                            З астатняй просьбаю хлапцоў<br>
+                            
+                            Даць бой ўсім катам і панам<br>
+                            За паўшы камітэт,<br>
+                            Каб вы пасобілі там нам<br>
+                            Паноў разбіць як след.<br><br>
+                            
+                            Мы-ж разлічыцца ўсе гарым<br>
+                            З жандармамі хутчэй”...<br>
+                            Ён ўвесь дрыжэў. Ён гаварыў,<br>
+                            І боль струілася з вачэй.<br><br>
+                            
+                            Х. Расце чырвоны фронт<br><br>
+                            
+                            А на фронце ізноў разлівалася кроў,<br>
+                            І гарматы шалёна ізноў грукаталі...<br>
+                            Свет дрыжэў, разарваны дратамі наскрозь,<br>
+                            І зямля калацілася, і зямля уставала.<br><br>
+                            
+                            Дынамітнай трасучкай дрыжэла яна,<br>
+                            Быццам свет захацела на часткі растрэсці...<br>
+                            А да Менска прынесла з-пад фронта вясна<br>
+                            Комсомольцам ў падполле бунтоўныя весці,<br><br>
+                            
+                            Што чырвоны штандар загарэўся ярчэй,<br>
+                            Што вораг пад націскам дружным кладзецца,<br>
+                            Што строй акупантаў ірвецца нашчэнт.<br>
+                            Пад моцным ударам чырвонаармейцаў,<br><br>
+                            
+                            Што гоняць іх грозныя хвалі назад,<br>
+                            Што ім не устояць ў бязлітаснай бойцы...<br>
+                            І ў Менску партком сабірае атрад,<br>
+                            Атрад комуністаў і комсомольцаў.<br><br>
+                            
+                            Партком іх збірае для барацьбы,<br>
+                            Атраду ў падполлі задача свая <br>
+                            Каб тыл акупантаў да шчэнту разбіць,<br>
+                            Каб выйсці насустрач вялікім баям.<br><br>
+                            
+                            А вораг, няўдачамі збіты нашчэнт,<br>
+                            Узняўся з тэрорам бясконцым <br>
+                            За краты кідае другі камітэт,<br>
+                            Але не разбіць комсомольцаў,<br><br>
+                            
+                            Яны змагарамі ў падполлі растуць,<br>
+                            Выходзяць змагацца атрадам,<br>
+                            Яны з комуністамі побач ідуць<br>
+                            У бойку астатнюю з гадам.<br><br>
+                            
+                            Ім толькі у бойках дужэць і дужэць <br>
+                            Прышоў час суровай расплаты.<br>
+                            А фронт надыходзіць бліжэй і бліжэй,<br>
+                            Пад Менскам грымяць ўжо гарматы.<br><br>
+                            
+                            XI. Ты прышла, тая раніца<br><br>
+                            
+                            Ты прышла, тая раніца,<br>
+                            Дужай такой,<br>
+                            І чырвоныя сцягі<br>
+                            Плылі аксамітам...<br>
+                            Ты узнялася, раніца,<br>
+                            Бурнай ракой,<br>
+                            Вораг мчаў, як шалёны,<br>
+                            Па завулках разбітых.<br>
+                            І змаганнем гатоў<br>
+                            Комсомол агнявы,<br>
+                            Ён узяўся за стрэльбы,<br>
+                            Гранаты і штых,<br>
+                            І ляцелі уланы<br>
+                            На скрут галавы,<br>
+                            І атрады парткома<br>
+                            Стралялі па іх.<br><br>
+                            
+                            Так плацілі ім там<br>
+                            За пакуты і здзек,<br>
+                            Абсыпалі каменнем<br>
+                            Н’ат малыя дзеці, —<br>
+                            І ўжо ветрам ляцелі<br>
+                            Па вуліцах ў Менск<br>
+                            Баявыя раз’езды<br>
+                            Чырвонаармейцаў. <br>
+                            Менск узрушаны стрэў<br>
+                            Бурнай радасцю іх,<br>
+                            Менск герояў вітаў<br>
+                            Ад усіх пакаленняў.<br>
+                            Так — цаною жыцця,<br>
+                            Так — цаною крыві,<br>
+                            Так прышло вызваленне.<br><br>
+                            
+                            Ад рабочых нізін, ад падпольніцкіх нор,<br>
+                            Ад пакуты і здзекаў бясконцых,<br>
+                            Праз засценкі турмы, праз жахлівы тэрор<br>
+                            Вы прайшлі, комсомольцы!<br><br>
+                            
+                            Перад смерцю у вас між варожых штыхоў<br>
+                            Бунтавалі юнацкія вочы;<br>
+                            Як сапраўдныя дзеці большэвікоў,<br>
+                            Вы прайшлі, комсомольцы!<br><br>
+                            
+                            Перад горам не паў на калені ніхто,<br>
+                            Не дрыжэў нікалі перад ноччу:<br>
+                            Праз агні барыкад, праз навалу франтоў<br>
+                            Вы прайшлі, комсомольцы!<br><br>
+                            
+                            Вы магутнаю сілай стаялі ў баях.<br>
+                            Ўзнагароджаны двойчы!<br>
+                            На вялікай будоўлі, на звонкіх палях<br>
+                            Хай жывуць комсомольцы!<br><br>
+                            
+                        
+                        </p>
+
+                    </div>
+                </div>
+              </div>
+
+            <!-- </div> -->
+          </div>
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-md imageContainer">
+                <img id="myImage" src="./images/alex.png" alt="Alex Glushenkov"/>
+            </div>
+            <div class="col-md">
+            <small class="row d-block mb-3 text-body-secondary">Copyright ©1978-2023</small>
+            <a href="https://www.facebook.com/glushenkov/" class="fa fa-facebook"></a>  
+            <a href="https://www.linkedin.com/in/glushenkov/" class="fa fa-linkedin"></a>  
+            <a href="https://www.instagram.com/glushea/" class="fa fa-instagram"></a>
+            <a href="https://medium.com/@alexglushenkov" class="fa fa-medium"></a>  
+            <a href="https://wa.me/+972545437337" class="fa fa-whatsapp"></a>   
+          </div>
+          <div class="col-md">
+          
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://goo.gl/maps/EVfKzJamDrcHUT2a6" target="_blank">Givat Shmuel, Israel</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="tel:+972545437337">+972545437337</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="mailto:alex.glushenkov@gmail.com">alex.glushenkov@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+    </html>
