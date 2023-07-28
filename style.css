@@ -318,3 +318,8 @@ li[draggable]::before {
   background-color: #f60;
 }
 
+@media (max-width: 768px) {
+  .family_image {
+    width: 200px;
+  }
+}
