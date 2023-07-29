@@ -345,3 +345,44 @@ li[draggable]::before {
     width: 200px;
   }
 }
+.round-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+/* Specific styles for the LinkedIn button */
+.linkedin-button {
+  background-color: #0077b5; /* LinkedIn's blue color */
+  color: white;
+}
+.facebook-button{
+  background-color: #3b5998; /* Facebook's blue color */
+  color: white;
+}
+.instagram-button {
+  background-color: #e4405f; /* Instagram's pink color */
+  color: white;
+}
+.medium-button {
+  background-color: #000000; /* Medium's black color */
+  color: white;
+}
+/* WhatsApp Button styles */
+.whatsapp-button {
+  background-color: #25d366; /* WhatsApp's green color */
+  color: white;
+}
+.up-button{
+  width: 65px;
+  height: 65px;
+  line-height: 40px; /* Center the icon vertically */
+  margin-top: 0; /* Set margin-top to 0 to center the icon */
+  font-size: 35px; /* Increase the font size to make the icon larger */
+}
