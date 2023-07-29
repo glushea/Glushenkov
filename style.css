@@ -129,7 +129,7 @@ li[draggable]::before {
 
     @media (max-width: 768px) {
       .fa {  
-        width: 18%;  
+        width: 65px;  
       }
     }
     .fa-facebook {  
