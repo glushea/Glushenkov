@@ -323,3 +323,12 @@ li[draggable]::before {
     width: 200px;
   }
 }
+
+.tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.person {
+  margin: 10px;
+}
