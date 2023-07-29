@@ -126,6 +126,12 @@ li[draggable]::before {
       width: 70px;  
       border-radius: 50%;
     }  
+
+    @media (max-width: 768px) {
+      .fa {  
+        width: 18%;  
+      }
+    }
     .fa-facebook {  
       background: #3B5998;  
       color: white;  
@@ -336,4 +342,10 @@ li[draggable]::before {
   width: 600px; /* Set your desired width */
   height: 300px; /* Set your desired height */
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .family_footer {
+    width: 200px;
+  }
 }
