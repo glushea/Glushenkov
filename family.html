@@ -14,9 +14,15 @@
 <script>
       $(document).ready(function () {
             $(".btn-show").click(function () {
-                var sectionId = $(this).data("section");
+                const sectionId = $(this).data("section");
+                const $section = $("#" + sectionId);
+
                 $(".section").hide();
                 $("#" + sectionId).show();
+                 // Scroll to the selected section
+                $('html, body').animate({
+                scrollTop: $section.offset().top
+                }, 500);
             });
         });
         function zoomIn() {
@@ -88,7 +94,7 @@
                 <a class="nav-link" href="./shirts.html">My Shirts Design</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./family.html">My Family details</a>
+                <a class="nav-link" href="./family.html">My Family Story</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./contact.html">Contact</a>
@@ -102,7 +108,7 @@
         </div>
       </nav>
       <div class="px-4 pt-5 my-5 text-center border-bottom">
-        <h1 id="title"  class="display-4 fw-bold text-body-emphasis">My Family story</h1>
+        <h1 id="title"  class="display-4 fw-bold text-body-emphasis">My Family Story</h1>
         <div class="container px-5">
             <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573054/jpeg/Glushea_jpeg_1_no0fvc.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Alex's image" width="600" height="600" loading="lazy">
          
@@ -133,7 +139,10 @@
           <button class="btn-show" data-section="section9">Glushenkov family</button>
           <button class="btn-show" data-section="section11">Vladimir (Vova) Glushenkov</button>
           <button class="btn-show" data-section="section13">Isanna Glushenkov</button>
-          <button class="btn-show" data-section="section12">Isanna (Zak) Glushenkov - my speech from the funeral</button>
+          <button class="btn-show" data-section="section12">Isanna (Zak) Glushenkov - my eulogy from the funeral</button>
+          <button class="btn-show" data-section="section14">Isanna (Zak) Glushenkov -  Danny's ulogy from the funeral</button>
+          <button class="btn-show" data-section="section15">Ancestors graves</button>
+
 
           <a class="family_link" target="_blank"  href="https://www.myheritage.com/site-family-tree-349398311/%D7%92%D7%9C%D7%95%D7%A9%D7%A0%D7%A7%D7%95%D7%91?newTree=&rootIndividualID=1500003#">My family tree in MyHeritage</a>
 
@@ -293,6 +302,66 @@
                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/grand/grand21_y0cnar.jpg" width="400px">
 
                     </div>
+                </div>
+              </div>
+
+              <div id="section14" class="section container col-xxl-8 px-0 pb-0 border-bottom">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                    <div class="col-lg">
+                    <p class="lead">Dear mother,<br><br>
+
+                        You were born in Yekaterinburg, on the western outskirts of Siberia, in 1942. Your father, a talented engineer, played a key role in the relocation of Russian military production capabilities during World War II to the Ural Mountains, and you often spoke of him with admiration and great respect. Your mother also contributed to the war effort by hosting Red Army soldiers on their way to the front at your home. She gave them her bed and what little food you had in the house, while she slept on the floor. You told us about your struggles to be accepted to university to study engineering as a Jew, in the face of a numerical limitation that was applied to Jews. And yet, you succeeded. Later on, you taught yourself programming and wrote code in COBOL on punch card machines. I remember that once you took me to your work to run a game of tic-tac-toe on the hulking computer.. It took at least half an hour of preparation and as far as I remember I wasn’t very impressed by the experience 😊 <br><br>
+                        
+                        Later, in the 90’s after our family trip in Moscow, you made the decision with Dad to immigrate to Israel. You were already in your forties and were not afraid to make such a dramatic change at a not-so-young age. The personal implication of this move was a decline in economic and social status, but you were willing to pay the price because you were convinced it was the right thing for me and Alex. You made a personal sacrifice for those you loved most and experienced the difficult implications without complaining or asking for anything in return.<br><br>
+                        
+                        Thank you for the good years, the potent lessons, the tremendous patience, the great stubbornness, and the infinite love. The impermanence of life sometimes hits you out of nowhere, whether you're trying to be mindful of its existence at every moment or not. In another generation or two, it will be hard to remember the experiences we had, the challenges we overcame, and the failures we could not overcome. But it doesn't matter, because you mattered! Not only to me but to countless people who, when we informed them of your passing away, were quick to tell us how they saw you. A righteous woman, compassionate, always ready to help, and full of love. You were significant in your giving, in your broad human heart, in life's lessons, in perseverance, in a strong spirit, and in the immense devotion to your children and grandchildren. Your life, although sometimes not easy, was filled with openness, curiosity, and the aspiration to give us... your children and grandchildren the best possible.<br><br>
+                        
+                        There are many good moments of us that I will always remember… some of them very personal and some less so. One of the best moments happened just last Monday when I came to visit you after a trip abroad. You smiled at me the moment you saw me, it was a radiant smile, full of happiness and filled with the purest love you can imagine. Despite the pain, discomfort, and physical deterioration, you said a few words that a mother says to her son, which mean the world to me. That's how I'll remember you - radiantly happy and loving.<br><br>
+                        
+                        May you no longer know suffering and pain, may you know only peace, tranquillity, and harmony in the place you're heading now. Enjoy the best the universe has to offer. My love will always accompany you.<br><br>
+                        </p>
+
+                    </div>
+                </div>
+              </div>
+              <div id="section15" class="section container col-xxl-8 px-0 pb-0 border-bottom">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+                    <div class="col-lg">
+                    <p class="lead" style="font-size: 22px;""><b>Mom and Dad:</b></p><br><br>
+                    <p class="lead"><b>Vladimir and Isanna Glushenkov (Zak)</b> - dad died in 2018 from CPOD, and mom died from Colon and Anal cancer in 2023. They are buired in Lod new cementry in Israel</p><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690642889/graves/father_owg3zq.jpg" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690642969/graves/mom_place_de6srn.jpg" width="400px"><br><br>
+                    <p class="lead" style="font-size: 22px;""><b>Mom's side:</b></p><br><br>
+                    <p class="lead"><b>Gabriel Zak</b> - stayed in Minsk when the war started as he wanted to protect the sinaguage (he was very religioes) and according to the rumors was burned togehter with the sinaguage. Here is the evidence from Yad Vashem:</p><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638475/graves/zak_gavriel_ikteyr.jpg" width="400px"><br><br>
+                    <p class="lead"><b>Khasiya Itke Zak (Kivelevich) </b> - died before the second world war in 1921 (the year not confirmed) and was buried in Minsk former Jewish cemetery on Collectornaya Street in Minsk</p><br><br>
+                    <p class="lead"><b>Israel Melamed </b> - died before the second world war in 1939 apprantly from tuberculosis and was buried in Gomel</p><br><br>
+                    <p class="lead"><b>Chaya Melamed (Radashkovich)</b> - died in 1971. Apprantly from Stroke and was buried in Leningrad (today Sant Petesburg)</p><br><br>
+                    <p class="lead"><b>Gregory (Hirsh) Zak and Elena Melamed</b> - Elena died from Leukemia in 1976 and Gregory from stroke in 1977. They are buried in <a target="_blank" href="https://pomnim.online/cemetery/13">Northen cemetery</a> in Minsk</p><br><br>
+                    <p class="lead">The entrance is from the main (first) gate:</p>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690640732/graves/cemetry_entrance_dy83nw.jpg" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690640752/graves/cemetry_map_ppq4vc.jpg" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638472/graves/gregory_elena_lkoniu.jpg" width="400px"><br><br>
+                    <p class="lead"><b>Boris Zak (mother's brother)</b> - died in 2019 and was buried in Cologne in Germany - Jewish Cemetery Cologne-Bocklemünd, Venloerstrasse 1152:</p><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690641886/graves/boris_cemetry_map_ygp1er.jpg" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690641940/graves/boris_grave_agrytg.jpg" width="400px"><br><br>
+                    <p class="lead"><b>Alex (Sasha) Zak (mother's uncle)</b> - died in 1985 and was buried in Northen cemetery in Minsk. His grave is near second gate, near green bus</p>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690642693/graves/sasha_zak_ll39lv.jpg" width="400px"><br><br>
+                    <p class="lead" style="font-size: 22px;""><b>Dad's side:</b></p><br><br>
+                    <p class="lead"><b>Simcha Evdasin (dad's great-grandfather)</b> - died in Leningrad during the <a  target="_blank" href="https://collections.yadvashem.org/en/names/6096447">Nazi blockade</a>. Here is the evidence from Yad Vashem:</p><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638468/graves/Simcha_bc0zsa.jpg" width="400px"><br><br>
+                    <p class="lead"><b>Pesach Evdasin (dad's grandmother brother)</b> - died in camps during the Second world war. Here is the evidence from Yad Vashem:</p><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638469/graves/pesach_evdasin_vljn4d.jpg" width="400px"><br><br>
+                    <p class="lead"><b>Tzila Borisenko (Evdsin)</b> - died in 1988 and was buried in Northen cemetery in Minsk. Her grave in the corner of sections 82 and 62. Down on 62 section</p>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638481/graves/tzila_jycngm.jpg" width="400px"><br><br>
+                    <p class="lead"><b>Vladimir Borisenko </b> - died in 1991 and was buried in Northen cemetery in Minsk. His grave near the sign of 75a, on the left side</p><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638480/graves/borisnko_mcmmrd.jpg" width="400px"><br><br>
+                    <p class="lead"><b>Andrey and Alexander Glushenkov </b> - Andrey died in 1986 and Alexander in 2008. They are buried in the same grave in Northen cemetery in Minsk. Their grave near the section 79, under big tree</p><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638478/graves/glushenkov_va_radqfz.jpg" width="400px"><br><br>
+                    <p class="lead"><b>Maya and Olga Glushenkov </b> - Maya died in 2013 and Olga in 2021 (from Covid 19). They are buried in the same grave in <a  target="_blank" href="https://ritual-173.by/zapadnoe">Western cemetery</a> in Minsk. Their grave 200meters from the entrance, on the main road</p><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638476/graves/maya_b3ipa0.jpg" width="400px"><br><br>
+                
+                </div>
                 </div>
               </div>
               <div id="section7" class="section container col-xxl-8 px-0 pb-0 border-bottom">
@@ -491,8 +560,6 @@
                             In Israel, she worked at an Oranges factory for many years and supported our father during his illness. Together, they embarked on journeys to Turkey, Greece, France, Germany, and England.<br><br>
                             
                             In March 2018, she discovered she had cancer. Despite the challenges, she courageously battled the illness with various treatments and underwent five surgeries until July 2023.<br><br>
-                            
-                            
                             
                             
                             </p>
