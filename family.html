@@ -25,18 +25,9 @@
                 }, 500);
             });
         });
-        function zoomIn() {
-            var image = document.getElementById('zoomImage');
-            image.style.cursor = 'zoom-out';
-            image.setAttribute('onclick', 'zoomOut()');
-        }
-
-        function zoomOut() {
-            var image = document.getElementById('zoomImage');
-            image.style.cursor = 'zoom-in';
-            image.setAttribute('onclick', 'zoomIn()');
-        }
+       
 </script>
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -140,7 +131,7 @@
           <button class="btn-show" data-section="section11">Vladimir (Vova) Glushenkov</button>
           <button class="btn-show" data-section="section13">Isanna Glushenkov</button>
           <button class="btn-show" data-section="section12">Isanna (Zak) Glushenkov - my eulogy from the funeral</button>
-          <button class="btn-show" data-section="section14">Isanna (Zak) Glushenkov -  Danny's ulogy from the funeral</button>
+          <button class="btn-show" data-section="section14">Isanna (Zak) Glushenkov - Danny's eulogy from the funeral</button>
           <button class="btn-show" data-section="section15">Ancestors graves</button>
 
 
@@ -478,13 +469,9 @@
                             </p>
                             <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573216/papa_side/three_sisters_sfh00r.jpg" width="400px">
                             <p class="lead">Here are the documents we found regarding Evdsin family:</p><br>
-                            <div class="zoom-container">
-                                <img class="family_image" id="zoomImage" class="zoom-image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573166/papa_side/doc1_u1sslg.jpg" width="400px" onclick="zoomIn()"></div>
-                               <div class="zoom-container">
-                                <img class="family_image" id="zoomImage" class="zoom-image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573170/papa_side/doc2_dd9328.jpg" width="400px" onclick="zoomIn()"></div>
-                                <div class="zoom-container">
-                                <img class="family_image" id="zoomImage" class="zoom-image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573165/papa_side/doc3_l5rywn.jpg" width="400px" onclick="zoomIn()">
-                            </div>
+                              <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573166/papa_side/doc1_u1sslg.jpg" width="400px"><br>
+                               <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573170/papa_side/doc2_dd9328.jpg" width="400px"><br>    
+                               <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573165/papa_side/doc3_l5rywn.jpg"  width="400px"><br>
                     </div>
                 </div>
               </div>

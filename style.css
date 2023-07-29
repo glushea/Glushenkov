@@ -338,11 +338,7 @@ li[draggable]::before {
 .person {
   margin: 10px;
 }
-.image-container {
-  width: 600px; /* Set your desired width */
-  height: 300px; /* Set your desired height */
-  overflow: hidden;
-}
+
 
 @media (max-width: 768px) {
   .family_footer {
