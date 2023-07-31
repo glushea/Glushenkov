@@ -339,6 +339,11 @@ li[draggable]::before {
   margin: 10px;
 }
 
+.family_footer {
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (max-width: 768px) {
   .family_footer {
@@ -385,4 +390,28 @@ li[draggable]::before {
   line-height: 40px; /* Center the icon vertically */
   margin-top: 0; /* Set margin-top to 0 to center the icon */
   font-size: 35px; /* Increase the font size to make the icon larger */
+}
+
+
+
+/* Font Awesome is not needed, remove it */
+.scroll-up {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 999;
+  background-color: #f60;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 24px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.scroll-up::before {
+  content: "\2191"; /* Unicode character for the upwards arrow */
 }

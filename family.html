@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="data:,">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
       $(document).ready(function () {
@@ -30,7 +31,7 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-alexa" viewBox="0 0 16 16">
             <path d="M7.996 0A7.998 7.998 0 0 0 0 8a8 8 0 0 0 6.93 7.93v-1.613a1.06 1.06 0 0 0-.717-1.008A5.602 5.602 0 0 1 2.4 7.865 5.579 5.579 0 0 1 8.054 2.4a5.599 5.599 0 0 1 5.535 5.81l-.002.046a6.116 6.116 0 0 1-.012.192l-.005.061a4.85 4.85 0 0 1-.033.284l-.01.068c-.685 4.516-6.564 7.054-6.596 7.068A7.998 7.998 0 0 0 15.992 8 7.998 7.998 0 0 0 7.996.001Z"/>
@@ -73,7 +74,7 @@
                   <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/lost-in-the-rabbit-hole-navigating-distractions-in-software-development-607b63bf252e">Lost in the Rabbit Hole: Navigating Distractions in Software Development</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/notifying-the-masses-the-benefits-and-challenges-of-the-observer-pattern-in-software-development-5decd1c008e3">Notifying the Masses: The Benefits and Challenges of the Observer Pattern in Software Development</a></li>
-                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/the-magnitude-of-software-development-its-not-as-big-as-you-think-or-is-it-7d51d0fad447">SThe Magnitude of Software Development: It’s Not as Big as You Think (Or Is It?)</a></li>
+                  <li><a class="dropdown-item" href="https://medium.com/@alexglushenkov/the-magnitude-of-software-development-its-not-as-big-as-you-think-or-is-it-7d51d0fad447">The Magnitude of Software Development: It’s Not as Big as You Think (Or Is It?)</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="./mypub.html">View all</a></li>
                 </ul>
@@ -91,13 +92,11 @@
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
             </ul>
-            <!-- <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
+            
           </div>
         </div>
-      </nav>
+      </nav> -->
+      <div id="headerContainer"></div>
       <div class="px-4 pt-5 my-5 text-center border-bottom">
         <h1 id="title"  class="display-4 fw-bold text-body-emphasis">My Family Story</h1>
         <div class="container px-5">
@@ -118,8 +117,7 @@
               </div>
           </div>
 
-          <button class="btn-show" data-section="section1">Lev Kokin first letter</button>
-          <button class="btn-show" data-section="section2">Lev Kokin second letter</button>
+          <button class="btn-show" data-section="section1">Lev Kokin letters</button>
           <button class="btn-show" data-section="section3">Gabriel Zak in USA</button>
           <button class="btn-show" data-section="section4">Zak family in Voloshin</button>
           <button class="btn-show" data-section="section5">Memories of Gregory Zak</button>
@@ -150,9 +148,9 @@
                     <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690779228/kokin_icshpo.jpg" width="200px" >
                     <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573087/mom_side/lev_kokin_rcu1zl.jpg" width="400px" ><br><br>
                     <a class="family_link"  target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BA%D0%B8%D0%BD,_%D0%9B%D0%B5%D0%B2_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87">Lev Kokin - Wiki page</a>
-                    <a class="family_link" target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BA%D0%B8%D0%BD%D0%B0,_%D0%93%D0%B0%D0%BB%D0%B8%D0%BD%D0%B0_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D0%BD%D0%B0">Galina Kokin (Lev's sister) - Wiki page</a>
+                    <a class="family_link" target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BA%D0%B8%D0%BD%D0%B0,_%D0%93%D0%B0%D0%BB%D0%B8%D0%BD%D0%B0_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D0%BD%D0%B0">Galina Kokin (Lev's sister) - Wiki page</a><br><br>
                     
-                    <p class="lead">On May 2nd, 1998, I visited the former Jewish cemetery on Collectornaya Street in Minsk, where our grandmother Khasya rests. However, it was not exactly at the grave, as the cemetery had been demolished in the 60s by bulldozers and covered with black soil. I recall seeing the dump trucks transporting the debris. Khasya-Itke, whose premarital surname was Kivelevich, had an impressive education, being fluent in Russian, Polish, German, Yiddish, and Hebrew. She possessed a range of skills, including midwifery and nursing, which made her highly respected among the Belarusian community.
+                    <p class="lead"><b>Here is the translation of the first letter:</b>On May 2nd, 1998, I visited the former Jewish cemetery on Collectornaya Street in Minsk, where our grandmother Khasya rests. However, it was not exactly at the grave, as the cemetery had been demolished in the 60s by bulldozers and covered with black soil. I recall seeing the dump trucks transporting the debris. Khasya-Itke, whose premarital surname was Kivelevich, had an impressive education, being fluent in Russian, Polish, German, Yiddish, and Hebrew. She possessed a range of skills, including midwifery and nursing, which made her highly respected among the Belarusian community.
                     </p>
                     <br>
                     <p class="lead">Khasya got married relatively late for those times, at 27 years old, to our grandfather Gabriel, who was younger than her. Our great-grandfather remains somewhat of a mystery, as his name was unknown, but he was a cantonist, one of the Jewish boys conscripted into the Russian Tzar’s army. He survived and received land, nobility, and awards for his service. Aunt Rosa, who showed interest in our family history, shared stories of his strong character and physical prowess.
@@ -174,16 +172,10 @@
                     <p class="lead">Surprisingly, the outbreak of the 1914 war saved the Zak from extinction, as they were granted refugee status, which provided them with free meals and housing. They were relocated to Minsk in 1915, settling in a house near the former Red Barracks, now at the corner of Kuibyshev and Varvashenka streets. 
                     </p>
                     <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573084/mom_side/khaya_itke_wa2tre.jpg" width="600px">
-                    <p class="lead">Despite the challenging conditions with no heating, indoor latrine, and scarce food supplies like bread, meat, butter, and sugar, the family managed to survive and even pursue higher education. The available information is limited, but the Zak family undoubtedly has an ancient history, with their surname possibly having German origins. “Sak” meaning a bag suggests that their ancestors might have lived in Germany and were either very wealthy (having a bag of money) or extremely poor. The exact truth behind their origins remains uncertain.
+                    <p class="lead">Despite the challenging conditions with no heating, indoor latrine, and scarce food supplies like bread, meat, butter, and sugar, the family managed to survive and even pursue higher education. The available information is limited, but the Zak family undoubtedly has an ancient history, with their surname possibly having German origins. “Sak” meaning a bag suggests that their ancestors might have lived in Germany and were either very wealthy (having a bag of money) or extremely poor. The exact truth behind their origins remains uncertain.<br><br>
                     </p>
-                </div>
-              </div>
-            </div>
-            <div id="section2" class="section container col-xxl-8 px-0 pb-0 border-bottom">
 
-              <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
-                <div class="col-lg">
-                     <p class="lead">Another letter of Lev Kokin that he address to us (me and Danny):
+                    <p class="lead"><b>Transaltion of another letter of Lev Kokin that he address to us (me and Danny):</b>
                     </p>
                     <br>
                     <p class="lead">This letter is not addressed to you and Vladimir but to your dear sons, Sasha and Dima. I’ve been wanting to write it for quite some time, and now I’ve finally decided to do so. Let’s discuss the family inheritance of the Zak family. As the eldest in the family and with not much time left, I feel it is my duty to pass on this knowledge, hence why I’m reaching out to you both.</p>
@@ -199,13 +191,39 @@
                     <br>
                     <p class="lead">As you continue to learn about your family heritage, may you hold your ancestors’ stories close to your heart and pass them down to future generations with pride and reverence.
                     </p>
-                 </div>
+
+                    <p class="lead"><b>Here is the translation of part of the letter where he described his visit in Lubcha:</b><br><br>
+                      Last month, I embarked on a meaningful journey to the urban settlement of Lubcha, a place with significant family ties as it was once the home of our great-grandfather, the esteemed rabbi and father of our grandmother, Khasi. I was determined to locate the synagogue where he served, and after some searching, I finally found the building. However, to my surprise, it now houses a settlement house of culture, a fact that left me pondering the changes that have occurred over the years.<br><br>
+
+                      The sight that greeted me inside was quite disheartening. Instead of the solemn atmosphere one would expect in a former synagogue, the walls now resonated with lively dance music and the presence of "non-Jewish" drinks being consumed near the entrance. The building itself, though, is still an impressive structure, boasting a tall, well-built form with five huge windows on the side facade. Its entrance is adorned with a pediment and four pilasters, showcasing a neoclassical style that exudes a sense of grandeur. The synagogue stands proudly on the banks of the Neman River, which used to accommodate steamboats during the era when Rabbi Kivelevich lived here, around the 1840s and 1850s.<br><br>
+                      
+                      Our great-grandfather's legacy was one of intelligence, talent, and intellectuality. His reputation as an intellectual and accomplished individual has clearly had an enduring impact on our family. As I stood before the building, a mix of emotions overwhelmed me, and my heart ached with the weight of the past. I felt a strong desire to kneel down and touch the stones and earth in reverence, but I held back in the presence of my companions, factory workers who had joined me on this journey.<br><br>
+                      
+                      Unfortunately, my inquiries with the locals yielded no information about the synagogue, and I discovered that there are no longer any Jews living in Lubcha. In the pre-war years, the town boasted 3,260 inhabitants, with 1,500 of them being Jews, making up nearly half of the town's population. I pay my respects to all those who once lived here, especially the Jewish community, who are now laid to rest in the mass grave memorialized by a monument to the Holocaust victims. The fact that the cemetery is still well-kept brings some solace amidst the sorrow of the town's losses.<br><br>
+                      
+                      The remnants of pre-war Lubcha stand as a reminder of the past, with its wooden buildings that have now dulled and aged. Although my time there was brief, the experience weighed heavily on my heart. As I departed, my companions hastened our departure, and I carried with me a mix of emotions, grateful for the opportunity to connect with our family's history, yet deeply moved by the poignant changes and losses that have occurred over the years.<br><br>
+         
+                    </p>
+                    <p class="lead"><b>Here is the translation of part of the letter where he described our great-grandfather Gabriel Zak:</b><br><br>
+                      I am delighted with the photograph of my grandfather, and I spent a considerable amount of time studying it. Upon closer observation, I noticed a striking resemblance between his facial features and those of Leonid Zak's father - Shura or Sholom. The expression in the eyes is remarkably similar to both Leonid and Shura. It makes me wonder why my grandfather didn't achieve great wealth or become a millionaire in the USA, which could have led our entire family to embrace American life and potentially be happier.<br><br>
+
+                      During my stay in Minsk, I have been on a quest to find the location of the pre-war synagogue. According to the prevailing legend, the synagogue met a tragic fate and was consumed by fire, together with our grandfather Gabriel. My memories of him are vivid. Like many in the Zak family, he was not particularly talkative, and details about his family history and personal life remained elusive. Rumors suggest that his time in the USA was fraught with challenges due to his bouts of Parkinson's disease, leading to frequent job dismissals.<br><br>
+                      
+                      One specific memory I cherish is our journey from Stalingrad to Minsk in 1938. During a transfer in Orel, he would frequently doze off while waiting at the station. As a mischievous 14-year-old, I found amusement in playfully tickling his nose with a straw. Surprisingly, he never grew angry and never scolded me, despite my playful antics.<br><br>
+                      
+                      I am still exploring Minsk, reflecting on these memories, and contemplating the untold stories of my grandfather's life and the legacy of the Zak family.<br><br>
+                      
+                      
+                    </p>
+                    <!-- <div class="scroll-up">
+                    </div> -->
+                  </div>
               </div>
-              </div>
-              <div id="section3" class="section container col-xxl-8 px-0 pb-0 border-bottom">
+            </div>
+            <div id="section3" class="section container col-xxl-8 px-0 pb-0 border-bottom">
                 <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
                     <div class="col-lg">
-                        <p class="lead">Records about Gabriel Zak in USA that recieved from local reasher:
+                        <p class="lead">Records about Gabriel Zak in USA that recieved from local researcher:
                         </p>
                         <br>
                         <p class="lead">I located two records that may be interesting for you. The first is a 1920 census record for a Gabriell Zak, who was a 'roomer' (he rented a room) on Moon Street in Akron, in Summit County. This may or may not be your great-grandfather, but I think it is. His age is given as 40 and year of immigration is given as 1913; these details are similar enough that I think it must be the same person, but I can't be sure. </p>
@@ -216,6 +234,7 @@
                         </p>
                     </div>
                 </div>
+
               </div>
               <div id="section4" class="section container col-xxl-8 px-0 pb-0 border-bottom">
                 <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
@@ -267,7 +286,8 @@
                         <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573185/grand/grand12_te2xzc.jpg" width="400px">
                         <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/grand/grand14_yknc37.jpg" width="400px">
                         <img src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573144/grand/grand22_qq79gh.jpg" width="400px">
-                  </div>
+                        
+                      </div>
                 </div>
               </div>
               <div id="section6" class="section container col-xxl-8 px-0 pb-0 border-bottom">
@@ -305,7 +325,7 @@
                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573234/grand/grand19_zuwte9.jpg" width="400px">
                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573211/grand/grand20_ethcg3.jpg" width="400px">
                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/grand/grand21_y0cnar.jpg" width="400px">
-
+                       
                     </div>
                 </div>
               </div>
@@ -325,7 +345,7 @@
                         
                         May you no longer know suffering and pain, may you know only peace, tranquillity, and harmony in the place you're heading now. Enjoy the best the universe has to offer. My love will always accompany you.<br><br>
                         </p>
-
+                        
                     </div>
                 </div>
               </div>
@@ -337,7 +357,7 @@
                     <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690642889/graves/father_owg3zq.jpg" width="400px"><br><br>
                     <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690642969/graves/mom_place_de6srn.jpg" width="400px"><br><br>
                     <p class="lead" style="font-size: 22px;""><b>Mom's side:</b></p><br><br>
-                    <p class="lead"><b>Gabriel Zak</b> - stayed in Minsk when the war started as he wanted to protect the sinaguage (he was very religioes) and according to the rumors was burned togehter with the sinaguage. Here is the evidence from Yad Vashem:</p><br><br>
+                    <p class="lead"><b>Gabriel Zak</b> - stayed in Minsk when the war started as he wanted to protect the sinaguage (he was very religioes) and according to the rumors was burned togehter with the sinaguage. Here is the evidence from Yad Vashem written by my mother:</p><br><br>
                     <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638475/graves/zak_gavriel_ikteyr.jpg" width="400px"><br><br>
                     <p class="lead"><b>Khasiya Itke Zak (Kivelevich) </b> - died before the second world war in 1921 (the year not confirmed) and was buried in Minsk former Jewish cemetery on Collectornaya Street in Minsk</p><br><br>
                     <p class="lead"><b>Israel Melamed </b> - died before the second world war in 1939 apprantly from tuberculosis and was buried in Gomel</p><br><br>
@@ -357,7 +377,7 @@
                     <p class="lead" style="font-size: 22px;""><b>Dad's side:</b></p><br><br>
                     <p class="lead"><b>Simcha Evdasin (dad's great-grandfather)</b> - died in Leningrad during the <a  target="_blank" href="https://collections.yadvashem.org/en/names/6096447">Nazi blockade</a>. Here is the evidence from Yad Vashem:</p><br><br>
                     <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638468/graves/Simcha_bc0zsa.jpg" width="400px"><br><br>
-                    <p class="lead"><b>Pesach Evdasin (dad's grandmother brother)</b> - died in camps during the Second world war. Here is the evidence from Yad Vashem:</p><br><br>
+                    <p class="lead"><b>Pesach Evdasin (dad's grandmother brother)</b> - died in camps during the Second world war. Here is the evidence from Yad Vashem written by my father:</p><br><br>
                     <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638469/graves/pesach_evdasin_vljn4d.jpg" width="400px"><br><br>
                     <p class="lead"><b>Tzila Borisenko (Evdsin)</b> - died in 1988 and was buried in Northen cemetery in Minsk. Her grave in the corner of sections 82 and 62. Down on 62 section</p>
                     <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638481/graves/tzila_jycngm.jpg" width="400px"><br><br>
@@ -369,7 +389,7 @@
 
                     <p class="lead"><b>Maya and Olga Glushenkov </b> - Maya died in 2013 and Olga in 2021 (from Covid 19). They are buried in the same grave in <a  target="_blank" href="https://ritual-173.by/zapadnoe">Western cemetery</a> in Minsk. Their grave 200meters from the entrance, on the main road</p><br><br>
                     <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638476/graves/maya_b3ipa0.jpg" width="400px"><br><br>
-                
+                   
                 </div>
                 </div>
               </div>
@@ -409,6 +429,7 @@
 
                                 The last time I had the chance to see Lenya Zak was in 2008. Leonid Aleksandrovich worked tirelessly in a small room on the top floor of the main building of ITM and VT. It was a windowless space, previously used as a utility room, but he had transformed it into his workspace. There, he took care of debugging the TEZs himself to fulfill various orders. Work was an integral part of Leonid’s life; he couldn’t imagine a life without it. May he rest in blessed memory.
                                 </p>
+                               
                     </div>
                 </div>
               </div>
@@ -449,7 +470,8 @@
                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/Chaya_zuhnhl.jpg" width="400px">
                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573087/mom_side/Chaya_arseney_yn0y9j.jpg" width="400px">
                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573101/mom_side/Chaya_old_otx4uz.jpg" width="400px">
-                    </div>
+                        
+                      </div>
                 </div>
               </div>
               <div id="section9" class=" section container col-xxl-8 px-0 pb-0 border-bottom">
@@ -491,8 +513,69 @@
                                <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573170/papa_side/doc2_dd9328.jpg" width="400px"><br>    
                                <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573165/papa_side/doc3_l5rywn.jpg"  width="400px"><br>
                                <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711906/IMG_6355_a0yqg0.jpg"  width="400px"><br>
+                            <p class="lead">Pesach (Peter) was a surgeon who got captured during the Second World War. He attempted to escape from the Porkhov camp, but tragically, the Nazis killed him while he was trying to flee. This devastating event occurred after he had bravely saved someone, only to be betrayed by that very person.<br><br>
 
-                              </div>
+                              The following are letters of correspondence between my great-grandmother, Tzila, and a researcher, shedding light on the story of Pesach and the events surrounding his capture and untimely demise during the war. First letter:</p>
+                            <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711908/IMG_6353_effs2q.jpg" width="400px"><br>    
+                            <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711911/IMG_6354_z1lr8e.jpg"  width="400px"><br>
+                            <p class="lead"> Here is the translation: <br><br>
+                              19 March 1965<br><br>
+
+                              Dear Tsilya (Tzila) Semyonovna!<br><br>
+                              
+                              Nineteen years ago (yes, nineteen years!), you asked me to provide all the information I knew about your brother, Peter Semyonovich, and his time in Porkhov, as well as his letter. I cannot recall precisely what I informed you back then, but I shared everything I knew at the time<br><br>
+                              
+                              In light of the recent anniversary of the victory over fascism, I have been requested to recollect my experiences during the years of the Patriotic War. While doing so, memories of Evdasin resurfaced. I am currently searching for individuals who might have more detailed information about his stay in Porkhov. It is possible to find such people, and to aid in my search for them, I would appreciate your assistance with the following<br><br>
+                              
+                              How did you come to know that your brother was held at the Porkhov prisoner-of-war camp? Please share the circumstances under which you received this information<br>
+                              Do you already possess detailed information about his passing while he was there?<br>
+                              On whose recommendation did you meet with the Kiselev sisters, and what did they reveal about your brother? How did they come to know about his fate?<br>
+                              Are there any residents of Porkhov city who might be aware of the location of your brother's grave?<br><br>
+                              
+                              Your responses will be valuable in helping me identify individuals who knew your brother in Porkhov, especially during his last days.<br><br>
+                              
+                              I will gladly share any new information I obtain regarding Peter Semyonovich with you.<br><br>
+                              
+                              Additionally, I kindly request you to provide me with the contact details of the Kiselevs.<br><br>
+                              
+                              If my memory serves me correctly, Evdasin worked and lived in Leningrad before the war. Could you provide more specific information about his exact location?<br><br>
+                              
+                              Regards,<br>
+                              19 March 1965 	<br>
+                              Dm. Batenin<br><br>
+                              
+                              City Kostroma <br>
+                              Dzerzhinsky st.<br>
+                              b. 21, app. 13<br><br>
+                              
+                              Batenin<br>
+                              Dmitry Ignatyevich<br><br>
+        
+                            
+                            </p>
+                            <p class="lead"> Here is the second letter: <br><br>
+                              <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711894/IMG_6351_pivqva.jpg" width="400px"><br>    
+                              <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711897/IMG_6352_ppofkg.jpg"  width="400px"><br>
+                           Here is the translation:<br>
+                           Kostroma<br>
+                           2 April 1965<br><br>
+                           
+                           Dear Tsilya (Tzila) Semyonovna,<br><br>
+                           
+                           I have received your letter, and I apologize for any inconvenience caused by my inquiries. Your responses have been intriguing and have raised new questions that require further clarification. While it is known that an anti-fascist resistance group existed in the Porkhov prisoner-of-war camp, it is the first time I am learning about traitors within it. Perhaps you could assist me in locating Major Lukashenko, who was acquainted with your brother, as well as Bogdanov, who escaped captivity alongside Lukashenko. Bogdanov is the individual who fled the camp with your brother and later met Lukashenko, sharing crucial details about your brother's escape and subsequent demise.<br><br>
+                           
+                           Regarding Brukman, Filimonenko, and Trachuk, who were also imprisoned alongside your brother, and about whom I previously inquired, have you managed to ascertain their current whereabouts? What information did they provide to you?<br><br>
+                           
+                           I kindly request that you respond promptly, as I intend to compose an article about the partisan struggle and underground resistance in the Porkhov prisoner-of-war camp, in commemoration of the victory over Nazi Germany. Your answers will greatly aid me in clarifying certain data.<br><br>
+                           
+                           Additionally, I anticipate visiting Porkhov soon. If you have any specific requests or tasks for me, please do not hesitate to let me know.<br><br>
+                           
+                           Regards, <br>
+                           Dm. Batenin<br><br>
+                           
+                           2 April 1965<br><br>
+                          
+                          </div>
                 </div>
               </div>
 
@@ -544,7 +627,7 @@
                             <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/papa/vova27_nib5kx.jpg" width="400px">
                             <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573172/papa/vova28_fpiwa3.jpg" width="400px">
                             <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573230/papa/vova29_gihb66.jpg" width="400px">
-
+                          
 
                     </div>
                 </div>
@@ -600,7 +683,7 @@
                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573197/mama/isanna20_vlfitf.jpg" width="400px">
                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573155/mama/isanna21_xfaxkm.jpg" width="400px">
                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/mama/isanna22_sqd6wo.jpg" width="400px">
-
+                       
 
                     </div>
                 </div>
@@ -629,6 +712,7 @@
     
     Mom, we will always cherish your memory, and may you rest in peace alongside dad. As we continue our journey, we know you’ll watch over us from above until we meet again. Your love will forever remain in our hearts, and we’ll remember you until our last breath.<br><br>
     </p>
+   
                     </div>
                 </div>
               </div>
@@ -2425,18 +2509,21 @@
                             На вялікай будоўлі, на звонкіх палях<br>
                             Хай жывуць комсомольцы!<br><br>
                             
-                        
+                           
                         </p>
-
+                        
                     </div>
                 </div>
               </div>
 
             <!-- </div> -->
           </div>
+          <div class="scroll-up">
+          </div>
+          <div id="footerContainer"></div>
 
          
-      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <!-- <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="container px-5">         
             <img class="family_footer" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573002/glushea_png-04_scoan7.png" width="800px" alt="Alex's image" loading="lazy">       
          </div>
@@ -2460,8 +2547,9 @@
             </ul>
           </div>
         </div>
-      </footer>
-    </div>
+      </footer> -->
+    <!-- </div> -->
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
     </html>
