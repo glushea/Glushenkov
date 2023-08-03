@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search Results</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Dancing+Script:wght@600&family=Inter&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="data:,">
+    
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+<body>
+    <div id="headerContainer"></div>
+
+    <div id="searchResultsContainer">
+        <!-- Search results will be displayed here -->
+    </div>
+
+    <script>
+        // Your JavaScript code for handling the search functionality goes here
+      
+        // Your data representing the content of your site (you can modify this based on your actual content)
+        const siteData = [
+          { title: 'About', content: 'This is the content of page 1.', url: './about.html' },
+          { title: 'Home', content: 'This is the content of page 2.', url: './index.html' },
+          { title: 'Contact', content: 'This is the content of page 3.', url: './contact.html' },
+          { title: 'Family', content: 'This is the content of page 4.', url: './family.html' },
+          { title: 'Cities', content: 'This is the content of page 5.', url: './myCities.html' },
+          { title: 'Publications', content: 'This is the content of page 6.', url: './mypub.html' },
+          { title: 'Shirts', content: 'This is the content of page 7.', url: './shirts.html' },
+    
+    
+          // Add more pages with their titles, content, and URLs
+        ];
+      
+       
+                // Function to filter the data based on the search term
+                function performSearch(searchTerm) {
+            const filteredResults = siteData.filter(page => {
+                // Perform a case-insensitive search by converting both the searchTerm and page title/content to lowercase
+                return (
+                    page.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                    page.content.toLowerCase().includes(searchTerm.toLowerCase())
+                );
+            });
+
+            // Display the filtered results in the searchResultsContainer
+            displaySearchResults(filteredResults);
+        }
+
+        // Function to display the search results in the container
+        function displaySearchResults(results) {
+            const searchResultsContainer = document.getElementById('searchResultsContainer');
+            if (results.length === 0) {
+                searchResultsContainer.innerHTML = '<p>No results found.</p>';
+            } else {
+                const resultHTML = results.map(page => {
+                    // Generate anchor links for each result page
+                    return `<h3><a href="${page.url}">${page.title}</a></h3><p>${page.content}</p>`;
+                }).join('');
+                searchResultsContainer.innerHTML = resultHTML;
+            }
+        }
+
+        // Get the search term from the URL query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchTerm = urlParams.get('q');
+        console.log('Search Term:', searchTerm); // Log the search term to the console
+
+        // Perform the search when the page loads with the provided search term
+        if (searchTerm) {
+            console.log('Performing search...'); // Log that the search is being performed
+            performSearch(searchTerm);
+        }
+    </script>
+
+<div id="footerContainer"></div>
+
+  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+  </body>
+  </html>    
