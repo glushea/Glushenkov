@@ -426,3 +426,30 @@ li[draggable]::before {
   background-color: #f60;
   color: white; /* To change the text color when hovering */
 }
+
+
+.card-text {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  color: goldenrod;
+  font-size: 33px;
+
+}
+
+.round-btn {
+  border-radius: 20px; /* Adjust the value to control the roundness */
+  padding: 3px 5px; /* Adjust the padding to control the size */
+  width: 80px;
+  margin-top: 10px; /* Adjust the value to control the space between heading and button */
+  margin-bottom: 10px; /* Add margin at the bottom to create space */
+
+}
+
+
+@media (max-width: 768px) {
+  .round-btn  {
+    width:auto;
+  }
+  .card-text {
+     font-size: 24px;
+  }
+}
