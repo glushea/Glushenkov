@@ -16,6 +16,7 @@ li[draggable]::before {
   }
   ul {
     list-style: none; /* Remove default bullets */
+    font-family: var(--bs-body-font-family);
   }
   .imageContainer {
     display: block;
@@ -428,7 +429,7 @@ li[draggable]::before {
 }
 
 
-.card-text {
+.fam{
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
   color: goldenrod;
   font-size: 33px;
@@ -449,7 +450,7 @@ li[draggable]::before {
   .round-btn  {
     width:auto;
   }
-  .card-text {
-     font-size: 21px;
+  .fam{
+     font-size: 20px;
   }
 }
