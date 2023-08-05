@@ -450,6 +450,6 @@ li[draggable]::before {
     width:auto;
   }
   .card-text {
-     font-size: 23px;
+     font-size: 21px;
   }
 }
