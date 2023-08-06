@@ -453,6 +453,9 @@ li[draggable]::before {
   .fam{
      font-size: 20px;
   }
+  .cit{
+    font-size: 14px;
+  }
 }
 /* Customize the map container size */
 #map {
