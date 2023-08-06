@@ -255,5 +255,137 @@ async function updateWeather() {
     return iconMap[iconCode] || 'question'; // 'question' icon for unknown/unsupported codes
   }
   
-  document.addEventListener('DOMContentLoaded', updateWeather);
+
+// Function to get the current date and time in local computer timezone without seconds
+function getCurrentDateTime() {
+  const now = new Date();
+  const options = {
+    year: 'numeric',
+    // month: '2-digit',
+    month: 'long', // Display month as full name (e.g., January)
+
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false // Use 24-hour format
+  };
+  return now.toLocaleString('en-US', options);
+}
+
+
+// Function to get the current timezone offset in "GMT±hh:mm" format
+function getTimezoneOffset() {
+  const timezoneOffsetMinutes = new Date().getTimezoneOffset();
+  const timezoneOffsetHours = timezoneOffsetMinutes / 60;
+  const timezoneOffsetDirection = timezoneOffsetHours > 0 ? "-" : "+";
+  const timezoneOffsetAbs = Math.abs(timezoneOffsetHours);
+  const timezoneHours = String(Math.floor(timezoneOffsetAbs)).padStart(2, "0");
+  const timezoneMinutes = String((timezoneOffsetAbs * 60) % 60).padStart(2, "0");
+
+  return `GMT${timezoneOffsetDirection}${timezoneHours}:${timezoneMinutes}`;
+}
+  //  // Function to fetch the city name based on the timezone offset using TimeZoneDB API
+  //  async function getTimezoneCity(timezoneOffset) {
+  //   console.log(timezoneOffset);
+  //   const apiKey = '281Y855Y9M4B'; // Replace with your actual API key
+  //   const apiUrl = `http://api.timezonedb.com/v2.1/get-time-zone?key=${apiKey}&format=json&by=zone&zone=${timezoneOffset}`;
+    
+  //   try {
+  //     const response = await fetch(apiUrl);
+  //     const data = await response.json();
+  //     if (data.status === 'OK') {
+  //       // Extract the country name from the timezone response (if available)
+  //       const country = data.countryName;
+  //       return country ? `Country: ${country}` : 'Unknown Country';
+  //     } else {
+  //       return 'Unknown Country';
+  //     }
+  //   } catch (error) {
+  //     console.error('Error fetching country name:', error);
+  //     return 'Unknown Country';
+  //   }
+  // }
+
+  // Function to get the city and region based on the latitude and longitude coordinates
+// async function getCityAndRegionByCoordinates(latitude, longitude) {
+//   const geocoder = new google.maps.Geocoder();
+//   const latLng = new google.maps.LatLng(latitude, longitude);
+
+//   return new Promise((resolve, reject) => {
+//     geocoder.geocode({ location: latLng }, (results, status) => {
+//       if (status === google.maps.GeocoderStatus.OK) {
+//         const addressComponents = results[0]?.address_components;
+//         let city = '';
+//         let region = '';
+//         if (addressComponents) {
+//           for (const component of addressComponents) {
+//             if (component.types.includes('locality')) {
+//               city = component.long_name;
+//             }
+//             if (component.types.includes('administrative_area_level_1')) {
+//               region = component.long_name;
+//             }
+//           }
+//         }
+//         resolve({ city, region });
+//       } else {
+//         reject('Geocoder failed due to: ' + status);
+//       }
+//     });
+//   });
+// }
+
+// Function to fetch country information based on the IP address
+async function getCountryByIP() {
+  const apiKey = 'e4b510c7e55037'; // Replace with your actual API key
+  const apiUrl = `https://ipinfo.io?token=${apiKey}`;
+
+  try {
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+    return data.country || 'Unknown Country';
+  } catch (error) {
+    console.error('Error fetching country information:', error);
+    return 'Unknown Country';
+  }
+}
+
+  // Update the content of the spans with the current date, time, and timezone
+  async function updateDateTime() {
+    document.getElementById("currentDateTime").textContent = getCurrentDateTime();
+    const timezoneOffset = getTimezoneOffset();
+    document.getElementById("timezone").textContent = timezoneOffset;
+    const countryName = await getCountryByIP();
+    document.getElementById("timezoneCity").textContent = `Country: ${countryName}`;
+  }
+  // async function updateDateTime() {
+  //   document.getElementById("currentDateTime").textContent = getCurrentDateTime();
+  //   const timezoneOffset = getTimezoneOffset();
+  //   document.getElementById("timezone").textContent = timezoneOffset;
+  
+  //   // Get the user's current location coordinates (latitude and longitude)
+  //   navigator.geolocation.getCurrentPosition(
+  //     async (position) => {
+  //       const latitude = position.coords.latitude;
+  //       const longitude = position.coords.longitude;
+  
+  //       // Get the city and region based on the coordinates
+  //       try {
+  //         const { city, region } = await getCityAndRegionByCoordinates(latitude, longitude);
+  //         const locationInfo = city && region ? `${city}, ${region}` : 'Unknown Location';
+  //         document.getElementById("timezoneCity").textContent = `Time Zone: ${locationInfo}`;
+  //       } catch (error) {
+  //         console.error('Error getting city and region:', error);
+  //         document.getElementById("timezoneCity").textContent = 'Unknown Location';
+  //       }
+  //     },
+  //     (error) => {
+  //       console.error('Error getting user location:', error);
+  //       document.getElementById("timezoneCity").textContent = 'Unknown Location';
+  //     }
+  //   );
+  // }
+  
+  // Call the updateDateTime function to set the initial values
+  updateDateTime();
 
