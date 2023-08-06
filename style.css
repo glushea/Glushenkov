@@ -456,6 +456,10 @@ li[draggable]::before {
   .cit{
     font-size: 14px;
   }
+  .carousel-weather .carousel-caption{
+    font-size: 14px;
+
+  }
 }
 /* Customize the map container size */
 #map {
