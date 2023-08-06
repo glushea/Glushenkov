@@ -485,3 +485,19 @@ li[draggable]::before {
   
 }
 
+.carousel-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.carousel-weather i {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.carousel-weather p {
+  margin: 0;
+}
