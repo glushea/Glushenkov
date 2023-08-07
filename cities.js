@@ -136,7 +136,7 @@ function initMap() {
   }
 
   async function getLocalTime(timezone) {
-    const apiUrl = `http://worldtimeapi.org/api/timezone/${timezone}`;
+    const apiUrl = `https://worldtimeapi.org/api/timezone/${timezone}`;
     
     try {
       const response = await fetch(apiUrl);
