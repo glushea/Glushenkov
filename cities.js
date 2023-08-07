@@ -289,6 +289,30 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Call the updateWeather function to fetch and display weather information
   await updateWeather();
 });
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   const dropdownRes = document.querySelector(".dropdownRes");
+//   const chevronIcon = document.querySelector(".chevron-icon");
+  
+//   // Toggle the dropdown content when clicking on the chevron icon
+//   chevronIcon.addEventListener("click", function () {
+//     dropdownRes.classList.toggle("show");
+//   });
+
+//   // Select a destination
+//   const destinationList = document.querySelectorAll(".destination-list li");
+//   destinationList.forEach(li => {
+//     li.addEventListener("click", function () {
+//       const location = document.querySelector(".location");
+//       location.textContent = li.textContent;
+//       dropdownRes.classList.remove("show");
+//     });
+//   });
+// });
+
+
+
+
   // updateDateTime();
 //  // Function to fetch the city name based on the timezone offset using TimeZoneDB API
   //  async function getTimezoneCity(timezoneOffset) {
