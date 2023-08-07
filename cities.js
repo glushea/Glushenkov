@@ -135,7 +135,28 @@ function initMap() {
     return data;
   }
 
-  
+  async function getLocalTime(timezone) {
+    const apiUrl = `http://worldtimeapi.org/api/timezone/${timezone}`;
+    
+    try {
+      const response = await fetch(apiUrl);
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error("Error fetching local time:", error);
+      return null;
+    }
+  }
+  const timezoneIdentifiers = [
+    'Asia/Jerusalem',
+    'Europe/Moscow',
+    'Europe/Minsk',
+    'Europe/Paris',
+    'America/Argentina/Buenos_Aires',
+    'Europe/London',
+    'Asia/Tel_Aviv',
+    'America/New_York'
+  ];  
 
 
 async function updateWeather() {
@@ -143,8 +164,11 @@ async function updateWeather() {
   
     for (let i = 0; i < cities.length; i++) {
       const city = cities[i];
+      const timezone = timezoneIdentifiers[i];
+
       const weatherData = await getWeather(city);
-  
+      const localTimeData = await getLocalTime(timezone);
+
       const carouselItem = document.getElementById(`carousel-item-${i}`);
       const weatherInfo = document.createElement('div');
       weatherInfo.classList.add('carousel-weather');
@@ -161,6 +185,21 @@ async function updateWeather() {
       temperature.innerHTML = `<b>Current Temperature: ${weatherData.main.temp} °C</b>`;
       weatherInfo.appendChild(temperature);
   
+      if (localTimeData) {
+        const localTime = document.createElement('p');
+        const localTimeDate = new Date(localTimeData.utc_datetime);
+        
+        // Display local time with the city's timezone offset
+        const formattedLocalTime = localTimeDate.toLocaleTimeString(undefined, {
+          timeZone: localTimeData.timezone,
+          hour: 'numeric',
+          minute: 'numeric'
+        });
+  
+        localTime.innerHTML = `<b>Local Time: ${formattedLocalTime}</b>`;
+        weatherInfo.appendChild(localTime);
+      }
+    
       carouselItem.querySelector('.carousel-caption .carousel-weather').appendChild(weatherInfo);
     }
   }
