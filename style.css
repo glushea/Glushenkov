@@ -645,7 +645,7 @@ li[draggable]::before {
 .restaurant-card h3 {
   margin-top: 10px;
   font-family: 'Lato', sans-serif;
-  font-size: 20px; /* Adjust the font size as needed */
+  font-size: 15px; /* Adjust the font size as needed */
   max-height: 40px; /* Set a maximum height for the name */
   overflow: hidden; /* Hide any overflow beyond the max height */
   text-overflow: ellipsis; /* Display an ellipsis (...) for truncated text */

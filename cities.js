@@ -631,8 +631,8 @@ const restaurantsData = {
 const sitesData = {
   Jerusalem: [
     {
-      name: "Western Wall and Tunnel",
-      address: "Temple Mount, Old City",
+      name: "Western Wall & Tunnel",
+      address: "Western Wall, Old City",
       website: "https://thekotel.org/en/",
       image: "https://lh3.googleusercontent.com/p/AF1QipP2sMcDoAfq-jdSA7gLx8ynEnQzLSLEBtIm2Xdy=s1360-w1360-h1020"
     },
@@ -640,7 +640,7 @@ const sitesData = {
       name: "City of David",
       address: "Ma'alot Ir David St 17",
       website: "https://cityofdavid.org.il/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOAePqvFrepaB-Kt5HUojtiEbmGuJym-AEr9LI5=s1360-w1360-h1020"
+      image: "https://lh3.googleusercontent.com/p/AF1QipM_Rqfkm1XkNRiYGTzl6BdcNPcuOC0rIDvCT1Ne=s1360-w1360-h1020"
     },
     {
       name: "The Israel Museum",
@@ -649,13 +649,13 @@ const sitesData = {
       image: "https://lh3.googleusercontent.com/p/AF1QipNY6hJZyK_k1F6QSE2r6yfXyHWNF202g5o7h_Ht=s1360-w1360-h1020"
     },
     {
-      name: "Machaneh Yehudah Market",
+      name: "Machaneh Yehudah",
       address: "Agripas St 90",
       website: "https://en.wikipedia.org/wiki/Mahane_Yehuda_Market",
       image: "https://lh3.googleusercontent.com/p/AF1QipNayeQ1nMlYbqskPtAHzGpq3shxVBt-0ymzGBLm=s1360-w1360-h1020"
     },
     {
-      name: "Church of the Holy Sepulchre",
+      name: "Holy Sepulchre Church",
       address: "Old City",
       website: "https://en.wikipedia.org/wiki/Church_of_the_Holy_Sepulchre",
       image: "https://lh3.googleusercontent.com/p/AF1QipPTpxuU-aHo45a_7MVgbAt6bsT7Jug9R749Djsh=s1360-w1360-h1020"
