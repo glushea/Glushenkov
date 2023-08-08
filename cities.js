@@ -321,6 +321,8 @@ const dropdownToggle = document.querySelector('.dropdownRes-toggle');
 const destinationList = document.querySelector('.destination-list');
 
 const restaurantCardsContainer = document.getElementById('restaurantCardsContainer');
+const sitesCardsContainer = document.getElementById('sitesCardsContainer');
+
 
 dropdownToggle.addEventListener('click', () => {
   destinationList.classList.toggle('active');
@@ -412,7 +414,7 @@ const restaurantsData = {
       name: "Pinky Bandinsky",
       address: "Kamsamoĺskaja vulica 13А",
       website: "https://pinkybandinsky.by/",
-      image: " https://lh3.googleusercontent.com/p/AF1QipNbBmnfn4PPjc6DUjwgiDzBY_MeGyufpwWVRBEf=s1360-w1360-h1020"
+      image: "https://lh3.googleusercontent.com/p/AF1QipNbBmnfn4PPjc6DUjwgiDzBY_MeGyufpwWVRBEf=s1360-w1360-h1020"
     },
     // ..
     {
@@ -626,11 +628,307 @@ const restaurantsData = {
   // ... and so on for other cities
 };
 
+const sitesData = {
+  Jerusalem: [
+    {
+      name: "Western Wall and Tunnel",
+      address: "Temple Mount, Old City",
+      website: "https://thekotel.org/en/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipP2sMcDoAfq-jdSA7gLx8ynEnQzLSLEBtIm2Xdy=s1360-w1360-h1020"
+    },
+    {
+      name: "City of David",
+      address: "Ma'alot Ir David St 17",
+      website: "https://cityofdavid.org.il/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOAePqvFrepaB-Kt5HUojtiEbmGuJym-AEr9LI5=s1360-w1360-h1020"
+    },
+    {
+      name: "The Israel Museum",
+      address: "Derech Ruppin 11",
+      website: "https://www.imj.org.il/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNY6hJZyK_k1F6QSE2r6yfXyHWNF202g5o7h_Ht=s1360-w1360-h1020"
+    },
+    {
+      name: "Machaneh Yehudah Market",
+      address: "Agripas St 90",
+      website: "https://en.wikipedia.org/wiki/Mahane_Yehuda_Market",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNayeQ1nMlYbqskPtAHzGpq3shxVBt-0ymzGBLm=s1360-w1360-h1020"
+    },
+    {
+      name: "Church of the Holy Sepulchre",
+      address: "Old City",
+      website: "https://en.wikipedia.org/wiki/Church_of_the_Holy_Sepulchre",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPTpxuU-aHo45a_7MVgbAt6bsT7Jug9R749Djsh=s1360-w1360-h1020"
+    },
+    
+    // ... more restaurants for Moscow
+  ],
+  Moscow: [
+    {
+      name: "Red square and Kremlin",
+      address: "Red square",
+      website: "https://um.mos.ru/places/krasnaya_ploshchad/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNCwFuzlaUBEO_QkLirHTYnVA-NMUMUPwsWkHu4=s1360-w1360-h1020"
+    },
+    {
+      name: "Bolshoi Theatre",
+      address: "Theatre Square, 1",
+      website: "https://bolshoi.ru/en",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPYphy1H0uJwK8UUX1BbH_4Jo_3qqyAYHnZ06JG=s1360-w1360-h1020"
+    },
+    {
+      name: "Vdnkh",
+      address: "Prospekt Mira, 119",
+      website: "https://vdnh.ru/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOrm78NxKUuiAVI4HfQ3_POR5hvCfJRo9nMaA_Q=s1360-w1360-h1020"
+    },
+    {
+      name: "Gorky Park",
+      address: "Krymsky Val, 9",
+      website: "https://park-gorkogo.com/en/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipO2A7wXLSF9-PkX5w5ra6lHV7zc7PXxzoFKmbYI=s1360-w1360-h1020"
+    },
+    {
+      name: "Izmaylovskiy Bazar",
+      address: "Izmaylovskiy Proyezd, 73Жс5",
+      website: "https://www.kremlin-izmailovo.com/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPnVcdH3Ku4OyMWi6lFHXmauPARswX84m76Vcor=s1360-w1360-h1020"
+    },
+    // ... more restaurants for Moscow
+  ],
+  Minsk: [
+    {
+      name: "Victory Square",
+      address: "Victory Squar",
+      website: "https://en.wikipedia.org/wiki/Victory_Square,_Minsk",
+      image: "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSL-qVcpwndz_MCbD71qFep2h3R9XGU8tNi5sxardVitg9G2z_oN_jPI27aeqbBQONW"
+    },
+    {
+      name: "Great Patriotic War Museum",
+      address: "Prospekte Pobeditelei 8",
+      website: "https://www.warmuseum.by/en/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipM4o2GPc74iga81ImyqFwroIj1k099GTJdwKybc=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Chaliuskincai Park",
+      address: "prasp. Niezaliežnasci",
+      website: "http://parki.by/All-parks/2",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNLHNYUKUUcXF3HXtyGPob3LAISY2iGknHayWSP=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Komarovsky Market",
+      address: "vulica Viery Charužaj 8",
+      website: "https://komarovka.by/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMyC_gMyJRiOYEobY8dut0TX5K6Gr8doMRdLor0=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Circus",
+      address: "Independence Ave 32",
+      website: "http://circus.by/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOocjnwyTh1BngAPJ8qu5P0P_i3Dp2s0BOn3lmS=s1360-w1360-h1020"
+    },
+    // ..
+    // ... more restaurants for Minsk
+  ],
+  Paris: [
+    {
+      name: "Eiffel Tower",
+      address: "Champ de Mars, 5 Av",
+      website: "https://www.toureiffel.paris/en",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMrdzS6W5BkQJointCuzIuecngcYYPH-l_acmsb=s1360-w1360-h1020"
+    },
+    {
+      name: "Louvre Museum",
+      address: "75001 Paris",
+      website: "https://www.louvre.fr/en",
+      image: "https://lh3.googleusercontent.com/p/AF1QipO6lWvRt8Gr7dU9hc5vgRbsLD0Js7t4On4ZCUHN=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Arc de Triomphe",
+      address: "Pl. Charles de Gaulle",
+      website: "https://www.paris-arc-de-triomphe.fr/en",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMXST5GB5FJEaWKGQ2d_oBsOZhWLmXjYWhaK4M8=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Notre-Dame de Paris",
+      address: "6 Parvis Notre-Dame - Pl",
+      website: "https://www.notredamedeparis.fr/en/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNw1t4oS3qgaNJDl9e3aFDsMTsDcmQ2nzqQJCrP=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Disneyland Paris",
+      address: "Bd de Parc, 77700 Coupvray",
+      website: "https://www.disneylandparis.com/en-usd/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMnn_Bty2TXGxS02n-utyBuLyVQrWUpr7uhlk3U=s1360-w1360-h1020"
+    },
+    // ..
+  ],
+  "Buenos Aires": [
+    {
+      name: "Museo Nacional de Bellas Artes",
+      address: "Av. del Libertador 1473",
+      website: "https://www.bellasartes.gob.ar/en/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPDIQqlv434Riij7CTzJVqeCl_Te6Wa_jARtWcL=s1360-w1360-h1020"
+    },
+    {
+      name: "Tres de Febrero Park",
+      address: "Av. Infanta Isabel 110",
+      website: "https://turismo.buenosaires.gob.ar/en/otros-establecimientos/parque-tres-de-febrero",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOgC1xR4z02z5_aWOlou5pk3oVzSN8aXW7neWmH=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Plaza de Mayo",
+      address: "Balcarce 78",
+      website: "https://turismo.buenosaires.gob.ar/en/otros-establecimientos/plaza-de-mayo",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPimRAROt2meO4UFRlbk2ThVomTu510AFuyLPu8=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Feira de San Telmo",
+      address: "Defensa 1086",
+      website: "https://www.feriadesantelmo.com/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNICsVHzQLjvQr2g-mv3JVK3IaDJMwCkwvVIU8i=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Teatro Colón",
+      address: "Cerrito 628",
+      website: "https://teatrocolon.org.ar/en",
+      image: "https://lh3.googleusercontent.com/p/AF1QipN2hadZMSWqocEjqbK4iect27llDmil7hOy_wHI=s1360-w1360-h1020"
+    },
+    // ..
+    // ... more restaurants for Minsk 
+  ],
+  London: [
+    {
+      name: "City of Westminster",
+      address: "Westminster",
+      website: "https://en.wikipedia.org/wiki/City_of_Westminster",
+      image: "https://www.walks.com/wp-content/uploads/2023/03/Houses-of-Parliaments-and-Westminster-Bridge-seen-from-the-Air-London-Walks.jpg"
+    },
+    {
+      name: "Tower of London",
+      address: "St Katharine's & Wapping",
+      website: "https://www.hrp.org.uk/tower-of-london/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPwQgiJL1MYXggQHSnC1omIrQ6tbyFJ0XN3dWyA=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "British Museum",
+      address: "Great Russell St, Bloomsbury",
+      website: "https://www.britishmuseum.org/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPJA1W3rAPK3xAArAOtYdTMu5rgRDbkTAotGV3t=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Hyde Park",
+      address: "Hyde Park",
+      website: "https://www.royalparks.org.uk/parks/hyde-park",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOWTwdLqngUrSrnZxp_EPMMBYq8lxeENWzI4HCU=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "London Eye",
+      address: "Lambeth",
+      website: "https://www.londoneye.com/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOVvhrgBSIspTYhxSNWxJd5VT886iO_q7XDvBIF=s1360-w1360-h1020"
+    },
+    // ..
+    // ... more restaurants for Minsk
+  ],
+  "Tel Aviv - Jaffa": [
+    {
+      name: "Carmel Market",
+      address: "HaCarmel St",
+      website: "https://en.wikipedia.org/wiki/Carmel_Market",
+      image: "https://www.aisrael.org/_uploads/extraimg/carmel-market-tel-aviv.jpg"
+    },
+    {
+      name: "Promenade (Tayelet)",
+      address: "Promenade",
+      website: "https://en.wikipedia.org/wiki/Tel_Aviv_Promenade",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPySqtH3LRmJvZxAOigVVijxge4CkPhD3hdGJry=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Old Jaffa (Yafo)",
+      address: "Old Jaffa",
+      website: "https://en.wikipedia.org/wiki/Old_Jaffa",
+      image: "https://i0.wp.com/www.touristisrael.com/wp-content/uploads/2021/06/jaffa-port-scaled.jpg?fit=2560%2C1208&ssl=1"
+    },
+    // ..
+    {
+      name: "Neve Tzedek",
+      address: "Neve Tzedek",
+      website: "https://en.wikipedia.org/wiki/Neve_Tzedek",
+      image: "https://israel.travel/wp-content/uploads/2019/03/neve-tzdek-inside-min.jpg"
+    },
+    // ..
+    {
+      name: "Sarona Market",
+      address: "Kaplan St 3",
+      website: "https://www.saronamarket.co.il/en",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOTbg2GZv39_S0i3KnO5neyCpbkgvbqYKIk6m5z=s1360-w1360-h1020"
+    },
+    // ..
+    // ... more restaurants for Minsk
+  ],
+  "New York": [
+    {
+      name: "Times Square",
+      address: "Manhattan",
+      website: "https://www.timessquarenyc.org/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOG_OGnUSyqLgLT8DSjahZ9bnAH2avIm7YTOoL1=s1360-w1360-h1020"
+    },
+    {
+      name: "Statue of Liberty",
+      address: "Liberty Island",
+      website: "https://www.nps.gov/stli/index.htm",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNOkjsKcMBL_Fia95bCQvwISPZBNG_Addfw3AYm=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Central Park",
+      address: "Central Park",
+      website: "https://www.centralparknyc.org/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNgwKznOsp4It9oyzyxIm5IpiDtjK5qLEbwtOSh=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Empire State Building",
+      address: "350 5th Ave",
+      website: "https://www.esbnyc.com/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOBBZgukGcL1DRhiwcJhYG_2o-1pPv5Wvs2M29B=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Chelsea Market",
+      address: "75 9th Ave, New York, NY 10011",
+      website: "https://www.chelseamarket.com/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOJPyMBsPHV06y6VlfcbQrvXb4IKjVuWYb5hMsQ=s1360-w1360-h1020"
+    },
+    // ..
+    // ... more restaurants for Minsk
+  ],
+  // ... and so on for other cities
+};
+
+
 function updateRestaurantCards(city) {
   restaurantCardsContainer.innerHTML = "";
+  sitesCardsContainer.innerHTML="";
 
   // Get restaurant data for the selected city
   const restaurantsForCity = restaurantsData[city];
+  const sitesForCity = sitesData[city];
+
 
   // Create and append restaurant cards
   restaurantsForCity.forEach(restaurant => {
@@ -671,6 +969,47 @@ function updateRestaurantCards(city) {
     card.appendChild(websiteLink);
 
     restaurantCardsContainer.appendChild(card);
+  });
+
+  // Create and append sites cards
+  sitesForCity.forEach(restaurant => {
+    const card = document.createElement('div');
+    card.className = 'restaurant-card';
+
+    const image = document.createElement('img');
+    image.src = restaurant.image;
+    image.alt = restaurant.name;
+    card.appendChild(image);
+
+    const name = document.createElement('h3');
+    const nameLink = document.createElement('a');
+    nameLink.href=restaurant.website;
+    nameLink.target = '_blank';
+    nameLink.classList.add('black_link'); //
+    name.textContent = restaurant.name;
+    name.appendChild(nameLink)
+    card.appendChild(name);
+
+    const address = document.createElement('p');
+    const addressLink = document.createElement('a');
+    const restaurantLinkAdress=restaurant.address+","+city
+    addressLink.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(restaurantLinkAdress)}`;
+    addressLink.target = '_blank';
+    addressLink.classList.add('orange_link'); // Add a class to the <a> element
+    addressLink.textContent = restaurant.address;
+    address.appendChild(addressLink);
+    card.appendChild(address);
+
+
+    const websiteLink = document.createElement('a');
+    websiteLink.target="_blank";
+    websiteLink.href = restaurant.website;
+    websiteLink.textContent = 'Check it out';
+    websiteLink.classList.add('restaurant-card-link'); // Add a class to the <a> element
+
+    card.appendChild(websiteLink);
+
+    sitesCardsContainer.appendChild(card);
   });
 }
 

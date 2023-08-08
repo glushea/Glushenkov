@@ -535,14 +535,18 @@ li[draggable]::before {
   display: flex;
   align-items: center;
   cursor: pointer;
-  padding: 10px;
+  /* padding: 10px; */
   border: none;
   background-color: transparent;
   font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight:bold;
 }
-
+@media (max-width: 768px) {
+  .dropdownRes-toggle {
+    font-size: 18px;
+  }
+}
 /* Styling for the location label */
 .location-label {
   font-weight: bold;
@@ -714,4 +718,18 @@ li[draggable]::before {
 .black_link:hover {
   background-color: transparent !important;
   
+}
+
+.rows_cards_title{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px; /* Adjust the font size as needed */
+  font-weight:bold;
+
+}
+@media (max-width: 768px) {
+
+  .rows_cards_title{
+    font-size: 15px;
+
+  }
 }
