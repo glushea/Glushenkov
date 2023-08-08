@@ -733,3 +733,8 @@ li[draggable]::before {
 
   }
 }
+
+.container-main{
+  font-family: 'Lato', sans-serif;
+
+}
