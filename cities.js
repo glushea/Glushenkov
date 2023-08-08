@@ -289,6 +289,375 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Call the updateWeather function to fetch and display weather information
   await updateWeather();
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const dropdownRes = document.querySelector(".dropdownRes");
+  const chevronIcon = document.querySelector(".chevron-icon");
+  const dropdownToggle2 = document.getElementById("dropdownToggle"); // Get the dropdown toggle element
+
+  // Toggle the dropdown content when clicking on the chevron icon
+  chevronIcon.addEventListener("click", function () {
+    dropdownRes.classList.toggle("show");
+  });
+  dropdownToggle2.addEventListener("click", function () {
+    dropdownRes.classList.toggle("show");
+  });
+
+  // Select a destination
+  const destinationList = document.querySelectorAll(".destination-list li");
+  destinationList.forEach(li => {
+    li.addEventListener("click", function () {
+      const location = document.querySelector(".location");
+      location.textContent = li.textContent;
+      dropdownRes.classList.remove("show");
+    });
+  });
+   // Update restaurant cards for the default selection ("Jerusalem")
+   updateRestaurantCards("Jerusalem");
+});
+
+const dropdownToggle = document.querySelector('.dropdownRes-toggle');
+const destinationList = document.querySelector('.destination-list');
+
+const restaurantCardsContainer = document.getElementById('restaurantCardsContainer');
+
+dropdownToggle.addEventListener('click', () => {
+  destinationList.classList.toggle('active');
+});
+
+destinationList.addEventListener('click', (event) => {
+  if (event.target.tagName === 'LI') {
+    const selectedCity = event.target.textContent;
+    updateRestaurantCards(selectedCity);
+  }
+});
+
+const restaurantsData = {
+  Jerusalem: [
+    {
+      name: "Machneyuda",
+      address: "Beit Ya'akov St 10",
+      website: "https://www.machneyuda.co.il/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNzvrnwjSxvhlJcC0BiHnYoLrZd6QM68ZkBEDUw=s1360-w1360-h1020"
+    },
+    {
+      name: "Mona",
+      address: "Shmu'el ha-Nagid St 12",
+      website: "https://tabitisrael.co.il/online-reservations/create-reservation?step=search&orgId=61c04e9a61d16c6cfaa550f7&source=google",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOAePqvFrepaB-Kt5HUojtiEbmGuJym-AEr9LI5=s1360-w1360-h1020"
+    },
+    {
+      name: "Azura",
+      address: "Ha-Eshkol St 4",
+      website: "https://www.facebook.com/AZURARESTURANT/?rf=246605802020055",
+      image: "https://lh5.googleusercontent.com/p/AF1QipMJF_KRqOTkK4y8DRgiXRhBKBgl8XhHmwtSkzWB=w260-h175-n-k-no"
+    },
+    {
+      name: "Ishtabach",
+      address: "Beit Ya'akov St 1",
+      website: "https://tabitisrael.co.il/tabit-order?siteName=ishtabach&step=enter",
+      image: "https://lh3.googleusercontent.com/p/AF1QipP6Xdu90NGgeSAXhImAmjh9CzQwpYRR4lL80g8o=s1360-w1360-h1020"
+    },
+    {
+      name: "Hazot",
+      address: "Agripas St 121",
+      website: "https://hatzot.co.il/homepage/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMEeFVCBfE5a0jJfeIEMxmTRiYAYmAsL12hlFj6=s1360-w1360-h1020"
+    },
+    
+    // ... more restaurants for Moscow
+  ],
+  Moscow: [
+    {
+      name: "Grand Cafe Dr. Jhivago",
+      address: "Mokhovaya St, 15с1",
+      website: "https://drzhivago.ru/en/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNfTf9T1S7Hm99IZuUAQz1raoytqLMOmKpJLdk2=s1360-w1360-h1020"
+    },
+    {
+      name: "Cafe Pushkin",
+      address: "Tverskoy Blvd, 26А",
+      website: "https://cafe-pushkin.ru/en/",
+      image: "https://lh5.googleusercontent.com/p/AF1QipNv1X-b94NdrKlTuhPRPXHv81zBohB4TK5GUTOV=w260-h175-n-k-no"
+    },
+    {
+      name: "Khachapuri",
+      address: "Bolshoy Gnezdnikovskiy pereulok, 10",
+      website: "https://hacha.ru/en/",
+      image: "https://lh3.googleusercontent.com/gps-proxy/AF-Tc0R1VxMvilPARyhEXmkywDHl5VO2z0vWOjfXbOxL3i1zat9Ot3CPg4FooE7DsHv7Jpo1c_yfdNyctJc1CyUJojbF_iQIKoNeECz1aXZdNP18oc0IyNkrB7jRuQCv5F_q9ezbYnFZ1TsTz9R2UfN4-AycR5cAg-UtQb2sjuSgwOH1msyHeykpWzli=s1360-w1360-h1020"
+    },
+    {
+      name: "Mari Vanna",
+      address: "Spiridon'yevskiy Pereulok, 10a",
+      website: "https://ginza.ru/msk/restaurant/marivanna",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPrRHs3gpBcRRrIMCPmFSk5kNLmDpa4PcnTjldx=s1360-w1360-h1020"
+    },
+    {
+      name: "Megobari",
+      address: "Ulitsa Maroseyka, 15",
+      website: "https://megobari.wine/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPiwdrhcaK-x8IXGNuwFhfRymTA_qZfjanUhFqY=s1360-w1360-h1020"
+    },
+    // ... more restaurants for Moscow
+  ],
+  Minsk: [
+    {
+      name: "Wood & Fire",
+      address: "vulica Francyska Skaryny 1",
+      website: "https://woodfire.by/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipO_Ng7s9VZLkKIJNzaHH6K-GaTbfp0Q5CwGPZZD=s1360-w1360-h1020"
+    },
+    {
+      name: "Pinky Bandinsky",
+      address: "Kamsamoĺskaja vulica 13А",
+      website: "https://pinkybandinsky.by/",
+      image: " https://lh3.googleusercontent.com/p/AF1QipNbBmnfn4PPjc6DUjwgiDzBY_MeGyufpwWVRBEf=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Ember",
+      address: "Prospekte Pobeditelei 9",
+      website: "https://ember.by/en/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOeWSG96kEc7zqKM1usiGUKKsq5mUdVz-gLJV2i=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Lebiažy",
+      address: "Ulitsa Ratomskaya 2а",
+      website: "https://lebyaziy.by/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipO_dS67ubWchcqJ8dT7wXzP9VqI0nZTbSnkePQX=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "FABRIQ",
+      address: "Prospekte Pobeditelei 1",
+      website: "https://fabriq.by/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNof05BourC2dcErI11CMiwFrPRYHfOZg_XOvGR=s1360-w1360-h1020"
+    },
+    // ..
+    // ... more restaurants for Minsk
+  ],
+  Paris: [
+    {
+      name: "L'Atelier de Joël Robuchon Étoile",
+      address: "133 Av. des Champs-Élysées",
+      website: "http://atelier-robuchon-etoile.com/en/accueil.php",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMa8G5tv-lXhFQmAkNVuap3xcS7pSBiugJB94Qj=s1360-w1360-h1020"
+    },
+    {
+      name: "ALCAZAR",
+      address: "62 Rue Mazarine",
+      website: "http://www.alcazar.fr/?lang=en",
+      image: "https://lh3.googleusercontent.com/p/AF1QipM0cZpd6xoNnNmL7ELqWMwAGA0oQjaeJAVBoPK-=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Angelina",
+      address: "226 Rue de Rivoli",
+      website: "https://www.angelina-paris.fr/?y_source=1_MTE5MzAwODYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNurK9XWcpsJ2Clwy0gNWWr-ki7NDCKC8huyFbi=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Epicure",
+      address: "12 Rue du Faubourg Saint-Honoré",
+      website: "https://www.oetkercollection.com/hotels/le-bristol-paris/restaurants-bar/epicure/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipM5jkLJpUQqJ82gj4OBcKJo5jbl-BOyPKh6ANzo=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Relais de l’Entrecôte",
+      address: "15 Rue Marbeuf",
+      website: "https://www.relaisentrecote.fr/?page_id=396&lang=en_GB",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNG07VqJLFWZ2x_3jdfmU5f2BB02F8Mn3D7E8xn=s1360-w1360-h1020"
+    },
+    // ..
+    // ... more restaurants for Minsk
+  ],
+  "Buenos Aires": [
+    {
+      name: "El Desnivel, San Telmo",
+      address: "Defensa 855, C1065 AAO",
+      website: "https://webdato.com/services/qr/desnivel/carta/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPJx5epTLGgfIsa42OOzv7W-USfsFIC0PFOZjgj=s1360-w1360-h1020"
+    },
+    {
+      name: "Puerto Cristal",
+      address: "Av. Alicia Moreau de Justo 1082",
+      website: "https://www.puerto-cristal.com.ar/en/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPbL_rOAvBcAvqz6-CRBulLA-wDBPtG2nps25Z6=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Parrilla La Brigada",
+      address: "Estados Unidos 465, C1066 CABA",
+      website: "https://labrigada.com.ar/labrigada/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMKUyI9YVDi3X8WeMOIf-i22o_fnu--NvAWBOAg=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Don Julio",
+      address: "Guatemala 4699, C1425 CABA",
+      website: "https://www.parrilladonjulio.com/https://restaurant1-minsk.com",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPD6pLUaRud-AkSUiw3-7_1aspWd9VA-FHDnRLL=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Santos Manjares",
+      address: "Paraguay 938, C1057 AAN",
+      website: "https://www.instagram.com/santosmanjares/?hl=en",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPwLM7QbAyt1991PnErd6GAm8hllzcBWN_ZqeS9=s1360-w1360-h1020"
+    },
+    // ..
+    // ... more restaurants for Minsk
+  ],
+  London: [
+    {
+      name: "Masala Zone Soho",
+      address: "9 Marshall St",
+      website: "https://www.masalazone.com/locations/soho/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMLBTMwQI3gtTrxjQVyUJPNb9Cl-nC3HIfXuvER=s1360-w1360-h1020"
+    },
+    {
+      name: "Blacklock Shoreditch",
+      address: "28-30 Rivington St",
+      website: "https://theblacklock.com/restaurants/shoreditch/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMBacZKhxib3-lpCxjiAA4TboyA8OkUDDjQvpuE=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Flat Iron Covent Garden",
+      address: "17-18 Henrietta St",
+      website: "https://flatironsteak.co.uk/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMlr85h-9_8jiTp1Edb9Zi1DNn6MMuseRAmjHui=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Dishoom Covent Garden",
+      address: "12 Upper St Martin's Ln",
+      website: "https://www.dishoom.com/",
+      image: "https://lh5.googleusercontent.com/p/AF1QipOVLWcwd9vwd3zxY0JBeK3vvmtUUgoUr3_-66CX=w260-h175-n-k-no"
+    },
+    // ..
+    {
+      name: "The Vault",
+      address: "3 Greek St",
+      website: "https://milroys.co.uk/pages/soho-the-vault",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNIafcYXV3UuMVY9NVDKYbLATahB89xZGQhtBnq=s1360-w1360-h1020"
+    },
+    // ..
+    // ... more restaurants for Minsk
+  ],
+  "Tel Aviv - Jaffa": [
+    {
+      name: "Turkiz",
+      address: "Herzl Rosenblum St 6",
+      website: "https://www.turkiz-rest.co.il/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMJLcbNimguIohsaZ569bKZ1oH8OuIEQ7F6uoNr=s1360-w1360-h1020"
+    },
+    {
+      name: "Hudson Brasserie",
+      address: "HaBarzel St 27",
+      website: "https://hudson-tlv.com/ramat-hahayal/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOfJsvAL0AR5eRXt2R6-MUd7_YoVs2-n9Xd_Xfo=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Port Sa'id",
+      address: "Har Sinai St 5",
+      website: "https://www.instagram.com/port_said/?igshid=MzRlODBiNWFlZA%3D%3D",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNq8MfA9II70lT7i5lgb0tdWtzg51oJi7s3LW48=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "OCD TLV",
+      address: "Tirtsa St 17",
+      website: "https://www.ocdtlv.com/en/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPU64RJk1nI73i0m_g-K9y2SRfQZEPReIa-mBMs=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Mashya",
+      address: "Mendele Mokher Sfarim St 5",
+      website: "https://www.mashya.co.il/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPAqe8l1iH27weaE9JddLCHNGIask80q1F8u95Y=s1360-w1360-h1020"
+    },
+    // ..
+    // ... more restaurants for Minsk
+  ],
+  "New York": [
+    {
+      name: "Katz's Delicatessen",
+      address: "205 E Houston St",
+      website: "https://katzsdelicatessen.com/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipO30Z2KIoD_OaqJfHiqHUOQoLEsgusa2PGfuXax=s1360-w1360-h1020"
+    },
+    {
+      name: "Nusr-Et Steakhouse",
+      address: "60 W 53rd St",
+      website: "https://nusretusa.com/ny-midtown/menu",
+      image: "https://lh3.googleusercontent.com/p/AF1QipPZauXKo-oY8aKuyIIUm5kzsaKHM9_jjpzUGSHi=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Jacob's Pickles",
+      address: "509 Amsterdam Ave",
+      website: "https://www.jacobspickles.com/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipO0Tw1m2-iugTSKp3W3189nwsOB-d9OAGjJXm2G=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Gallaghers Steakhouse",
+      address: "228 W 52nd St",
+      website: "https://www.gallaghersnysteakhouse.com/menu.php?venue_id=1&menu_id=1",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNG5lXIWyBMheJ-1KjgYAKBnuC0Uuii76Dl-dPK=s1360-w1360-h1020"
+    },
+    // ..
+    {
+      name: "Boucherie West Village",
+      address: "99 7th Ave S",
+      website: "https://www.boucherieus.com/hours-and-locations/",
+      image: "https://lh3.googleusercontent.com/p/AF1QipM56pcu3OS0UK4Pw-ADl5L56wqUV-zmzGBug-Ow=s1360-w1360-h1020"
+    },
+    // ..
+    // ... more restaurants for Minsk
+  ],
+  // ... and so on for other cities
+};
+
+function updateRestaurantCards(city) {
+  restaurantCardsContainer.innerHTML = "";
+
+  // Get restaurant data for the selected city
+  const restaurantsForCity = restaurantsData[city];
+
+  // Create and append restaurant cards
+  restaurantsForCity.forEach(restaurant => {
+    const card = document.createElement('div');
+    card.className = 'restaurant-card';
+
+    const image = document.createElement('img');
+    image.src = restaurant.image;
+    image.alt = restaurant.name;
+    card.appendChild(image);
+
+    const name = document.createElement('h3');
+    name.textContent = restaurant.name;
+    card.appendChild(name);
+
+    const address = document.createElement('p');
+    address.textContent = restaurant.address;
+    card.appendChild(address);
+
+    const websiteLink = document.createElement('a');
+    websiteLink.target="_blank";
+    websiteLink.href = restaurant.website;
+    websiteLink.textContent = 'Visit';
+    card.appendChild(websiteLink);
+
+    restaurantCardsContainer.appendChild(card);
+  });
+}
+
 
 // document.addEventListener("DOMContentLoaded", function () {
 //   const dropdownRes = document.querySelector(".dropdownRes");

@@ -523,3 +523,173 @@ li[draggable]::before {
   border-radius: 5px;
   color: #fff;  }
 
+/* Styling for the dropdown container */
+.dropdownRes {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+/* Styling for the dropdown toggle */
+.dropdownRes-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight:bold;
+}
+
+/* Styling for the location label */
+.location-label {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+/* Styling for the highlighted location */
+.location-highlight {
+  color: #f60;
+}
+
+/* Styling for the chevron icon */
+.chevron-icon {
+  width: 16px;
+  height: 16px;
+  fill: #f60;
+  vertical-align: middle;
+  margin-left: 4px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+/* Styling for the dropdown content */
+.dropdownRes-content {
+  display: none;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 150px;
+  top: calc(100% + 4px);
+  right: 0;
+  z-index: 1;
+  border-radius: 8px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+/* Show dropdown content when the container is open */
+.dropdownRes.show .dropdownRes-content {
+  display: block;
+}
+
+/* Styling for the dropdown inner container */
+.dropdownRes-inner {
+  padding: 10px;
+}
+
+/* Styling for the list of destinations */
+.destination-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling for each list item */
+.destination-list li {
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+/* Styling for each list item on hover */
+.destination-list li:hover {
+  background-color: #f9f9f9;
+}
+.restaurant-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px 20px; /* Remove top margin and adjust horizontal margin */
+  width: 100%;
+  /* margin: 20px auto; */
+  /* max-width: 1200px; */
+}
+
+.restaurant-card {
+  width: calc(20% - 20px);
+  /* flex: 0 0 calc(20% - 20px);  */
+  height: 320px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #fff; /* Set the background color of the card */
+  color: #000; /* Set the text color for restaurant name and address to black */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-card img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+
+  border-radius: 10px;
+}
+
+.restaurant-card h3 {
+  margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px; /* Adjust the font size as needed */
+  max-height: 40px; /* Set a maximum height for the name */
+  overflow: hidden; /* Hide any overflow beyond the max height */
+  text-overflow: ellipsis; /* Display an ellipsis (...) for truncated text */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-weight:bold;
+
+}
+
+.restaurant-card p {
+  margin: 5px 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px; /* Adjust the font size as needed */
+  max-height: 40px; /* Set a maximum height for the name */
+  overflow: hidden; /* Hide any overflow beyond the max height */
+  text-overflow: ellipsis; /* Display an ellipsis (...) for truncated text */
+  white-space: nowrap; /* Prevent text from wrapping */
+
+}
+
+.restaurant-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 10px; /* Adjust the border-radius to match the corners of the button */
+  background-color: #f60;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.restaurant-card a:hover {
+  background-color: #e0501f;
+}
+
+
+@media (max-width: 768px) {
+  .restaurant-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .restaurant-card {
+    width: 100%;
+  }
+}
+
+.location.location-highlight {
+  border-bottom: 2px solid currentColor; /* Use the same color as the text color */
+  padding-bottom: 2px; /* Add a bit of space below the border */
+}
