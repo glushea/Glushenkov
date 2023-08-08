@@ -661,11 +661,11 @@ li[draggable]::before {
 
 }
 
-.restaurant-card a {
+.restaurant-card-link {
   display: inline-block;
   margin-top: 10px;
-  padding: 10px 20px;
-  border-radius: 10px; /* Adjust the border-radius to match the corners of the button */
+  padding: 5px 11px; /* Adjust the padding for a smaller button */
+  border-radius: 20px; /* Adjust the border-radius to match the corners of the button */
   background-color: #f60;
   color: #fff;
   text-decoration: none;
@@ -692,4 +692,26 @@ li[draggable]::before {
 .location.location-highlight {
   border-bottom: 2px solid currentColor; /* Use the same color as the text color */
   padding-bottom: 2px; /* Add a bit of space below the border */
+}
+.orange_link{
+  color: #f60;
+  font-weight:bold;
+  text-decoration: none; /* Remove underline */
+
+}
+/* Remove the background color on hover */
+.orange_link:hover {
+  background-color: transparent !important;
+  
+}
+.black_link{
+  color: black;
+  font-weight:bold;
+  text-decoration: none; /* Remove underline */
+
+}
+/* Remove the background color on hover */
+.black_link:hover {
+  background-color: transparent !important;
+  
 }

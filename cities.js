@@ -301,6 +301,7 @@ document.addEventListener("DOMContentLoaded", function () {
   dropdownToggle2.addEventListener("click", function () {
     dropdownRes.classList.toggle("show");
   });
+ 
 
   // Select a destination
   const destinationList = document.querySelectorAll(".destination-list li");
@@ -310,6 +311,7 @@ document.addEventListener("DOMContentLoaded", function () {
       location.textContent = li.textContent;
       dropdownRes.classList.remove("show");
     });
+    
   });
    // Update restaurant cards for the default selection ("Jerusalem")
    updateRestaurantCards("Jerusalem");
@@ -641,17 +643,31 @@ function updateRestaurantCards(city) {
     card.appendChild(image);
 
     const name = document.createElement('h3');
+    const nameLink = document.createElement('a');
+    nameLink.href=restaurant.website;
+    nameLink.target = '_blank';
+    nameLink.classList.add('black_link'); //
     name.textContent = restaurant.name;
+    name.appendChild(nameLink)
     card.appendChild(name);
 
     const address = document.createElement('p');
-    address.textContent = restaurant.address;
+    const addressLink = document.createElement('a');
+    const restaurantLinkAdress=restaurant.address+","+city
+    addressLink.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(restaurantLinkAdress)}`;
+    addressLink.target = '_blank';
+    addressLink.classList.add('orange_link'); // Add a class to the <a> element
+    addressLink.textContent = restaurant.address;
+    address.appendChild(addressLink);
     card.appendChild(address);
+
 
     const websiteLink = document.createElement('a');
     websiteLink.target="_blank";
     websiteLink.href = restaurant.website;
-    websiteLink.textContent = 'Visit';
+    websiteLink.textContent = 'Check it out';
+    websiteLink.classList.add('restaurant-card-link'); // Add a class to the <a> element
+
     card.appendChild(websiteLink);
 
     restaurantCardsContainer.appendChild(card);
