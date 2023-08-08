@@ -1,3 +1,7 @@
+
+body{
+  font-family: 'Lato', sans-serif;
+}
 .companyLogo{
     width: 50px;
     height: 50px;
@@ -16,7 +20,7 @@ li[draggable]::before {
   }
   ul {
     list-style: none; /* Remove default bullets */
-    font-family: var(--bs-body-font-family);
+    font-family: 'Lato', sans-serif;
   }
   .imageContainer {
     display: block;
@@ -252,7 +256,7 @@ li[draggable]::before {
       font-weight: bold;
       font-size: 60px;
       text-align: center; 
-      font-family: 'Dancing Script', cursive;
+      font-family: 'Lato', sans-serif;
       
   }
   @media (max-width: 768px) {
@@ -489,8 +493,8 @@ li[draggable]::before {
   font-size: 30px; /* Customize the font size */
   font-weight: bold; /* Make the text bold */
   margin-top: 20px; /* Add some top margin for spacing */
-  color:#f60;
-  font-family: 'Dancing Script', cursive;
+  color: black;
+  font-family: 'Lato', sans-serif;
   
 }
 
