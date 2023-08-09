@@ -188,7 +188,7 @@ li[draggable]::before {
     }
   }
 
-  .about{
+  /* .about{
         font-family: inherit;
   }
   @media (max-width: 768px) {
@@ -196,7 +196,7 @@ li[draggable]::before {
       font-size: 16px;
       margin: 5px;
     }
-  }
+  } */
 
   @media (max-width: 767.98px) {
     .mobile-caption {
@@ -498,7 +498,7 @@ li[draggable]::before {
   line-height: 1.2;
 }
 #visitedInfo {
-  font-size: 20px; /* Customize the font size */
+  font-size: 18px !important;/* Customize the font size */
   color: black;
   font-family: 'Lato', sans-serif;
   
