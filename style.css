@@ -507,7 +507,7 @@ li[draggable]::before {
 }
 @media (max-width: 768px) {
   .visitedInfo{
-    font-size: 16px !important;/* Customize the font size */
+    font-size: 17px !important;/* Customize the font size */
 
   }
 }
