@@ -497,11 +497,11 @@ li[draggable]::before {
   font-size: 12px;
   line-height: 1.2;
 }
-#visitedInfo {
+.visitedInfo {
   font-size: 18px !important;/* Customize the font size */
   color: black;
   font-family: 'Lato', sans-serif;
-  
+  text-align: left;
 }
 
 .carousel-weather {
@@ -740,7 +740,10 @@ li[draggable]::before {
 
   .rows_cards_title{
     font-size: 15px;
-
+  }
+  .px-5{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }
 
