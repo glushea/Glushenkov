@@ -46,6 +46,7 @@ window.onscroll = function () {
     includeFooter();
   });
   
+ 
 
   // Function to include the footer on the page
 //   function includeFooter() {
