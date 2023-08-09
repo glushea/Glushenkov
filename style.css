@@ -46,6 +46,7 @@ li[draggable]::before {
 }
 #boldSpan{
     font-weight: bold;
+    color: #f60;
 }
 .row{
     margin: none;
@@ -188,15 +189,16 @@ li[draggable]::before {
     }
   }
 
-  /* .about{
-        font-family: inherit;
+  .about{
+        /* font-family: inherit; */
+        font-size: 17px;
   }
   @media (max-width: 768px) {
     .about{
       font-size: 16px;
       margin: 5px;
     }
-  } */
+  }
 
   @media (max-width: 767.98px) {
     .mobile-caption {
@@ -502,6 +504,12 @@ li[draggable]::before {
   color: black;
   font-family: 'Lato', sans-serif;
   text-align: left;
+}
+@media (max-width: 768px) {
+  .visitedInfo{
+    font-size: 15px !important;/* Customize the font size */
+
+  }
 }
 
 .carousel-weather {
