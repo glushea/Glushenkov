@@ -333,7 +333,10 @@ li[draggable]::before {
 .family_link:hover {
   background-color: #f60;
 }
-
+.family_image{
+  display: block;
+  margin: 0 auto;
+}
 @media (max-width: 768px) {
   .family_image {
     width: 200px;
