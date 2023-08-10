@@ -955,6 +955,8 @@ function updateRestaurantCards(city) {
     addressLink.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(restaurantLinkAdress)}`;
     addressLink.target = '_blank';
     addressLink.classList.add('orange_link'); // Add a class to the <a> element
+    addressLink.classList.add('line'); // Add a class to the <a> element
+
     addressLink.textContent = restaurant.address;
     address.appendChild(addressLink);
     card.appendChild(address);
@@ -996,6 +998,8 @@ function updateRestaurantCards(city) {
     addressLink.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(restaurantLinkAdress)}`;
     addressLink.target = '_blank';
     addressLink.classList.add('orange_link'); // Add a class to the <a> element
+    addressLink.classList.add('line'); // Add a class to the <a> element
+
     addressLink.textContent = restaurant.address;
     address.appendChild(addressLink);
     card.appendChild(address);

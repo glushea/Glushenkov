@@ -728,6 +728,11 @@ li[draggable]::before {
   text-decoration: none; /* Remove underline */
 
 }
+.line{
+  
+  text-decoration: underline; /* Remove underline */
+
+}
 /* Remove the background color on hover */
 .orange_link:hover {
   background-color: transparent !important;
