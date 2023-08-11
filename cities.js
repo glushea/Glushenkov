@@ -341,31 +341,31 @@ const restaurantsData = {
       name: "Machneyuda",
       address: "Beit Ya'akov St 10",
       website: "https://www.machneyuda.co.il/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNzvrnwjSxvhlJcC0BiHnYoLrZd6QM68ZkBEDUw=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761548/Restaurants/Jerusalem/Machneyuda_pvd6zr.webp"
     },
     {
       name: "Mona",
       address: "Shmu'el ha-Nagid St 12",
       website: "https://tabitisrael.co.il/online-reservations/create-reservation?step=search&orgId=61c04e9a61d16c6cfaa550f7&source=google",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOAePqvFrepaB-Kt5HUojtiEbmGuJym-AEr9LI5=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761544/Restaurants/Jerusalem/mona_ep2ed2.webp"
     },
     {
       name: "Azura",
       address: "Ha-Eshkol St 4",
       website: "https://www.facebook.com/AZURARESTURANT/?rf=246605802020055",
-      image: "https://lh5.googleusercontent.com/p/AF1QipMJF_KRqOTkK4y8DRgiXRhBKBgl8XhHmwtSkzWB=w260-h175-n-k-no"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761548/Restaurants/Jerusalem/azura_qryso3.webp"
     },
     {
       name: "Ishtabach",
       address: "Beit Ya'akov St 1",
       website: "https://tabitisrael.co.il/tabit-order?siteName=ishtabach&step=enter",
-      image: "https://lh3.googleusercontent.com/p/AF1QipP6Xdu90NGgeSAXhImAmjh9CzQwpYRR4lL80g8o=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761546/Restaurants/Jerusalem/ishtabach_ikuksa.webp"
     },
     {
       name: "Hazot",
       address: "Agripas St 121",
       website: "https://hatzot.co.il/homepage/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMEeFVCBfE5a0jJfeIEMxmTRiYAYmAsL12hlFj6=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761549/Restaurants/Jerusalem/hazot_wnfrl4.webp"
     },
     
     // ... more restaurants for Moscow
@@ -375,31 +375,31 @@ const restaurantsData = {
       name: "Grand Cafe Dr. Jhivago",
       address: "Mokhovaya St, 15с1",
       website: "https://drzhivago.ru/en/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNfTf9T1S7Hm99IZuUAQz1raoytqLMOmKpJLdk2=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761544/Restaurants/moscow/doctor_ohepry.webp"
     },
     {
       name: "Cafe Pushkin",
       address: "Tverskoy Blvd, 26А",
       website: "https://cafe-pushkin.ru/en/",
-      image: "https://lh5.googleusercontent.com/p/AF1QipNv1X-b94NdrKlTuhPRPXHv81zBohB4TK5GUTOV=w260-h175-n-k-no"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761544/Restaurants/moscow/puskin_ezhpis.webp"
     },
     {
       name: "Khachapuri",
       address: "Bolshoy Gnezdnikovskiy pereulok, 10",
       website: "https://hacha.ru/en/",
-      image: "https://lh3.googleusercontent.com/gps-proxy/AF-Tc0R1VxMvilPARyhEXmkywDHl5VO2z0vWOjfXbOxL3i1zat9Ot3CPg4FooE7DsHv7Jpo1c_yfdNyctJc1CyUJojbF_iQIKoNeECz1aXZdNP18oc0IyNkrB7jRuQCv5F_q9ezbYnFZ1TsTz9R2UfN4-AycR5cAg-UtQb2sjuSgwOH1msyHeykpWzli=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761543/Restaurants/moscow/Khachapuri_qvlvj8.webp"
     },
     {
       name: "Mari Vanna",
       address: "Spiridon'yevskiy Pereulok, 10a",
       website: "https://ginza.ru/msk/restaurant/marivanna",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPrRHs3gpBcRRrIMCPmFSk5kNLmDpa4PcnTjldx=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761543/Restaurants/moscow/vanna_mgrlaa.webp"
     },
     {
       name: "Megobari",
       address: "Ulitsa Maroseyka, 15",
       website: "https://megobari.wine/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPiwdrhcaK-x8IXGNuwFhfRymTA_qZfjanUhFqY=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761544/Restaurants/moscow/megobari_r5tggp.webp"
     },
     // ... more restaurants for Moscow
   ],
@@ -408,34 +408,34 @@ const restaurantsData = {
       name: "Wood & Fire",
       address: "vulica Francyska Skaryny 1",
       website: "https://woodfire.by/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipO_Ng7s9VZLkKIJNzaHH6K-GaTbfp0Q5CwGPZZD=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761546/Restaurants/minsk/WoodFire_mflu6x.webp"
     },
     {
       name: "Pinky Bandinsky",
       address: "Kamsamoĺskaja vulica 13А",
       website: "https://pinkybandinsky.by/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNbBmnfn4PPjc6DUjwgiDzBY_MeGyufpwWVRBEf=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761544/Restaurants/minsk/pinky_lsxkjj.webp"
     },
     // ..
     {
       name: "Ember",
       address: "Prospekte Pobeditelei 9",
       website: "https://ember.by/en/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOeWSG96kEc7zqKM1usiGUKKsq5mUdVz-gLJV2i=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761544/Restaurants/minsk/ember_hlq0fx.webp"
     },
     // ..
     {
       name: "Lebiažy",
       address: "Ulitsa Ratomskaya 2а",
       website: "https://lebyaziy.by/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipO_dS67ubWchcqJ8dT7wXzP9VqI0nZTbSnkePQX=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761554/Restaurants/minsk/Lebyazhii_vrsk9z.webp"
     },
     // ..
     {
       name: "FABRIQ",
       address: "Prospekte Pobeditelei 1",
       website: "https://fabriq.by/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNof05BourC2dcErI11CMiwFrPRYHfOZg_XOvGR=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761545/Restaurants/minsk/fabriq_of8sis.webp"
     },
     // ..
     // ... more restaurants for Minsk
@@ -445,34 +445,34 @@ const restaurantsData = {
       name: "L'Atelier de Joël Robuchon Étoile",
       address: "133 Av. des Champs-Élysées",
       website: "http://atelier-robuchon-etoile.com/en/accueil.php",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMa8G5tv-lXhFQmAkNVuap3xcS7pSBiugJB94Qj=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761543/Restaurants/paris/Atelier_ihyht4.webp"
     },
     {
       name: "ALCAZAR",
       address: "62 Rue Mazarine",
       website: "http://www.alcazar.fr/?lang=en",
-      image: "https://lh3.googleusercontent.com/p/AF1QipM0cZpd6xoNnNmL7ELqWMwAGA0oQjaeJAVBoPK-=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761543/Restaurants/paris/ALCAZAR_kahazr.webp"
     },
     // ..
     {
       name: "Angelina",
       address: "226 Rue de Rivoli",
       website: "https://www.angelina-paris.fr/?y_source=1_MTE5MzAwODYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNurK9XWcpsJ2Clwy0gNWWr-ki7NDCKC8huyFbi=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761543/Restaurants/paris/angelina_y6melm.webp"
     },
     // ..
     {
       name: "Epicure",
       address: "12 Rue du Faubourg Saint-Honoré",
       website: "https://www.oetkercollection.com/hotels/le-bristol-paris/restaurants-bar/epicure/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipM5jkLJpUQqJ82gj4OBcKJo5jbl-BOyPKh6ANzo=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761553/Restaurants/paris/Epicure_zyobtv.webp"
     },
     // ..
     {
       name: "Relais de l’Entrecôte",
       address: "15 Rue Marbeuf",
       website: "https://www.relaisentrecote.fr/?page_id=396&lang=en_GB",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNG07VqJLFWZ2x_3jdfmU5f2BB02F8Mn3D7E8xn=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761543/Restaurants/paris/relais-de-l-entrecote_dihgvs.webp"
     },
     // ..
     // ... more restaurants for Minsk
@@ -482,34 +482,34 @@ const restaurantsData = {
       name: "El Desnivel, San Telmo",
       address: "Defensa 855, C1065 AAO",
       website: "https://webdato.com/services/qr/desnivel/carta/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPJx5epTLGgfIsa42OOzv7W-USfsFIC0PFOZjgj=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761547/Restaurants/Buenos/el-desnivel-san-telmo_ypoak8.webp"
     },
     {
       name: "Puerto Cristal",
       address: "Av. Alicia Moreau de Justo 1082",
       website: "https://www.puerto-cristal.com.ar/en/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPbL_rOAvBcAvqz6-CRBulLA-wDBPtG2nps25Z6=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761545/Restaurants/Buenos/PuertoCristal_eufjm9.webp"
     },
     // ..
     {
       name: "Parrilla La Brigada",
       address: "Estados Unidos 465, C1066 CABA",
       website: "https://labrigada.com.ar/labrigada/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMKUyI9YVDi3X8WeMOIf-i22o_fnu--NvAWBOAg=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761546/Restaurants/Buenos/ParrillaLaBrigada_fworpl.webp"
     },
     // ..
     {
       name: "Don Julio",
       address: "Guatemala 4699, C1425 CABA",
       website: "https://www.parrilladonjulio.com/https://restaurant1-minsk.com",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPD6pLUaRud-AkSUiw3-7_1aspWd9VA-FHDnRLL=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761545/Restaurants/Buenos/DonJulio_nthbwd.webp"
     },
     // ..
     {
       name: "Santos Manjares",
       address: "Paraguay 938, C1057 AAN",
       website: "https://www.instagram.com/santosmanjares/?hl=en",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPwLM7QbAyt1991PnErd6GAm8hllzcBWN_ZqeS9=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761545/Restaurants/Buenos/santos-manjares_aupy0k.webp"
     },
     // ..
     // ... more restaurants for Minsk
@@ -519,34 +519,34 @@ const restaurantsData = {
       name: "Masala Zone Soho",
       address: "9 Marshall St",
       website: "https://www.masalazone.com/locations/soho/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMLBTMwQI3gtTrxjQVyUJPNb9Cl-nC3HIfXuvER=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761545/Restaurants/London/MasalaZoneSoho_ngws9l.webp"
     },
     {
       name: "Blacklock Shoreditch",
       address: "28-30 Rivington St",
       website: "https://theblacklock.com/restaurants/shoreditch/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMBacZKhxib3-lpCxjiAA4TboyA8OkUDDjQvpuE=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761558/Restaurants/London/Blacklock_zku774.webp"
     },
     // ..
     {
       name: "Flat Iron Covent Garden",
       address: "17-18 Henrietta St",
       website: "https://flatironsteak.co.uk/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMlr85h-9_8jiTp1Edb9Zi1DNn6MMuseRAmjHui=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761550/Restaurants/London/Flat-Iron-Food-Steak-2_coz55l.webp"
     },
     // ..
     {
       name: "Dishoom Covent Garden",
       address: "12 Upper St Martin's Ln",
       website: "https://www.dishoom.com/",
-      image: "https://lh5.googleusercontent.com/p/AF1QipOVLWcwd9vwd3zxY0JBeK3vvmtUUgoUr3_-66CX=w260-h175-n-k-no"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761547/Restaurants/London/Dishoom_vy24wp.webp"
     },
     // ..
     {
       name: "The Vault",
       address: "3 Greek St",
       website: "https://milroys.co.uk/pages/soho-the-vault",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNIafcYXV3UuMVY9NVDKYbLATahB89xZGQhtBnq=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761549/Restaurants/London/TheVault_qp9rul.webp"
     },
     // ..
     // ... more restaurants for Minsk
@@ -556,34 +556,34 @@ const restaurantsData = {
       name: "Turkiz",
       address: "Herzl Rosenblum St 6",
       website: "https://www.turkiz-rest.co.il/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMJLcbNimguIohsaZ569bKZ1oH8OuIEQ7F6uoNr=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761548/Restaurants/TelAviv/Turkiz_fmcbqg.webp"
     },
     {
       name: "Hudson Brasserie",
       address: "HaBarzel St 27",
       website: "https://hudson-tlv.com/ramat-hahayal/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOfJsvAL0AR5eRXt2R6-MUd7_YoVs2-n9Xd_Xfo=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761546/Restaurants/TelAviv/Hudson-Brasserie-9_ehp2rr.webp"
     },
     // ..
     {
       name: "Port Sa'id",
       address: "Har Sinai St 5",
       website: "https://www.instagram.com/port_said/?igshid=MzRlODBiNWFlZA%3D%3D",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNq8MfA9II70lT7i5lgb0tdWtzg51oJi7s3LW48=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761554/Restaurants/TelAviv/PortSaid_cfl1yb.webp"
     },
     // ..
     {
       name: "OCD TLV",
       address: "Tirtsa St 17",
       website: "https://www.ocdtlv.com/en/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPU64RJk1nI73i0m_g-K9y2SRfQZEPReIa-mBMs=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761545/Restaurants/TelAviv/ocd_nhuxbo.webp"
     },
     // ..
     {
       name: "Mashya",
       address: "Mendele Mokher Sfarim St 5",
       website: "https://www.mashya.co.il/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPAqe8l1iH27weaE9JddLCHNGIask80q1F8u95Y=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761545/Restaurants/TelAviv/Mashya_vcmviu.webp"
     },
     // ..
     // ... more restaurants for Minsk
@@ -593,34 +593,34 @@ const restaurantsData = {
       name: "Katz's Delicatessen",
       address: "205 E Houston St",
       website: "https://katzsdelicatessen.com/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipO30Z2KIoD_OaqJfHiqHUOQoLEsgusa2PGfuXax=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761544/Restaurants/NewYork/KatzDelicatessen_bhlpmf.webp"
     },
     {
       name: "Nusr-Et Steakhouse",
       address: "60 W 53rd St",
       website: "https://nusretusa.com/ny-midtown/menu",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPZauXKo-oY8aKuyIIUm5kzsaKHM9_jjpzUGSHi=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761546/Restaurants/NewYork/Nusr-Et_gf6hsh.webp"
     },
     // ..
     {
       name: "Jacob's Pickles",
       address: "509 Amsterdam Ave",
       website: "https://www.jacobspickles.com/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipO0Tw1m2-iugTSKp3W3189nwsOB-d9OAGjJXm2G=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761552/Restaurants/NewYork/jacobs-pickles2_oxkow0.webp"
     },
     // ..
     {
       name: "Gallaghers Steakhouse",
       address: "228 W 52nd St",
       website: "https://www.gallaghersnysteakhouse.com/menu.php?venue_id=1&menu_id=1",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNG5lXIWyBMheJ-1KjgYAKBnuC0Uuii76Dl-dPK=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761544/Restaurants/NewYork/Gallaghers_ogucvl.webp"
     },
     // ..
     {
       name: "Boucherie West Village",
       address: "99 7th Ave S",
       website: "https://www.boucherieus.com/hours-and-locations/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipM56pcu3OS0UK4Pw-ADl5L56wqUV-zmzGBug-Ow=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761559/Restaurants/NewYork/Boucherie_anyhru.webp"
     },
     // ..
     // ... more restaurants for Minsk
@@ -634,31 +634,31 @@ const sitesData = {
       name: "Western Wall & Tunnel",
       address: "Western Wall, Old City",
       website: "https://thekotel.org/en/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipP2sMcDoAfq-jdSA7gLx8ynEnQzLSLEBtIm2Xdy=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761579/Sites/Jerusalem/western_ha1znz.webp"
     },
     {
       name: "City of David",
       address: "Ma'alot Ir David St 17",
       website: "https://cityofdavid.org.il/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipM_Rqfkm1XkNRiYGTzl6BdcNPcuOC0rIDvCT1Ne=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761578/Sites/Jerusalem/cityOfDavid_bwk93h.webp"
     },
     {
       name: "The Israel Museum",
       address: "Derech Ruppin 11",
       website: "https://www.imj.org.il/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNY6hJZyK_k1F6QSE2r6yfXyHWNF202g5o7h_Ht=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761577/Sites/Jerusalem/Museum_rpnozv.webp"
     },
     {
       name: "Machaneh Yehudah",
       address: "Agripas St 90",
       website: "https://en.wikipedia.org/wiki/Mahane_Yehuda_Market",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNayeQ1nMlYbqskPtAHzGpq3shxVBt-0ymzGBLm=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761592/Sites/Jerusalem/MachanehYehudah_yzzjyv.webp"
     },
     {
       name: "Holy Sepulchre Church",
       address: "Old City",
       website: "https://en.wikipedia.org/wiki/Church_of_the_Holy_Sepulchre",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPTpxuU-aHo45a_7MVgbAt6bsT7Jug9R749Djsh=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761586/Sites/Jerusalem/HolySepulchreChurch_zxig06.webp"
     },
     
     // ... more restaurants for Moscow
@@ -668,31 +668,31 @@ const sitesData = {
       name: "Red square and Kremlin",
       address: "Red square",
       website: "https://um.mos.ru/places/krasnaya_ploshchad/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNCwFuzlaUBEO_QkLirHTYnVA-NMUMUPwsWkHu4=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761576/Sites/moscow/red_g0zgsk.webp"
     },
     {
       name: "Bolshoi Theatre",
       address: "Theatre Square, 1",
       website: "https://bolshoi.ru/en",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPYphy1H0uJwK8UUX1BbH_4Jo_3qqyAYHnZ06JG=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761578/Sites/moscow/Bolshoi-Theatre-Moscow-feature_k8dabs.webp"
     },
     {
       name: "Vdnkh",
       address: "Prospekt Mira, 119",
       website: "https://vdnh.ru/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOrm78NxKUuiAVI4HfQ3_POR5hvCfJRo9nMaA_Q=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761591/Sites/moscow/Vdnkh_fgzqrv.webp"
     },
     {
       name: "Gorky Park",
       address: "Krymsky Val, 9",
       website: "https://park-gorkogo.com/en/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipO2A7wXLSF9-PkX5w5ra6lHV7zc7PXxzoFKmbYI=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761576/Sites/moscow/GorkyPark_fghsqd.webp"
     },
     {
       name: "Izmaylovskiy Bazar",
       address: "Izmaylovskiy Proyezd, 73Жс5",
       website: "https://www.kremlin-izmailovo.com/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPnVcdH3Ku4OyMWi6lFHXmauPARswX84m76Vcor=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761578/Sites/moscow/IzmaylovskiyBazar_oo7pty.webp"
     },
     // ... more restaurants for Moscow
   ],
@@ -701,34 +701,34 @@ const sitesData = {
       name: "Victory Square",
       address: "Victory Squar",
       website: "https://en.wikipedia.org/wiki/Victory_Square,_Minsk",
-      image: "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSL-qVcpwndz_MCbD71qFep2h3R9XGU8tNi5sxardVitg9G2z_oN_jPI27aeqbBQONW"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761579/Sites/minsk/Victory-square_bxstve.webp"
     },
     {
       name: "Great Patriotic War Museum",
       address: "Prospekte Pobeditelei 8",
       website: "https://www.warmuseum.by/en/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipM4o2GPc74iga81ImyqFwroIj1k099GTJdwKybc=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761577/Sites/minsk/GreatPatrioticWarMuseum_jtebun.webp"
     },
     // ..
     {
       name: "Chaliuskincai Park",
       address: "prasp. Niezaliežnasci",
       website: "http://parki.by/All-parks/2",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNLHNYUKUUcXF3HXtyGPob3LAISY2iGknHayWSP=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761577/Sites/minsk/park_vrintg.webp"
     },
     // ..
     {
       name: "Komarovsky Market",
       address: "vulica Viery Charužaj 8",
       website: "https://komarovka.by/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMyC_gMyJRiOYEobY8dut0TX5K6Gr8doMRdLor0=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761577/Sites/minsk/Komarovsky_kmqs0m.webp"
     },
     // ..
     {
       name: "Circus",
       address: "Independence Ave 32",
       website: "http://circus.by/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOocjnwyTh1BngAPJ8qu5P0P_i3Dp2s0BOn3lmS=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761577/Sites/minsk/Circus_jhccc1.webp"
     },
     // ..
     // ... more restaurants for Minsk
@@ -738,34 +738,34 @@ const sitesData = {
       name: "Eiffel Tower",
       address: "Champ de Mars, 5 Av",
       website: "https://www.toureiffel.paris/en",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMrdzS6W5BkQJointCuzIuecngcYYPH-l_acmsb=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761576/Sites/paris/eiffel-tower-paris-france-EIFFEL0217-6ccc3553e98946f18c893018d5b42bde_i2pin2.webp"
     },
     {
       name: "Louvre Museum",
       address: "75001 Paris",
       website: "https://www.louvre.fr/en",
-      image: "https://lh3.googleusercontent.com/p/AF1QipO6lWvRt8Gr7dU9hc5vgRbsLD0Js7t4On4ZCUHN=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761575/Sites/paris/luver_jedsem.webp"
     },
     // ..
     {
       name: "Arc de Triomphe",
       address: "Pl. Charles de Gaulle",
       website: "https://www.paris-arc-de-triomphe.fr/en",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMXST5GB5FJEaWKGQ2d_oBsOZhWLmXjYWhaK4M8=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761575/Sites/paris/arc_vkpeef.webp"
     },
     // ..
     {
       name: "Notre-Dame de Paris",
       address: "6 Parvis Notre-Dame - Pl",
       website: "https://www.notredamedeparis.fr/en/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNw1t4oS3qgaNJDl9e3aFDsMTsDcmQ2nzqQJCrP=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761576/Sites/paris/Cathe%CC%81drale-Notre-Dame-de-Paris-Vue-depuis-le-parvis--630x405--_-LeifLinding_ematop.webp"
     },
     // ..
     {
       name: "Disneyland Paris",
       address: "Bd de Parc, 77700 Coupvray",
       website: "https://www.disneylandparis.com/en-usd/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMnn_Bty2TXGxS02n-utyBuLyVQrWUpr7uhlk3U=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761576/Sites/paris/disney_nwwv1l.webp"
     },
     // ..
   ],
@@ -774,34 +774,34 @@ const sitesData = {
       name: "Museo Nacional de Bellas Artes",
       address: "Av. del Libertador 1473",
       website: "https://www.bellasartes.gob.ar/en/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPDIQqlv434Riij7CTzJVqeCl_Te6Wa_jARtWcL=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761580/Sites/Buenos/MuseoNacionaldeBellasArtes_cpshct.webp"
     },
     {
       name: "Tres de Febrero Park",
       address: "Av. Infanta Isabel 110",
       website: "https://turismo.buenosaires.gob.ar/en/otros-establecimientos/parque-tres-de-febrero",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOgC1xR4z02z5_aWOlou5pk3oVzSN8aXW7neWmH=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761588/Sites/Buenos/TresdeFebreroPark_fhqhza.webp"
     },
     // ..
     {
       name: "Plaza de Mayo",
       address: "Balcarce 78",
       website: "https://turismo.buenosaires.gob.ar/en/otros-establecimientos/plaza-de-mayo",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPimRAROt2meO4UFRlbk2ThVomTu510AFuyLPu8=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761583/Sites/Buenos/PlazadeMayo_v7vndj.webp"
     },
     // ..
     {
       name: "Feira de San Telmo",
       address: "Defensa 1086",
       website: "https://www.feriadesantelmo.com/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNICsVHzQLjvQr2g-mv3JVK3IaDJMwCkwvVIU8i=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761581/Sites/Buenos/FeiradeSanTelmo_zknlom.webp"
     },
     // ..
     {
       name: "Teatro Colón",
       address: "Cerrito 628",
       website: "https://teatrocolon.org.ar/en",
-      image: "https://lh3.googleusercontent.com/p/AF1QipN2hadZMSWqocEjqbK4iect27llDmil7hOy_wHI=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761579/Sites/Buenos/TeatroColon_xl7p50.webp"
     },
     // ..
     // ... more restaurants for Minsk 
@@ -811,34 +811,34 @@ const sitesData = {
       name: "City of Westminster",
       address: "Westminster",
       website: "https://en.wikipedia.org/wiki/City_of_Westminster",
-      image: "https://www.walks.com/wp-content/uploads/2023/03/Houses-of-Parliaments-and-Westminster-Bridge-seen-from-the-Air-London-Walks.jpg"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761582/Sites/London/Westminster_i2mgpi.webp"
     },
     {
       name: "Tower of London",
       address: "St Katharine's & Wapping",
       website: "https://www.hrp.org.uk/tower-of-london/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPwQgiJL1MYXggQHSnC1omIrQ6tbyFJ0XN3dWyA=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761578/Sites/London/TowerLondon_jjs4og.webp"
     },
     // ..
     {
       name: "British Museum",
       address: "Great Russell St, Bloomsbury",
       website: "https://www.britishmuseum.org/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPJA1W3rAPK3xAArAOtYdTMu5rgRDbkTAotGV3t=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761584/Sites/London/the-British-Museum_gm9sff.webp"
     },
     // ..
     {
       name: "Hyde Park",
       address: "Hyde Park",
       website: "https://www.royalparks.org.uk/parks/hyde-park",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOWTwdLqngUrSrnZxp_EPMMBYq8lxeENWzI4HCU=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761582/Sites/London/HydePark_isvrhk.webp"
     },
     // ..
     {
       name: "London Eye",
       address: "Lambeth",
       website: "https://www.londoneye.com/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOVvhrgBSIspTYhxSNWxJd5VT886iO_q7XDvBIF=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761590/Sites/London/London_Eye_jsaudy.webp"
     },
     // ..
     // ... more restaurants for Minsk
@@ -848,34 +848,34 @@ const sitesData = {
       name: "Carmel Market",
       address: "HaCarmel St",
       website: "https://en.wikipedia.org/wiki/Carmel_Market",
-      image: "https://www.aisrael.org/_uploads/extraimg/carmel-market-tel-aviv.jpg"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761578/Sites/TelAviv/CarmelMarket_h7oryw.webp"
     },
     {
       name: "Promenade (Tayelet)",
       address: "Promenade",
       website: "https://en.wikipedia.org/wiki/Tel_Aviv_Promenade",
-      image: "https://lh3.googleusercontent.com/p/AF1QipPySqtH3LRmJvZxAOigVVijxge4CkPhD3hdGJry=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761577/Sites/TelAviv/Promenade_xxzoch.webp"
     },
     // ..
     {
       name: "Old Jaffa (Yafo)",
       address: "Old Jaffa",
       website: "https://en.wikipedia.org/wiki/Old_Jaffa",
-      image: "https://i0.wp.com/www.touristisrael.com/wp-content/uploads/2021/06/jaffa-port-scaled.jpg?fit=2560%2C1208&ssl=1"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761580/Sites/TelAviv/city-port-Israel-Tel-Aviv-Yafo_fosro5.webp"
     },
     // ..
     {
       name: "Neve Tzedek",
       address: "Neve Tzedek",
       website: "https://en.wikipedia.org/wiki/Neve_Tzedek",
-      image: "https://israel.travel/wp-content/uploads/2019/03/neve-tzdek-inside-min.jpg"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761579/Sites/TelAviv/neve-tzdek-inside-min_fnijl0.webp"
     },
     // ..
     {
       name: "Sarona Market",
       address: "Kaplan St 3",
       website: "https://www.saronamarket.co.il/en",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOTbg2GZv39_S0i3KnO5neyCpbkgvbqYKIk6m5z=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761580/Sites/TelAviv/SaronaMarket_p2hylk.webp"
     },
     // ..
     // ... more restaurants for Minsk
@@ -885,34 +885,34 @@ const sitesData = {
       name: "Times Square",
       address: "Manhattan",
       website: "https://www.timessquarenyc.org/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOG_OGnUSyqLgLT8DSjahZ9bnAH2avIm7YTOoL1=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761576/Sites/NewYork/TimesSquare_breoww.webp"
     },
     {
       name: "Statue of Liberty",
       address: "Liberty Island",
       website: "https://www.nps.gov/stli/index.htm",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNOkjsKcMBL_Fia95bCQvwISPZBNG_Addfw3AYm=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761586/Sites/NewYork/StatueofLiberty_mfu57z.webp"
     },
     // ..
     {
       name: "Central Park",
       address: "Central Park",
       website: "https://www.centralparknyc.org/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNgwKznOsp4It9oyzyxIm5IpiDtjK5qLEbwtOSh=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761576/Sites/NewYork/CentralPark_zlac3f.webp"
     },
     // ..
     {
       name: "Empire State Building",
       address: "350 5th Ave",
       website: "https://www.esbnyc.com/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOBBZgukGcL1DRhiwcJhYG_2o-1pPv5Wvs2M29B=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761578/Sites/NewYork/empire-state-building-in-new-york-top_cioqrv.webp"
     },
     // ..
     {
       name: "Chelsea Market",
       address: "75 9th Ave, New York, NY 10011",
       website: "https://www.chelseamarket.com/",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOJPyMBsPHV06y6VlfcbQrvXb4IKjVuWYb5hMsQ=s1360-w1360-h1020"
+      image: "https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761585/Sites/NewYork/ChelseaMarket_vpvstn.webp"
     },
     // ..
     // ... more restaurants for Minsk
