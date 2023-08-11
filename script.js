@@ -46,6 +46,9 @@ window.onscroll = function () {
     includeFooter();
   });
   
+ 
+  
+
 //   const overlay = document.getElementById('overlay');
 // const overlayImage = document.querySelector('.overlay-image');
 // const closeBtn = document.getElementById('closeBtn');

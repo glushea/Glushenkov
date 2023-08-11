@@ -95,11 +95,11 @@ body {
 
   }
   .big{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 19px;
+    padding-bottom: 19px;
   }
   .welcome-message {
-    font-size: 25px;
+    font-size: 40px;
   }
 }
   @media (max-width: 768px) {
