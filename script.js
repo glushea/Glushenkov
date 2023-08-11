@@ -46,22 +46,22 @@ window.onscroll = function () {
     includeFooter();
   });
   
-  const overlay = document.getElementById('overlay');
-const overlayImage = document.querySelector('.overlay-image');
-const closeBtn = document.getElementById('closeBtn');
-const imageContainers = document.querySelectorAll('.image-container');
+//   const overlay = document.getElementById('overlay');
+// const overlayImage = document.querySelector('.overlay-image');
+// const closeBtn = document.getElementById('closeBtn');
+// const imageContainers = document.querySelectorAll('.image-container');
 
-imageContainers.forEach(container => {
-  container.addEventListener('click', () => {
-    const image = container.querySelector('img');
-    overlayImage.src = image.src;
-    overlay.style.display = 'flex';
-  });
-});
+// imageContainers.forEach(container => {
+//   container.addEventListener('click', () => {
+//     const image = container.querySelector('img');
+//     overlayImage.src = image.src;
+//     overlay.style.display = 'flex';
+//   });
+// });
 
-closeBtn.addEventListener('click', () => {
-  overlay.style.display = 'none';
-});
+// closeBtn.addEventListener('click', () => {
+//   overlay.style.display = 'none';
+// });
 
  
 
