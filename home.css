@@ -129,14 +129,14 @@ body {
 }
 
 .quote-text {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: white; /* Orange color */
   padding-right: 10px;
 }
 
 .author-name {
-  font-size: 20px;
+  font-size: 16px;
   color: white; /* Orange color */
   text-align: right;
   margin-top: 8px;
