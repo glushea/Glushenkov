@@ -1,0 +1,15 @@
+{
+  "name": "glushenkov",
+  "version": "1.0.0",
+  "description": "MyFirstWebSite",
+  "main": "cities.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^3.3.0"
+  }
+}
