@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761444/b_jer_ouwnxf.webp');
+    /* background-image: url('https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761444/b_jer_ouwnxf.webp'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.396), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761444/b_jer_ouwnxf.webp');
+
     background-size: cover;
     font-family: 'Lato', sans-serif;
     display: flex;
@@ -31,7 +33,7 @@ body {
 }
 .card {
     /* background-color: rgba(246, 242, 242, 0.926) !important; */
-    background: linear-gradient(rgba(248, 247, 247, 0.908), rgba(236, 229, 229, 0.876))!important;
+    background: linear-gradient(rgba(248, 247, 247, 0.852), rgba(236, 229, 229, 0.97))!important;
 
     color: #f60 !important;
     font-size: 15px !important;
