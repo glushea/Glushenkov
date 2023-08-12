@@ -139,6 +139,7 @@ body {
   text-align: right;
   margin-top: 8px;
   font-style: italic;
+  padding-right: 10px;
 }
 
 .openai-logo {

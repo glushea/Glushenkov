@@ -1,4 +1,15 @@
-const apiKey = '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';
+let apiKey = "";
+
+fetch('./config.json')
+  .then(response => response.json())
+  .then(data => {
+     apiKey = data.openaiApiKey;
+    // Use the API key
+  })
+  .catch(error => {
+    console.error('Error fetching JSON:', error);
+  });
+
 
 const quoteElement = document.getElementById('quote');
 const authorElement = document.getElementById('author');
