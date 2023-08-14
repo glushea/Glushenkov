@@ -148,9 +148,16 @@ body {
 }
 
 .openai-logo {
-  width: 60px;
-  height: 70px;
+  width: 70px;
+  height: 77px;
   /* margin-bottom: 10px; */
+}
+
+@media (max-width: 768px) {
+  .openai-logo {
+    width: 60px;
+    height: 66px;
+  }
 }
 .powered-by {
   display: flex; /* Display the elements on the same line */
