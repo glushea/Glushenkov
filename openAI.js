@@ -1,3 +1,6 @@
+// const openai = require('openai');
+
+
 let apiKey = "";
 
 fetch('./config.json')
@@ -10,6 +13,7 @@ fetch('./config.json')
     console.error('Error fetching JSON:', error);
   });
 
+// const apiKey = process.env.OPENAI_API_KEY;
 
 const quoteElement = document.getElementById('quote');
 const authorElement = document.getElementById('author');
