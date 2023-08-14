@@ -151,7 +151,7 @@ body {
   margin-bottom: 10px;
 }
 .powered-by {
-  display: inline-flex; /* Display the elements on the same line */
+  display: flex; /* Display the elements on the same line */
   margin-top: 10px; /* Adjust the margin as needed */
   align-items: center;
   justify-content: center;

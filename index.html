@@ -137,7 +137,11 @@
   </div>
 </div>
 <div> -->
-  
+  <!-- <div id="quote-container">
+    <p id="loading">Loading...</p>
+    <div id="quote" style="display: none;"></div>
+    <div id="author" style="display: none;"></div>
+</div> -->
  
 <!-- <script type="module" src="openAI.js"></script> -->
 <div id="quote-container">
@@ -151,8 +155,8 @@
   </div>
 </div>
 <script>
-  const quoteContainer = document.getElementById('quote-container');
-const loadingElement = document.getElementById('loading');
+
+
 const quoteElement = document.getElementById('quote');
 const authorElement = document.getElementById('author');
 
@@ -161,12 +165,18 @@ async function fetchQuote() {
         const response = await fetch('https://mychatgptapp-84b16d9059e0.herokuapp.com/chatgpt');
         const data = await response.json();
 
-        loadingElement.style.display = 'none';
-        quoteElement.textContent = data.quoteResponse.quote;
-        authorElement.textContent = `— ${data.quoteResponse.author}`;
+       // Parse the JSON string within quoteResponse
+       const quoteResponse = JSON.parse(data.quoteResponse);
 
-        quoteElement.style.display = 'block';
-        authorElement.style.display = 'block';
+// console.log(quoteResponse);
+// console.log("quote: " + quoteResponse.quote);
+// console.log("author: " + quoteResponse.author);
+
+quoteElement.textContent = quoteResponse.quote;
+authorElement.textContent = `— ${quoteResponse.author}`;
+       
+
+     
     } catch (error) {
         console.error(error);
         loadingElement.textContent = 'Error loading quote.';
