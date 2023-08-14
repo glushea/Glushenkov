@@ -133,6 +133,8 @@ body {
   font-weight: bold;
   color: white; /* Orange color */
   padding-right: 10px;
+  padding-left: 10px; 
+
 }
 
 .author-name {
@@ -146,9 +148,9 @@ body {
 }
 
 .openai-logo {
-  width: 100px!important;
-  height: 100px!important;
-  margin-bottom: 10px;
+  width: 60px;
+  height: 70px;
+  /* margin-bottom: 10px; */
 }
 .powered-by {
   display: flex; /* Display the elements on the same line */
@@ -156,3 +158,22 @@ body {
   align-items: center;
   justify-content: center;
 }
+#loading{
+  width: 100px;
+  display: inline-flex;
+}
+#loading.hide {
+  display: none;
+}
+
+.image-button {
+  background: none;
+  width: 60px;
+
+  border: none;
+  padding: 0;
+  cursor: pointer;}
+  .hide{
+    display: none;
+    
+    }

@@ -250,6 +250,7 @@ li[draggable]::before {
       #loading-screen.hide {
         display: none;
       }
+     
          /* Customize the spinner */
     .custom-spinner {
       width: 200px;
