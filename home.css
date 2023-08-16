@@ -192,5 +192,11 @@ body {
     }
     #errorMsg{
       color: #f60;
-      font-size: 40px;
+      font-size: 30px;
+    }
+    @media (max-width: 768px) {
+      #errorMsg{
+        font-size: 20px;
+        padding-left: 5px;
+      }
     }
