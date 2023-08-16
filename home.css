@@ -184,3 +184,13 @@ body {
     display: none;
     
     }
+    #errorImg{
+      width:300px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+    #errorMsg{
+      color: #f60;
+      font-size: 40px;
+    }
