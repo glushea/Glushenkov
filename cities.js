@@ -62,7 +62,10 @@
   { name: "Rome", lat: 41.9028, lon: 12.4964, country: "Italy" },
   { name: "Monaco", lat: 43.7384, lon: 7.4246, country: "Monaco" },
   { name: "Bern", lat: 46.8182, lon: 8.2275, country: "Switzerland" },
-  { name: "Geneva", lat: 46.2044, lon: 6.1432, country: "Switzerland" }
+  { name: "Geneva", lat: 46.2044, lon: 6.1432, country: "Switzerland" },
+  { name: "Budva", lat: 42.2911, lon: 18.8403, country: "Montengro" },
+  { name: "Kotor", lat: 42.4247, lon: 18.7712, country: "Montengro" },
+  { name: "Zabljak", lat: 43.1555, lon: 19.1226, country: "Montengro" }
   // Add more cities with their latitudes, longitudes, and countries as needed
 ];
 
