@@ -365,7 +365,7 @@ li[draggable]::before {
     width: 200px;
   }
   .family_link2 {
-    padding-left: 95px !important;
+    padding-left: 10px !important;
 
   }
 }
@@ -389,6 +389,7 @@ li[draggable]::before {
   .family_footer {
     width: 200px;
   }
+  
 }
 
 .round-button {
@@ -492,7 +493,7 @@ li[draggable]::before {
 
 @media (max-width: 768px) {
   .round-btn  {
-    width:auto;
+    width:70px;
   }
   .fam{
      font-size: 20px;
