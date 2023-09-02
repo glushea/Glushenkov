@@ -45,7 +45,7 @@ async function fetchShirtsData() {
 
 
 
-  // Function to generate carousel items from JSON data
+ 
 // Function to generate carousel items and indicators from JSON data
 function generateCarousel(data) {
     const carousel = document.getElementById("carouselExampleCaptions");
