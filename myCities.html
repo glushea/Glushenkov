@@ -38,8 +38,21 @@
 </script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
+<script>
+  // JavaScript to hide the loading screen after a specified duration
+  setTimeout(function() {
+var loadingScreen = document.getElementById("loading-screen");
+loadingScreen.classList.add("hide");
+}, 700); // Adjust the duration (in milliseconds) as needed
+
+</script>
 <body>
-    
+  <div id="loading-screen" >
+    <!-- Bootstrap Spinner -->
+    <div class="custom-spinner" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
       <div id="headerContainer"></div>
 
       <div class="px-4 pt-5 my-5 text-center border-bottom">
