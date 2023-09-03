@@ -1,37 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://glushea.github.io/Glushenkov/index.html</loc>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://glushea.github.io/Glushenkov/about.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://glushea.github.io/Glushenkov/cv.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://glushea.github.io/Glushenkov/family.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://glushea.github.io/Glushenkov/myCities.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://glushea.github.io/Glushenkov/mypub.html</loc>
-    <priority>0.8</priority>
-  </url>
-    <url>
-    <loc>https://glushea.github.io/Glushenkov/shirts.html</loc>
-    <priority>0.8</priority>
-  </url>
-   <url>
-    <loc>https://glushea.github.io/Glushenkov/contact.html</loc>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Add more URLs here -->
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.glushea.com/</loc>
+  <lastmod>2023-09-02T15:05:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.glushea.com/about.html</loc>
+  <lastmod>2023-09-02T15:04:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.glushea.com/shirts.html</loc>
+  <lastmod>2023-09-02T15:05:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.glushea.com/cv.html</loc>
+  <lastmod>2023-09-02T15:04:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.glushea.com/myCities.html</loc>
+  <lastmod>2023-09-02T15:05:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.glushea.com/contact.html</loc>
+  <lastmod>2023-09-02T15:04:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.glushea.com/mypub.html</loc>
+  <lastmod>2023-09-02T15:05:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.glushea.com/family.html</loc>
+  <lastmod>2023-09-02T15:04:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
