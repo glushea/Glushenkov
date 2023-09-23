@@ -43,6 +43,24 @@
           "link": "https://en.wikipedia.org/wiki/Falafel"
         },
         {
+            "image": "https://www.hervecuisine.com/wp-content/uploads/creme-brulee-vanille-1280x720.jpg",
+            "title": "Crème Brûlée",
+            "description": "A rich custard base topped with a layer of hardened caramelized sugar",
+            "link": "https://en.wikipedia.org/wiki/Cr%C3%A8me_br%C3%BBl%C3%A9e"
+          },
+          {
+            "image": "https://bakeplaysmile.com/wp-content/uploads/2022/06/tiramisu-square-500x375.jpg",
+            "title": "Tiramisu",
+            "description": "A coffee-flavoured Italian dessert",
+            "link": "https://en.wikipedia.org/wiki/Tiramisu"
+          },
+          {
+            "image": "https://www.recipetineats.com/wp-content/uploads/2022/11/Eclairs_0a.jpg",
+            "title": "Éclair",
+            "description": "A pastry made with choux dough filled with a cream and topped with a flavored icing",
+            "link": "https://en.wikipedia.org/wiki/%C3%89clair"
+          },
+        {
           "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2017/10/how-to-make-tahini-recipe.jpg",
           "title": "Tahini",
           "description": "A condiment made from toasted ground hulled sesame",
