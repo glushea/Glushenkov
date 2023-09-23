@@ -981,10 +981,10 @@ li[draggable]::before {
   }
   .h3_food {
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 17px;
   }
   .p_card{
-    font-size: 15px;
+    font-size: 14px;
 
   }
 }
