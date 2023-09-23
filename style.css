@@ -937,7 +937,7 @@ li[draggable]::before {
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px;
-  max-width: 200px;
+  max-width: 300px;
   box-shadow: 6px 6px 0 #f0f0f0; /* Horizontal offset 5px to the right, Vertical offset 5px down, No blur, Color #F60 */
 
 }
@@ -945,14 +945,15 @@ li[draggable]::before {
 .card_img_food{
   /* width: 100%;
   height: auto; */
-  width:180px;
-  height:140px;
+  width:280px;
+  height:240px;
+  object-fit: cover; /* Make the image cover the container */
 }
 .card_img_movie{
   /* width: 100%;
   height: auto; */
-  width:180px;
-  height:250px;
+  width:280px;
+  height:350px;
 }
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -961,19 +962,19 @@ li[draggable]::before {
   }
 
   .card_food {
-    max-width: 150px;
+    max-width: 250px;
   }
   .card_img_food{
     /* width: 100%;
     height: auto; */
-    width:90px;
-    height:70px;
+    width:180px;
+    height:140px;
   }
   .card_img_movie{
     /* width: 100%;
     height: auto; */
-    width:90px;
-    height:125px;
+    width:190px;
+    height:250px;
   }
   .h2_food {
     margin-bottom: 5px;
@@ -991,6 +992,6 @@ li[draggable]::before {
 
 @media (max-width: 576px) {
   .card_food {
-    max-width: 120px;
+    max-width: 250px;
   }
 }

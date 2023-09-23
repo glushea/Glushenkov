@@ -201,7 +201,31 @@
                 "title": "Conan the Barbarian",
                 "description": "Conan the Barbarian is a 1982 American epic sword and sorcery film directed and co-written by John Milius.",
                 "link": "https://www.imdb.com/title/tt0082198/"
-            }
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg",
+                "title": "Casablanca",
+                "description": "A classic romantic drama set during World War II, featuring a love story in the backdrop of political intrigue.",
+                "link": "https://www.imdb.com/title/tt0034583/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BNzAyOGIxYjAtMGY2NC00ZTgyLWIwMWEtYzY0OWQ4NDFjOTc5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+                "title": "Some Like It Hot",
+                "description": "A comedy film where two musicians witness a crime and disguise themselves as women to escape the mob.",
+                "link": "https://www.imdb.com/title/tt0053291/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BNTRhZDViOTYtOGY5OC00ODk4LWJkZWYtYjFkZWZkMzVmNjY2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+                "title": "Gentlemen Prefer Blondes",
+                "description": "A musical comedy that follows two showgirls on a cruise to Paris, exploring themes of love and money.",
+                "link": "https://www.imdb.com/title/tt0045810/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BYzEzZWU3ZTctMGRmZi00YTBiLThhN2UtNzRmNjI5ZGRhOTJlXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg",
+                "title": "Cabaret",
+                "description": "A musical drama set in Berlin during the early 1930s, depicting the nightlife and politics of the time.",
+                "link": "https://www.imdb.com/title/tt0068327/"
+              }
             
         ],
         "Soviet Movies":[
@@ -445,6 +469,84 @@
                 "title": "Chernobyl",
                 "description": "A historical drama miniseries depicting the Chernobyl nuclear disaster and its aftermath.",
                 "link": "https://www.imdb.com/title/tt7366338/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BM2U1OWExMGMtZDdlZC00MTRiLThkYTEtYTMwOWE5MDU0OTUwXkEyXkFqcGdeQXVyMTUyMzg5NzM2._V1_QL75_UY281_CR6,0,190,281_.jpg",
+                "title": "Rough Diamonds",
+                "description": "Follows a Jewish Ultra-Orthodox family in Belgium's Antwerp Diamond Square Mile. ",
+                "link": "https://www.imdb.com/title/tt15469192/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BOTY0ZjliOGUtMDFiZS00YzcwLWFiZWYtMzg4MWZkMWIwYzYwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+                "title": "Shadow and Bone",
+                "description": "A fantasy series set in a war-torn world where a young soldier uncovers a power that may unite her country.",
+                "link": "https://www.imdb.com/title/tt2403776/"
+              },
+              {
+                "image": "https://pomfort.com/news/wp-content/uploads/2014/08/2ed0f68265f2.jpg",
+                "title": "Vikings",
+                "description": "A historical drama series that explores the legendary Viking chieftain Ragnar Lothbrok and his descendants.",
+                "link": "https://www.imdb.com/title/tt2306299/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BNmFjODU3YzgtMGUwNC00ZGI3LWFkZjQtMjkxZDc3NmQ1MzcyXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_FMjpg_UX1000_.jpg",
+                "title": "Narcos",
+                "description": "A crime drama series that chronicles the rise and fall of the infamous Colombian drug lord Pablo Escobar.",
+                "link": "https://www.imdb.com/title/tt2707408/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BODI3NzExMTMzNl5BMl5BanBnXkFtZTgwOTI2MjgxNjM@._V1_.jpg",
+                "title": "Manifest",
+                "description": "A mystery drama series about the passengers of Flight 828, who mysteriously reappear after being presumed dead.",
+                "link": "https://www.imdb.com/title/tt8421350/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BNDJjMzc4NGYtZmFmNS00YWY3LThjMzQtYzJlNGFkZGRiOWI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+                "title": "Lucifer",
+                "description": "A fantasy procedural series following Lucifer Morningstar, the Devil, who resigns from Hell and lives in Los Angeles.",
+                "link": "https://www.imdb.com/title/tt4052886/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BZWNiYjllNjgtY2VlOC00NDM4LTk4YzQtNGU1Zjk4NDUzN2Q4XkEyXkFqcGdeQXVyMTA2ODkwNzM5._V1_FMjpg_UX1000_.jpg",
+                "title": "In from the Cold",
+                "description": "A spy thriller series revolving around an intelligence officer dealing with personal and professional challenges.",
+                "link": "https://www.imdb.com/title/tt11859542/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_FMjpg_UX1000_.jpg",
+                "title": "Money Heist",
+                "description": "A heist crime drama series where a criminal mastermind, known as the Professor, plans and executes heists.",
+                "link": "https://www.imdb.com/title/tt6468322/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BNTg3ZDY1OWEtYjRkYy00NzQ4LWFjMjMtMDc0YzcxNzU5NmFhXkEyXkFqcGdeQXVyMTkxODQ4MDg@._V1_FMjpg_UX1000_.jpg",
+                "title": "Dallas",
+                "description": "A prime-time soap opera that revolves around the wealthy Ewing family and their oil business.",
+                "link": "https://www.imdb.com/title/tt0077000/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BZjEwOTUzZjctOTllYS00YWNjLThlM2YtYmMwZDg2NTkyYzViXkEyXkFqcGdeQXVyMjg0Mjg1MDM@._V1_.jpg",
+                "title": "Knots Landing",
+                "description": "A long-running soap opera focusing on the lives of families in a Southern California cul-de-sac.",
+                "link": "https://www.imdb.com/title/tt0078638/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BMDlhODg2ZTMtMDJmZi00YWYzLTllOGYtNjhlODA1NDliNTc0XkEyXkFqcGdeQXVyMjczOTU2NTI@._V1_FMjpg_UX1000_.jpg",
+                "title": "Beverly Hills, 90210",
+                "description": "A teen drama series following the lives of a group of friends in the upscale community of Beverly Hills.",
+                "link": "https://www.imdb.com/title/tt0098749/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BMTQ5MDY0NDc3MV5BMl5BanBnXkFtZTcwODE4MjgyMQ@@._V1_.jpg",
+                "title": "Dynasty",
+                "description": "A prime-time soap opera following the lives of the wealthy Carrington family, filled with drama, romance, and power struggles.",
+                "link": "https://www.imdb.com/title/tt0081856/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BN2UwZmUzNWEtMWZjOS00OTI0LTk4YmYtZDdiYjMzZGY5NGQzXkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_FMjpg_UX1000_.jpg",
+                "title": "Falcon Crest",
+                "description": "A prime-time soap opera centered around the feuding factions of the wealthy Gioberti/Channing family and their vineyard in California.",
+                "link": "https://www.imdb.com/title/tt0081858/"
               }
             
     ],
@@ -521,6 +623,12 @@
             "title": "To the Lake",
             "description": "A Russian apocalyptic thriller series following a group of people trying to survive a deadly virus outbreak.",
             "link": "https://www.imdb.com/title/tt9151230/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BZTk3ZjhlZGEtOTg1My00NDBjLTk2MmUtZWRhMjNhMzI2ZTgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_QL75_UY281_CR6,0,190,281_.jpg",
+            "title": "Better then us",
+            "description": "A family on the brink of splitting up become the owners of a cutting-edge robot being sought by a corporation, homicide investigators and terrorists.",
+            "link": "https://www.imdb.com/title/tt8285216/"
           },
           {
             "image": "https://m.media-amazon.com/images/M/MV5BYTI5OTlhMjgtYzhlNS00Mzk5LWE2NTUtNjlmOGJjYWNjODQ0XkEyXkFqcGdeQXVyNjg3MTIwODI@._V1_.jpg",
