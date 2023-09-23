@@ -1,7 +1,7 @@
 {
     "leaders": [
       {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ben-Gurion.jpg",
+        "image": "https://i.redd.it/david-ben-gurion-the-first-prime-minister-recolored-1951-v0-6fkirhg8y5491.png?width=750&format=png&auto=webp&s=db26512f9fb0844ed6607dd838b3e815d8e02210",
         "title": "David Ben Gurion",
         "description": "First Prime Minister of Israel and a key founding figure of modern Israel.",
         "link": "https://en.wikipedia.org/wiki/David_Ben-Gurion"
@@ -38,6 +38,12 @@
         "link": "https://en.wikipedia.org/wiki/Winston_Churchill"
       },
       {
+        "image": "https://www.gov.il/BlobFolder/roleholder/sharon/he/history_sharon11.jpg",
+        "title": "Ariel Sharon",
+        "description": "Israeli general and politician who served as the 11th prime minister of Israel ",
+        "link": "https://en.wikipedia.org/wiki/Ariel_Sharon"
+      },
+      {
         "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/05/04/14/plisetskaya_reuters.jpg?quality=75&width=1200&auto=webp",
         "title": "Maya Plisetskaya",
         "description": "Renowned Russian ballet dancer and choreographer.",
@@ -68,25 +74,25 @@
         "link": "https://en.wikipedia.org/wiki/Mstislav_Rostropovich"
       },
       {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%9C%D7%99%D7%9B%D7%9D-JNF014304.jpeg/220px-%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%9C%D7%99%D7%9B%D7%9D-JNF014304.jpeg",
+        "image": "https://m.media-amazon.com/images/I/71xuoMAMYYS.jpg",
         "title": "Shalom Aleichem",
         "description": "Yiddish writer and playwright, known for Tevye the Dairyman stories.",
         "link": "https://en.wikipedia.org/wiki/Shalom_Aleichem"
       },
       {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Shagal_Choumoff.jpg/220px-Shagal_Choumoff.jpg",
+        "image": "https://www.galeries-bartoux.com/wp-content/uploads/2016/06/marc-chagall-portrait-galeries-bartoux-540x579.jpg",
         "title": "Marc Chagall",
         "description": "Russian-French artist known for his distinctive, dreamlike style.",
         "link": "https://en.wikipedia.org/wiki/Marc_Chagall"
       },
       {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/%D0%9B%D0%B5%D0%B2_%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B9_%28%D0%A7%D0%B5%D1%80%D1%82%D0%BA%D0%BE%D0%B2%2C_1910%29_-_0003600121.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/1200px-L.N.Tolstoy_Prokudin-Gorsky.jpg",
         "title": "Lev Tolstoy",
         "description": "Russian writer known for 'War and Peace' and 'Anna Karenina'.",
         "link": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
       },
       {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Boris_Pasternak_1959_photo.jpg",
+        "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_78_TC664Pastermak-000006",
         "title": "Boris Pasternak",
         "description": "Russian poet, novelist, and literary translator, awarded the Nobel Prize in Literature.",
         "link": "https://en.wikipedia.org/wiki/Boris_Pasternak"
@@ -110,13 +116,13 @@
         "link": "https://en.wikipedia.org/wiki/Alexander_Pushkin"
       },
       {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Anton_Chekhov_1889.jpg",
+        "image": "https://klimbim2014.files.wordpress.com/2015/02/anton-chekhov-1889-color.jpg",
         "title": "Anton Chekhov",
         "description": "Russian playwright and short-story writer known for 'The Cherry Orchard' and 'Uncle Vanya'.",
         "link": "https://en.wikipedia.org/wiki/Anton_Chekhov"
       },
       {
-        "image": "https://cdn.britannica.com/57/26257-004-FC0C6EC7/Dmitry-Shostakovich.jpg",
+        "image": "https://klimbim2014.files.wordpress.com/2016/09/dmitry-shostakovich8.jpg",
         "title": "Dmitri Shostakovich",
         "description": "Soviet composer and pianist, known for his symphonies and string quartets.",
         "link": "https://en.wikipedia.org/wiki/Dmitri_Shostakovich"
@@ -128,7 +134,7 @@
         "link": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu"
       },
       {
-        "image": "https://static01.nyt.com/images/2017/04/02/us/02yevtushenko2/02yevtushenko2-blog427.jpg",
+        "image": "https://artsandsciences.utulsa.edu/wp-content/uploads/sites/6/2017/10/Yevgeny-Yevtushenko_preview.jpg",
         "title": "Yevgeny Yevtushenko",
         "description": "Soviet and Russian poet, film director, and actor, known for his social and political poetry.",
         "link": "https://en.wikipedia.org/wiki/Yevgeny_Yevtushenko"
