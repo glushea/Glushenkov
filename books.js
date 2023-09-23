@@ -49,6 +49,7 @@ function createCarousel(title, items) {
     card.appendChild(cardTitle);
 
     const description = document.createElement("p");
+    description.classList.add("p_card");
     description.textContent = item.description;
     card.appendChild(description);
 

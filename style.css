@@ -963,6 +963,30 @@ li[draggable]::before {
   .card_food {
     max-width: 150px;
   }
+  .card_img_food{
+    /* width: 100%;
+    height: auto; */
+    width:90px;
+    height:70px;
+  }
+  .card_img_movie{
+    /* width: 100%;
+    height: auto; */
+    width:90px;
+    height:125px;
+  }
+  .h2_food {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  .h3_food {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .p_card{
+    font-size: 12px;
+
+  }
 }
 
 @media (max-width: 576px) {

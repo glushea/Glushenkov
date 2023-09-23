@@ -44,11 +44,12 @@ function createCarousel(title, items) {
     card.appendChild(image);
 
     const cardTitle = document.createElement("h3");
-    cardTitle.classList.add("h3_food")
+    cardTitle.classList.add("h3_food");
     cardTitle.textContent = item.title;
     card.appendChild(cardTitle);
 
     const description = document.createElement("p");
+    description.classList.add("p_card");
     description.textContent = item.description;
     card.appendChild(description);
 
