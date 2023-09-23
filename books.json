@@ -1,0 +1,380 @@
+{
+    "Literature and Fiction": [
+      
+        {
+            "image": "https://m.media-amazon.com/images/I/71kxa1-0mfL._AC_UF1000,1000_QL80_.jpg",
+            "title": "1984",
+            "description": "A dystopian novel depicting a totalitarian regime and its impact on a man's life.",
+            "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/A1aDb5U5myL._AC_UF1000,1000_QL80_.jpg",
+            "title": "War and Peace",
+            "description": "A historical novel exploring society, war, and peace during the Napoleonic era.",
+            "link": "https://en.wikipedia.org/wiki/War_and_Peace"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/91F9WNEThJL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Anna Karenina",
+            "description": "A novel exploring themes of love, infidelity, and societal norms in 19th-century Russia.",
+            "link": "https://en.wikipedia.org/wiki/Anna_Karenina"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/71ihbKf67RL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Murder on the Orient Express",
+            "description": "A detective novel featuring Hercule Poirot solving a murder mystery on a train.",
+            "link": "https://en.wikipedia.org/wiki/Murder_on_the_Orient_Express"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/81tNnqcHxlL._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Adventures of Sherlock Holmes",
+            "description": "A collection of detective stories featuring Sherlock Holmes and Dr. Watson.",
+            "link": "https://en.wikipedia.org/wiki/The_Adventures_of_Sherlock_Holmes"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/91Q5dCjc2KL._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Da Vinci Code",
+            "description": "A mystery thriller novel exploring a symbologist's quest for the Holy Grail.",
+            "link": "https://en.wikipedia.org/wiki/The_Da_Vinci_Code"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/81adkKbGZgL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Angels and Demons",
+            "description": "A thriller novel involving a symbologist's battle against a secret society.",
+            "link": "https://en.wikipedia.org/wiki/Angels_%26_Demons"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/61b+1RC8ugL._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Adventures of Miss Marple",
+            "description": "A collection of mystery short stories featuring the detective Miss Marple.",
+            "link": "https://en.wikipedia.org/wiki/Miss_Marple"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/819SFV6rfRL._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Name of the Rose",
+            "description": "A historical mystery novel set in an Italian monastery during the 14th century.",
+            "link": "https://en.wikipedia.org/wiki/The_Name_of_the_Rose"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/51z81zgkvdL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Gorky Park",
+            "description": "A crime novel featuring Arkady Renko, a Moscow police investigator.",
+            "link": "https://en.wikipedia.org/wiki/Gorky_Park_(novel)"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/61ZrMKvqqIL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Child 44",
+            "description": "A thriller novel set in the Stalinist Soviet Union, following a series of gruesome murders.",
+            "link": "https://en.wikipedia.org/wiki/Child_44"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/717MVMPgdGL._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Man in the High Castle",
+            "description": "An alternate history novel depicting a world where the Axis powers won World War II.",
+            "link": "https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/51TTaUq46eL._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Secret Speech",
+            "description": "A historical crime novel set in the Soviet Union during the Khrushchev era.",
+            "link": "https://en.wikipedia.org/wiki/The_Secret_Speech_(novel)"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/51U7-VhINyL._AC_UF894,1000_QL80_.jpg",
+            "title": "The Winter Queen",
+            "description": "A historical detective novel set in 19th-century Moscow, featuring detective Erast Fandorin.",
+            "link": "https://en.wikipedia.org/wiki/The_Winter_Queen_(novel)"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/91BHmR8HASL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Master and Margarita",
+            "description": "A satirical novel intertwining an encounter between the Devil and Soviet society.",
+            "link": "https://en.wikipedia.org/wiki/The_Master_and_Margarita"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/91Io6DMt2aL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Doctor Zhivago",
+            "description": "A romantic novel set during the Russian Revolution and its aftermath.",
+            "link": "https://en.wikipedia.org/wiki/Doctor_Zhivago_(novel)"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/91jk6zoH+ML._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Red Tent",
+            "description": "A historical fiction novel reimagining the life of Dinah, a character from the Bible.",
+            "link": "https://en.wikipedia.org/wiki/The_Red_Tent_(Diamant_novel)"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/41MQggAwO8L.jpg",
+            "title": "The Gulag Archipelago",
+            "description": "A three-volume work exposing the Soviet forced labor camp system.",
+            "link": "https://en.wikipedia.org/wiki/The_Gulag_Archipelago"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/81xVP+LlHeL._AC_UF1000,1000_QL80_.jpg",
+            "title": "One Day in the Life of Ivan Denisovich",
+            "description": "A novella portraying a day in the life of a prisoner in a Soviet labor camp.",
+            "link": "https://en.wikipedia.org/wiki/One_Day_in_the_Life_of_Ivan_Denisovich"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/61nLnUT0wtL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Eugene Onegin",
+            "description": "A novel in verse exploring themes of love, society, and boredom in 19th-century Russia.",
+            "link": "https://en.wikipedia.org/wiki/Eugene_Onegin"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/718BcDGZl+L._AC_UF1000,1000_QL80_.jpg",
+            "title": "Ruslan and Ludmila",
+            "description": "An epic fairy tale poem, a romantic adventure featuring magical elements.",
+            "link": "https://en.wikipedia.org/wiki/Ruslan_and_Ludmila"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/617SitXsSCL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Gone with the Wind",
+            "description": "The story is set in Clayton County and Atlanta, both in Georgia, during the American Civil War and Reconstruction Era",
+            "link": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_%28novel%29"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/A1Wad8LO08L._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Adventures of Tom Sawyer",
+            "description": "A classic novel depicting the adventures of a young boy in a Mississippi River town.",
+            "link": "https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/81XSN3hA5gL._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Hitchhiker's Guide to the Galaxy",
+            "description": "A science fiction series following the misadventures of an unwitting human and his alien friend.",
+            "link": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/61q11L2zo6L._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Curious Incident of the Dog in the Night-Time",
+            "description": "A mystery novel narrated by a teenage boy with Asperger's syndrome.",
+            "link": "https://en.wikipedia.org/wiki/The_Curious_Incident_of_the_Dog_in_the_Night-Time"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/81RUfP0ZOjL._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Kite Runner",
+            "description": "A novel exploring friendship, betrayal, and redemption set in Afghanistan.",
+            "link": "https://en.wikipedia.org/wiki/The_Kite_Runner"
+          }
+    ],
+    "Business and Health": [
+        {
+            "image": "https://m.media-amazon.com/images/I/61fdrEuPJwL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Thinking, Fast and Slow",
+            "description": "Explores the dual systems of thinking that drive our judgments and decisions, and how they impact our lives.",
+            "link": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/81-QB7nDh4L._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Lean Startup",
+            "description": "Introduces a methodology for developing businesses and products, emphasizing continuous innovation and customer feedback.",
+            "link": "https://en.wikipedia.org/wiki/The_Lean_Startup"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/51n5EwuYBwL.jpg",
+            "title": "The Innovator's Dilemma",
+            "description": "Examines why well-managed companies can fail despite good products and provides insights into disruptive innovation.",
+            "link": "https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/61wwAomEffL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Influence: The Psychology of Persuasion",
+            "description": "Unveils the psychology behind influence and persuasion, crucial skills in business and everyday interactions.",
+            "link": "https://en.wikipedia.org/wiki/Influence:_The_Psychology_of_Persuasion"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/71vK0WVQ4rL._AC_UF1000,1000_QL80_.jpg",
+            "title": "How to Win Friends and Influence People",
+            "description": "Provides timeless advice on effective communication, relationship-building, and influencing people positively.",
+            "link": "https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/51eD1YG56+L.jpg",
+            "title": "Eat Right 4 Your Type",
+            "description": "Introduces the blood type diet concept, suggesting that blood type can influence dietary needs and health.",
+            "link": "https://www.amazon.com/Right-Your-Type-Peter-DAdamo/dp/0061441848"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/51yKov8hnXL.jpg",
+            "title": "Healing Back Pain: The Mind-Body Connection",
+            "description": "Explores the mind-body connection in understanding and healing back pain.",
+            "link": "https://www.amazon.com/Healing-Back-Pain-Mind-Body-Connection/dp/0446557684"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Rich Dad Poor Dad",
+            "description": "Presents personal finance lessons based on the author's two 'dads' and their differing philosophies on money.",
+            "link": "https://en.wikipedia.org/wiki/Rich_Dad_Poor_Dad"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/61oUihRdXfL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Thinking Strategically",
+            "description": "Introduces the principles of game theory and how they can be applied to decision-making and strategy.",
+            "link": "https://en.wikipedia.org/wiki/Thinking_Strategically"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/61OByUf1TfL._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Monk Who Sold His Ferrari",
+            "description": "A motivational book that offers a step-by-step approach to living with greater courage, balance, abundance, and joy.",
+            "link": "https://en.wikipedia.org/wiki/The_Monk_Who_Sold_His_Ferrari"
+          }
+      
+    ],
+    "History and Biographies": [
+        
+              {
+                "image": "https://m.media-amazon.com/images/I/71AOVF9ISKL._AC_UF1000,1000_QL80_.jpg",
+                "title": "Bible - Old Testament",
+                "description": "The Old Testament of the Bible, comprising the sacred scriptures of Judaism and foundational texts of Christianity.",
+                "link": "https://en.wikipedia.org/wiki/Old_Testament"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/919w4Vz--4L._AC_UF1000,1000_QL80_.jpg",
+                "title": "Mastering the Art of Soviet Cooking",
+                "description": "A memoir and history of Soviet Russia, exploring its culture and history through food.",
+                "link": "https://www.amazon.com/Mastering-Art-Soviet-Cooking-Longing/dp/0307886816"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/61Q88l2Vy+L._AC_UF1000,1000_QL80_.jpg",
+                "title": "Fermat's Last Theorem",
+                "description": "A book about the theorem that remained unsolved for centuries and the eventual proof of Fermat's Last Theorem.",
+                "link": "https://www.amazon.com/Fermats-Last-Theorem-Simon-Singh/dp/1841157910/ref=sr_1_1?keywords=Fermats-Last-Theorem+Simon-Singh&qid=1695473403&sr=8-1"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/71+3WQvOOpL._AC_UF1000,1000_QL80_.jpg",
+                "title": "The Black Swan",
+                "description": "Examines rare and unpredictable events that have a major impact and are difficult to predict.",
+                "link": "https://en.wikipedia.org/wiki/The_Black_Swan_(Taleb_book)"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/91sDspUvGDL._AC_UF1000,1000_QL80_.jpg",
+                "title": "The Romanovs: 1613-1918",
+                "description": "Traces the history of the Romanov dynasty in Russia from its beginnings to its tragic end in 1918.",
+                "link": "https://en.wikipedia.org/wiki/The_Romanovs_1613%E2%80%931918"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/81fTR6EonvL._AC_UF1000,1000_QL80_.jpg",
+                "title": "Young Stalin",
+                "description": "A biography of Joseph Stalin, focusing on his early years and rise to power.",
+                "link": "https://www.amazon.com/Young-Stalin-Simon-Sebag-Montefiore/dp/1400096138"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/81XnsSOnkDL._AC_UF350,350_QL50_.jpg",
+                "title": "Churchill: Walking with Destiny",
+                "description": "A biography of Winston Churchill, chronicling his life and leadership during critical times.",
+                "link": "https://www.amazon.com/Churchill-Walking-Destiny-Andrew-Roberts/dp/1101980990"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/71yW6RLSmHL._AC_UF894,1000_QL80_.jpg",
+                "title": "A State at Any Cost: The Life of David Ben-Gurion",
+                "description": "A biography of David Ben-Gurion, the primary founder and the first Prime Minister of Israel.",
+                "link": "https://www.amazon.com/State-Any-Cost-David-Ben-Gurion/dp/0374112649"
+              },
+              {
+                "image": "https://booxgift.com/cdn/shop/files/81YGpUPJWZL._AC_UF1000_1000_QL80_580x.png?v=1682755705",
+                "title": "No Room for Small Dreams",
+                "description": "Autobiography of Shimon Peres, focusing on his visions and experiences as a prominent Israeli statesman.",
+                "link": "https://www.amazon.com/No-Room-Small-Dreams-Imagination/dp/0062561448"
+              },
+              {
+                "image": "https://prodimage.images-bn.com/pimages/9781668008447_p0_v4_s1200x630.jpg",
+                "title": "Bibi: My Story",
+                "description": "An autobiography of Benjamin Netanyahu, delving into his political career and beliefs.",
+                "link": "https://www.amazon.com/Bibi-My-Story-Benjamin-Netanyahu/dp/1668008440"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/A1vC6rVEgOL._AC_UF1000,1000_QL80_.jpg",
+                "title": "The Silk Roads",
+                "description": "Explores the historical and contemporary significance of the Silk Road trade routes.",
+                "link": "https://www.amazon.com/Silk-Roads-New-History-World/dp/1101912375"
+              },
+              {
+                "image": "https://cdn.kobo.com/book-images/82ca382e-ec45-423b-8b9a-aab855c2cfc7/1200/1200/False/the-new-silk-roads.jpg",
+                "title": "The New Silk Roads",
+                "description": "An updated exploration of the Silk Road concept in the 21st century, encompassing global geopolitics.",
+                "link": "https://www.amazon.com/New-Silk-Roads-Present-Future/dp/1526607425"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/71cQq19zxbL._AC_UF1000,1000_QL80_.jpg",
+                "title": "Former People: The Final Days of the Russian Aristocracy",
+                "description": "Details the lives of the Russian aristocracy during the Russian Revolution and their subsequent fate.",
+                "link": "https://www.amazon.com/Former-People-Final-Russian-Aristocracy/dp/1250037794"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/61Hzeep9rzL._AC_UF1000,1000_QL80_.jpg",
+                "title": "Working the Rough Stone: Freemasonry and Society in Eighteenth-century Russia",
+                "description": "Examines Freemasonry's historical and social influence in 18th-century Russia.",
+                "link": "https://www.amazon.com/Working-Rough-Stone-Freemasonry-Eighteenth-Century/dp/087580246X"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/81KE7q9CspL._AC_UF1000,1000_QL80_.jpg",
+                "title": "Rasputin: Faith, Power, and the Twilight of the Romanovs",
+                "description": "Biography of Grigori Rasputin, a mystic and advisor to the Romanov family in late Imperial Russia.",
+                "link": "https://www.amazon.com/Rasputin-Faith-Power-Twilight-Romanovs/dp/0374240841"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/71PU0gcB7FL._AC_UF1000,1000_QL80_.jpg",
+                "title": "The Man Without a Face",
+                "description": "A biography of Vladimir Putin, exploring his rise to power and his impact on Russia and the world.",
+                "link": "https://www.amazon.com/Man-Without-Face-Unlikely-Vladimir/dp/1594486514"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/713XWfQIfUL._AC_UF1000,1000_QL80_.jpg",
+                "title": "A Place Among the Nations",
+                "description": "Examines Israel's foreign policy and its challenges in the context of the Middle East.",
+                "link": "https://www.amazon.com/Place-Among-Nations-Benjamin-Netanyahu/dp/0553089749"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/71fSWKBI1CL._AC_UF1000,1000_QL80_.jpg",
+                "title": "The Code Book",
+                "description": "Explores the history and science of codes and code-breaking, covering their impact on society and technology.",
+                "link": "https://en.wikipedia.org/wiki/The_Code_Book"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/91S20n+3pdL._AC_UF1000,1000_QL80_.jpg",
+                "title": "Jerusalem: The Biography",
+                "description": "Presents a biography of the city of Jerusalem, covering its history, religious significance, and political importance.",
+                "link": "https://www.amazon.com/Code-Book-Science-Secrecy-Cryptography/dp/0385495323"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/61+otrGmnzL._SY522_.jpg",
+                "title": "Big Bang",
+                "description": "Explores the history and concepts of the Big Bang theory, a fundamental idea in astrophysics.",
+                "link": "https://www.amazon.com/Big-Bang-Universe-Simon-Singh/dp/0007162219"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/81p33LopRCL._AC_UF894,1000_QL80_.jpg",
+                "title": "The Templar Revelation",
+                "description": "Discusses the history and mysteries surrounding the Knights Templar and their role in Christianity.",
+                "link": "https://www.amazon.com/Templar-Revelation-Secret-Guardians-Identity/dp/0684848910"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/71taMzw9hgL._AC_UF1000,1000_QL80_.jpg",
+                "title": "Einstein: His Life and Universe",
+                "description": "A biography of Albert Einstein, exploring his life, scientific contributions, and impact on the world.",
+                "link": "https://www.amazon.com/Einstein-Life-Universe-Walter-Isaacson/dp/0743264746"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/71+YhWgtNjL._AC_UF1000,1000_QL80_.jpg",
+                "title": "The Jewish War",
+                "description": "An account of the Jewish revolt against Rome, written by ancient historian Flavius Josephus.",
+                "link": "https://en.wikipedia.org/wiki/The_Jewish_War"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/81g+ZYbkk3L._AC_UF1000,1000_QL80_.jpg",
+                "title": "Stalin: The Court of the Red Tsar",
+                "description": "A biography of Joseph Stalin, focusing on his personal and political life.",
+                "link": "https://en.wikipedia.org/wiki/Stalin:_The_Court_of_the_Red_Tsar"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/I/61YkKgOiFZL._AC_UF1000,1000_QL80_.jpg",
+                "title": "The Oligarchs",
+                "description": "Examines the rise of oligarchs in post-Soviet Russia and their impact on the country.",
+                "link": "https://www.amazon.com/Oligarchs-Wealth-Power-New-Russia/dp/1610390709"
+              }
+            
+          
+    ]
+  
+    }

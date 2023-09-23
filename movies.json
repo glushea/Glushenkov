@@ -1,0 +1,596 @@
+{
+    "Global Movies": 
+        [
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+                "title": "The Godfather",
+                "description": "The Godfather is a 1972 crime film directed by Francis Ford Coppola, based on the 1969 novel by Mario Puzo.",
+                "link": "https://www.imdb.com/title/tt0068646/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+                "title": "Pulp Fiction",
+                "description": "Pulp Fiction is a 1994 neo-noir black comedy crime film written and directed by Quentin Tarantino.",
+                "link": "https://www.imdb.com/title/tt0110912/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+                "title": "Forrest Gump",
+                "description": "Forrest Gump is a 1994 comedy-drama film directed by Robert Zemeckis and written by Eric Roth.",
+                "link": "https://www.imdb.com/title/tt0109830/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BZTMxMGM5MjItNDJhNy00MWI2LWJlZWMtOWFhMjI5ZTQwMWM3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+                "title": "Back to the Future",
+                "description": "Back to the Future is a 1985 science fiction film directed by Robert Zemeckis.",
+                "link": "https://www.imdb.com/title/tt0088763/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BYTViNzMxZjEtZGEwNy00MDNiLWIzNGQtZDY2MjQ1OWViZjFmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+                "title": "Terminator",
+                "description": "The Terminator is a 1984 science fiction action film directed by James Cameron.",
+                "link": "https://www.imdb.com/title/tt0088247/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BODQ0OWJiMzktYjNlYi00MzcwLThlZWMtMzRkYTY4ZDgxNzgxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+                "title": "Fight Club",
+                "description": "Fight Club is a 1999 psychological thriller film directed by David Fincher.",
+                "link": "https://www.imdb.com/title/tt0137523/"
+            },
+            
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BODQ0NzY5NGEtYTc5NC00Yjg4LTg4Y2QtZjE2MTkyYTNmNmU2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+                "title": "La Dolce Vita",
+                "description": "La Dolce Vita is a 1960 Italian drama film directed and co-written by Federico Fellini.",
+                "link": "https://www.imdb.com/title/tt0053779/"
+            },
+            {
+                "image": "https://resizing.flixster.com/2-v4yc5C3Kidjjv_vp_QXP7G5Zs=/206x305/v2/https://flxt.tmsimg.com/assets/p3374_p_v8_as.jpg",
+                "title": "Goldfinger",
+                "description": "Goldfinger is a 1964 spy film and the third installment in the James Bond series.",
+                "link": "https://www.imdb.com/title/tt0058150/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BMTdmMzJjYTctNTc4ZC00NDQ5LWE2MDgtZWQ5OGNiNjliYzczXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
+                "title": "From Russia with Love",
+                "description": "From Russia with Love is a 1963 spy film and the second in the James Bond series.",
+                "link": "https://www.imdb.com/title/tt0057076/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BYjUyZWZkM2UtMzYxYy00ZmQ3LWFmZTQtOGE2YjBkNjA3YWZlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+                "title": "Gone with the Wind",
+                "description": "A manipulative woman and a roguish man carry on a turbulent love affair in the American south during the Civil War and Reconstruction.",
+                "link": "https://www.imdb.com/title/tt0031381/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BNzdmZTk4MTktZmExNi00OWEwLTgxZDctNTE4NWMwNjc1Nzg2XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+                "title": "Dr. Zhivago",
+                "description": "Doctor Zhivago is a 1965 epic romantic drama film directed by David Lean.",
+                "link": "https://www.imdb.com/title/tt0059113/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BNmJjOThlYTYtYzFlZC00NjI1LWFhNzItYmIzNzk5NDZkZmRmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+                "title": "War and Peace",
+                "description": "War and Peace is a 1956 American-Italian war drama film directed by King Vidor.",
+                "link": "https://www.imdb.com/title/tt0049934/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BODQ5NGUzMzQtZTJjZC00MTk0LThjNmMtYzRjMjI1YTZiNmM5XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+                "title": "Fiddler on the Roof",
+                "description": "A musical comedy-drama film depicting the life of a poor Jewish milkman and his family in pre-revolutionary Russia.",
+                "link": "https://www.imdb.com/title/tt0067093/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BMTA0ODQzZjItNTk5Mi00ZDc3LWFjZGItZWU0MjM2NzViYjZlXkEyXkFqcGdeQXVyNjMwMjk0MTQ@._V1_.jpg",
+                "title": "Yentl",
+                "description": "A musical romantic drama film about a young Jewish woman who disguises herself as a man to study Talmudic law.",
+                "link": "https://www.imdb.com/title/tt0086619/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+                "title": "Schindler's List",
+                "description": "A historical drama film based on the life of Oskar Schindler, a German industrialist who saved over a thousand Jewish refugees during the Holocaust.",
+                "link": "https://www.imdb.com/title/tt0108052/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BYzM2MmI5MDgtYzY5MC00ZGY0LTkwN2YtM2Y5YTAzNDQyMTNiXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg",
+                "title": "Escape from Sobibor",
+                "description": "A historical war drama film based on the true story of the mass escape from the Sobibor extermination camp during World War II.",
+                "link": "https://www.imdb.com/title/tt0092978/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BZjEyYjk4ZDQtZDhjMi00NGFkLWExM2UtZjgyMDMxODgwNjgyXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg",
+                "title": "Defiance (2008 film)",
+                "description": "A war film based on the true story of the Bielski partisans, a group of Jewish resistance fighters during World War II.",
+                "link": "https://www.imdb.com/title/tt1034303/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BYzdiOTVjZmQtNjAyNy00YjA2LTk5ZTAtNmJkMGQ5N2RmNjUxXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg",
+                "title": "The Princess Bride",
+                "description": "A fairy tale adventure film about a young woman and her true love's quest to rescue her from an unwanted marriage.",
+                "link": "https://www.imdb.com/title/tt0093779/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BZjhkMmFmMGMtZTIwMy00NGE0LThkZWQtOWNjMDQ1NTY4MmNjXkEyXkFqcGdeQXVyMTY2MzYyNzA@._V1_.jpg",
+                "title": "Ladyhawke",
+                "description": "A fantasy adventure film about a thief, a pickpocket, and a former knight escaping a cruel bishop's clutches.",
+                "link": "https://www.imdb.com/title/tt0089457/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BYzM4MjQ0MzktNTMwNi00MDdjLTg3YTctY2M4OWRjNzA2N2E1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+                "title": "Indiana Jones",
+                "description": "A film series following the adventures of Dr. Henry Walton \"Indiana\" Jones Jr., an archaeologist and adventurer.",
+                "link": "https://www.imdb.com/title/tt0082971/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BNjdjNGQ4NDEtNTEwYS00MTgxLTliYzQtYzE2ZDRiZjFhZmNlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+                "title": "Scarface",
+                "description": "A crime film following the rise of Tony Montana, a Cuban immigrant who becomes a powerful drug lord in Miami.",
+                "link": "https://www.imdb.com/title/tt0086250/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BZjEyZTdhNDMtMWFkMS00ZmRjLWEyNmEtZDU3MWFkNDEzMDYwXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+                "title": "The Name of the Rose",
+                "description": "A historical mystery drama film based on Umberto Eco's novel, set in a medieval abbey.",
+                "link": "https://www.imdb.com/title/tt0091605/"
+              },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+                "title": "Taxi Driver",
+                "description": "Taxi Driver is a 1976 American neo-noir psychological thriller film directed by Martin Scorsese.",
+                "link": "https://www.imdb.com/title/tt0075314/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BYjRmODkzNDItMTNhNi00YjJlLTg0ZjAtODlhZTM0YzgzYThlXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg",
+                "title": "Raging Bull",
+                "description": "Raging Bull is a 1980 American biographical sports drama film directed by Martin Scorsese.",
+                "link": "https://www.imdb.com/title/tt0081398/"
+            },
+            
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BMjIxMjQyMTc3Nl5BMl5BanBnXkFtZTcwMTA1MDUzMw@@._V1_.jpg",
+                "title": "De Vinci Code",
+                "description": "A mystery thriller series based on Dan Brown's novel, exploring ancient secrets and conspiracies.",
+                "link": "https://www.imdb.com/title/tt0382625/"
+            },
+
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BMjEzNzM2MjgxMF5BMl5BanBnXkFtZTcwNTQ1MTM0Mg@@._V1_.jpg",
+                "title": "Angels and Demons",
+                "description": "Another mystery thriller based on Dan Brown's novel, exploring ancient secrets and conspiracies.",
+                "link": "https://www.imdb.com/title/tt0808151/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BZGU0NGVlM2UtM2NjYy00MjMzLWJkYmItNTJjOWVhMzU1YzA3XkEyXkFqcGdeQXVyMzIzNDU1NTY@._V1_.jpg",
+                "title": "Marriage Italian Style",
+                "description": "Marriage Italian Style is a 1964 Italian romantic comedy-drama film directed by Vittorio De Sica.",
+                "link": "https://www.imdb.com/title/tt0058335/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BNmEyNzJkMmQtODU2My00OGYwLTgzMjctZTI4MTA1ODgzYWU2XkEyXkFqcGdeQXVyNDkzNTM2ODg@._V1_.jpg",
+                "title": "Judith",
+                "description": "Judith is a 1966 drama film directed by Daniel Mann, starring Sophia Loren and Peter Finch.",
+                "link": "https://www.imdb.com/title/tt0060553/"
+            },
+            {
+                "image": "https://lumiere-a.akamaihd.net/v1/images/cleopatra_a71924ed.jpeg?region=0%2C0%2C584%2C876",
+                "title": "Cleopatra",
+                "description": "Cleopatra is a 1963 American epic historical drama film directed by Joseph L. Mankiewicz.",
+                "link": "https://www.imdb.com/title/tt0056937/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/S/pv-target-images/2596301d69a4d0ce86a41d4ef6fdb5e19eabe66ac45cab63eeb97dc45d840254.jpg",
+                "title": "Rocky",
+                "description": "Rocky is a 1976 American sports drama film directed by John G. Avildsen, written by and starring Sylvester Stallone.",
+                "link": "https://www.imdb.com/title/tt0075148/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BODBmOWU2YWMtZGUzZi00YzRhLWJjNDAtYTUwNWVkNDcyZmU5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
+                "title": "Rambo",
+                "description": "Rambo is a 2008 American action thriller film directed and co-written by Sylvester Stallone, based on the character John Rambo created by author David Morrell for his novel First Blood.",
+                "link": "https://www.imdb.com/title/tt0462499/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BMWUzN2VkY2ItYmQ4YS00MjFmLWJhZDQtYWY1NWQ2NTA5NDNlXkEyXkFqcGdeQXVyNDc2NjEyMw@@._V1_.jpg",
+                "title": "Twins",
+                "description": "Twins is a 1988 American buddy comedy film produced and directed by Ivan Reitman about unlikely twins (played by Arnold Schwarzenegger and Danny DeVito) who were separated at birth.",
+                "link": "https://www.imdb.com/title/tt0096320/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BOGYwZjI2MzgtOWFiMi00YTFmLWE2MzUtOWNmNGNjOTBmZWE1XkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg",
+                "title": "Conan the Barbarian",
+                "description": "Conan the Barbarian is a 1982 American epic sword and sorcery film directed and co-written by John Milius.",
+                "link": "https://www.imdb.com/title/tt0082198/"
+            }
+            
+        ],
+        "Soviet Movies":[
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BMTQ2NTY1NzMzMl5BMl5BanBnXkFtZTYwMTk3MzM5._V1_.jpg",
+                "title": "Moscow Does Not Believe in Tears",
+                "description": "Moscow Does Not Believe in Tears is a 1980 Soviet romantic drama film directed by Vladimir Menshov.",
+                "link": "https://www.imdb.com/title/tt0079579/"
+            },
+            {
+                "image": "https://russianfilmhub.com/wp-content/uploads/2019/07/The-Diamond-Arm-1969-Russian-Movie-Poster.jpg",
+                "title": "The Diamond Arm",
+                "description": "The Diamond Arm is a 1969 Soviet comedy film directed by Leonid Kvinikhidze.",
+                "link": "https://www.imdb.com/title/tt0062759/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BYWU1NGI4ZWQtYjZiMC00NjU2LWJhNDEtMmY3NzY1ZmNiMGUxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjMxMjkwMjI@._V1_.jpg",
+                "title": "Ivan Vasilievich: Back to the Future",
+                "description": "Ivan Vasilievich: Back to the Future is a 1973 Soviet comic science fiction film directed by Leonid Kvinikhidze.",
+                "link": "https://www.imdb.com/title/tt0070233/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/I/51B8SGAR4XL._AC_UF894,1000_QL80_.jpg",
+                "title": "Operation Y and Shurik's Other Adventures",
+                "description": "Operation Y and Shurik's Other Adventures is a 1965 Soviet slapstick comedy film directed by Leonid Gaidai.",
+                "link": "https://www.imdb.com/title/tt0059550/"
+            },
+            {
+                "image": "https://flxt.tmsimg.com/assets/p172971_p_v13_aa.jpg",
+                "title": "Gentlemen of Fortune",
+                "description": "Gentlemen of Fortune is a 1971 Soviet crime comedy film directed by Aleksandr Seryj.",
+                "link": "https://www.imdb.com/title/tt0068519/"
+            },
+            {
+                "image": "https://minio.la.utexas.edu/colaweb-prod/event_images/3/30021/russian_movie_night_kidnapping_caucasian_style_(%D0%9A%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B5%D0%BD%D0%BD%D0%B8%D1%86%D0%B0).jpeg",
+                "title": "Kidnapping Caucasus Style",
+                "description": "Prisoner of the Caucasus is a 1996 Russian comedy film directed by Dzhanik Fayziev and Georgiy Daneliya.",
+                "link": "https://www.imdb.com/title/tt0060584/"
+            },
+            {
+                "image": "https://www.kino-teatr.ru/movie/posters/big/3/1493.jpg",
+                "title": "Guest from the Future",
+                "description": "A school boy finds a time machine and he helps Alisa, a scientist girl in the future, to save a mind-reading device from space pirates. Chased by the pirates and followed by Alisa he saves the device and brings it back to his own time.",
+                "link": "https://www.imdb.com/title/tt0086723/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BNjc2NDg4ZTItNmE0Zi00NmY4LWIxZmQtNDI4YjhmMGY5YmQzXkEyXkFqcGdeQXVyNDE4OTY5NzI@._V1_.jpg",
+                "title": "The Adventures of Buratino",
+                "description": "The Adventures of Buratino is a 1975 Live-action Soviet two-part Children's musical television film produced by Belarusfilm.",
+                "link": "https://www.imdb.com/title/tt0073570/"
+            },
+            {
+                "image": "https://resizing.flixster.com/jrE1djRZ-qnITwyr6QCY2mXCLS8=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzY5YzA5NjAxLTNmMmYtNGI1OS1hNDZjLTVkNDI3YTkwOWNjMi5qcGc=",
+                "title": "Battleship Potemkin",
+                "description": "Battleship Potemkin is a 1925 Soviet silent film directed by Sergei Eisenstein and produced by Mosfilm.",
+                "link": "https://www.imdb.com/title/tt0015648/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BZDUxNGM5NmItODE4My00NzQzLThiZGYtNGQzYTA3YWI2ZGVmXkEyXkFqcGdeQXVyNjg3MTIwODI@._V1_.jpg",
+                "title": "Wedding in Malinovka",
+                "description": "A Soviet musical comedy film about a love story set in a small Belarusian village.",
+                "link": "https://www.imdb.com/title/tt0062323/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BZDQ5NmQ4MmQtYmQwYy00NDJkLWE3OTAtNzQ0ODE1MGIxMDI4XkEyXkFqcGdeQXVyNjMxMjkwMjI@._V1_QL75_UY281_CR6,0,190,281_.jpg",
+                "title": "Kingdom of Crooked Mirrors",
+                "description": "A Soviet fantasy film about two girls who switch places and enter different worlds through a magical mirror.",
+                "link": "https://www.imdb.com/title/tt0145033/"
+              }
+
+        ], "Israeli Movies":[
+            {
+                "image": "https://m.media-amazon.com/images/I/51MEA4tJTvL._AC_UF1000,1000_QL80_.jpg",
+                "title": "Lemon Popsicle",
+                "description": "Lemon Popsicle is a 1978 Israeli teen sex comedy-drama film, the first in a series.",
+                "link": "https://www.imdb.com/title/tt0079118/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BN2NmYTZkNTEtNjAwNi00MmVkLTk4MWYtZjRhMWQzMmRiNjYxXkEyXkFqcGdeQXVyODY2MjA5ODA@._V1_.jpg",
+                "title": "Private Popsicle (Sapichas)",
+                "description": "Private Popsicle is a 1982 Israeli teen sex comedy-drama film, the second in a series.",
+                "link": "https://www.imdb.com/title/tt0084629/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BN2NmYTZkNTEtNjAwNi00MmVkLTk4MWYtZjRhMWQzMmRiNjYxXkEyXkFqcGdeQXVyODY2MjA5ODA@._V1_.jpg",
+                "title": "Private Manoeuvres (Sababa)",
+                "description": "A spin-off film that centers around Yudale/Huey's mandatory Israeli army service, post boot camp.",
+                "link": "https://www.imdb.com/title/tt0152257/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BMTExZjkxZjYtMTNiMi00ZmE3LWI4ODUtNGI0M2NhMzVlZGMyXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_.jpg",
+                "title": "Snooker Party",
+                "description": "Snooker Party is a 1975 Israeli teen sex comedy-drama film.",
+                "link": "https://www.imdb.com/title/tt0152492/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BYmFkOTYwNzAtN2M4My00YjViLWE2MWMtMjYzY2MwODViZjllXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "title": "Alex Is Lovesick",
+                "description": "Alex Is Lovesick is a 1986 Israeli romantic comedy film.",
+                "link": "https://www.imdb.com/title/tt0133351/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BYzUxZTdlZWYtOTQzMC00ZTA4LTg0OTctNzhiYWRhMDg3ZTU5XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "title": "Abba Ganuv",
+                "description": "Abba Ganuv is a 1987 Israeli family comedy-drama film.",
+                "link": "https://www.imdb.com/title/tt0133331/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BMTA2ZGQwNWUtNTJkNy00NjIzLTlmZjAtY2Y4Yjk4MDQ2NGFkXkEyXkFqcGdeQXVyMjI5NjExNjk@._V1_FMjpg_UX1000_.jpg",
+                "title": "Charlie and a Half",
+                "description": "Charlie Ve'hetzi is a 1974 Israeli comedy - drama film",
+                "link": "https://www.imdb.com/title/tt0133689/"
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BMWJjYWQzYzMtMTVhMC00MDQyLWJmYjEtNDY4MmI3ZTYwOTM5XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "title": "Kazablan",
+                "description": "An Israeli comedy film about a diverse group of residents in a Tel Aviv neighborhood.",
+                "link": "https://www.imdb.com/title/tt0071715/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BYWExNjMwN2ItYzEyYi00ZjRjLWJhNWQtMTU2MzExYTQyYTA2XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "title": "Halfon Hill Doesn't Answer",
+                "description": "An Israeli comedy film centered around a group of Israeli soldiers stationed at an observation post.",
+                "link": "https://www.imdb.com/title/tt0073052/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BODM0OTFiMzgtNGE5MS00ODk0LTgxYzktOTQyYTMxOTRjNzk4XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "title": "Shlager",
+                "description": "An Israeli comedy film revolving around the life of an unsuccessful singer.",
+                "link": "https://www.imdb.com/title/tt0079297/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BNTdjZTAyOGEtZTg4YS00M2I5LTg4MTAtYWYxYjQzMzU3ZWMxXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+                "title": "Operation Grandma",
+                "description": "An Israeli comedy film about a family's comical attempt to celebrate their grandmother's 80th birthday.",
+                "link": "https://www.imdb.com/title/tt0374053/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BYTE0MTQ5YWQtZjgwOC00YWJhLTkyYjItMDk5MDcwM2FlNDNhXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "title": "Colombian Love",
+                "description": "An Israeli romantic comedy film exploring relationships and love.",
+                "link": "https://www.imdb.com/title/tt0358925/"
+              }
+
+        ],
+    "Global Series": [
+        {
+          
+             
+                "image": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+                "title": "Game of Thrones",
+                "description": "A fantasy drama series based on George R.R. Martin's 'A Song of Ice and Fire' novels.",
+                "link": "https://www.imdb.com/title/tt0944947/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BNmU3MjkzZWQtOTk1Ni00OTNiLWJhMmMtNmEyN2JjZjUzZDUyXkEyXkFqcGdeQXVyNDIyNjA2MTk@._V1_.jpg",
+                "title": "The Sopranos",
+                "description": "A crime drama series centered around the life of mob boss Tony Soprano.",
+                "link": "https://www.imdb.com/title/tt0141842/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BMzk2OWYzNDUtNGE5NC00MDI0LTkyMDktY2RmZjE0NGNmMWE1XkEyXkFqcGdeQXVyMzU3MTc5OTE@._V1_FMjpg_UX1000_.jpg",
+                "title": "Married with Children",
+                "description": "A sitcom portraying the lives of the dysfunctional Bundy family.",
+                "link": "https://www.imdb.com/title/tt0092400/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BMTg5OTkyNzA0NF5BMl5BanBnXkFtZTcwMDYyMDUwMg@@._V1_.jpg",
+                "title": "24",
+                "description": "A real-time action thriller series following counter-terrorism agent Jack Bauer.",
+                "link": "https://www.imdb.com/title/tt0285331/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg",
+                "title": "Breaking Bad",
+                "description": "A gripping drama series about a high school chemistry teacher turned methamphetamine manufacturer.",
+                "link": "https://www.imdb.com/title/tt0903747/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BMDRjYWI5NTMtZTYzZC00NTg4LWI3NjMtNmI3MTdhMWQ5MGJlXkEyXkFqcGdeQXVyNTg4MDc4Mg@@._V1_FMjpg_UX1000_.jpg",
+                "title": "Stranger Things",
+                "description": "A science fiction horror series set in the 1980s, exploring supernatural occurrences in a small town.",
+                "link": "https://www.imdb.com/title/tt4574334/"
+              },
+              {
+                "image": "data:image/jpeg;base64,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",
+                "title": "Dexter",
+                "description": "A crime drama series featuring a forensic blood spatter analyst leading a double life as a serial killer.",
+                "link": "https://www.imdb.com/title/tt0773262/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_.jpg",
+                "title": "Peaky Blinders",
+                "description": "A historical crime drama series following a gangster family in post-World War I Birmingham, England.",
+                "link": "https://www.imdb.com/title/tt2442560/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BOWFhYjE4NzMtOWJmZi00NzEyLTg5NTctYmIxMTU1ZDIxMDAyXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg",
+                "title": "Star Trek - Next Generation",
+                "description": "A science fiction franchise exploring space exploration, technology, and the human condition.",
+                "link": "https://www.imdb.com/title/tt0060028/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BZDA0MmM4YzUtMzYwZC00OGI2LWE0ODctNzNhNTkwN2FmNTVhXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg",
+                "title": "The X-Files",
+                "description": "A science fiction horror series following FBI agents investigating unsolved and unusual cases.",
+                "link": "https://www.imdb.com/title/tt0106179/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BM2VlZTE4N2MtYjhhYy00ZWY2LThkMWYtMWFhMGQ1YTA5NTgwXkEyXkFqcGdeQXVyODQwNjgyMw@@._V1_.jpg",
+                "title": "The Nanny",
+                "description": "A sitcom featuring a fashion queen becoming a nanny for a wealthy family.",
+                "link": "https://www.imdb.com/title/tt0106080/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BMjRjNmJjNzctOWNhMC00ZTdhLWExNDMtZTZiYjlmOWFlZDI5XkEyXkFqcGdeQXVyNjExODE1MDc@._V1_FMjpg_UX1000_.jpg",
+                "title": "The A-Team",
+                "description": "An action-adventure series about a group of ex-United States Army Special Forces who work as soldiers of fortune.",
+                "link": "https://www.imdb.com/title/tt0084967/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BMWEzNTFlMTQtMzhjOS00MzQ1LWJjNjgtY2RhMjFhYjQwYjIzXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_FMjpg_UX1000_.jpg",
+                "title": "Sherlock",
+                "description": "A modern-day adaptation of Arthur Conan Doyle's Sherlock Holmes detective stories.",
+                "link": "https://www.imdb.com/title/tt1475582/"
+              },
+              {
+                "image": "https://pics.filmaffinity.com/Hunters_TV_Series-513030368-large.jpg",
+                "title": "Hunters",
+                "description": "A thriller series that follows a group of Nazi hunters in 1970s America.",
+                "link": "https://www.imdb.com/title/tt7456722/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BZWEwNzQ4NzUtMWRmYS00NDdiLTg5NDItODA5M2M4YTM0ZTE2XkEyXkFqcGdeQXVyMTAzNjU2NjM1._V1_.jpg",
+                "title": "The Man in the High Castle",
+                "description": "An alternate history series depicting a world where the Axis powers won World War II.",
+                "link": "https://www.imdb.com/title/tt1740299/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BMmI2OTMxZTUtMTM5OS00MGNiLWFhNGMtYzJiODUwYjRmODA5XkEyXkFqcGdeQXVyMTM0NTc2NDgw._V1_.jpg",
+                "title": "Chernobyl",
+                "description": "A historical drama miniseries depicting the Chernobyl nuclear disaster and its aftermath.",
+                "link": "https://www.imdb.com/title/tt7366338/"
+              }
+            
+    ],
+    "Soviet and Russian Series": [
+        {
+            "image": "https://m.media-amazon.com/images/M/MV5BNjMzZTE3NDEtOWRkOC00ZjFkLWIwODEtZTMzNmI4ZDg2YTBjXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_FMjpg_UX1000_.jpg",
+            "title": "Seventeen Moments of Spring",
+            "description": "A Soviet miniseries about a Soviet spy operating in Nazi Germany during World War II.",
+            "link": "https://www.imdb.com/title/tt0069628/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BMGQzNzNjODAtYTg5ZC00Y2JkLTg3NjYtY2MzYTY2NTJhZjZkXkEyXkFqcGdeQXVyMjgyNjk3MzE@._V1_FMjpg_UX1000_.jpg",
+            "title": "Resident's Fate",
+            "description": "A Russian historical drama series about the life of Soviet intelligence officer Richard Sorge.",
+            "link": "https://www.imdb.com/title/tt0314736/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BYjM2NGRjZWEtM2ZlNS00YWUwLTgxZWEtNGY4NDUzM2JmZWQzXkEyXkFqcGdeQXVyMTE5MjM5Njk3._V1_QL75_UY281_CR6,0,190,281_.jpg",
+            "title": "The Meeting Place Cannot Be Changed",
+            "description": "A Soviet criminal detective miniseries depicting the life of a Moscow criminal investigation unit.",
+            "link": "https://www.imdb.com/title/tt0078655/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BMzQzOWQ4OWYtYWY3YS00MmM1LThjY2ItYTFjOTg0YjU5NTViXkEyXkFqcGdeQXVyNTQ0MTY3MQ@@._V1_.jpg",
+            "title": "The Adventures of Sherlock Holmes and Dr. Watson",
+            "description": "A Soviet film series based on Arthur Conan Doyle's Sherlock Holmes detective stories.",
+            "link": "https://www.imdb.com/title/tt8127644/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BN2FmZTY2OGEtMDU4Mi00MThmLTliMzYtZjIzOTA2NzE1ZWQxXkEyXkFqcGdeQXVyNjMxODMyODU@._V1_FMjpg_UX1000_.jpg",
+            "title": "Mary Poppins, Goodbye",
+            "description": "A Soviet musical fantasy film about a kind and magical woman who brings happiness to a family.",
+            "link": "https://www.imdb.com/title/tt0085932/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BNzFiNzM0YzktNTZkMi00NDg2LWFkYTYtMWJlODNjNTI5Yzc5XkEyXkFqcGdeQXVyNDE4OTY5NzI@._V1_QL75_UY281_CR5,0,190,281_.jpg",
+            "title": "D’Artagnan and Three Musketeers",
+            "description": "A Soviet musical film based on Alexandre Dumas' novel 'Twenty Years After', featuring the Three Musketeers.",
+            "link": "https://www.imdb.com/title/tt0076998/"
+          },
+         
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BMDEwYzA5ZjEtMjNhZS00YjFiLWFiYjMtYTg1OTdkNTJkZTc2XkEyXkFqcGdeQXVyNjM4NTEyNjk@._V1_FMjpg_UX1000_.jpg",
+            "title": "The Road to Calvary",
+            "description": "A Russian historical drama series set during World War I and the Russian Revolution.",
+            "link": "https://www.imdb.com/title/tt7620312/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BMDZiZjFmNGItODNlZS00YzZjLWE3NGMtY2E3M2NlMDMzYWQ0XkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg",
+            "title": "The Master and Margarita",
+            "description": "A Russian miniseries based on Mikhail Bulgakov's novel, blending satire, romance, and supernatural elements.",
+            "link": "https://www.imdb.com/title/tt0403783/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BNzQ3ZTU4ZWQtMWZiYy00NDFhLThlM2MtYmRhYjY0M2E4MGRhXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_QL75_UY281_CR4,0,190,281_.jpg",
+            "title": "The Adventures of the Elektronic",
+            "description": "A Soviet science fiction adventure film about a young inventor and his futuristic robot.",
+            "link": "https://www.imdb.com/title/tt0078673/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BM2EzYzBmOTQtM2E0YS00ZDk1LWI0ZjktNjA0YzJlMTQzYzM5XkEyXkFqcGdeQXVyNDE4OTY5NzI@._V1_FMjpg_UX1000_.jpg",
+            "title": "TASS Is Authorized to Declare",
+            "description": "A Soviet spy thriller miniseries set during World War II, revolving around Soviet intelligence operations.",
+            "link": "https://www.imdb.com/title/tt0086813/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BOGNmMDhhYTItYjExMS00MWMwLWJmNzAtYTBlYWQwODljYThmXkEyXkFqcGdeQXVyNDM1ODc2NzE@._V1_.jpg",
+            "title": "Trotsky",
+            "description": "A Russian historical drama miniseries about the life of Leon Trotsky.",
+            "link": "https://www.imdb.com/title/tt7599132/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BODdhNTQyYjctODI0NC00NmQ2LThlZTUtNTgyNDIzZWYzMTVjXkEyXkFqcGdeQXVyNDM1ODc2NzE@._V1_.jpg",
+            "title": "To the Lake",
+            "description": "A Russian apocalyptic thriller series following a group of people trying to survive a deadly virus outbreak.",
+            "link": "https://www.imdb.com/title/tt9151230/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BYTI5OTlhMjgtYzhlNS00Mzk5LWE2NTUtNjlmOGJjYWNjODQ0XkEyXkFqcGdeQXVyNjg3MTIwODI@._V1_.jpg",
+            "title": "Servant of the People",
+            "description": "A Ukrainian political satire comedy series featuring a schoolteacher who unexpectedly becomes the President of Ukraine.",
+            "link": "https://www.imdb.com/title/tt6235122/"
+          }
+    ],
+    "Israeli Series": [
+        {
+            "image": "https://m.media-amazon.com/images/M/MV5BZTk5OTU5Y2EtY2M1NC00N2E5LWJlMTMtODgzMDc2NDk1MTczXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+            "title": "Fauda",
+            "description": "An Israeli action-packed series about an undercover unit operating in the West Bank.",
+            "link": "https://www.imdb.com/title/tt4565380/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BMzE3MmEwMjAtYWUzZS00YmQ4LTljZjEtOTQ4MTU5ZjliYjQzXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "title": "Checkout (Kupa Rashit)",
+            "description": "An Israeli comedy series following the lives of a group of people working at a lottery kiosk.",
+            "link": "https://www.imdb.com/title/tt8796226/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BNWUxYWY1YTctYjVmMi00MmJiLWE3NzktZmM4YzliOGE1ZmE2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
+            "title": "Tehran",
+            "description": "An Israeli espionage thriller series about a Mossad agent on a mission in Tehran, Iran.",
+            "link": "https://www.imdb.com/title/tt10577736/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BYWQzZGIwYzYtM2NiNy00ODFkLTlmZTgtZjI2M2MwNjBkZjY0XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "title": "Sovietzka",
+            "description": "An Israeli drama series exploring the lives of Russian immigrants in Israel.",
+            "link": "https://www.imdb.com/title/tt28660296/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BMjA4MTU4MDA1MV5BMl5BanBnXkFtZTgwNzYwMTkyMTE@._V1_FMjpg_UX1000_.jpg",
+            "title": "Asfur",
+            "description": "An Israeli drama series about a group of friends trying to make a better future in their community.",
+            "link": "https://www.imdb.com/title/tt1664065/"
+          },
+          {
+            "image": "https://www.themoviedb.org/t/p/w500/tx6ahLKzKRAqg9U662smeYoUk10.jpg",
+            "title": "The Arbitrator (Haborer)",
+            "description": "An Israeli sitcom revolving around the life of a clumsy and naive man trying to succeed in various jobs.",
+            "link": "https://www.imdb.com/title/tt0904106/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BYjJkZTA1YzItOWQyNy00ZDRiLWE4ZjctZjkxMmU1YmVmMTJiXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "title": "Beauty Queen of Jerusalem",
+            "description": "An Israeli drama series based on a novel, portraying the lives of a Jerusalem family.",
+            "link": "https://www.imdb.com/title/tt12940732/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BN2Y1MGJkMmEtNjZmZi00MDJjLTlmMDgtZjVlYTI3ZGVkMzU5XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "title": "Shtisel",
+            "description": "An Israeli drama series following an ultra-Orthodox Jewish family in Jerusalem.",
+            "link": "https://www.imdb.com/title/tt3069894/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BZDI0OTQ1MGItZGZhZS00OWE5LWE3MzktYzI4YmYyMTg2NTk2XkEyXkFqcGdeQXVyMjI5NjExNjk@._V1_.jpg",
+            "title": "The Gordin Cell",
+            "description": "An Israeli espionage thriller series about a Russian mole in the Israeli government.",
+            "link": "https://www.imdb.com/title/tt2860176/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BNDA5NTc4MGUtYjJmOS00MjRmLWE3ZGUtM2ZiMjkyNDE3ZjMwXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "title": "A Touch Away",
+            "description": "An Israeli drama series about a forbidden romance between a Jewish girl and a Muslim boy.",
+            "link": "https://www.imdb.com/title/tt0896576/"
+          }
+
+    ]
+  
+    }

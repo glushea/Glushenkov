@@ -1,0 +1,138 @@
+{
+    "leaders": [
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ben-Gurion.jpg",
+        "title": "David Ben Gurion",
+        "description": "First Prime Minister of Israel and a key founding figure of modern Israel.",
+        "link": "https://en.wikipedia.org/wiki/David_Ben-Gurion"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Shimon_Peres_by_David_Shankbone.jpg/435px-Shimon_Peres_by_David_Shankbone.jpg",
+        "title": "Shimon Peres",
+        "description": "Former President and Prime Minister of Israel, Nobel Peace Prize laureate.",
+        "link": "https://en.wikipedia.org/wiki/Shimon_Peres"
+      },
+      {
+        "image": "https://unorthoboxed.com/wp-content/uploads/2022/02/GoldaMeirFlickr.jpg",
+        "title": "Golda Meir",
+        "description": "Fourth Prime Minister of Israel and the world's fourth female head of government.",
+        "link": "https://en.wikipedia.org/wiki/Golda_Meir"
+      },
+     
+      {
+        "image": "https://qph.cf2.quoracdn.net/main-qimg-6d9c5e1d8f2b486e2c8cdceaac8c04ff-lq",
+        "title": "Ronald Reagan",
+        "description": "40th President of the United States, known for his conservative policies.",
+        "link": "https://en.wikipedia.org/wiki/Ronald_Reagan"
+      },
+      {
+        "image": "https://collectionimages.npg.org.uk/large/mw82624/Margaret-Thatcher.jpg",
+        "title": "Margaret Thatcher",
+        "description": "First female Prime Minister of the United Kingdom, known as the 'Iron Lady'.",
+        "link": "https://en.wikipedia.org/wiki/Margaret_Thatcher"
+      },
+      {
+        "image": "https://i.dailymail.co.uk/i/pix/2014/01/29/article-2547966-1935B94C00000578-873_306x479.jpg",
+        "title": "Winston Churchill",
+        "description": "British Prime Minister during World War II, known for his powerful speeches.",
+        "link": "https://en.wikipedia.org/wiki/Winston_Churchill"
+      },
+      {
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/05/04/14/plisetskaya_reuters.jpg?quality=75&width=1200&auto=webp",
+        "title": "Maya Plisetskaya",
+        "description": "Renowned Russian ballet dancer and choreographer.",
+        "link": "https://en.wikipedia.org/wiki/Maya_Plisetskaya"
+      },
+      {
+        "image": "https://m.media-amazon.com/images/M/MV5BMDg1ZGE4NTgtMzUyYy00YzRmLThlNjQtMGMyYzg3NTNjODc1XkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_FMjpg_UX1000_.jpg",
+        "title": "Alla Pugacheva",
+        "description": "Soviet and Russian musical icon, known for her contributions to pop music.",
+        "link": "https://en.wikipedia.org/wiki/Alla_Pugacheva"
+      },
+      {
+        "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_93_TC71Sakharov_int",
+        "title": "Andrei Sakharov",
+        "description": "Soviet nuclear physicist, human rights activist, and Nobel Peace Prize laureate.",
+        "link": "https://en.wikipedia.org/wiki/Andrei_Sakharov"
+      },
+      {
+        "image": "https://i.pinimg.com/474x/2d/a9/4b/2da94bdb2f624acd59235f74dc4d3aee.jpg",
+        "title": "Albert Einstein",
+        "description": "Theoretical physicist known for the theory of relativity and E=mc².",
+        "link": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/RIAN_archive_438589_Mstislav_Rostropovich.jpg",
+        "title": "Mstislav Rostropovich",
+        "description": "Russian cellist and conductor.",
+        "link": "https://en.wikipedia.org/wiki/Mstislav_Rostropovich"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%9C%D7%99%D7%9B%D7%9D-JNF014304.jpeg/220px-%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%9C%D7%99%D7%9B%D7%9D-JNF014304.jpeg",
+        "title": "Shalom Aleichem",
+        "description": "Yiddish writer and playwright, known for Tevye the Dairyman stories.",
+        "link": "https://en.wikipedia.org/wiki/Shalom_Aleichem"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Shagal_Choumoff.jpg/220px-Shagal_Choumoff.jpg",
+        "title": "Marc Chagall",
+        "description": "Russian-French artist known for his distinctive, dreamlike style.",
+        "link": "https://en.wikipedia.org/wiki/Marc_Chagall"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/%D0%9B%D0%B5%D0%B2_%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B9_%28%D0%A7%D0%B5%D1%80%D1%82%D0%BA%D0%BE%D0%B2%2C_1910%29_-_0003600121.jpg",
+        "title": "Lev Tolstoy",
+        "description": "Russian writer known for 'War and Peace' and 'Anna Karenina'.",
+        "link": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Boris_Pasternak_1959_photo.jpg",
+        "title": "Boris Pasternak",
+        "description": "Russian poet, novelist, and literary translator, awarded the Nobel Prize in Literature.",
+        "link": "https://en.wikipedia.org/wiki/Boris_Pasternak"
+      },
+      {
+        "image": "https://miro.medium.com/v2/resize:fit:442/1*ZIml3328CRu6Dv-BhJrh2g.jpeg",
+        "title": "Anna Akhmatova",
+        "description": "Prominent Russian poet and literary figure of the Silver Age.",
+        "link": "https://en.wikipedia.org/wiki/Anna_Akhmatova"
+      },
+      {
+        "image": "https://m.media-amazon.com/images/M/MV5BMjMwOTQ3NTg1MF5BMl5BanBnXkFtZTcwMjc4MjQ4OA@@._V1_.jpg",
+        "title": "Barbra Streisand",
+        "description": "An American singer, actress, and filmmaker, known for her contributions to music, theater, and film.",
+        "link": "https://en.wikipedia.org/wiki/Barbra_Streisand"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Kiprensky_Pushkin.jpg",
+        "title": "Alexander Pushkin",
+        "description": "Russian poet, playwright, and novelist, considered the founder of modern Russian literature.",
+        "link": "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Anton_Chekhov_1889.jpg",
+        "title": "Anton Chekhov",
+        "description": "Russian playwright and short-story writer known for 'The Cherry Orchard' and 'Uncle Vanya'.",
+        "link": "https://en.wikipedia.org/wiki/Anton_Chekhov"
+      },
+      {
+        "image": "https://cdn.britannica.com/57/26257-004-FC0C6EC7/Dmitry-Shostakovich.jpg",
+        "title": "Dmitri Shostakovich",
+        "description": "Soviet composer and pianist, known for his symphonies and string quartets.",
+        "link": "https://en.wikipedia.org/wiki/Dmitri_Shostakovich"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/220px-Benjamin_Netanyahu%2C_February_2023.jpg",
+        "title": "Benjamin Netanyahu",
+        "description": "Israeli politician, served as Prime Minister of Israel multiple times.",
+        "link": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu"
+      },
+      {
+        "image": "https://static01.nyt.com/images/2017/04/02/us/02yevtushenko2/02yevtushenko2-blog427.jpg",
+        "title": "Yevgeny Yevtushenko",
+        "description": "Soviet and Russian poet, film director, and actor, known for his social and political poetry.",
+        "link": "https://en.wikipedia.org/wiki/Yevgeny_Yevtushenko"
+      }
+    ]
+  }
+  

@@ -137,14 +137,16 @@ li[draggable]::before {
       padding: 20px;  
       text-align: center;  
       margin: 5px 2px;  
-      font-size: 30px;  
-      width: 70px;  
+      font-size: 20px;  
+      width: 50px;  
       border-radius: 50%;
     }  
 
     @media (max-width: 768px) {
       .fa {  
-        width: 65px;  
+        width: 40px;  
+        margin: 0px;  
+
       }
     }
     .fa-facebook {  
@@ -170,6 +172,10 @@ li[draggable]::before {
     } 
     .fa-whatsapp {  
       background: #25D366;  
+      color: white;  
+    } 
+    .fa-spotify {  
+      background: black;  
       color: white;  
     } 
     .fa:hover {  
@@ -427,11 +433,11 @@ li[draggable]::before {
   color: white;
 }
 .up-button{
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
   line-height: 40px; /* Center the icon vertically */
   margin-top: 0; /* Set margin-top to 0 to center the icon */
-  font-size: 35px; /* Increase the font size to make the icon larger */
+  font-size: 25px; /* Increase the font size to make the icon larger */
 }
 
 
@@ -885,4 +891,82 @@ li[draggable]::before {
 .btn-group {
   text-align: center;
   margin-top: 1rem;
+}
+
+
+
+.carousel_food {
+  margin: 20px;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+}
+
+.h2_food {
+  margin-bottom: 10px;
+  color: #f60;
+  font-weight: bold;
+}
+.h3_food {
+  margin-bottom: 10px;
+  color: #f60;
+}
+
+.arrow_food{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute; /* Position arrows absolutely */
+  top: 50%; /* Position at 50% from the top */
+  transform: translateY(-50%); /* Adjust to vertically center */
+}
+
+.arrow-left_food {
+  left: 10px;
+}
+.arrow-right_food {
+  right: 10px;
+}
+
+.card-container_food{
+  display: flex;
+  overflow-x: scroll;
+}
+
+.card_food{
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  max-width: 200px;
+  box-shadow: 6px 6px 0 #f0f0f0; /* Horizontal offset 5px to the right, Vertical offset 5px down, No blur, Color #F60 */
+
+}
+
+.card_img_food{
+  /* width: 100%;
+  height: auto; */
+  width:180px;
+  height:140px;
+}
+.card_img_movie{
+  /* width: 100%;
+  height: auto; */
+  width:180px;
+  height:250px;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  .carousel_food {
+    padding: 5px;
+  }
+
+  .card_food {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card_food {
+    max-width: 120px;
+  }
 }
