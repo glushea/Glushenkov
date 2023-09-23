@@ -977,14 +977,14 @@ li[draggable]::before {
   }
   .h2_food {
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 25px;
   }
   .h3_food {
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 20px;
   }
   .p_card{
-    font-size: 12px;
+    font-size: 15px;
 
   }
 }
