@@ -290,6 +290,12 @@
                 "link": "https://www.imdb.com/title/tt0062323/"
               },
               {
+                "image": "https://m.media-amazon.com/images/M/MV5BYTUwMDIwY2EtZDg0NS00OGJiLTk0OTItMzBlZGEyNGQ3ZWExXkEyXkFqcGdeQXVyNDM1ODc2NzE@._V1_FMjpg_UX1000_.jpg",
+                "title": "Cheburashka",
+                "description": "A fun-loving furry animal living in an orange grove finds itself in a quiet seaside town where he meets an unsociable old gardener.",
+                "link": "https://www.imdb.com/title/tt16550628/"
+              },
+              {
                 "image": "https://m.media-amazon.com/images/M/MV5BZDQ5NmQ4MmQtYmQwYy00NDJkLWE3OTAtNzQ0ODE1MGIxMDI4XkEyXkFqcGdeQXVyNjMxMjkwMjI@._V1_QL75_UY281_CR6,0,190,281_.jpg",
                 "title": "Kingdom of Crooked Mirrors",
                 "description": "A Soviet fantasy film about two girls who switch places and enter different worlds through a magical mirror.",
@@ -582,6 +588,54 @@
             "link": "https://www.imdb.com/title/tt0085932/"
           },
           {
+            "image": "https://m.media-amazon.com/images/M/MV5BMGYxNGRiZDYtYTZlZC00YzkwLWI1MWMtOTBjM2JiZGY5ODY4XkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_FMjpg_UX1000_.jpg",
+            "title": "Cheburashka",
+            "description": "Adventures of Cheburashka and Gena",
+            "link": "https://www.imdb.com/title/tt0085932/"
+          },
+          {
+            "image": "https://i0.wp.com/sovietmoviesonline.com/wp-content/uploads/276-1.jpg?fit=560%2C786&ssl=1",
+            "title": "Well, Just You Wait! (Nu, pogodi!)",
+            "description": "A long-years odyssey of Wolf to catch Hare.",
+            "link": "https://www.imdb.com/title/tt0234355/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BMjc2NGFhYTUtYmVhNy00MGJhLThiZDgtMGUzZWFkYjE3ZjJlXkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_.jpg",
+            "title": "Winnie-the-Pooh (Vinni-Pukh)",
+            "description": "A Soviet version of Winnie-the-Pooh",
+            "link": "https://www.imdb.com/title/tt0211729/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BN2FjMDQ0NzgtMGIyMC00NjE3LTkzMmQtYjEzNDU0NDE5MDNkXkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_FMjpg_UX1000_.jpg",
+            "title": "Three from Prostokvashino",
+            "description": "Little Fedor brings a cat to home despite his mother's distaste for cats. He runs away with his talking cat, to make more friends on the way.",
+            "link": "https://www.imdb.com/title/tt0189160/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BOTdjZGQyMTgtMDA2Yi00YmMzLTliYzQtZGI1OGRkNzI5ZWQyXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_QL75_UY281_CR5,0,190,281_.jpg",
+            "title": "Return of the Prodigal Parrot",
+            "description": "Kesha is a parrot. That explains a lot. He's a Soviet parrot, and that explains the rest.",
+            "link": "https://www.imdb.com/title/tt0212593/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BN2FmZTY2OGEtMDU4Mi00MThmLTliMzYtZjIzOTA2NzE1ZWQxXkEyXkFqcGdeQXVyNjMxODMyODU@._V1_FMjpg_UX1000_.jpg",
+            "title": "Cat Leopold",
+            "description": "An amiable cat is pursued by two boorish mice.",
+            "link": "https://www.imdb.com/title/tt1074757/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BNTk0MWNmOTctYjJkOS00MTcxLTlkZmQtNDc4NTJkODAxODFmXkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_FMjpg_UX1000_.jpg",
+            "title": "Junior and Karlson",
+            "description": "A Soviet cartoon adaptation of a classic Swedish tale by Astrid Lindgren about Karlsson-on-the-Roof.",
+            "link": "https://www.imdb.com/title/tt0756316/"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/M/MV5BYmI4OWNiZTQtYjNiMy00ZDM1LThkY2ItNGY1NThiOTVhZjA1XkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_.jpg",
+            "title": "Mother For a Little Mammoth",
+            "description": "A little mammoth is looking for his mother around the whole long been changed world.",
+            "link": "https://www.imdb.com/title/tt1074985/"
+          },
+          {
             "image": "https://m.media-amazon.com/images/M/MV5BNzFiNzM0YzktNTZkMi00NDg2LWFkYTYtMWJlODNjNTI5Yzc5XkEyXkFqcGdeQXVyNDE4OTY5NzI@._V1_QL75_UY281_CR5,0,190,281_.jpg",
             "title": "D’Artagnan and Three Musketeers",
             "description": "A Soviet musical film based on Alexandre Dumas' novel 'Twenty Years After', featuring the Three Musketeers.",
@@ -619,7 +673,7 @@
             "link": "https://www.imdb.com/title/tt7599132/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BODdhNTQyYjctODI0NC00NmQ2LThlZTUtNTgyNDIzZWYzMTVjXkEyXkFqcGdeQXVyNDM1ODc2NzE@._V1_.jpg",
+            "image": "https://m.media-amazon.com/images/M/MV5BYzAzMzFmNTEtYzZiOC00ZTExLThmN2ItNjMxZTUwNDUwMTc5XkEyXkFqcGdeQXVyNTAyODY2MDY@._V1_.jpg",
             "title": "To the Lake",
             "description": "A Russian apocalyptic thriller series following a group of people trying to survive a deadly virus outbreak.",
             "link": "https://www.imdb.com/title/tt9151230/"
