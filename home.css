@@ -74,13 +74,15 @@ body {
   @media (max-width: 768px) {
 
     .small{
-      width: 60px;
-      padding-left: 4px;
+      width: 70px;
+      padding-left: 2px;
+      padding-bottom: 5px;  
+      padding-top: 5px;  
     }
     .small2 {
-      padding-left: 4px;
-      width: 60px;
-      padding-bottom: 10px;  
+      padding-left: 3px;
+      width: 70px;
+      padding-bottom: 5px;  
       padding-top: 5px;    
   }
   .big2 {
@@ -91,6 +93,7 @@ body {
   }
     .container{
       margin-left: 0px;
+      width: 400px;
     }
 }
   
@@ -260,10 +263,10 @@ body {
     
     @media (max-width: 768px) {
       .image_logo_small{
-        width: 50px;
+        width: 62px;
       }
       
       .image_logo_big{
-        width: 50px;
+        width: 62px;
       }
     }
