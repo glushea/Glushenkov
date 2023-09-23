@@ -954,6 +954,8 @@ li[draggable]::before {
   height: auto; */
   width:280px;
   height:350px;
+  object-fit: cover; /* Make the image cover the container */
+
 }
 /* Responsive styles */
 @media (max-width: 768px) {
