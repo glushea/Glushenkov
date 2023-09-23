@@ -152,6 +152,12 @@
             "link": "https://en.wikipedia.org/wiki/The_Curious_Incident_of_the_Dog_in_the_Night-Time"
           },
           {
+            "image": "https://m.media-amazon.com/images/I/91fog3rk3WL._AC_UF1000,1000_QL80_.jpg",
+            "title": "The Twelve Chairs",
+            "description": "Its plot follows characters attempting to obtain jewelry hidden in a chair",
+            "link": "https://www.amazon.com/Twelve-Chairs-Novel-Northwestern-Classics/dp/0810127725"
+          },
+          {
             "image": "https://m.media-amazon.com/images/I/81RUfP0ZOjL._AC_UF1000,1000_QL80_.jpg",
             "title": "The Kite Runner",
             "description": "A novel exploring friendship, betrayal, and redemption set in Afghanistan.",
@@ -196,10 +202,22 @@
             "link": "https://www.amazon.com/Right-Your-Type-Peter-DAdamo/dp/0061441848"
           },
           {
+            "image": "https://m.media-amazon.com/images/I/A1uxZpdKK8L._AC_UF1000,1000_QL80_.jpg",
+            "title": "Bong Appétit: Mastering the Art of Cooking with Weed: A Cookbook",
+            "description": "This cannabis cookbook features 65 high-end recipes for sweet and savory dishes as well as cocktails.",
+            "link": "https://www.amazon.com/Bong-App%C3%A9tit-Mastering-Cooking-Weed/dp/0399580107"
+          },
+          {
             "image": "https://m.media-amazon.com/images/I/51yKov8hnXL.jpg",
             "title": "Healing Back Pain: The Mind-Body Connection",
             "description": "Explores the mind-body connection in understanding and healing back pain.",
             "link": "https://www.amazon.com/Healing-Back-Pain-Mind-Body-Connection/dp/0446557684"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/71IN029dwuL._AC_UF1000,1000_QL80_.jpg",
+            "title": "How to Change Your Mind",
+            "description": "Michael Pollan traces the eventful history of psychedelics, from Hofmann's first encounter with LSD to the first surge of research into the field, to the widespread",
+            "link": "https://www.amazon.com/Change-Your-Mind-Consciousness-Transcendence/dp/1594204225"
           },
           {
             "image": "https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UF1000,1000_QL80_.jpg",
