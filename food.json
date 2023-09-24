@@ -243,6 +243,24 @@
         "title": "Bird milk",
         "description": "Bird's milk is a Central European confectionery originating in Poland. It is a small, chocolate-covered bar with a soft marshmallow-like interior.",
         "link": "https://en.wikipedia.org/wiki/Ptasie_mleczko"
+      },
+      {
+        "image": "https://ingmar.app/blog/wp-content/uploads/2015/08/Uzbekistan-Plov.jpg",
+        "title": "Plov",
+        "description": "Pilaf or pilau is a rice dish, or in some regions, a wheat dish, whose recipe usually involves cooking in stock or broth.",
+        "link": "https://en.wikipedia.org/wiki/Pilaf"
+      },
+      {
+        "image": "https://curiousflavors.com/wp-content/uploads/2023/04/Untitled-design-2023-04-12T111543.030.jpg",
+        "title": "Dried Fish",
+        "description": "Fresh fish rapidly deteriorates unless some way can be found to preserve it.",
+        "link": "https://en.wikipedia.org/wiki/Dried_fish"
+      },
+      {
+        "image": "https://s1.webspoon.ru/receipts/2014/3/13685/orig_13685_0_lr.jpg",
+        "title": "Salted and marinated Fish",
+        "description": "Salted fish, such as kippered herring or dried and salted cod, is fish cured with dry salt and thus preserved for later eating",
+        "link": "https://en.wikipedia.org/wiki/Salted_fish"
       }
 
 
@@ -273,7 +291,7 @@
             "link": "https://en.wikipedia.org/wiki/P%27tcha"
           },
           {
-            "image": "https://images.prismic.io/jewishfoodsociety/e96be5ca-f9ee-4399-914d-599bfc4c66de_jfs_september_003.jpg?auto=compress,format&rect=23,0,1455,1000&w=1600&h=1100",
+            "image": "https://veenaazmanov.com/wp-content/uploads/2018/09/Chraime-Moroccan-Fish-in-Tomato-Sauce29.jpg",
             "title": "Chraime",
             "description": "A spicy fish stew dish in Jewish cuisine",
             "link": "https://en.wikipedia.org/wiki/Chraime"
@@ -302,6 +320,7 @@
             "description": "A dish of Ashkenazi Jewish origin made from matzah fried with eggs",
             "link": "https://en.wikipedia.org/wiki/Matzo_brei"
           },
+          
           {
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Lox_on_Bagel%2C_Atlanta_GA.jpg/500px-Lox_on_Bagel%2C_Atlanta_GA.jpg",
             "title": "Lox",
