@@ -2,226 +2,232 @@
     "Global Movies": 
         [
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560590/movies/global_movies_the_godfather_p3ihpb.webp",
                 "title": "The Godfather",
                 "description": "The Godfather is a 1972 crime film directed by Francis Ford Coppola, based on the 1969 novel by Mario Puzo.",
                 "link": "https://www.imdb.com/title/tt0068646/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560605/movies/global_movies_pulp_fiction_mhxgan.webp",
                 "title": "Pulp Fiction",
                 "description": "Pulp Fiction is a 1994 neo-noir black comedy crime film written and directed by Quentin Tarantino.",
                 "link": "https://www.imdb.com/title/tt0110912/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560581/movies/global_movies_forrest_gump_tbicwj.webp",
                 "title": "Forrest Gump",
                 "description": "Forrest Gump is a 1994 comedy-drama film directed by Robert Zemeckis and written by Eric Roth.",
                 "link": "https://www.imdb.com/title/tt0109830/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BZTMxMGM5MjItNDJhNy00MWI2LWJlZWMtOWFhMjI5ZTQwMWM3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+              "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695736660/movies/global_movies_inglurius_baterds_tdg8zo.webp",
+              "title": "Inglourious Basterds",
+              "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers.",
+              "link": "https://www.imdb.com/title/tt0361748/"
+          },
+            {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560612/movies/global_movies_back_to_the_future_cwxmte.webp",
                 "title": "Back to the Future",
                 "description": "Back to the Future is a 1985 science fiction film directed by Robert Zemeckis.",
                 "link": "https://www.imdb.com/title/tt0088763/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BYTViNzMxZjEtZGEwNy00MDNiLWIzNGQtZDY2MjQ1OWViZjFmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560617/movies/global_movies_terminator_qp5zc0.webp",
                 "title": "Terminator",
                 "description": "The Terminator is a 1984 science fiction action film directed by James Cameron.",
                 "link": "https://www.imdb.com/title/tt0088247/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BODQ0OWJiMzktYjNlYi00MzcwLThlZWMtMzRkYTY4ZDgxNzgxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560614/movies/global_movies_fight_club_t38xpd.webp",
                 "title": "Fight Club",
                 "description": "Fight Club is a 1999 psychological thriller film directed by David Fincher.",
                 "link": "https://www.imdb.com/title/tt0137523/"
             },
             
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BODQ0NzY5NGEtYTc5NC00Yjg4LTg4Y2QtZjE2MTkyYTNmNmU2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560634/movies/global_movies_la_dolce_vita_ovhtkm.webp",
                 "title": "La Dolce Vita",
                 "description": "La Dolce Vita is a 1960 Italian drama film directed and co-written by Federico Fellini.",
                 "link": "https://www.imdb.com/title/tt0053779/"
             },
             {
-                "image": "https://resizing.flixster.com/2-v4yc5C3Kidjjv_vp_QXP7G5Zs=/206x305/v2/https://flxt.tmsimg.com/assets/p3374_p_v8_as.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560571/movies/global_movies_goldfinger_ezz5yp.webp",
                 "title": "Goldfinger",
                 "description": "Goldfinger is a 1964 spy film and the third installment in the James Bond series.",
                 "link": "https://www.imdb.com/title/tt0058150/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BMTdmMzJjYTctNTc4ZC00NDQ5LWE2MDgtZWQ5OGNiNjliYzczXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560613/movies/global_movies_from_russia_with_love_ut59qh.webp",
                 "title": "From Russia with Love",
                 "description": "From Russia with Love is a 1963 spy film and the second in the James Bond series.",
                 "link": "https://www.imdb.com/title/tt0057076/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BYjUyZWZkM2UtMzYxYy00ZmQ3LWFmZTQtOGE2YjBkNjA3YWZlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560620/movies/global_movies_gone_with_the_wind_ekxhil.webp",
                 "title": "Gone with the Wind",
-                "description": "A manipulative woman and a roguish man carry on a turbulent love affair in the American south during the Civil War and Reconstruction.",
+                "description": "A manipulative woman and a roguish man carry on a turbulent love affair in the American south during the Civil War.",
                 "link": "https://www.imdb.com/title/tt0031381/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BNzdmZTk4MTktZmExNi00OWEwLTgxZDctNTE4NWMwNjc1Nzg2XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560580/movies/global_movies_dr._zhivago_wxjrzn.webp",
                 "title": "Dr. Zhivago",
                 "description": "Doctor Zhivago is a 1965 epic romantic drama film directed by David Lean.",
                 "link": "https://www.imdb.com/title/tt0059113/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BNmJjOThlYTYtYzFlZC00NjI1LWFhNzItYmIzNzk5NDZkZmRmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560640/movies/global_movies_war_and_peace_zyvdro.webp",
                 "title": "War and Peace",
                 "description": "War and Peace is a 1956 American-Italian war drama film directed by King Vidor.",
                 "link": "https://www.imdb.com/title/tt0049934/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BODQ5NGUzMzQtZTJjZC00MTk0LThjNmMtYzRjMjI1YTZiNmM5XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560668/movies/global_movies_fiddler_on_the_roof_qb1tb1.webp",
                 "title": "Fiddler on the Roof",
                 "description": "A musical comedy-drama film depicting the life of a poor Jewish milkman and his family in pre-revolutionary Russia.",
                 "link": "https://www.imdb.com/title/tt0067093/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMTA0ODQzZjItNTk5Mi00ZDc3LWFjZGItZWU0MjM2NzViYjZlXkEyXkFqcGdeQXVyNjMwMjk0MTQ@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560618/movies/global_movies_yentl_dz6cnb.webp",
                 "title": "Yentl",
                 "description": "A musical romantic drama film about a young Jewish woman who disguises herself as a man to study Talmudic law.",
                 "link": "https://www.imdb.com/title/tt0086619/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560621/movies/global_movies_schindler_s_list_vsmvxw.webp",
                 "title": "Schindler's List",
-                "description": "A historical drama film based on the life of Oskar Schindler, a German industrialist who saved over a thousand Jewish refugees during the Holocaust.",
+                "description": "A historical drama film based on the life of Oskar Schindler, a German industrialist who saved Jewish refugees.",
                 "link": "https://www.imdb.com/title/tt0108052/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BYzM2MmI5MDgtYzY5MC00ZGY0LTkwN2YtM2Y5YTAzNDQyMTNiXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560572/movies/global_movies_escape_from_sobibor_pjp6fy.webp",
                 "title": "Escape from Sobibor",
                 "description": "A historical war drama film based on the true story of the mass escape from the Sobibor extermination camp during World War II.",
                 "link": "https://www.imdb.com/title/tt0092978/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BZjEyYjk4ZDQtZDhjMi00NGFkLWExM2UtZjgyMDMxODgwNjgyXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560604/movies/global_movies_defiance_2008_film_yuu2di.webp",
                 "title": "Defiance (2008 film)",
                 "description": "A war film based on the true story of the Bielski partisans, a group of Jewish resistance fighters during World War II.",
                 "link": "https://www.imdb.com/title/tt1034303/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BYzdiOTVjZmQtNjAyNy00YjA2LTk5ZTAtNmJkMGQ5N2RmNjUxXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560585/movies/global_movies_the_princess_bride_htfvs7.webp",
                 "title": "The Princess Bride",
                 "description": "A fairy tale adventure film about a young woman and her true love's quest to rescue her from an unwanted marriage.",
                 "link": "https://www.imdb.com/title/tt0093779/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BZjhkMmFmMGMtZTIwMy00NGE0LThkZWQtOWNjMDQ1NTY4MmNjXkEyXkFqcGdeQXVyMTY2MzYyNzA@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560616/movies/global_movies_ladyhawke_fo1zfq.webp",
                 "title": "Ladyhawke",
                 "description": "A fantasy adventure film about a thief, a pickpocket, and a former knight escaping a cruel bishop's clutches.",
                 "link": "https://www.imdb.com/title/tt0089457/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BYzM4MjQ0MzktNTMwNi00MDdjLTg3YTctY2M4OWRjNzA2N2E1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560665/movies/global_movies_indiana_jones_bsgggj.webp",
                 "title": "Indiana Jones",
                 "description": "A film series following the adventures of Dr. Henry Walton \"Indiana\" Jones Jr., an archaeologist and adventurer.",
                 "link": "https://www.imdb.com/title/tt0082971/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BNjdjNGQ4NDEtNTEwYS00MTgxLTliYzQtYzE2ZDRiZjFhZmNlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560600/movies/global_movies_scarface_dvzbkx.webp",
                 "title": "Scarface",
                 "description": "A crime film following the rise of Tony Montana, a Cuban immigrant who becomes a powerful drug lord in Miami.",
                 "link": "https://www.imdb.com/title/tt0086250/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BZjEyZTdhNDMtMWFkMS00ZmRjLWEyNmEtZDU3MWFkNDEzMDYwXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560584/movies/global_movies_the_name_of_the_rose_wpojqb.webp",
                 "title": "The Name of the Rose",
                 "description": "A historical mystery drama film based on Umberto Eco's novel, set in a medieval abbey.",
                 "link": "https://www.imdb.com/title/tt0091605/"
               },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560632/movies/global_movies_taxi_driver_i5t15b.webp",
                 "title": "Taxi Driver",
                 "description": "Taxi Driver is a 1976 American neo-noir psychological thriller film directed by Martin Scorsese.",
                 "link": "https://www.imdb.com/title/tt0075314/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BYjRmODkzNDItMTNhNi00YjJlLTg0ZjAtODlhZTM0YzgzYThlXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560591/movies/global_movies_raging_bull_dqyfuq.webp",
                 "title": "Raging Bull",
                 "description": "Raging Bull is a 1980 American biographical sports drama film directed by Martin Scorsese.",
                 "link": "https://www.imdb.com/title/tt0081398/"
             },
             
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BMjIxMjQyMTc3Nl5BMl5BanBnXkFtZTcwMTA1MDUzMw@@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560623/movies/global_movies_de_vinci_code_g4u9az.webp",
                 "title": "De Vinci Code",
                 "description": "A mystery thriller series based on Dan Brown's novel, exploring ancient secrets and conspiracies.",
                 "link": "https://www.imdb.com/title/tt0382625/"
             },
 
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BMjEzNzM2MjgxMF5BMl5BanBnXkFtZTcwNTQ1MTM0Mg@@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560637/movies/global_movies_angels_and_demons_qudusx.webp",
                 "title": "Angels and Demons",
                 "description": "Another mystery thriller based on Dan Brown's novel, exploring ancient secrets and conspiracies.",
                 "link": "https://www.imdb.com/title/tt0808151/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BZGU0NGVlM2UtM2NjYy00MjMzLWJkYmItNTJjOWVhMzU1YzA3XkEyXkFqcGdeQXVyMzIzNDU1NTY@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560620/movies/global_movies_marriage_italian_style_fffywy.webp",
                 "title": "Marriage Italian Style",
                 "description": "Marriage Italian Style is a 1964 Italian romantic comedy-drama film directed by Vittorio De Sica.",
                 "link": "https://www.imdb.com/title/tt0058335/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BNmEyNzJkMmQtODU2My00OGYwLTgzMjctZTI4MTA1ODgzYWU2XkEyXkFqcGdeQXVyNDkzNTM2ODg@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560613/movies/global_movies_judith_kvs3th.webp",
                 "title": "Judith",
                 "description": "Judith is a 1966 drama film directed by Daniel Mann, starring Sophia Loren and Peter Finch.",
                 "link": "https://www.imdb.com/title/tt0060553/"
             },
             {
-                "image": "https://lumiere-a.akamaihd.net/v1/images/cleopatra_a71924ed.jpeg?region=0%2C0%2C584%2C876",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560601/movies/global_movies_cleopatra_puncuh.webp",
                 "title": "Cleopatra",
                 "description": "Cleopatra is a 1963 American epic historical drama film directed by Joseph L. Mankiewicz.",
                 "link": "https://www.imdb.com/title/tt0056937/"
             },
             {
-                "image": "https://m.media-amazon.com/images/S/pv-target-images/2596301d69a4d0ce86a41d4ef6fdb5e19eabe66ac45cab63eeb97dc45d840254.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560666/movies/global_movies_rocky_y6lhqj.webp",
                 "title": "Rocky",
                 "description": "Rocky is a 1976 American sports drama film directed by John G. Avildsen, written by and starring Sylvester Stallone.",
                 "link": "https://www.imdb.com/title/tt0075148/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BODBmOWU2YWMtZGUzZi00YzRhLWJjNDAtYTUwNWVkNDcyZmU5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560624/movies/global_movies_rambo_vpzd7m.webp",
                 "title": "Rambo",
-                "description": "Rambo is a 2008 American action thriller film directed and co-written by Sylvester Stallone, based on the character John Rambo created by author David Morrell for his novel First Blood.",
+                "description": "Rambo is a 2008 American action thriller based on the character John Rambo.",
                 "link": "https://www.imdb.com/title/tt0462499/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BMWUzN2VkY2ItYmQ4YS00MjFmLWJhZDQtYWY1NWQ2NTA5NDNlXkEyXkFqcGdeQXVyNDc2NjEyMw@@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560642/movies/global_movies_twins_qudeg7.webp",
                 "title": "Twins",
-                "description": "Twins is a 1988 American buddy comedy film produced and directed by Ivan Reitman about unlikely twins (played by Arnold Schwarzenegger and Danny DeVito) who were separated at birth.",
+                "description": "Twins is a film about unlikely twins (played by Arnold Schwarzenegger and Danny DeVito) who were separated at birth.",
                 "link": "https://www.imdb.com/title/tt0096320/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BOGYwZjI2MzgtOWFiMi00YTFmLWE2MzUtOWNmNGNjOTBmZWE1XkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560615/movies/global_movies_conan_the_barbarian_apl1ts.webp",
                 "title": "Conan the Barbarian",
                 "description": "Conan the Barbarian is a 1982 American epic sword and sorcery film directed and co-written by John Milius.",
                 "link": "https://www.imdb.com/title/tt0082198/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560574/movies/global_movies_casablanca_bkc144.webp",
                 "title": "Casablanca",
                 "description": "A classic romantic drama set during World War II, featuring a love story in the backdrop of political intrigue.",
                 "link": "https://www.imdb.com/title/tt0034583/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BNzAyOGIxYjAtMGY2NC00ZTgyLWIwMWEtYzY0OWQ4NDFjOTc5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560601/movies/global_movies_some_like_it_hot_ohyttc.webp",
                 "title": "Some Like It Hot",
                 "description": "A comedy film where two musicians witness a crime and disguise themselves as women to escape the mob.",
                 "link": "https://www.imdb.com/title/tt0053291/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BNTRhZDViOTYtOGY5OC00ODk4LWJkZWYtYjFkZWZkMzVmNjY2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560612/movies/global_movies_gentlemen_prefer_blondes_aqsqpd.webp",
                 "title": "Gentlemen Prefer Blondes",
                 "description": "A musical comedy that follows two showgirls on a cruise to Paris, exploring themes of love and money.",
                 "link": "https://www.imdb.com/title/tt0045810/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BYzEzZWU3ZTctMGRmZi00YTBiLThhN2UtNzRmNjI5ZGRhOTJlXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560577/movies/global_movies_cabaret_lwwjlr.webp",
                 "title": "Cabaret",
                 "description": "A musical drama set in Berlin during the early 1930s, depicting the nightlife and politics of the time.",
                 "link": "https://www.imdb.com/title/tt0068327/"
@@ -382,139 +388,134 @@
 
         ], "Israeli Movies":[
             {
-                "image": "https://m.media-amazon.com/images/I/51MEA4tJTvL._AC_UF1000,1000_QL80_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560591/movies/israeli_movies_lemon_popsicle_kgnxkt.webp",
                 "title": "Lemon Popsicle",
                 "description": "Lemon Popsicle is a 1978 Israeli teen sex comedy-drama film, the first in a series.",
                 "link": "https://www.imdb.com/title/tt0079118/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BN2NmYTZkNTEtNjAwNi00MmVkLTk4MWYtZjRhMWQzMmRiNjYxXkEyXkFqcGdeQXVyODY2MjA5ODA@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560653/movies/israeli_movies_private_popsicle_sapichas_tru7na.webp",
                 "title": "Private Popsicle (Sapichas)",
                 "description": "Private Popsicle is a 1982 Israeli teen sex comedy-drama film, the second in a series.",
                 "link": "https://www.imdb.com/title/tt0084629/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BYWUyMTkxOTgtMGQ3MC00Mzg3LWE1MmMtMzljZmQ2MGZjZDM3XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560572/movies/israeli_movies_private_manoeuvres_sababa_bdx60x.webp",
                 "title": "Private Manoeuvres (Sababa)",
                 "description": "A spin-off film that centers around Yudale/Huey's mandatory Israeli army service, post boot camp.",
                 "link": "https://www.imdb.com/title/tt0152257/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BMTExZjkxZjYtMTNiMi00ZmE3LWI4ODUtNGI0M2NhMzVlZGMyXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560591/movies/israeli_movies_snooker_party_cvwlmy.webp",
                 "title": "Snooker Party",
                 "description": "Snooker Party is a 1975 Israeli teen sex comedy-drama film.",
                 "link": "https://www.imdb.com/title/tt0152492/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BYmFkOTYwNzAtN2M4My00YjViLWE2MWMtMjYzY2MwODViZjllXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560604/movies/israeli_movies_alex_is_lovesick_f6rz7q.webp",
                 "title": "Alex Is Lovesick",
                 "description": "Alex Is Lovesick is a 1986 Israeli romantic comedy film.",
                 "link": "https://www.imdb.com/title/tt0133351/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BYzUxZTdlZWYtOTQzMC00ZTA4LTg0OTctNzhiYWRhMDg3ZTU5XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560599/movies/israeli_movies_abba_ganuv_o2qn46.webp",
                 "title": "Abba Ganuv",
                 "description": "Abba Ganuv is a 1987 Israeli family comedy-drama film.",
                 "link": "https://www.imdb.com/title/tt0133331/"
             },
             {
-                "image": "https://m.media-amazon.com/images/M/MV5BMTA2ZGQwNWUtNTJkNy00NjIzLTlmZjAtY2Y4Yjk4MDQ2NGFkXkEyXkFqcGdeQXVyMjI5NjExNjk@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560594/movies/israeli_movies_charlie_and_a_half_nzabk1.webp",
                 "title": "Charlie and a Half",
                 "description": "Charlie Ve'hetzi is a 1974 Israeli comedy - drama film",
                 "link": "https://www.imdb.com/title/tt0133689/"
             },
-            {
-                "image": "https://m.media-amazon.com/images/M/MV5BMWJjYWQzYzMtMTVhMC00MDQyLWJmYjEtNDY4MmI3ZTYwOTM5XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
-                "title": "Kazablan",
-                "description": "An Israeli comedy film about a diverse group of residents in a Tel Aviv neighborhood.",
-                "link": "https://www.imdb.com/title/tt0071715/"
-              },
+          
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BYWExNjMwN2ItYzEyYi00ZjRjLWJhNWQtMTU2MzExYTQyYTA2XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560576/movies/israeli_movies_halfon_hill_doesn_t_answer_wzhi6c.webp",
                 "title": "Halfon Hill Doesn't Answer",
                 "description": "An Israeli comedy film centered around a group of Israeli soldiers stationed at an observation post.",
                 "link": "https://www.imdb.com/title/tt0073052/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BODM0OTFiMzgtNGE5MS00ODk0LTgxYzktOTQyYTMxOTRjNzk4XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560627/movies/israeli_movies_shlager_hwv1aj.webp",
                 "title": "Shlager",
                 "description": "An Israeli comedy film revolving around the life of an unsuccessful singer.",
                 "link": "https://www.imdb.com/title/tt0079297/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BNTdjZTAyOGEtZTg4YS00M2I5LTg4MTAtYWYxYjQzMzU3ZWMxXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560621/movies/israeli_movies_operation_grandma_td6kff.webp",
                 "title": "Operation Grandma",
                 "description": "An Israeli comedy film about a family's comical attempt to celebrate their grandmother's 80th birthday.",
                 "link": "https://www.imdb.com/title/tt0374053/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BYTE0MTQ5YWQtZjgwOC00YWJhLTkyYjItMDk5MDcwM2FlNDNhXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560583/movies/israeli_movies_colombian_love_gmhp3u.webp",
                 "title": "Colombian Love",
                 "description": "An Israeli romantic comedy film exploring relationships and love.",
                 "link": "https://www.imdb.com/title/tt0358925/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMTYxMjU2MjA2NF5BMl5BanBnXkFtZTcwODM5MzIyMQ@@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560572/movies/israeli_movies_late_marriage_r8tsn4.webp",
                 "title": "Late Marriage",
                 "description": "A drama that explores the complexities of relationships and societal expectations within the context of an Israeli - Georgian family.",
                 "link": "https://www.imdb.com/title/tt0287471/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BYzE0NDRmNjUtNDhiOC00YmU4LTlkN2YtNDZmY2Y3M2I3YTAwXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560575/movies/israeli_movies_the_policeman_dbxkiz.webp",
                 "title": "The Policeman",
                 "description": "A drama film that follows the life of a dedicated policeman torn between loyalty to the law and his love for a revolutionary activist.",
                 "link": "https://www.imdb.com/title/tt0066374/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMTgzOTg0MDY3NV5BMl5BanBnXkFtZTgwNTI0OTA0MzE@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560643/movies/israeli_movies_zero_motivation_ys3bef.webp",
                 "title": "Zero Motivation",
                 "description": "A dark comedy that provides a glimpse into the mundane and humorous lives of female soldiers in the Israeli army.",
                 "link": "https://www.imdb.com/title/tt3576084/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMTU0MDA0NzA2Nl5BMl5BanBnXkFtZTcwOTk5NjQ5Ng@@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560595/movies/israeli_movies_the_matchmaker_qyuaix.webp",
                 "title": "The Matchmaker",
                 "description": "A drama-comedy film that explores the world of matchmaking in Haifa during the 1960s.",
                 "link": "https://www.imdb.com/title/tt1655424/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BOTU2NTM1Mzc1MV5BMl5BanBnXkFtZTcwNjk5NjQ5Ng@@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560631/movies/israeli_movies_turn_left_at_the_end_of_the_world_q5opbq.webp",
                 "title": "Turn Left at the End of the World",
                 "description": "A drama film depicting the lives of two families from vastly different backgrounds who cross paths in a remote Israeli village.",
                 "link": "https://www.imdb.com/title/tt0374279/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMWJjYWQzYzMtMTVhMC00MDQyLWJmYjEtNDY4MmI3ZTYwOTM5XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560604/movies/israeli_movies_kazablan_e3uocu.webp",
                 "title": "Kazablan",
                 "description": "A romantic comedy-drama film set in the heart of Tel Aviv, following the lives and relationships of a diverse group of characters.",
                 "link": "https://www.imdb.com/title/tt0071715/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BZDQwZDVhNDQtNDIzNS00NDJlLThiYTAtNDZhOTBiY2M5YjYyXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560611/movies/israeli_movies_the_secrets_ouoebg.webp",
                 "title": "The Secrets",
                 "description": "A drama film that follows a young woman's journey to a religious seminary in Israel, exploring themes of faith and identity.",
                 "link": "https://www.imdb.com/title/tt0782867/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BNTdiNzNmOGUtYjFiOC00NDBmLTllOTgtOGZlODMxMWIxYTNiXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_QL75_UY281_CR4,0,190,281_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560577/movies/israeli_movies_the_band_mmx0cl.webp",
                 "title": "The Band",
                 "description": "Comedic musical about an army singing group.",
                 "link": "https://www.imdb.com/title/tt0079430/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BOGViMGVjMmUtNmM5Mi00NTFhLTkyNTctYmE1ZDk0MDI0OTZhXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560590/movies/israeli_movies_two_kuni_lemel_y7zmhq.webp",
                 "title": "Two Kuni Lemel",
                 "description": "Matchmaker Reb Kelmen is unable to find a husband for his daughter.",
                 "link": "https://www.imdb.com/title/tt0138101/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BNzQ5ZjE4MjItMGQ3MS00NDg5LWJiYzEtZmE3OWJhMjhkMWNhXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560582/movies/israeli_movies_big_shots_vcf2zs.webp",
                 "title": "Big Shots",
                 "description": "Four man decide to steal a safe full of foreign currency - not from a local bank, but from the police station.",
                 "link": "https://www.imdb.com/title/tt0084342/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BZTlmZWEzNGItZTNiOS00NjQ5LWExZDEtZDBmYWM2YTE4ZWQ2XkEyXkFqcGdeQXVyNjQ1Njg0NDY@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560580/movies/israeli_movies_this_is_sodom_xcxno1.webp",
                 "title": "This Is Sodom",
                 "description": "A satirical comedy that parodies the biblical story of Sodom and Gomorrah in a contemporary Israeli context.",
                 "link": "https://www.imdb.com/title/tt1675197/"
@@ -525,37 +526,37 @@
         {
           
              
-                "image": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560587/movies/global_series_game_of_thrones_clarla.webp",
                 "title": "Game of Thrones",
                 "description": "A fantasy drama series based on George R.R. Martin's 'A Song of Ice and Fire' novels.",
                 "link": "https://www.imdb.com/title/tt0944947/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BNmU3MjkzZWQtOTk1Ni00OTNiLWJhMmMtNmEyN2JjZjUzZDUyXkEyXkFqcGdeQXVyNDIyNjA2MTk@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560629/movies/global_series_the_sopranos_ps7t6w.webp",
                 "title": "The Sopranos",
                 "description": "A crime drama series centered around the life of mob boss Tony Soprano.",
                 "link": "https://www.imdb.com/title/tt0141842/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMzk2OWYzNDUtNGE5NC00MDI0LTkyMDktY2RmZjE0NGNmMWE1XkEyXkFqcGdeQXVyMzU3MTc5OTE@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560580/movies/global_series_married_with_children_rgiuc3.webp",
                 "title": "Married with Children",
                 "description": "A sitcom portraying the lives of the dysfunctional Bundy family.",
                 "link": "https://www.imdb.com/title/tt0092400/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMTg5OTkyNzA0NF5BMl5BanBnXkFtZTcwMDYyMDUwMg@@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560578/movies/global_series_24_vlihbl.webp",
                 "title": "24",
                 "description": "A real-time action thriller series following counter-terrorism agent Jack Bauer.",
                 "link": "https://www.imdb.com/title/tt0285331/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560655/movies/global_series_breaking_bad_saeqzm.webp",
                 "title": "Breaking Bad",
                 "description": "A gripping drama series about a high school chemistry teacher turned methamphetamine manufacturer.",
                 "link": "https://www.imdb.com/title/tt0903747/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMDRjYWI5NTMtZTYzZC00NTg4LWI3NjMtNmI3MTdhMWQ5MGJlXkEyXkFqcGdeQXVyNTg4MDc4Mg@@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560611/movies/global_series_stranger_things_rxeqnl.webp",
                 "title": "Stranger Things",
                 "description": "A science fiction horror series set in the 1980s, exploring supernatural occurrences in a small town.",
                 "link": "https://www.imdb.com/title/tt4574334/"
@@ -567,37 +568,37 @@
                 "link": "https://www.imdb.com/title/tt0773262/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560622/movies/global_series_peaky_blinders_e09aqv.webp",
                 "title": "Peaky Blinders",
                 "description": "A historical crime drama series following a gangster family in post-World War I Birmingham, England.",
                 "link": "https://www.imdb.com/title/tt2442560/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BOWFhYjE4NzMtOWJmZi00NzEyLTg5NTctYmIxMTU1ZDIxMDAyXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560618/movies/global_series_star_trek_-_next_generation_et0zwr.webp",
                 "title": "Star Trek - Next Generation",
                 "description": "A science fiction franchise exploring space exploration, technology, and the human condition.",
                 "link": "https://www.imdb.com/title/tt0060028/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BZDA0MmM4YzUtMzYwZC00OGI2LWE0ODctNzNhNTkwN2FmNTVhXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560589/movies/global_series_the_x-files_iihyyt.webp",
                 "title": "The X-Files",
                 "description": "A science fiction horror series following FBI agents investigating unsolved and unusual cases.",
                 "link": "https://www.imdb.com/title/tt0106179/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BM2VlZTE4N2MtYjhhYy00ZWY2LThkMWYtMWFhMGQ1YTA5NTgwXkEyXkFqcGdeQXVyODQwNjgyMw@@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560610/movies/global_series_the_nanny_qccxuw.webp",
                 "title": "The Nanny",
                 "description": "A sitcom featuring a fashion queen becoming a nanny for a wealthy family.",
                 "link": "https://www.imdb.com/title/tt0106080/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMjRjNmJjNzctOWNhMC00ZTdhLWExNDMtZTZiYjlmOWFlZDI5XkEyXkFqcGdeQXVyNjExODE1MDc@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560600/movies/global_series_the_a-team_gxc2qd.webp",
                 "title": "The A-Team",
                 "description": "An action-adventure series about a group of ex-United States Army Special Forces who work as soldiers of fortune.",
                 "link": "https://www.imdb.com/title/tt0084967/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMWEzNTFlMTQtMzhjOS00MzQ1LWJjNjgtY2RhMjFhYjQwYjIzXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560576/movies/global_series_sherlock_hy9tn2.webp",
                 "title": "Sherlock",
                 "description": "A modern-day adaptation of Arthur Conan Doyle's Sherlock Holmes detective stories.",
                 "link": "https://www.imdb.com/title/tt1475582/"
@@ -609,49 +610,49 @@
                 "link": "https://www.imdb.com/title/tt7456722/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BYTM4MmU1NWYtNzJjYy00YWFhLThjOGEtZmMxOGI1NzE0NGNiXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560608/movies/global_series_rome_wejg6z.webp",
                 "title": "Rome",
                 "description": "A down-to-earth account of the lives of both illustrious and ordinary Romans set in the last days of the Roman Republic.",
                 "link": "https://www.imdb.com/title/tt0384766/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BZWQ4MjA2YzEtOTQzYi00NWQ1LWI0ZDEtN2VkZjhmYTc3MzU0XkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560602/movies/global_series_spartacus_nej8cy.webp",
                 "title": "Spartacus",
                 "description": "The life of Spartacus, the gladiator who lead a rebellion against the Romans.",
                 "link": "https://www.imdb.com/title/tt1442449/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BM2Q1YzUxYTYtOTkwZC00Mjk3LTllZWQtNThjYjllZjE2OTQwXkEyXkFqcGdeQXVyOTA3MTMyOTk@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560614/movies/global_series_homeland_yeemu8.webp",
                 "title": "Homeland",
                 "description": "CIA operative Carrie Mathison is on the lookout for an American prisoner who may have joined forces with Al-Qaeda.",
                 "link": "https://www.imdb.com/title/tt1796960/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BOGQyZGVhMjAtZTUxZS00NjNhLWE1M2MtZTBiYzAwOGIxZjlkXkEyXkFqcGdeQXVyNzQyMDY4OTQ@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560587/movies/global_series_blacklist_vk8p8r.webp",
                 "title": "Blacklist",
                 "description": "A wanted fugitive mysteriously surrenders himself to the FBI and offers to help them capture deadly criminals.",
                 "link": "https://www.imdb.com/title/tt2741602/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BZWEwNzQ4NzUtMWRmYS00NDdiLTg5NDItODA5M2M4YTM0ZTE2XkEyXkFqcGdeQXVyMTAzNjU2NjM1._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560581/movies/global_series_the_man_in_the_high_castle_oreval.webp",
                 "title": "The Man in the High Castle",
                 "description": "An alternate history series depicting a world where the Axis powers won World War II.",
                 "link": "https://www.imdb.com/title/tt1740299/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMmI2OTMxZTUtMTM5OS00MGNiLWFhNGMtYzJiODUwYjRmODA5XkEyXkFqcGdeQXVyMTM0NTc2NDgw._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560578/movies/global_series_chernobyl_oghtr8.webp",
                 "title": "Chernobyl",
                 "description": "A historical drama miniseries depicting the Chernobyl nuclear disaster and its aftermath.",
                 "link": "https://www.imdb.com/title/tt7366338/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BM2U1OWExMGMtZDdlZC00MTRiLThkYTEtYTMwOWE5MDU0OTUwXkEyXkFqcGdeQXVyMTUyMzg5NzM2._V1_QL75_UY281_CR6,0,190,281_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560582/movies/global_series_rough_diamonds_ufgtfc.webp",
                 "title": "Rough Diamonds",
                 "description": "Follows a Jewish Ultra-Orthodox family in Belgium's Antwerp Diamond Square Mile. ",
                 "link": "https://www.imdb.com/title/tt15469192/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BOTY0ZjliOGUtMDFiZS00YzcwLWFiZWYtMzg4MWZkMWIwYzYwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560636/movies/global_series_shadow_and_bone_kscguw.webp",
                 "title": "Shadow and Bone",
                 "description": "A fantasy series set in a war-torn world where a young soldier uncovers a power that may unite her country.",
                 "link": "https://www.imdb.com/title/tt2403776/"
@@ -663,61 +664,61 @@
                 "link": "https://www.imdb.com/title/tt2306299/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BNmFjODU3YzgtMGUwNC00ZGI3LWFkZjQtMjkxZDc3NmQ1MzcyXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560581/movies/global_series_narcos_tx5m3n.webp",
                 "title": "Narcos",
                 "description": "A crime drama series that chronicles the rise and fall of the infamous Colombian drug lord Pablo Escobar.",
                 "link": "https://www.imdb.com/title/tt2707408/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BODI3NzExMTMzNl5BMl5BanBnXkFtZTgwOTI2MjgxNjM@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560615/movies/global_series_manifest_luak3v.webp",
                 "title": "Manifest",
                 "description": "A mystery drama series about the passengers of Flight 828, who mysteriously reappear after being presumed dead.",
                 "link": "https://www.imdb.com/title/tt8421350/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BNDJjMzc4NGYtZmFmNS00YWY3LThjMzQtYzJlNGFkZGRiOWI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560613/movies/global_series_lucifer_xyyvx8.webp",
                 "title": "Lucifer",
                 "description": "A fantasy procedural series following Lucifer Morningstar, the Devil, who resigns from Hell and lives in Los Angeles.",
                 "link": "https://www.imdb.com/title/tt4052886/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BZWNiYjllNjgtY2VlOC00NDM4LTk4YzQtNGU1Zjk4NDUzN2Q4XkEyXkFqcGdeQXVyMTA2ODkwNzM5._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560588/movies/global_series_in_from_the_cold_wkjprz.webp",
                 "title": "In from the Cold",
                 "description": "A spy thriller series revolving around an intelligence officer dealing with personal and professional challenges.",
                 "link": "https://www.imdb.com/title/tt11859542/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560575/movies/global_series_money_heist_aeorzq.webp",
                 "title": "Money Heist",
                 "description": "A heist crime drama series where a criminal mastermind, known as the Professor, plans and executes heists.",
                 "link": "https://www.imdb.com/title/tt6468322/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BNTg3ZDY1OWEtYjRkYy00NzQ4LWFjMjMtMDc0YzcxNzU5NmFhXkEyXkFqcGdeQXVyMTkxODQ4MDg@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560586/movies/global_series_dallas_y5trw7.webp",
                 "title": "Dallas",
                 "description": "A prime-time soap opera that revolves around the wealthy Ewing family and their oil business.",
                 "link": "https://www.imdb.com/title/tt0077000/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BZjEwOTUzZjctOTllYS00YWNjLThlM2YtYmMwZDg2NTkyYzViXkEyXkFqcGdeQXVyMjg0Mjg1MDM@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560592/movies/global_series_knots_landing_kcaq2x.webp",
                 "title": "Knots Landing",
                 "description": "A long-running soap opera focusing on the lives of families in a Southern California cul-de-sac.",
                 "link": "https://www.imdb.com/title/tt0078638/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMDlhODg2ZTMtMDJmZi00YWYzLTllOGYtNjhlODA1NDliNTc0XkEyXkFqcGdeQXVyMjczOTU2NTI@._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560578/movies/global_series_beverly_hills_90210_wsg4dj.webp",
                 "title": "Beverly Hills, 90210",
                 "description": "A teen drama series following the lives of a group of friends in the upscale community of Beverly Hills.",
                 "link": "https://www.imdb.com/title/tt0098749/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BMTQ5MDY0NDc3MV5BMl5BanBnXkFtZTcwODE4MjgyMQ@@._V1_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560574/movies/global_series_dynasty_zvc3k4.webp",
                 "title": "Dynasty",
                 "description": "A prime-time soap opera following the lives of the wealthy Carrington family, filled with drama, romance, and power struggles.",
                 "link": "https://www.imdb.com/title/tt0081856/"
               },
               {
-                "image": "https://m.media-amazon.com/images/M/MV5BN2UwZmUzNWEtMWZjOS00OTI0LTk4YmYtZDdiYjMzZGY5NGQzXkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_FMjpg_UX1000_.jpg",
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560581/movies/global_series_falcon_crest_gkl2d9.webp",
                 "title": "Falcon Crest",
                 "description": "A prime-time soap opera centered around the feuding factions of the wealthy Gioberti/Channing family and their vineyard in California.",
                 "link": "https://www.imdb.com/title/tt0081858/"
@@ -861,31 +862,31 @@
     ],
     "Israeli Series": [
         {
-            "image": "https://m.media-amazon.com/images/M/MV5BZTk5OTU5Y2EtY2M1NC00N2E5LWJlMTMtODgzMDc2NDk1MTczXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560592/movies/israeli_series_fauda_rkmvkn.webp",
             "title": "Fauda",
             "description": "An Israeli action-packed series about an undercover unit operating in the West Bank.",
             "link": "https://www.imdb.com/title/tt4565380/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BMzE3MmEwMjAtYWUzZS00YmQ4LTljZjEtOTQ4MTU5ZjliYjQzXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560576/movies/israeli_series_checkout_kupa_rashit_wu3jcx.webp",
             "title": "Checkout (Kupa Rashit)",
             "description": "An Israeli comedy series following the lives of a group of people working at a lottery kiosk.",
             "link": "https://www.imdb.com/title/tt8796226/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BNWUxYWY1YTctYjVmMi00MmJiLWE3NzktZmM4YzliOGE1ZmE2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560606/movies/israeli_series_tehran_h7y8l5.webp",
             "title": "Tehran",
             "description": "An Israeli espionage thriller series about a Mossad agent on a mission in Tehran, Iran.",
             "link": "https://www.imdb.com/title/tt10577736/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BYWQzZGIwYzYtM2NiNy00ODFkLTlmZTgtZjI2M2MwNjBkZjY0XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560606/movies/israeli_series_sovietzka_auprvi.webp",
             "title": "Sovietzka",
             "description": "An Israeli drama series exploring the lives of Russian immigrants in Israel.",
             "link": "https://www.imdb.com/title/tt28660296/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BMjA4MTU4MDA1MV5BMl5BanBnXkFtZTgwNzYwMTkyMTE@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560583/movies/israeli_series_asfur_a1yhss.webp",
             "title": "Asfur",
             "description": "An Israeli drama series about a group of friends trying to make a better future in their community.",
             "link": "https://www.imdb.com/title/tt1664065/"
@@ -897,37 +898,37 @@
             "link": "https://www.imdb.com/title/tt0904106/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BYjJkZTA1YzItOWQyNy00ZDRiLWE4ZjctZjkxMmU1YmVmMTJiXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560582/movies/israeli_series_beauty_queen_of_jerusalem_jbtwgh.webp",
             "title": "Beauty Queen of Jerusalem",
             "description": "An Israeli drama series based on a novel, portraying the lives of a Jerusalem family.",
             "link": "https://www.imdb.com/title/tt12940732/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BN2Y1MGJkMmEtNjZmZi00MDJjLTlmMDgtZjVlYTI3ZGVkMzU5XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560582/movies/israeli_series_shtisel_yqcfgv.webp",
             "title": "Shtisel",
             "description": "An Israeli drama series following an ultra-Orthodox Jewish family in Jerusalem.",
             "link": "https://www.imdb.com/title/tt3069894/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BZDI0OTQ1MGItZGZhZS00OWE5LWE3MzktYzI4YmYyMTg2NTk2XkEyXkFqcGdeQXVyMjI5NjExNjk@._V1_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560590/movies/israeli_series_the_gordin_cell_jj7tuf.webp",
             "title": "The Gordin Cell",
             "description": "An Israeli espionage thriller series about a Russian mole in the Israeli government.",
             "link": "https://www.imdb.com/title/tt2860176/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BNDA5NTc4MGUtYjJmOS00MjRmLWE3ZGUtM2ZiMjkyNDE3ZjMwXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560572/movies/israeli_series_a_touch_away_qttv6a.webp",
             "title": "A Touch Away",
             "description": "An Israeli drama series about a forbidden romance between a Jewish girl and a Muslim boy.",
             "link": "https://www.imdb.com/title/tt0896576/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BMTM4M2RjMjQtNmVkMi00OTIzLTljOTYtM2YwN2QxZTg5Mjk0XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560578/movies/israeli_series_false_flag_c2sy2i.webp",
             "title": "False Flag",
             "description": "A psychological thriller that follows five ordinary Israelis who wake up one morning to discover that they are implicated in a ruthless kidnapping operation.",
             "link": "https://www.imdb.com/title/tt3602528/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BY2Q5YzllYTctM2MxZC00OWEwLWE3MGMtOWIxY2NlMWM3NWFjXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560579/movies/israeli_series_srugim_fz0uma.webp",
             "title": "Srugim",
             "description": "A drama series that delves into the lives of a group of religious singles navigating love, faith, and societal expectations in modern-day Jerusalem.",
             "link": "https://www.imdb.com/title/tt1266462/"
@@ -939,25 +940,25 @@
             "link": "https://www.imdb.com/title/tt8220344/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BYjRhMzVmNGEtYzNlYS00ZWE0LTg4YTMtYjFkZTU3NTk1NDFiXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560595/movies/israeli_series_the_good_cop_khlpmj.webp",
             "title": "The Good Cop",
             "description": "A comedy-drama series following a quirky father-son duo, one being a morally upright cop and the other a disgraced former cop.",
             "link": "https://www.imdb.com/title/tt6070434/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BZGY5NDFlM2YtNjNmOS00MWE3LThlMDQtMWYwY2Q3ZDI0MjEyXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560588/movies/israeli_series_the_office_z61gpg.webp",
             "title": "The Office",
             "description": "An Israeli adaptation of the hit American TV series, capturing the humor and dynamics of an everyday office environment.",
             "link": "https://www.imdb.com/title/tt1791001/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BNTBhYTE1MDAtY2M5Zi00YmZjLTk4NTQtMDQxMDNkODk0MWY3XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560600/movies/israeli_series_prisoners_of_war_vcq9fn.webp",
             "title": "Prisoners of War",
             "description": "The original Israeli series that inspired the hit American TV show Homeland, exploring the lives of prisoners of war returning to Israel.",
             "link": "https://www.imdb.com/title/tt1676462/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BNzg1NWUyYTktOWQ3Ni00ODdhLTk2MTEtZGQ2ZDg0ZGZiZjE2XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560591/movies/israeli_series_manayek_ny83gr.webp",
             "title": "Manayek",
             "description": "A police internal affairs investigator, discovers just before retirement that his long time friend, a senior police officer, is accused of being corrupt.",
             "link": "https://www.imdb.com/title/tt12819234/"
@@ -969,13 +970,13 @@
             "link": "https://www.imdb.com/title/tt0904447/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BNDZkYmIwNDktODE1YS00ZmE5LTg3OGQtMTg4NGUyMDYxOTU1XkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560588/movies/israeli_series_juda_cbknwn.webp",
             "title": "Juda",
             "description": "Juda Ben Haim is a showy little thug, on his way to the biggest gambling in Romania with the money of a dangerous French mobster",
             "link": "https://www.imdb.com/title/tt6839538/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BODQzMDIyNjctNWE1My00YTEzLTk2MTMtY2I5NGIyOGJkZjlmXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560615/movies/israeli_series_dismissed_ifsbaa.webp",
             "title": "Dismissed",
             "description": "The series follows a group of young women undergoing basic training in the Israeli army.",
             "link": "https://www.imdb.com/title/tt14426644/"
@@ -993,7 +994,7 @@
             "link": "https://www.imdb.com/title/tt19756880/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BNGQzZGFhOTItOGZlYy00MGFiLTg3YTUtYjVjMjkwZmM1OGYwXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560600/movies/israeli_series_krovim_krovim_za7nwo.webp",
             "title": "Krovim Krovim",
             "description": "The stories of 3 related families living in the same building at 9 Vitek St.",
             "link": "https://www.imdb.com/title/tt0166240/"
@@ -1005,7 +1006,7 @@
             "link": "https://www.imdb.com/title/tt3249584/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BZDcxNDBmODEtYmI1Zi00MzM3LWEyNmItOGRmYzgxOTljOTYzXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560572/movies/israeli_series_mesudarim_mbj3nc.webp",
             "title": "Mesudarim",
             "description": "Four friends sell their start-up company for 217,000,000$ and move in together into a mansion.",
             "link": "https://www.imdb.com/title/tt0904992/"
@@ -1017,7 +1018,7 @@
             "link": "https://www.imdb.com/title/tt8611880/"
           },
           {
-            "image": "https://m.media-amazon.com/images/M/MV5BMjUxYTkxMTgtNzBlMC00YmMxLThhOGMtMjE1YTllMDVkYmEzXkEyXkFqcGdeQXVyMjMyMzI4MzY@._V1_FMjpg_UX1000_.jpg",
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560584/movies/israeli_series_polishuk_hscok7.webp",
             "title": "Polishuk",
             "description": "the story of politician Rubi Polishuk, who unexpectedly was appointed as the Minister for Social Advancement",
             "link": "https://www.imdb.com/title/tt2592038/"
