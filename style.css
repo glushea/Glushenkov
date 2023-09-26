@@ -974,7 +974,11 @@ li[draggable]::before {
   margin: 10px;
   max-width: 300px;
   box-shadow: 6px 6px 0 #f0f0f0; /* Horizontal offset 5px to the right, Vertical offset 5px down, No blur, Color #F60 */
+  transition: transform 0.3s ease-in-out;
 
+}
+.card_food:hover {
+  transform: translateY(-10px);
 }
 
 .card_img_food{
