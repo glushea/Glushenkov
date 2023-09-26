@@ -397,7 +397,17 @@ li[draggable]::before {
   }
   
 }
-
+/* CSS for fly-in effect */
+/* @keyframes flyIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
 .round-button {
   display: inline-flex;
   justify-content: center;
@@ -408,8 +418,33 @@ li[draggable]::before {
   font-size: 18px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+  /* animation: flyIn 0.5s ease forwards; */
+  /* opacity: 0; */
 }
 
+/* Delay the animation for each button */
+/* .round-button:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.round-button:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.round-button:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.round-button:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.round-button:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.round-button:nth-child(6) {
+  animation-delay: 0.6s;
+} */
+.round-button:hover {
+  transform: translateY(-10px);
+}
 /* Specific styles for the LinkedIn button */
 .linkedin-button {
   background-color: #0077b5; /* LinkedIn's blue color */
