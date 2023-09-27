@@ -817,11 +817,17 @@
             "description": "A Russian historical drama series set during World War I and the Russian Revolution.",
             "link": "https://www.imdb.com/title/tt7620312/"
           },
-          {
+           {
             "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560584/movies/soviet_and_russian_series_the_master_and_margarita_jqmpyl.webp",
             "title": "The Master and Margarita",
             "description": "A Russian miniseries based on Mikhail Bulgakov's novel, blending satire, romance, and supernatural elements.",
             "link": "https://www.imdb.com/title/tt0403783/"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695840743/movies/abramovichi_cj86jb.webp",
+            "title": "Bednyye Abramovichi",
+            "description": "Four generations of a Jewish family live under one roof in the center of Moscow.",
+            "link": "https://www.imdb.com/title/tt26238728/"
           },
           {
             "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560578/movies/soviet_and_russian_series_the_adventures_of_the_elektronic_gzuoal.webp",
