@@ -1,5 +1,5 @@
 {
-    "Global Gastronomy": [
+    "Global": [
         {
           "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560591/food/global_gastronomy_steaks_krsaoo.webp",
           "title": "Steaks",
@@ -113,10 +113,16 @@
           "title": "Donar kebab",
           "description": "Doner kebab, also spelled as döner kebab, is a dish of Turkish origin made of meat cooked on a vertical rotisserie.",
           "link": "https://en.wikipedia.org/wiki/Doner_kebab"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1696091822/food/red_wine_mdad5g.webp",
+          "title": "Red Wine",
+          "description": "Red wine is a type of wine made from dark-colored grape varieties.",
+          "link": "https://en.wikipedia.org/wiki/Red_wine"
         }
       ],
     
-    "Russian Food": [
+    "Russian": [
       
       {
         "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560607/food/russian_food_pelmeni_phmrpj.webp",
@@ -265,7 +271,7 @@
 
 
     ],
-    "Jewish Food": [
+    "Jewish": [
         {
             "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560593/food/jewish_food_challah_ptf5vc.webp",
             "title": "Challah",
@@ -340,7 +346,7 @@
             "link": "https://www.myjewishlearning.com/recipe/forshmak/"
           }
     ],
-    "Georgian Food": [
+    "Georgian": [
         {
             "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560594/food/georgian_food_khachapuri_tksoq0.webp",
             "title": "Khachapuri",
