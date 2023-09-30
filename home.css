@@ -22,6 +22,8 @@ body {
     /* padding: 7px;
     margin: 10px;*/
 }
+
+
 .welcome-message {
     margin-bottom: 5px;
     font-size: 30px;
@@ -91,9 +93,10 @@ body {
     margin-left: 10px;
     JUSTIFY-CONTENT: CENTER;
   }
-    .container{
-      margin-left: 0px;
+    .container{ 
+      /* margin-left: 0px; */
       width: 400px;
+
     }
 }
   
