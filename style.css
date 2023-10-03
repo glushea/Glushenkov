@@ -1036,3 +1036,17 @@ li[draggable]::before {
     max-width: 250px;
   }
 }
+.btn-custom {
+  background-color: #FF6600; /* F60 color */
+  height:27px; /* Adjust the height as needed */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  margin-bottom: 5px;
+  padding: 0 17px; /* Adjust padding to center the text horizontally */
+    line-height: 27px; /* Adjust line height to center the text vertically */
+  
+}
+
+.btn-custom:hover {
+  background-color: #FF4500; /* Adjust hover color if needed */
+}
