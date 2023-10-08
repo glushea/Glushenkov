@@ -1,3 +1,7 @@
+// document.getElementById("signInButton").addEventListener("click", function() {
+//   window.location.href = "./signin.html"; // Replace with the correct URL for your login page
+// });
+
 window.onscroll = function () {
     showScrollUpArrow();
   };
@@ -46,9 +50,10 @@ window.onscroll = function () {
     includeFooter();
   });
   
+
+  
  
   
-
 //   const overlay = document.getElementById('overlay');
 // const overlayImage = document.querySelector('.overlay-image');
 // const closeBtn = document.getElementById('closeBtn');

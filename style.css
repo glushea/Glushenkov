@@ -1048,5 +1048,7 @@ li[draggable]::before {
 }
 
 .btn-custom:hover {
-  background-color: #FF4500; /* Adjust hover color if needed */
-}
+  background-color: #f60; /* Adjust the hex color code as per your preference */
+  border-color: #f60;
+  color:white;
+  opacity: 0.5;}
