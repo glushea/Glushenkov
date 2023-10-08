@@ -1052,3 +1052,19 @@ li[draggable]::before {
   border-color: #f60;
   color:white;
   opacity: 0.5;}
+
+  .container_frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+  .frame {
+    border: 3px solid #ccc; /* Border color */
+    padding: 10px; /* Space between the image and the border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  }
+  .frame iframe {
+    margin: 0; /* Remove margin */
+  }
