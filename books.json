@@ -158,6 +158,30 @@
             "link": "https://www.amazon.com/Twelve-Chairs-Novel-Northwestern-Classics/dp/0810127725"
           },
           {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1698584128/oldman_rgqblo.webp",
+            "title": "The Old Genie Hottabych",
+            "description": "Volka, a 12-year-old Soviet Young Pioneer, discovers an ancient vessel at the bottom of a river. When he opens it, a genie emerges.",
+            "link": "https://www.amazon.com/Old-Genie-Hottabych-Lazar-Lagin/dp/1589635450"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1698584128/grant_bni1ul.webp",
+            "title": "In Search of the Castaways",
+            "description": "Young Mary Grant and her brother travel to Scotland with their friend Professor Paganel to attempt to convince Lord Glenarvan to help locate Mary's missing father, Captain Grant.",
+            "link": "https://www.amazon.com/Search-Castaways-Jules-Verne-Illustrated/dp/1521972346"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1698584128/80days_knqdwi.webp",
+            "title": "Around the World in Eighty Days",
+            "description": "Phileas Fogg of London and his newly employed French valet Passepartout attempt to circumnavigate the world in 80 day.",
+            "link": "https://www.amazon.com/Around-World-Days-Jules-Verne/dp/1936594617"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1698584128/Karlson_dyyu5z.webp",
+            "title": "Karlson on the Roof",
+            "description": "When Midge looks out of his window, he hears a faint buzzing sound and sees Karlson, a little fat man, flying slowly past with a propellor on his back. Midge learns that he lives on the roof and has all kinds of interesting ideas and tricks",
+            "link": "https://www.amazon.com/Karlson-Roof-Astrid-LINDGREN/dp/0192727729"
+          },
+          {
             "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560603/books/literature_and_fiction_the_kite_runner_y109uf.webp",
             "title": "The Kite Runner",
             "description": "A novel exploring friendship, betrayal, and redemption set in Afghanistan.",
