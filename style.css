@@ -1097,3 +1097,28 @@ li[draggable]::before {
   width: 100%;
   height: 100%;
 }
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn-tshirt, .btn-hoodie {
+  background-color: #FF6600; /* Custom color */
+  color: #fff; /* Text color */
+  padding: 8px 16px; /* Adjust padding */
+  text-decoration: none; /* Remove underlines */
+  border: none;
+  border-radius: 25px; /* Increased border radius for rounded appearance */
+  font-weight: bold; /* Make text bold for elegance */
+  font-size: 16px; /* Adjust font size */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.btn-tshirt:hover, .btn-hoodie:hover {
+  
+
+  background-color: #F5F5F5; /* Lighter grey color on hover */
+    color: #FFA500; /* Lighter orange text color on hover */
+  
+}

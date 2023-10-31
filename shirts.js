@@ -25,8 +25,15 @@ async function fetchShirtsData() {
         <div class="card shadow-sm">
           <img style="max-width: 100%;" src="${item.imgSrc}" alt="${item.title}">
           <div class="card-body">
+         
             <h4>${item.title}</h4>
+           
             <p class="card-text">${item.description}</p>
+            <div class="button-container">
+            <a href="${item.tshirt_link}" class="btn btn-tshirt" target="_blank">Buy T-shirt</a>
+            <a href="${item.hoodie_link}" class="btn btn-hoodie" target="_blank">Buy Hoodie</a>
+          </div>
+  
           </div>
         </div>
       `;
