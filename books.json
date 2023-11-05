@@ -182,6 +182,30 @@
             "link": "https://www.amazon.com/Karlson-Roof-Astrid-LINDGREN/dp/0192727729"
           },
           {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1699201113/Guliver_ccdj0v.webp",
+            "title": "Gulliver`s Travels",
+            "description": "This book describes four remarkable journies of ship's surgeon Lemuel Gulliver, among them, one to the land of Lilliput, where six-inch-high inhabitants bicker over trivialities; and another to Brobdingnag, a land where giants reduce man to insignificance.",
+            "link": "https://www.amazon.com/Gullivers-Travels-Dover-Thrift-Editions/dp/0486292738"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1699201107/jungle_mej4as.webp",
+            "title": "The Jungle Book",
+            "description": "Most of the characters are animals such as Shere Khan the tiger and Baloo the bear, though a principal character is a boy called Mowgli, who is raised in the jungle by wolves. ",
+            "link": "https://www.amazon.com/Jungle-Book-Rudyard-Kipling/dp/9387669335/"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1699201353/wizard_jreyrb.webp",
+            "title": "The Wizard of Oz",
+            "description": "Journey through the magical world of Oz with Dorothy and her friends",
+            "link": "https://www.amazon.com/Wizard-Oz-Collection-Frank-Baum/dp/1782263209"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1699201923/Buratino_znlyvt.webp",
+            "title": "The Adventures of Buratino",
+            "description": "Buratino is wooden toy who befriends other toys from a theatre owned by evil Karabas-Barabas. He decides to free them with the golden key given by Tortila the Tortoise.",
+            "link": "https://www.amazon.com/Priklyucheniya-Buratino/dp/5488016279"
+          },
+          {
             "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560603/books/literature_and_fiction_the_kite_runner_y109uf.webp",
             "title": "The Kite Runner",
             "description": "A novel exploring friendship, betrayal, and redemption set in Afghanistan.",
