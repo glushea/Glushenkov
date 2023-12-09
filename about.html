@@ -44,6 +44,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
+
     <link rel="icon" href="data:,">
     <script async src="https://cse.google.com/cse.js?cx=3233c0f1d2c034abc"></script>
   
@@ -199,6 +200,28 @@
       </div>
     </div>
   </div>
+  <div class="container col-xxl-10 px-0 pb-0 border-bottom">
+    <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+        <div class="col-lg">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3" style="color: #f60 !important;">Quote of a day:</h1>
+            <div id="quote-container" >
+              <img id="loading" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1689447416/loader_mexo1t.gif" class="hide">
+              <p id="quote" class="quote-text"></p>
+              <p id="author" class="author-name"></p>
+            
+              <div class="powered-by">
+            
+              <p class="quote-text">Powered by</p>
+              <button id="fetch-button" class="image-button"><img class="openai-logo" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1692010214/chatgpt-2_xuwbpx.webp"></button>
+             
+              <!-- https://res.cloudinary.com/dxsuizt1v/image/upload/v1692010214/chatgpt-2_xuwbpx.webp -->
+              <!-- https://res.cloudinary.com/dxsuizt1v/image/upload/c_crop,h_400,w_1400/v1692012256/openAI_black_aeaiem.webp -->
+              </div>
+            </div>
+        </div>
+    </div>    
+  </div>
+  
   <div class="container col-xxl-10 px-0 pb-0  border-bottom" >
     <br>
   <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3" style="color: #f60 !important;">Inspirational Role Models:</h1>
@@ -221,10 +244,12 @@
             </div>
         </div>
     </div>
+      <!-- <script type="module" src="openAI.js"></script> -->
+      
 </div>
 
-  
-      
+
+
        
      
   
@@ -237,6 +262,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 <script src="leaders.js"></script>
+<script src="chatGPT.js"></script>
+
 
 </body>
 </html>
