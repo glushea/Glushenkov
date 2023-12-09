@@ -61,3 +61,5 @@ async function generateQuote() {
 }
 
 window.onload = generateQuote;
+
+
