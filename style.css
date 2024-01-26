@@ -1206,20 +1206,4 @@ li[draggable]::before {
       }
     }
 
-    .image_logo_small{
-      width: 80px;
-    }
     
-    .image_logo_big{
-      width: 80px;
-    }
-    
-    @media (max-width: 768px) {
-      .image_logo_small{
-        width: 62px;
-      }
-      
-      .image_logo_big{
-        width: 62px;
-      }
-    }
