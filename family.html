@@ -76,6 +76,14 @@
 </head>
 <body>
       <div id="headerContainer"></div>
+      <!-- The Modal -->
+      <!-- The Modal -->
+<div id="imageModal" class="modal" onclick="closeModal()">
+  <div class="modal-content" id="modalContent">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-image" id="modalImage" onclick="event.stopPropagation();" src="">
+  </div>
+</div>
       <div class="px-4 pt-5 my-5 text-center border-bottom">
         <h1 id="title"  class="display-4 fw-bold text-body-emphasis" style="color: #f60 !important;">My Family Story</h1>
           <div class="container px-5">
@@ -295,10 +303,10 @@
                       <a class="orange_link line" target="_blank" href="https://www.film.ru/movies/yasha-toporkov">Here</a> and <a class="orange_link line" target="_blank" href="https://lostmedia.fandom.com/ru/wiki/%D0%AF%D1%88%D0%B0_%D0%A2%D0%BE%D0%BF%D0%BE%D1%80%D0%BA%D0%BE%D0%B2_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1960)">here </a> you can find more information about the movie.<br>
                     <!-- <p class="lead">Here are another few links about the movie: <a class="family_link" target="_blank" href="https://www.film.ru/movies/yasha-toporkov">Link 1</a>   <a class="family_link" target="_blank" href="https://lostmedia.fandom.com/ru/wiki/%D0%AF%D1%88%D0%B0_%D0%A2%D0%BE%D0%BF%D0%BE%D1%80%D0%BA%D0%BE%D0%B2_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1960)">Link 2</a></p> -->
                     <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
+                      <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690779229/IMG_6946_dsbf9k.webp" width="200px" height="266px" style="object-fit:contain" onclick="openModal(this.src)">
 
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690779229/IMG_6946_dsbf9k.webp" width="200px" height="266px" style="object-fit:contain">
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690779228/kokin_icshpo.webp" width="200px" height="266px">
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573087/mom_side/lev_kokin_rcu1zl.webp" width="350px"><br><br>
+                      <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690779228/kokin_icshpo.webp" width="200px" height="266px" style="object-fit:contain" onclick="openModal(this.src)">
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573087/mom_side/lev_kokin_rcu1zl.webp" width="350px" style="object-fit:contain" onclick="openModal(this.src)"><br><br>
                   </div>
                     <!-- <a class="family_link"  target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BA%D0%B8%D0%BD,_%D0%9B%D0%B5%D0%B2_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87">Lev Kokin - Wiki page</a> 
                     <a class="family_link" target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BA%D0%B8%D0%BD%D0%B0,_%D0%93%D0%B0%D0%BB%D0%B8%D0%BD%D0%B0_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D0%BD%D0%B0">Galina Kokin (Lev's sister) - Wiki page</a><br><br>
@@ -316,7 +324,7 @@
                     Due to the oppressive circumstances, the Zak family fell into poverty. Grandmother Khasya worked as a floor washer in affluent houses in Volozhin, earning two kopecks, which was equivalent to one white bun at the time. In an attempt to escape poverty, grandfather Gabriel sought a better life in the United States with the help of Zionists. However, his dreams were shattered as he fell ill with Parkinson’s disease and struggled to find employment. He returned to Minsk in 1920, after a seven-year absence, penniless and in a single suit, as evidenced by a photograph with my mother.
                     
                     <div class="image-container" style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
-                      <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/gabriel_zak_guu4vi.webp" width="400px">
+                      <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/gabriel_zak_guu4vi.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
 
                     </div>
                     <!-- <div class="overlay" id="overlay">
@@ -328,7 +336,7 @@
                     <!-- <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/gabriel_zak_guu4vi.webp" width="400px"> -->
                       Surprisingly, the outbreak of the 1914 war saved the Zak from extinction, as they were granted refugee status, which provided them with free meals and housing. They were relocated to Minsk in 1915, settling in a house near the former Red Barracks, now at the corner of Kuibyshev and Varvashenka streets. <br>
                    
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573084/mom_side/khaya_itke_wa2tre.webp" width="600px">
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573084/mom_side/khaya_itke_wa2tre.webp" width="600px" style="object-fit:contain" onclick="openModal(this.src)">
                     Despite the challenging conditions with no heating, indoor latrine, and scarce food supplies like bread, meat, butter, and sugar, the family managed to survive and even pursue higher education. The available information is limited, but the Zak family undoubtedly has an ancient history, with their surname possibly having German origins. “Sak” meaning a bag suggests that their ancestors might have lived in Germany and were either very wealthy (having a bag of money) or extremely poor. The exact truth behind their origins remains uncertain.<br><br>
                     </p>
 
@@ -342,8 +350,8 @@
                       I might have already written to you about all of this, so I apologize [start of the fourth page] for the repetition. The purpose of my letter is different. I want you to honor and remember the participants of the last world war: Sholom (Alexander) Zak and Sheel Zak (also Alexander, as they replaced their Jewish names with Russian ones when receiving their first Russian (Soviet) passports, living in different cities). <br><br>
                       
                       So we, in the family, called them: Sholom — Shura, and Sheel — Sasha. When the war started, Shura worked in Professor Vologdin's firm, where they specialized in surface hardening of steel using high-frequency currents. He was successful in his work and had plans to become a graduate student after graduating from the renowned Bauman College (Institute). <br><br>
-                      <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691082351/jpeg/sholom_zak_wtvfhb.webp" width="200px"> <br><br>
-                      <img class="family_image" src=" https://res.cloudinary.com/dxsuizt1v/image/upload/v1708257395/zak_alexander_jw9tac.webp" width="200px"><br><br>
+                      <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691082351/jpeg/sholom_zak_wtvfhb.webp" width="200px" style="object-fit:contain" onclick="openModal(this.src)"> <br><br>
+                      <img class="family_image" src=" https://res.cloudinary.com/dxsuizt1v/image/upload/v1708257395/zak_alexander_jw9tac.webp" width="200px" style="object-fit:contain" onclick="openModal(this.src)"><br><br>
 
                       As you may have heard, in 1941, the Germans advanced rapidly into the interior of the country, posing a serious threat to the Motherland. Moscow urgently announced the recruitment of volunteers for the People's Militia, and about ten divisions were formed from them. All the fighters in these divisions were Communists. Without consulting his son or wife, Shura dropped everything and signed up as a volunteer, being a member of the All-Union Communist Party of Bolsheviks. Until that moment, he had never held a rifle or undergone military training. He concealed his higher education and enlisted as a loader. I saw him for the last time on Ogorodnaya Street. We met, and he put his hand on my shoulder, saying, "Remember, Levochka, the proverb. Don't go to your death until you are called." I promised him that, and it seems that on the same day, he went to the army, to the front, even though no one [start of the fifth page] had officially called him. His division was sent to the Leningrad front, where the Germans were pressing hard towards Leningrad, aiming for the closest proximity to the city. It was a critical situation, almost leading to the surrender of Leningrad. The defenders of the city formed walls of living bodies, heroically choosing to die rather than let the enemy pass. <br><br>
                       
@@ -356,7 +364,7 @@
                       I loved Shura dearly, especially for his talkativeness, insatiable thirst for knowledge, and desire for education. He even went to his death fighting for the Soviet power, as he saw it as the realization of the dream of all Russian Jews to become educated individuals with higher education—an aspiration that seemed unattainable under the tsar's rule. He was a cheerful and optimistic man. After our parents' arrest in 1937, my sister and I were left orphaned. Shura actively participated in supporting us through that difficult time. Despite having only one winter coat, he selflessly gave it to me, enduring the harsh winter of 1939-1940 with just a demi-season coat. The kindness of my uncles Grisha (your grandfather), Shura, Sasha, and Aunt Roza, who filled the void of our mother's absence, is worthy of poetry. I have never encountered kinder individuals in my life, including your grandmother, Elena Israelivna. <br><br>
                       
                       Now, a little about Sasha. He was a somewhat different kind of person. He told me in quite a detailed manner about his participation in the war. When he was drafted into the army, he did not join the infantry but waited for a commission for an officer's position in his civilian specialty as an electrician. In 1942, his division got surrounded by the Germans near Kharkiv, along with others, totaling one million (!) fighters. But he did not lose his courage. Near the town of Balakleya, there are huge fields known as flood meadows, enclosed by a high dam. Thousands of soldiers, wounded and civilians, were pinned to this dike. To get over the dam was impossible due to a barrage of German machine-gun fire. Behind the dam flowed the river Vorskla, narrow but extremely deep, which was also under machine-gun fire. For twenty-four hours, he lay on the bank, waiting for the Germans to run out of ammunition. In one trench with him was a general. In the evening, the general shot himself, offering Sasha, as a Jew, to do the same. However, Sasha refused, stating that he still wanted to kill the German. As night fell, Sasha managed to escape over the dam and then swim across the river, which was swarming with our soldiers, girls, and boys trying to reach the opposite bank. Unfortunately, most of them died because they did not know how to swim. Sasha, however, had been taught to swim by my father, Grigory Nikolaevich, and he struggled not only with the turbulent current but also with the abundance of corpses, yet he managed to swim across and reach the opposite shore, wet and exhausted. Crawling across the field, he somehow made it to the edge of the forest, where he was safe from being captured. Otherwise, he would have been shot on the spot.  <br><br>
-                      <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691161663/sasha_zak_yefiz3.webp" width="200px"><br><br>
+                      <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691161663/sasha_zak_yefiz3.webp" width="200px" style="object-fit:contain" onclick="openModal(this.src)"><br><br>
  
                       At first glance, his actions might not seem extraordinary, but steadfastness, courage, and perseverance are evident in his story. Later, he was assigned to General Batov's army staff and was rewarded multiple times for his knowledge and dedication. One day, the army commander visited the headquarters power plant, managed by Sasha, and asked him, "Tell me, Zak, why was there no light in the headquarters before you arrived? We worked by candlelight. But here, everything is working and shining." Sasha thought for a moment and replied, "That's because, Comrade Colonel-General, I don't sleep every night. I start the dynamo and sit listening to the engine and the dynamo. As soon as I detect any failure, I immediately switch to the reserve group (which, by the way, he collected from home)." Impressed by Sasha's dedication, the General ordered the adjutant to award Sasha the Order of the Red Star, pinning it on his chest. <br><br>
                       
@@ -428,12 +436,12 @@
                         
                         <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573098/mom_side/gz_us1_xwk4na.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573098/mom_side/gz_us2_fiphuu.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/gz_us3_hm05u6.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573086/mom_side/gz_us5_hvsw26.webp" width="400px">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573098/mom_side/gz_us1_xwk4na.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573098/mom_side/gz_us2_fiphuu.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/gz_us3_hm05u6.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573086/mom_side/gz_us5_hvsw26.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
           
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/gz_us4_rrcnkt.webp" width="400px"> 
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/gz_us4_rrcnkt.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)"> 
                         </div>
                      
                     </div>
@@ -475,20 +483,20 @@
                         Mom told me that grandfather Gregory was Zionist and was listening to Israeli radio - Kol Israel, specially during the Six day war. <br>
                         He also wrote two books that were guides to the mechanical engineers. First was written in 1963 and was called "Constructor's Guide": <br>
                         <div style="display: flex;"> 
-                          <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942985/WhatsApp_Image_2023-08-13_at_19.02.32_2_bhdhak.webp" width="200px">
-                          <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942985/WhatsApp_Image_2023-08-13_at_19.02.33_de3xib.webp" width="200px"><br>
+                          <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942985/WhatsApp_Image_2023-08-13_at_19.02.32_2_bhdhak.webp" width="200px" style="object-fit:contain" onclick="openModal(this.src)">
+                          <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942985/WhatsApp_Image_2023-08-13_at_19.02.33_de3xib.webp" width="200px" style="object-fit:contain" onclick="openModal(this.src)"><br>
                         </div>
                         The second book was written in 1965 and was called "Guide for normalized parts and machine assembly". Here is the book cover:<br>
                         <div style="display: flex;">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942985/WhatsApp_Image_2023-08-13_at_19.02.32_njggmw.webp" width="200px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942984/WhatsApp_Image_2023-08-13_at_19.02.32_1_o7ofr4.webp" width="200px"><br>
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942985/WhatsApp_Image_2023-08-13_at_19.02.32_njggmw.webp" width="200px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942984/WhatsApp_Image_2023-08-13_at_19.02.32_1_o7ofr4.webp" width="200px" style="object-fit:contain" onclick="openModal(this.src)"><br>
                       </div>
                         He also got few thank you letters from readers:<br>
                         <div style="display: flex;">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942986/WhatsApp_Image_2023-08-13_at_19.02.33_1_tmf8al.webp" width="200px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942987/WhatsApp_Image_2023-08-13_at_19.02.34_xveat6.webp" width="200px"><
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942986/WhatsApp_Image_2023-08-13_at_19.02.34_1_gwpz8j.webp" width="200px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942986/WhatsApp_Image_2023-08-13_at_19.02.35_vhrnrg.webp" width="200px"><br>
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942986/WhatsApp_Image_2023-08-13_at_19.02.33_1_tmf8al.webp" width="200px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942987/WhatsApp_Image_2023-08-13_at_19.02.34_xveat6.webp" width="200px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942986/WhatsApp_Image_2023-08-13_at_19.02.34_1_gwpz8j.webp" width="200px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691942986/WhatsApp_Image_2023-08-13_at_19.02.35_vhrnrg.webp" width="200px" style="object-fit:contain" onclick="openModal(this.src)"><br>
                       </div>
                         <h3>Here is a translation of the first letter (from Dulova L.I, Nevyansk city, Sverdlovsk region, Uritskogo street 10):</h3><br>
                         I am employed as a tool designer within the Chief Technologist department.<br>
@@ -510,11 +518,11 @@
                        <h3> Here is his handwriting letter and pictures: </h3><br><br>
                        <div style="display: flex; flex-wrap: wrap; max-width:100%; overflow-x: auto;">
 
-                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711925/IMG_6364_aygxae.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711920/IMG_6365_rldjt8.webp" width="400px">
+                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711925/IMG_6364_aygxae.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711920/IMG_6365_rldjt8.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                         </div><br>
                         <h3> Here is an article about Gregory Zak: </h3><br><br>
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1696756784/Zak_article_il9dnc.webp" width="400px">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1696756784/Zak_article_il9dnc.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                         <p>
                           Two-three quotas per shift <br>
                           The Chkalov tool factory personnel are committed to complete the year plan by December 15 and lower the product net cost by 12%. Each factory worker strives to contribute to the successful early completion of this goal. <br>
@@ -528,26 +536,26 @@
                         
                         <h3> Here are Gregory Zak pictures: </h3><br><br>
                         <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
-                          <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573198/grand/grand3_bgduyh.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573177/grand/grand5_sna113.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573170/grand/grand6_dl5xhw.webp" width="400px" object-fit="cover">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573144/grand/grand9_fzrxns.webp" width="400px" style="object-fit:cover">
-                        <img class="family_image" src ="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/grand/IMG_7250_yhxas6.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573142/grand/grand10_adnynq.webp" width="400px" style="object-fit:contain">>
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573147/grand/IMG_7244_tvkbdn.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573154/grand/IMG_7246_lbdl7h.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573214/grand/IMG_7253_w0qjsk.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573185/grand/grand12_te2xzc.webp" width="400px">
+                          <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573198/grand/grand3_bgduyh.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573177/grand/grand5_sna113.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573170/grand/grand6_dl5xhw.webp" width="400px" object-fit="cover"  onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573144/grand/grand9_fzrxns.webp" width="400px" style="object-fit:cover"  onclick="openModal(this.src)">
+                        <img class="family_image" src ="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/grand/IMG_7250_yhxas6.webp" width="400px"  style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573142/grand/grand10_adnynq.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573147/grand/IMG_7244_tvkbdn.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573154/grand/IMG_7246_lbdl7h.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573214/grand/IMG_7253_w0qjsk.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573185/grand/grand12_te2xzc.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                         <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/grand/grand14_yknc37.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573144/grand/grand22_qq79gh.webp" width="400px">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573144/grand/grand22_qq79gh.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                         </div>
                         <h3> Here are Gregory Zak awards: </h3><br><br>
                         <div style="display: flex; flex-wrap: wrap; max-width:100%; overflow-x: auto;">
 
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261375/IMG_8245_mnyt4a.webp" width="400px"  style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261376/IMG_8246_ixw8uo.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261376/IMG_8247_netvfj.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261377/IMG_8248_eqt88c.webp" width="400px">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261375/IMG_8245_mnyt4a.webp" width="400px"  style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261376/IMG_8246_ixw8uo.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261376/IMG_8247_netvfj.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261377/IMG_8248_eqt88c.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                         </div>
                       </div>
                 </div>
@@ -566,17 +574,17 @@
                         In 1962, I found employment at the Opera Theater as a ticket seller (cashier). Later that year, I transitioned to work at the central theater box office, where I have remained employed to this day. The theater has become a significant part of my life, and I cherish the memories I’ve made throughout my career.<br><br>
                         <span style="font-weight:bold; text-decoration: underline;">Here is her handwriting letter: </span><br><br>
                         </p>
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711921/IMG_6362_zipywf.webp" width="400px">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711921/IMG_6362_zipywf.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                         <!-- <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711914/IMG_6358_qzikhw.webp" width="400px"> -->
                         <span style="font-weight:bold; text-decoration: underline;">Here is a first article about her: </span><br><br>
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1696756785/Melamed_article1_hundfi.webp" width="400px">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1696756785/Melamed_article1_hundfi.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                         <p>
                           <span class="orange_link">Elena Izrailevna Melamed</span> and Anna Semenovna Talapila are cashiers at the Central theatre office ticket. Selling tickets is not as easy as it seems and, in any case, the success doesn’t depend on the cashier. Although, apart from the local theater admirers, who know their theatres well, hundreds and thousands of guests visit Minsk every day. And they can always rely on a good recommendation from <span class="orange_link">Elena Izrailevna.</span> She will recommend a play worth watching. Regular theatre-goers also know and appreciate her, because Alena is always very considerate with their every request. That’s why ticket office #5, the one next to the “Stolichny” grocery store, is always busy. <br>
                           When we see kolkhoz buses and trucks arriving at the theaters, the philharmonic hall or the circus every night, we should also give a word of appreciation to A. Talapila, cashier, specializing in working with rural population. Anna Semenovna is always eager to reach the farthest kolkhoz or the smallest farm. She is well-known in the Stolbtsovsky, Dzerzhinsky, Kopylsky and Volozhinsky districts. More than 70 thousand people attend theaters every year thanks to the tickets bought by Anna Semenovna Talapila.
 
                         </p> <br>
                         <span style="font-weight:bold; text-decoration: underline;">Here is a second article about her: </span><br><br>
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1696756783/Melamed_article2_ihjuh0.webp" width="400px">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1696756783/Melamed_article2_ihjuh0.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                         <p>
                           [MINSK REPORT]<br>
                           Rush hour at the theatre entrance<br>
@@ -606,34 +614,34 @@
                         <span style="font-weight:bold; text-decoration: underline;">More pictures of Elena Melamed: </span><br><br>
                         <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573147/grand/grand1_c71mjf.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573147/grand/grand2_vxipii.webp" width="400px" style="object-fit:contain"v>
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573212/grand/grand7_duzgrm.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573173/grand/IMG_7254_brffuo.webp" width="400px" style="object-fit:contain">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573147/grand/grand1_c71mjf.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573147/grand/grand2_vxipii.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573212/grand/grand7_duzgrm.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573173/grand/IMG_7254_brffuo.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
 
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573143/grand/grand8_atfomh.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573167/grand/grand11_svftqz.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/grand/IMG_7252_vbpxdm.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573159/grand/IMG_7255_iexg5y.webp" width="400px"style="object-fit:contain">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573143/grand/grand8_atfomh.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573167/grand/grand11_svftqz.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/grand/IMG_7252_vbpxdm.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573159/grand/IMG_7255_iexg5y.webp" width="400px"style="object-fit:contain" onclick="openModal(this.src)">
 
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573144/grand/grand13_inkefb.webp" width="400px" style="object-fit:contain">
-≈                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573180/grand/grand15_md3p46.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573166/grand/grand16_y5nbmt.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573193/grand/grand17_ugpqo3.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573184/grand/grand18_snekur.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573234/grand/grand19_zuwte9.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573211/grand/grand20_ethcg3.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/grand/grand21_y0cnar.webp" width="400px" style="object-fit:contain">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573144/grand/grand13_inkefb.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+≈                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573180/grand/grand15_md3p46.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573166/grand/grand16_y5nbmt.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573193/grand/grand17_ugpqo3.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573184/grand/grand18_snekur.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573234/grand/grand19_zuwte9.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573211/grand/grand20_ethcg3.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/grand/grand21_y0cnar.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                        </div>
                         <span style="font-weight:bold; text-decoration: underline;">Here are Elena Melamed awards: </span><br><br>
                         <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261380/IMG_8251_rmtvdd.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261383/IMG_8254_nhdqfk.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261384/IMG_8253_w6ng7s.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261384/IMG_8252_hyzlmg.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261385/IMG_8256_g81kxl.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261388/IMG_8255_ffjk1q.webp" width="400px" style="object-fit:contain">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261380/IMG_8251_rmtvdd.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261383/IMG_8254_nhdqfk.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261384/IMG_8253_w6ng7s.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261384/IMG_8252_hyzlmg.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261385/IMG_8256_g81kxl.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261388/IMG_8255_ffjk1q.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                         </div>
                     </div>
                 </div>
@@ -665,15 +673,15 @@
                     <p class="lead"><b>Vladimir and Isanna Glushenkov (Zak)</b> - dad died in 2018 from COPD, and mom died from Colon and Anal cancer in 2023. They are buried in Lod new cemetery in Israel</p><br><br>
                     <div style="display: flex; flex-wrap: wrap; max-width:100%; overflow-x: auto;">
 
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1693240011/WhatsApp_Image_2023-08-28_at_19.22.40_hjhhzj.webp" width="400px"><br><br>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1693240011/WhatsApp_Image_2023-08-28_at_19.22.41_1_cm0xtc.webp" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1693240011/WhatsApp_Image_2023-08-28_at_19.22.40_hjhhzj.webp" width="400px" onclick="openModal(this.src)"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1693240011/WhatsApp_Image_2023-08-28_at_19.22.41_1_cm0xtc.webp" width="400px" onclick="openModal(this.src)"><br><br>
                     <!-- <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1693240011/WhatsApp_Image_2023-08-28_at_19.22.42_k2wnbm.webp" width="400px"><br><br>
 
                     <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690642969/graves/mom_place_de6srn.webp" width="400px"><br><br> -->
                     </div><br>
                     <p class="lead" style="font-size: 22px;"><h3>Mom's side:</h3></p><br><br>
                     <p class="lead"><b>Gabriel Zak</b> - stayed in Minsk when the war started as he wanted to protect the synagogue (he was very religious) and according to the rumors was burned together with the synagogue. Here is the evidence from Yad Vashem written by my mother:</p><br><br>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638475/graves/zak_gavriel_ikteyr.webp" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638475/graves/zak_gavriel_ikteyr.webp" width="400px" onclick="openModal(this.src)"><br><br>
                     <p class="lead"><b>Khasiya Itke Zak (Kivelevich) </b> - died before the second world war in 1921 (the year not confirmed) and was buried in Minsk former Jewish cemetery on Collectornaya Street in Minsk</p><br><br>
                     <p class="lead"><b>Israel Melamed </b> - died before the second world war in 1939 apparently from tuberculosis and was buried in Gomel</p><br><br>
                     <p class="lead"><b>Chaya Melamed (Radashkovich)</b> - died in 1971. Apparently from Stroke and was buried in Leningrad (today Saint Petersburg)</p><br><br>
@@ -681,41 +689,41 @@
                     <p class="lead">The entrance is from the main (first) gate:</p>
                     <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690640732/graves/cemetry_entrance_dy83nw.webp" width="400px"><br><br>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690640752/graves/cemetry_map_ppq4vc.webp" width="400px"><br><br>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638472/graves/gregory_elena_lkoniu.webp" width="400px"><br><br>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711914/IMG_6357_xlv71v.webp" width="400px">
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690640732/graves/cemetry_entrance_dy83nw.webp" width="400px" onclick="openModal(this.src)"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690640752/graves/cemetry_map_ppq4vc.webp" width="400px" onclick="openModal(this.src)"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638472/graves/gregory_elena_lkoniu.webp" width="400px" onclick="openModal(this.src)"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711914/IMG_6357_xlv71v.webp" width="400px" onclick="openModal(this.src)">
                     </div><br>
                     <p class="lead"><b>Boris Zak (mother's brother)</b> - died in 2019 and was buried in Cologne in Germany - Jewish Cemetery Cologne-Bocklemünd, Venloerstrasse 1152:</p><br><br>
                     <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690641886/graves/boris_cemetry_map_ygp1er.webp" width="400px"><br><br>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690641940/graves/boris_grave_agrytg.webp" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690641886/graves/boris_cemetry_map_ygp1er.webp" width="400px" onclick="openModal(this.src)"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690641940/graves/boris_grave_agrytg.webp" width="400px" onclick="openModal(this.src)"><br><br>
                     </div><br>
                     <p class="lead"><b>Alex (Sasha) Zak (mother's uncle)</b> - died in 1985 and was buried in the Northern cemetery in Minsk. His grave is near second gate, near green bus</p>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690642693/graves/sasha_zak_ll39lv.webp" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690642693/graves/sasha_zak_ll39lv.webp" width="400px" onclick="openModal(this.src)"><br><br>
                     <p class="lead" style="font-size: 22px;"><h3>Dad's side:</h3></p><br><br>
                     <p class="lead"><b>Simcha Evdasin (dad's great-grandfather)</b> - died in Leningrad during the <a class="orange_link line" target="_blank" href="https://collections.yadvashem.org/en/names/6096447">Nazi blockade</a>. Here is the evidence from Yad Vashem:</p><br><br>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638468/graves/Simcha_bc0zsa.webp" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638468/graves/Simcha_bc0zsa.webp" width="400px" onclick="openModal(this.src)"><br><br>
                     <p class="lead"><a class="orange_link line"target="_blank" href="https://blockade.spb.ru/card/?id=161921&source=external&last_name=%D0%B5%D0%B2%D0%B4%D0%B0%D1%81%D0%B8%D0%BD" >Here</a> and <a class="orange_link line" target="_blank" href="https://visz.nlr.ru/blockade/show/1068819">here</a> you can find Simcha Evdasin death records details</p>
                     
                     <!-- <a class="family_link"  target="_blank" href="https://blockade.spb.ru/card/?id=161921&source=external&last_name=%D0%B5%D0%B2%D0%B4%D0%B0%D1%81%D0%B8%D0%BD">Evdasin Simcha - death records</a><br><br>
                     <a class="family_link"  target="_blank" href="https://visz.nlr.ru/blockade/show/1068819">Evdasin Simcha - another death records</a><br><br> -->
 
                     <p class="lead"><b>Pesach Evdasin (dad's grandmother brother)</b> - died in camps during the Second world war. Here is the evidence from Yad Vashem written by my father:</p><br><br>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638469/graves/pesach_evdasin_vljn4d.webp" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638469/graves/pesach_evdasin_vljn4d.webp" width="400px" onclick="openModal(this.src)"><br><br>
                     <p class="lead"><b>Tzila Borisenko (Evdsin)</b> - died in 1988 and was buried in the Northern cemetery in Minsk. Her grave in the corner of sections 82 and 62. Down on 62 section</p>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638481/graves/tzila_jycngm.webp" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638481/graves/tzila_jycngm.webp" width="400px" onclick="openModal(this.src)"><br><br>
                     <p class="lead"><b>Vladimir Borisenko </b> - died in 1991 and was buried in the Northern cemetery in Minsk. His grave near the sign of 75a, on the left side</p><br><br>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638480/graves/borisnko_mcmmrd.webp" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638480/graves/borisnko_mcmmrd.webp" width="400px" onclick="openModal(this.src)"><br><br>
                     <p class="lead"><b>Andrey and Alexander Glushenkov </b> - Andrey died in 1986 and Alexander in 2008. They are buried in the same grave in the Northern cemetery in Minsk. Their grave near the section 79, under big tree</p><br><br>
                     <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638478/graves/glushenkov_va_radqfz.webp" width="400px"><br><br>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711905/IMG_6356_trtd4u.webp" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638478/graves/glushenkov_va_radqfz.webp" width="400px" onclick="openModal(this.src)"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711905/IMG_6356_trtd4u.webp" width="400px" onclick="openModal(this.src)"><br><br>
                     </div><br>
                     <p class="lead"><b>Maya and Olga Glushenkov </b> - Maya died in 2013 and Olga in 2021 (from Covid 19). They are buried in the same grave in <a class="orange_link line" target="_blank" href="https://ritual-173.by/zapadnoe">Western cemetery</a> in Minsk. Their grave 200 meters from the entrance, on the main road</p><br><br>
-                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638476/graves/maya_b3ipa0.webp" width="400px"><br><br>
+                    <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690638476/graves/maya_b3ipa0.webp" width="400px" onclick="openModal(this.src)"><br><br>
                    
                 </div>
                 </div>
@@ -737,9 +745,9 @@
                             
                             <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573092/mom_side/Zak1_ak836x.webp" width="400px"><br><br>
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573096/mom_side/Zak2_weybaf.webp" width="400px"><br><br>
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573092/mom_side/Zak3_wanqls.webp" width="400px"><br><br>
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573092/mom_side/Zak1_ak836x.webp" width="400px" onclick="openModal(this.src)"><br><br>
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573096/mom_side/Zak2_weybaf.webp" width="400px" onclick="openModal(this.src)"><br><br>
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573092/mom_side/Zak3_wanqls.webp" width="400px" onclick="openModal(this.src)"><br><br>
                            </div> <br>
                             Shalom (Sasha) married Mania and has a son named Leonid Zak. Shalom was killed during the Second world war. Here are his <a class="orange_link line"  target="_blank" href="https://bit.ly/3QrJfi7">records</a> from the war.<br>
 
@@ -747,8 +755,8 @@
                             </p>
                             <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573089/mom_side/Lz1_dawwfz.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573089/mom_side/Lz2_b2dkyp.webp" width="400px"><br>
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573089/mom_side/Lz1_dawwfz.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573089/mom_side/Lz2_b2dkyp.webp" width="400px" onclick="openModal(this.src)"><br>
                            </div><br>
                             <p class="lead"><h3>Here is the translation of a paragraph where he is mentioned:</h3><br>
                                 Our group became part of the team working on the BESM-1 computer, which included notable figures like Andrey Andreevich Sokolov, Valery Nazarovich Laut, Mark Valeriyanovich Tyapkin, and Leonid Aleksandrovich Zak. Meeting Leonid Zak in the computer room was a delightful surprise for me, considering we both graduated from Moscow’s School No. 370 in Sokolniki in 1950. I was in grade 10B, while Lenya was in grade 10A, where he earned a gold medal and later joined MPEI, and I went to the Naval Engineering School in Leningrad.<br><br>
@@ -788,22 +796,22 @@
 
                         Here is the picture of Basya/Batya Radashkovich in Dolginovo, Belarus ( Chaya Melamed’s mother):
                         </p>
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573087/mom_side/Basia_zmwdor.webp" width="400px"><br><br>
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573087/mom_side/Basia_zmwdor.webp" width="400px" onclick="openModal(this.src)"><br><br>
                         <p class="lead">Here is the picture of Israel and Chaya Melamed:
                         </p>
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573100/mom_side/Israel_chaya_ld7psj.webp" width="400px"><br><br>
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573100/mom_side/Israel_chaya_ld7psj.webp" width="400px" onclick="openModal(this.src)"><br><br>
                         <p class="lead">Here is the picture of Israel Melamed:
                         </p>
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573084/mom_side/Israel_ehq4cf.webp" width="400px"><br> <br>
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573084/mom_side/Israel_ehq4cf.webp" width="400px" onclick="openModal(this.src)"><br> <br>
                         <p class="lead">Here is the pictures of Chaya Melamed:
                         </p>
                         <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573096/mom_side/Chaya_girls_sljxfd.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573088/mom_side/Chaya2PG_du4imj.webp" width="400px" style="object-fit:contain" >
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/Chaya_zuhnhl.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573087/mom_side/Chaya_arseney_yn0y9j.webp" width="400px">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573101/mom_side/Chaya_old_otx4uz.webp" width="400px">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573096/mom_side/Chaya_girls_sljxfd.webp" width="400px" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573088/mom_side/Chaya2PG_du4imj.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573085/mom_side/Chaya_zuhnhl.webp" width="400px" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573087/mom_side/Chaya_arseney_yn0y9j.webp" width="400px" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573101/mom_side/Chaya_old_otx4uz.webp" width="400px" onclick="openModal(this.src)">
                         </div>
                       </div>
                 </div>
@@ -815,60 +823,60 @@
                             </p>
                             <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573203/papa_side/Maya_vova_rjujwi.webp" width="400px">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573176/papa_side/Maya1_cw5r1e.webp" width="400px">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573178/papa_side/Maya2_ah8s0y.webp" width="400px">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573156/papa_side/grandm_lvwbtv.webp" width="400px" style="object-fit:contain">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573203/papa_side/Maya_vova_rjujwi.webp" width="400px" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573176/papa_side/Maya1_cw5r1e.webp" width="400px" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573178/papa_side/Maya2_ah8s0y.webp" width="400px" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573156/papa_side/grandm_lvwbtv.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                             </div><br>
                             <p class="lead">Here are my grandfather Andrey's pictures:</p><br>
                             <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573162/papa_side/Andrey1_jwp51d.webp" width="400px">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573159/papa_side/Andrey2_hahjpk.webp" width="400px">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/papa_side/Andrey3_b5ydls.webp" width="400px">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573162/papa_side/Andrey1_jwp51d.webp" width="400px" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573159/papa_side/Andrey2_hahjpk.webp" width="400px" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/papa_side/Andrey3_b5ydls.webp" width="400px" onclick="openModal(this.src)">
                             </div><br>
                             <p class="lead">Here are my grandfather Andrey's medal:</p><br>
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573146/papa_side/Glushenkov2_hixbwz.webp" width="600px"><br>
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573146/papa_side/Glushenkov2_hixbwz.webp" width="600px" onclick="openModal(this.src)"><br>
 
                             <p class="lead">Beside my father Andrey and Maya had twins : Olga and Alexander (Sasha). Here is a picture of my father with his sister Olga:</p><br>
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573160/papa_side/olga_vova_ymkpzf.webp" width="400px"><br>
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573160/papa_side/olga_vova_ymkpzf.webp" width="400px" onclick="openModal(this.src)"><br>
                             <p class="lead">Olga has one son - Evgeniy. Here is the picture of Evgeniy and us on Grandmother Maya dacha:</p><br>
                             <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573165/papa_side/three_cousins_qnqqv2.webp" width="400px" style="object-fit:contain"><br>
-                            <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690605997/three_cousins2_wdllp8.webp" width="400px"><br></br>
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573165/papa_side/three_cousins_qnqqv2.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)"><br>
+                            <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690605997/three_cousins2_wdllp8.webp" width="400px" onclick="openModal(this.src)"><br></br>
                             </div><br>
                             <p class="lead">My great-grandmother, Tzila Evdasin, was married to Josef Sazar, who happened to be my grandmother’s father. However, Josef left the family when Tzila was pregnant with my grandmother Maya, leading my grandmother to marry Vladimir Borisenko, a colonel in the Soviet Air Force. When Maya was born they sent her  to a Jewish village near Crimea, where she learned Yiddish. Tzila and Vladimir later welcomed two more children, Valia and Peter.
                             </p><br>
                             <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573153/papa_side/Tzila_vladimir_p9vehw.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573161/papa_side/greatgf_nirorj.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573160/papa_side/greatgg_tgnpnx.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/papa_side/me_great_eesn2b.webp" width="400px" style="object-fit:contain">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573153/papa_side/Tzila_vladimir_p9vehw.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573161/papa_side/greatgf_nirorj.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573160/papa_side/greatgg_tgnpnx.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/papa_side/me_great_eesn2b.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                             </div><br>
                             <p class="lead">Originating from the Evdasin family in Gomel, Tzila’s father was Simcha, the son of Pesach, and her mother’s name was Rivka (with her father’s name being Zalman). Simcha had a successful tea factory, and during the time of the communist revolution, he possibly invested his money in Buenos Aires, Argentina.
                             </p><br>
                             <p class="lead">Tzila had three siblings: Evgeniya, Pesach, and Berta (also known as Bubenia). Bubenia had a son named Anatoly (Tolik). Tragically, Pesach lost his life during the Second World War in a Soviet prison camp after someone betrayed him to the Nazis, revealing that he was Jewish.
                             </p>
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573216/papa_side/three_sisters_sfh00r.webp" width="400px">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573216/papa_side/three_sisters_sfh00r.webp" width="400px" onclick="openModal(this.src)">
                             <p class="lead">Here are the documents we found regarding Evdsin family:</p><br>
                             <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                               <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573166/papa_side/doc1_u1sslg.webp" width="400px"><br>
-                               <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573170/papa_side/doc2_dd9328.webp" width="400px"><br>    
-                               <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573165/papa_side/doc3_l5rywn.webp"  width="400px"><br>
-                               <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711906/IMG_6355_a0yqg0.webp"  width="400px"><br>
+                               <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573166/papa_side/doc1_u1sslg.webp" width="400px" onclick="openModal(this.src)"><br>
+                               <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573170/papa_side/doc2_dd9328.webp" width="400px" onclick="openModal(this.src)"><br>    
+                               <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573165/papa_side/doc3_l5rywn.webp"  width="400px" onclick="openModal(this.src)"><br>
+                               <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711906/IMG_6355_a0yqg0.webp"  width="400px" onclick="openModal(this.src)"><br>
                            </div><br>
                                <p class="lead">Pesach (Peter) was a surgeon who got captured during the Second World War. He attempted to escape from the Porkhov camp, but tragically, the Nazis killed him while he was trying to flee. This devastating event occurred after he had bravely saved someone, only to be betrayed by that very person.<br><br>
                               <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690998625/IMG_6409_evqqk8.webp"  width="400px"><br>
-                              <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690998624/Image_02-08-2023_at_16.33_ekwq8e.webp"  width="400px"><br>
+                              <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690998624/Image_02-08-2023_at_16.33_ekwq8e.webp"  width="400px" onclick="openModal(this.src)"><br>
 
                               The following are letters of correspondence between my great-grandmother, Tzila, and a researcher, shedding light on the story of Pesach and the events surrounding his capture and untimely demise during the war. First letter:</p>
                               <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                              <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711908/IMG_6353_effs2q.webp" width="400px"><br>    
-                            <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711911/IMG_6354_z1lr8e.webp"  width="400px"><br>
+                              <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711908/IMG_6353_effs2q.webp" width="400px" onclick="openModal(this.src)"><br>    
+                            <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711911/IMG_6354_z1lr8e.webp"  width="400px" onclick="openModal(this.src)"><br>
                                   </div><br>
                             <p class="lead"> <h3>Here is the translation: </h3><br><br>
                               19 March 1965<br><br>
@@ -908,8 +916,8 @@
                             <p class="lead"> <h3>Here is the second letter: </h3><br><br>
                               <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                              <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711894/IMG_6351_pivqva.webp" width="400px"><br>    
-                              <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711897/IMG_6352_ppofkg.webp"  width="400px"><br>
+                              <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711894/IMG_6351_pivqva.webp" width="400px" onclick="openModal(this.src)"><br>    
+                              <img class="family_image"  src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690711897/IMG_6352_ppofkg.webp"  width="400px" onclick="openModal(this.src)"><br>
                           </div><br>
                               Here is the translation:<br>
                            Kostroma<br>
@@ -973,41 +981,41 @@
                           <span style="font-weight:bold; text-decoration: underline;">Here are pictures of Vladimir Glushenkov: </span><br><br>
                           <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573200/papa/vova1_qb6vvo.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573193/papa/vova2_upahb8.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573155/papa/vova3_u64fa7.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573189/papa/vova4_liwjau.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573184/papa/vova5_ymion1.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/papa/vova6_oiwyac.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573197/papa/vova7_r4hhql.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/papa/vova8_nmronu.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/papa/vova9_yao7vr.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573149/papa/vova10_g1x4jr.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573234/papa/vova11_gmbix3.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573208/papa/vova12_r9mbkd.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573160/papa/vova13_afhlge.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573163/papa/vova14_fiv0mw.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573151/papa/vova15_h30dox.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573186/papa/vova16_zatz3k.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/papa/vova17_mncyhi.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573163/papa/vova18_pe2brg.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573161/papa/vova19_adp3vg.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573173/papa/vova20_ubupjl.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573173/papa/vova21_lt7fws.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573182/papa/vova22_fuqb7j.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573149/papa/vova23_thuah7.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/papa/vova24_xf3n6o.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/papa/vova25_ylb2xg.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/papa/vova26_sm6ov7.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/papa/vova27_nib5kx.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573172/papa/vova28_fpiwa3.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573230/papa/vova29_gihb66.webp" width="400px" style="object-fit:contain">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573200/papa/vova1_qb6vvo.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573193/papa/vova2_upahb8.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573155/papa/vova3_u64fa7.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573189/papa/vova4_liwjau.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573184/papa/vova5_ymion1.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/papa/vova6_oiwyac.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573197/papa/vova7_r4hhql.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/papa/vova8_nmronu.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/papa/vova9_yao7vr.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573149/papa/vova10_g1x4jr.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573234/papa/vova11_gmbix3.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573208/papa/vova12_r9mbkd.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573160/papa/vova13_afhlge.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573163/papa/vova14_fiv0mw.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573151/papa/vova15_h30dox.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573186/papa/vova16_zatz3k.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/papa/vova17_mncyhi.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573163/papa/vova18_pe2brg.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573161/papa/vova19_adp3vg.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573173/papa/vova20_ubupjl.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573173/papa/vova21_lt7fws.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573182/papa/vova22_fuqb7j.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573149/papa/vova23_thuah7.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573150/papa/vova24_xf3n6o.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/papa/vova25_ylb2xg.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/papa/vova26_sm6ov7.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/papa/vova27_nib5kx.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573172/papa/vova28_fpiwa3.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573230/papa/vova29_gihb66.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                            </div>
                            <span style="font-weight:bold; text-decoration: underline;">Here are Vladimir Glushenkov's awards and diplomas: </span><br><br>
                            <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1708257403/image1_nc37gh.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1708257400/image0_gynzqy.webp" width="400px" style="object-fit:contain">
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1708257405/image2_lpcav7.webp" width="400px" style="object-fit:contain">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1708257403/image1_nc37gh.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1708257400/image0_gynzqy.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1708257405/image2_lpcav7.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                         
                           </div>
 
@@ -1055,7 +1063,7 @@
                             </p>
                             <span style="font-weight:bold; text-decoration: underline;">Here is an article about Isanna Glushenkov: </span><br><br>
 
-                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1696756783/Mom_article_mnzgsq.webp" width="400px">
+                            <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1696756783/Mom_article_mnzgsq.webp" width="400px" onclick="openModal(this.src)">
                             <p>
                               Pioneer group gives a report<br>
                               A group of young Leninists from form 3 “A” lined up for the celebratory school assembly. All pioneers dressed in full uniforms. With red ties shining on their chests. The girls’ faces glow with excitement. It’s time for the report. The clear voice of Svetlana Ostapova, head of the group council, broke the silence. <br>
@@ -1079,52 +1087,52 @@
                               <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
 
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/mama/isanna2JPG_frihwz.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/mama/isanna3_jspi7g.webp" width="400px" style="object-fit:contain">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/mama/isanna2JPG_frihwz.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/mama/isanna3_jspi7g.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                       
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/mama/isanna23_lyivyc.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573146/mama/isanna1_d6tbld.webp" width="400px" style="object-fit:contain">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/mama/isanna23_lyivyc.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573146/mama/isanna1_d6tbld.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                      
-                           <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573219/mama/isanna4_ek0hnr.webp" width="400px" style="object-fit:contain">
+                           <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573219/mama/isanna4_ek0hnr.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
 
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/mama/isanna7_xuvyoh.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/mama/isanna8_qmq222.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573163/mama/isanna24_wiyesf.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/mama/isanna25_dk0cft.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573146/mama/isanna26_xkb3zx.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573147/mama/isanna27_col8vw.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573223/mama/isanna9_wbbc4w.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573229/mama/isanna10_pjt4wl.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573228/mama/IMG_7259_vyazwt.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573200/mama/isanna28_vllg9z.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573203/mama/isanna11_mbzwhc.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573162/mama/isanna12_lkg8ta.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573229/mama/isanna14_mzmlub.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573225/mama/isanna15_sgioz7.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573183/mama/isanna16_cb91by.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573187/mama/isanna17_t88lbt.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573160/mama/isanna18_wk9hrj.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573155/mama/isanna19_hjtp84.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573197/mama/isanna20_vlfitf.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573155/mama/isanna21_xfaxkm.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/mama/isanna22_sqd6wo.webp" width="400px" style="object-fit:contain">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/mama/isanna7_xuvyoh.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573148/mama/isanna8_qmq222.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573163/mama/isanna24_wiyesf.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573145/mama/isanna25_dk0cft.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573146/mama/isanna26_xkb3zx.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573147/mama/isanna27_col8vw.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573223/mama/isanna9_wbbc4w.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573229/mama/isanna10_pjt4wl.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573228/mama/IMG_7259_vyazwt.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573200/mama/isanna28_vllg9z.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573203/mama/isanna11_mbzwhc.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573162/mama/isanna12_lkg8ta.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573229/mama/isanna14_mzmlub.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573225/mama/isanna15_sgioz7.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573183/mama/isanna16_cb91by.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573187/mama/isanna17_t88lbt.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573160/mama/isanna18_wk9hrj.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573155/mama/isanna19_hjtp84.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573197/mama/isanna20_vlfitf.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573155/mama/isanna21_xfaxkm.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1690573152/mama/isanna22_sqd6wo.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                        </div><br>
                         <span style="font-weight:bold; text-decoration: underline;">Here are Isanna Glushenkov awards and diplomas: </span><br><br>
                         <div style="display: flex; flex-wrap: wrap; max-width: 100%; overflow-x: auto;">
 
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261373/IMG_8249_cwl2pn.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261375/IMG_8250_l2vmuy.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261390/IMG_8217_tude9q.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261393/IMG_8218_micenj.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261395/IMG_8220_ujmfgp.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261401/IMG_8219_lbyhxs.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261407/IMG_8230_zqpwzg.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261407/IMG_8231_pbm6sd.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261415/IMG_8233_qzxqb7.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261416/IMG_8234_reuetb.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261417/IMG_8235_qquuwa.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261420/IMG_8236_yuqgjf.webp" width="400px" style="object-fit:contain">
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261420/IMG_8232_lz9exj.webp" width="400px" style="object-fit:contain">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261373/IMG_8249_cwl2pn.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261375/IMG_8250_l2vmuy.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261390/IMG_8217_tude9q.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261393/IMG_8218_micenj.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261395/IMG_8220_ujmfgp.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261401/IMG_8219_lbyhxs.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261407/IMG_8230_zqpwzg.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261407/IMG_8231_pbm6sd.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261415/IMG_8233_qzxqb7.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261416/IMG_8234_reuetb.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261417/IMG_8235_qquuwa.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261420/IMG_8236_yuqgjf.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1697261420/IMG_8232_lz9exj.webp" width="400px" style="object-fit:contain" onclick="openModal(this.src)">
                     </div>
                     </div>
       
@@ -1180,9 +1188,9 @@
                         </p>
                         <div style="display: flex; flex-wrap: wrap; max-width:100%; overflow-x: auto;">
 
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691246624/grand/soniaz1-Repaired-Enhanced-Colorized_hhoadt.jpg" width="400px"><br>
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691246623/grand/soniaz2-Repaired-Enhanced-Colorized_s42wdk.webp" width="400px"><br>
-                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691246624/grand/soniaz3-Enhanced-Colorized_q1hpci.webp" width="400px"><br>
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691246624/grand/soniaz1-Repaired-Enhanced-Colorized_hhoadt.jpg"  width="400px" onclick="openModal(this.src)"><br>
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691246623/grand/soniaz2-Repaired-Enhanced-Colorized_s42wdk.webp" width="400px" onclick="openModal(this.src)"><br>
+                        <img class="family_image" src="https://res.cloudinary.com/dxsuizt1v/image/upload/v1691246624/grand/soniaz3-Enhanced-Colorized_q1hpci.webp"          width="400px" onclick="openModal(this.src)"><br>
                         </div>
                         <p class="lead"><h3>Here is the poem translated to English:</h3><br><br>
                           THIS IS HOW YOUTH BEGAN (poem)<br><br>

@@ -50,6 +50,19 @@ window.onscroll = function () {
     includeFooter();
   });
   
+// Open the modal with the clicked image
+function openModal(imageSrc) {
+  var modal = document.getElementById('imageModal');
+  var modalImg = document.getElementById('modalImage');
+  modal.style.display = "block";
+  modalImg.src = imageSrc;
+}
+
+// Close the modal by clicking outside the image
+function closeModal() {
+  var modal = document.getElementById('imageModal');
+  modal.style.display = "none";
+}
 
   
  
