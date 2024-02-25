@@ -1,4 +1,6 @@
-
+function openURL(url) {
+  window.open(url, "_blank");
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     fetch("publications.json")
