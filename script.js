@@ -64,7 +64,16 @@ function closeModal() {
   modal.style.display = "none";
 }
 
-  
+ // Change cursor to zoom-in icon on hover
+function hoverZoomInIcon(element) {
+  element.style.cursor = "zoom-in";
+}
+
+// Reset cursor on mouseout
+function resetCursor() {
+  document.body.style.cursor = "auto";
+}
+ 
  
   
 //   const overlay = document.getElementById('overlay');

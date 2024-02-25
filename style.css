@@ -365,6 +365,8 @@ li[draggable]::before {
   padding: 10px; /* Space between the image and the border */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  position: relative;
+ 
 }
 @media (max-width: 768px) {
   .family_image {
@@ -1258,4 +1260,22 @@ li[draggable]::before {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+}
+.family_image:hover::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  background-image: url('zoom_icon.png'); /* Add the path to your zoom-in icon */
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.family_image:hover::after {
+  opacity: 1;
 }
