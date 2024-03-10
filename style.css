@@ -1281,4 +1281,5 @@ li[draggable]::before {
 }
 .left_li{
   text-align: left;
+  font-size: 18px;
 }
