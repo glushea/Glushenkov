@@ -641,6 +641,18 @@
                 "link": "https://www.imdb.com/title/tt0084967/"
               },
               {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1710059453/eve_mvpqtg.webp",
+                "title": "Killing Eve",
+                "description": "After a series of events, the lives of a security operative and an assassin become inextricably linked.",
+                "link": "https://www.imdb.com/title/tt7016936/"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1710059452/griselda_bqqtzg.webp",
+                "title": "Griselda",
+                "description": "Fleeing from Medellín to Miami, Griselda Blanco creates one of the most ruthless cartels in history.",
+                "link": "https://www.imdb.com/title/tt15837600/"
+              },
+              {
                 "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560576/movies/global_series_sherlock_hy9tn2.webp",
                 "title": "Sherlock",
                 "description": "A modern-day adaptation of Arthur Conan Doyle's Sherlock Holmes detective stories.",
@@ -933,6 +945,12 @@
             "link": "https://www.imdb.com/title/tt26238728/"
           },
           {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1710059452/fandrin_giudbm.webp",
+            "title": "Fandorin. Azazel",
+            "description": "In an alternate 2023 where the October Revolution never occurred, young police servant Erast Fandorin investigates the mysterious suicide of a wealthy oil tycoon in Petrograd",
+            "link": "https://www.imdb.com/title/tt21851640/"
+          },
+          {
             "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560578/movies/soviet_and_russian_series_the_adventures_of_the_elektronic_gzuoal.webp",
             "title": "The Adventures of the Elektronic",
             "description": "A Soviet science fiction adventure film about a young inventor and his futuristic robot.",
@@ -1017,6 +1035,12 @@
             "title": "Shtisel",
             "description": "An Israeli drama series following an ultra-Orthodox Jewish family in Jerusalem.",
             "link": "https://www.imdb.com/title/tt3069894/"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1710059453/Hazvi_t0ekpt.webp",
+            "title": "HaZvi",
+            "description": "In late 19th century Jerusalem, as the Tsipis family embraces Zionism, their daughter Fruma, torn between her Russian idealism and family expectations, grapples with her identity and revolutionary love affair,",
+            "link": "https://www.imdb.com/title/tt31637515/"
           },
           {
             "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560590/movies/israeli_series_the_gordin_cell_jj7tuf.webp",
