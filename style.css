@@ -1279,3 +1279,6 @@ li[draggable]::before {
 .family_image:hover::after {
   opacity: 1;
 }
+.left_li{
+  text-align: left;
+}
