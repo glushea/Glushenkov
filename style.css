@@ -1285,6 +1285,6 @@ li[draggable]::before {
 }
 @media (max-width: 768px) {
   .left_li{
-    font-size: 17px !important;/* Customize the font size */
+    font-size: 17px ;/* Customize the font size */
   }
 }
