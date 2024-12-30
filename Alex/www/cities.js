@@ -16,7 +16,7 @@
   { name: "Buenos Aires", lat: -34.6037, lon: -58.3816, country: "Argentina" },
   { name: "Santiago", lat: -33.4489, lon: -70.6693, country: "Chile" },
   { name: "Johannesburg", lat: -26.2041, lon: 28.0473, country: "South Africa" },
-
+  { name: "Athens", lat: 37.9838, lon: 23.7275, country: "Greece" },
   { name: "Paris", lat: 48.8566, lon: 2.3522, country: "France" },
   { name: "London", lat: 51.5286416, lon: -0.1015987, country: "UK" },
   { name: "Tel Aviv", lat: 32.0853, lon: 34.7818, country: "Israel" },
@@ -52,7 +52,6 @@
   { name: "Zakynthos", lat: 37.7823, lon: 20.8987, country: "Greece" },
   { name: "Crete", lat: 35.2401, lon: 24.8093, country: "Greece" },
   { name: "Rhodes", lat: 36.4344, lon: 28.2176, country: "Greece" },
-  { name: "Athens", lat: 37.9838, lon: 23.7275, country: "Greece" },
   { name: "Bangkok", lat: 13.7563, lon: 100.5018, country: "Thailand" },
   { name: "Ko Phi Phi", lat: 7.7461, lon: 98.7784, country: "Thailand" },
   { name: "Phuket", lat: 7.8804, lon: 98.3923, country: "Thailand" },

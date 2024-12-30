@@ -93,12 +93,6 @@
                 "link": "https://www.imdb.com/title/tt0086619/"
               },
               {
-                "image": "https://www.imdb.com/title/tt0088323/mediaviewer/rm4219882752/?ref_=tt_ov_i",
-                "title": "The Never Ending Story",
-                "description": "A troubled boy dives into a wondrous fantasy world through the pages of a mysterious book.",
-                "link": "https://www.imdb.com/title/tt0088323/"
-              },
-              {
                 "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560621/movies/global_movies_schindler_s_list_vsmvxw.webp",
                 "title": "Schindler's List",
                 "description": "A historical drama film based on the life of Oskar Schindler, a German industrialist who saved Jewish refugees.",
@@ -645,6 +639,18 @@
                 "title": "Star Trek - Next Generation",
                 "description": "A science fiction franchise exploring space exploration, technology, and the human condition.",
                 "link": "https://www.imdb.com/title/tt0060028/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BM2YzYTk0NDctOWY4NC00NzBjLWJmNTUtNDY4YmFjMjRlOGMwXkEyXkFqcGc@._V1_.webp",
+                "title": "Die Zweiflers",
+                "description": "Explores the life of a Jewish family in contemporary Germany.",
+                "link": "https://www.imdb.com/title/tt31101783/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BNzRiMmI0NTEtNGU3Mi00ZWY1LTkyYTUtZGIwM2Q4YzE5YWYxXkEyXkFqcGc@._V1_.webp",
+                "title": "Rematch",
+                "description": "Depicts the clash of minds between chess champion Garry Kasparov and IBM's supercomputer Deep Blue.",
+                "link": "https://www.imdb.com/title/tt26741906/"
               },
               {
                 "image": "https://m.media-amazon.com/images/M/MV5BNTgxNDZlODQtNDcwOC00NWQ5LTljNWMtMDhjY2U5YTUzMTc4XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.webp",

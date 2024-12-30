@@ -2,7 +2,7 @@ const carouselContainer = document.getElementById("carouselContainer");
 
 async function fetchData() {
   try {
-    const response = await fetch("movies.json");
+    const response = await fetch("food.json");
     const data = await response.json();
     return data;
   } catch (error) {
@@ -20,29 +20,31 @@ function createCarousel(title, items) {
   titleElement.textContent = title;
   carousel.appendChild(titleElement);
 
+//   const arrowLeft = document.createElement("div");
+//   arrowLeft.classList.add("arrow_food", "arrow-left_food");
+//   arrowLeft.textContent = "<";
+//   carousel.appendChild(arrowLeft);
+
   const cardContainer = document.createElement("div");
   cardContainer.classList.add("card-container_food");
   carousel.appendChild(cardContainer);
 
+//   const arrowRight = document.createElement("div");
+//   arrowRight.classList.add("arrow_food", "arrow-right_food");
+//   arrowRight.textContent = ">";
+//   carousel.appendChild(arrowRight);
 
   items.forEach((item, index) => {
     const card = document.createElement("div");
     card.classList.add("card_food");
 
     const image = document.createElement("img");
-    image.classList.add("card_img_movie");
-    // image.src = item.image;
-    if (title.includes ("Movies")){
-      image.src = "https://res.cloudinary.com/dxsuizt1v/image/upload/v1715193144/glushea_Icon_Project_movie_poster_veynpo.webp"
-    }
-    else{
-      image.src = "https://res.cloudinary.com/dxsuizt1v/image/upload/v1715193147/glushea_Icon_Project_series_poster_xxotqz.webp"
-
-    }
+    image.classList.add("card_img_food");
+    image.src = item.image;
     card.appendChild(image);
 
     const cardTitle = document.createElement("h3");
-    cardTitle.classList.add("h3_food");
+    cardTitle.classList.add("h3_food")
     cardTitle.textContent = item.title;
     card.appendChild(cardTitle);
 

@@ -1,0 +1,470 @@
+{
+    "Literature and Fiction": [
+      
+        {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560588/books/literature_and_fiction_1984_qxvhna.webp",
+            "title": "1984",
+            "description": "A dystopian novel depicting a totalitarian regime and its impact on a man's life.",
+            "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560608/books/literature_and_fiction_war_and_peace_doylfw.webp",
+            "title": "War and Peace",
+            "description": "A historical novel exploring society, war, and peace during the Napoleonic era.",
+            "link": "https://en.wikipedia.org/wiki/War_and_Peace"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560609/books/literature_and_fiction_anna_karenina_lfhghp.webp",
+            "title": "Anna Karenina",
+            "description": "A novel exploring themes of love, infidelity, and societal norms in 19th-century Russia.",
+            "link": "https://en.wikipedia.org/wiki/Anna_Karenina"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560609/books/literature_and_fiction_murder_on_the_orient_express_ltkr5d.webp",
+            "title": "Murder on the Orient Express",
+            "description": "A detective novel featuring Hercule Poirot solving a murder mystery on a train.",
+            "link": "https://en.wikipedia.org/wiki/Murder_on_the_Orient_Express"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560609/books/literature_and_fiction_the_adventures_of_sherlock_holmes_ruu3pw.webp",
+            "title": "The Adventures of Sherlock Holmes",
+            "description": "A collection of detective stories featuring Sherlock Holmes and Dr. Watson.",
+            "link": "https://en.wikipedia.org/wiki/The_Adventures_of_Sherlock_Holmes"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560601/books/literature_and_fiction_the_da_vinci_code_ukvhxp.webp",
+            "title": "The Da Vinci Code",
+            "description": "A mystery thriller novel exploring a symbologist's quest for the Holy Grail.",
+            "link": "https://en.wikipedia.org/wiki/The_Da_Vinci_Code"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560602/books/literature_and_fiction_angels_and_demons_pnhva3.webp",
+            "title": "Angels and Demons",
+            "description": "A thriller novel involving a symbologist's battle against a secret society.",
+            "link": "https://en.wikipedia.org/wiki/Angels_%26_Demons"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560601/books/literature_and_fiction_the_adventures_of_miss_marple_h5ubtd.webp",
+            "title": "The Adventures of Miss Marple",
+            "description": "A collection of mystery short stories featuring the detective Miss Marple.",
+            "link": "https://en.wikipedia.org/wiki/Miss_Marple"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560609/books/literature_and_fiction_the_name_of_the_rose_i7pjsv.webp",
+            "title": "The Name of the Rose",
+            "description": "A historical mystery novel set in an Italian monastery during the 14th century.",
+            "link": "https://en.wikipedia.org/wiki/The_Name_of_the_Rose"
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/en/7/76/The_Bronze_Horseman_%28novel%29.png",
+            "title": "The Bronze Horseman",
+            "description": "The Bronze Horseman is a historical fiction novel written by Paullina Simons and the first book in the Bronze Horseman Trilogy.",
+            "link": "https://en.wikipedia.org/wiki/The_Bronze_Horseman_(novel)"
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/en/e/e3/The_Bridge_to_Holy_Cross.jpg",
+            "title": "Tatiana and Alexander",
+            "description": "Tatiana and Alexander is a romance novel written by Paullina Simons and the second book in the Bronze Horseman Trilogy. The novel continues the story of Tatiana Metanova and her husband Alexander Belov.",
+            "link": "https://en.wikipedia.org/wiki/Tatiana_and_Alexander"
+          },
+          {
+            "image": "https://m.media-amazon.com/images/I/61cqHJp-Q8L._SY522_.jpg",
+            "title": "The Summer Garden",
+            "description": "The Summer Garden by Paullina Simons is a sweeping post-WWII love story about Tatiana and Alexander as they struggle to build a new life in America, facing the challenges of healing and resilience in the aftermath of war.",
+            "link": "https://www.amazon.com/Summer-Garden-Story-Bronze-Horseman/dp/0061988227"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560598/books/literature_and_fiction_gorky_park_hgmtck.webp",
+            "title": "Gorky Park",
+            "description": "A crime novel featuring Arkady Renko, a Moscow police investigator.",
+            "link": "https://en.wikipedia.org/wiki/Gorky_Park_(novel)"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560586/books/literature_and_fiction_child_44_lrikgw.webp",
+            "title": "Child 44",
+            "description": "A thriller novel set in the Stalinist Soviet Union, following a series of gruesome murders.",
+            "link": "https://en.wikipedia.org/wiki/Child_44"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560588/books/literature_and_fiction_the_man_in_the_high_castle_i470vp.webp",
+            "title": "The Man in the High Castle",
+            "description": "An alternate history novel depicting a world where the Axis powers won World War II.",
+            "link": "https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560599/books/literature_and_fiction_the_secret_speech_xqhg7b.webp",
+            "title": "The Secret Speech",
+            "description": "A historical crime novel set in the Soviet Union during the Khrushchev era.",
+            "link": "https://en.wikipedia.org/wiki/The_Secret_Speech_(novel)"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560587/books/literature_and_fiction_the_winter_queen_r77xpr.webp",
+            "title": "The Winter Queen",
+            "description": "A historical detective novel set in 19th-century Moscow, featuring detective Erast Fandorin.",
+            "link": "https://en.wikipedia.org/wiki/The_Winter_Queen_(novel)"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560590/books/literature_and_fiction_master_and_margarita_qmpyh0.webp",
+            "title": "Master and Margarita",
+            "description": "A satirical novel intertwining an encounter between the Devil and Soviet society.",
+            "link": "https://en.wikipedia.org/wiki/The_Master_and_Margarita"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560603/books/literature_and_fiction_doctor_zhivago_hxnctp.webp",
+            "title": "Doctor Zhivago",
+            "description": "A romantic novel set during the Russian Revolution and its aftermath.",
+            "link": "https://en.wikipedia.org/wiki/Doctor_Zhivago_(novel)"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560600/books/literature_and_fiction_the_red_tent_twmwee.webp",
+            "title": "The Red Tent",
+            "description": "A historical fiction novel reimagining the life of Dinah, a character from the Bible.",
+            "link": "https://en.wikipedia.org/wiki/The_Red_Tent_(Diamant_novel)"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560586/books/literature_and_fiction_the_gulag_archipelago_vg1yzr.webp",
+            "title": "The Gulag Archipelago",
+            "description": "A three-volume work exposing the Soviet forced labor camp system.",
+            "link": "https://en.wikipedia.org/wiki/The_Gulag_Archipelago"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560611/books/literature_and_fiction_one_day_in_the_life_of_ivan_denisovich_ewmb2d.webp",
+            "title": "One Day in the Life of Ivan Denisovich",
+            "description": "A novella portraying a day in the life of a prisoner in a Soviet labor camp.",
+            "link": "https://en.wikipedia.org/wiki/One_Day_in_the_Life_of_Ivan_Denisovich"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560587/books/literature_and_fiction_eugene_onegin_cs1xpg.webp",
+            "title": "Eugene Onegin",
+            "description": "A novel in verse exploring themes of love, society, and boredom in 19th-century Russia.",
+            "link": "https://en.wikipedia.org/wiki/Eugene_Onegin"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560589/books/literature_and_fiction_ruslan_and_ludmila_osrcdb.webp",
+            "title": "Ruslan and Ludmila",
+            "description": "An epic fairy tale poem, a romantic adventure featuring magical elements.",
+            "link": "https://en.wikipedia.org/wiki/Ruslan_and_Ludmila"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560598/books/literature_and_fiction_gone_with_the_wind_jh9tla.webp",
+            "title": "Gone with the Wind",
+            "description": "The story is set in Clayton County and Atlanta, both in Georgia, during the American Civil War and Reconstruction Era",
+            "link": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_%28novel%29"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560615/books/literature_and_fiction_the_adventures_of_tom_sawyer_ebseru.webp",
+            "title": "The Adventures of Tom Sawyer",
+            "description": "A classic novel depicting the adventures of a young boy in a Mississippi River town.",
+            "link": "https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560595/books/literature_and_fiction_the_hitchhiker_s_guide_to_the_galaxy_peddkv.webp",
+            "title": "The Hitchhiker's Guide to the Galaxy",
+            "description": "A science fiction series following the misadventures of an unwitting human and his alien friend.",
+            "link": "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560599/books/literature_and_fiction_the_curious_incident_of_the_dog_in_the_night-time_wcogdn.webp",
+            "title": "The Curious Incident of the Dog in the Night-Time",
+            "description": "A mystery novel narrated by a teenage boy with Asperger's syndrome.",
+            "link": "https://en.wikipedia.org/wiki/The_Curious_Incident_of_the_Dog_in_the_Night-Time"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560596/books/literature_and_fiction_the_twelve_chairs_xrz6tu.webp",
+            "title": "The Twelve Chairs",
+            "description": "Its plot follows characters attempting to obtain jewelry hidden in a chair",
+            "link": "https://www.amazon.com/Twelve-Chairs-Novel-Northwestern-Classics/dp/0810127725"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1698584128/oldman_rgqblo.webp",
+            "title": "The Old Genie Hottabych",
+            "description": "Volka, a 12-year-old Soviet Young Pioneer, discovers an ancient vessel at the bottom of a river. When he opens it, a genie emerges.",
+            "link": "https://www.amazon.com/Old-Genie-Hottabych-Lazar-Lagin/dp/1589635450"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1698584128/grant_bni1ul.webp",
+            "title": "In Search of the Castaways",
+            "description": "Young Mary Grant and her brother travel to Scotland with their friend Professor Paganel to attempt to convince Lord Glenarvan to help locate Mary's missing father, Captain Grant.",
+            "link": "https://www.amazon.com/Search-Castaways-Jules-Verne-Illustrated/dp/1521972346"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1698584128/80days_knqdwi.webp",
+            "title": "Around the World in Eighty Days",
+            "description": "Phileas Fogg of London and his newly employed French valet Passepartout attempt to circumnavigate the world in 80 day.",
+            "link": "https://www.amazon.com/Around-World-Days-Jules-Verne/dp/1936594617"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1698584128/Karlson_dyyu5z.webp",
+            "title": "Karlson on the Roof",
+            "description": "When Midge looks out of his window, he hears a faint buzzing sound and sees Karlson, a little fat man, flying slowly past with a propellor on his back. Midge learns that he lives on the roof and has all kinds of interesting ideas and tricks",
+            "link": "https://www.amazon.com/Karlson-Roof-Astrid-LINDGREN/dp/0192727729"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1699201113/Guliver_ccdj0v.webp",
+            "title": "Gulliver`s Travels",
+            "description": "This book describes four remarkable journies of ship's surgeon Lemuel Gulliver, among them, one to the land of Lilliput, where six-inch-high inhabitants bicker over trivialities; and another to Brobdingnag, a land where giants reduce man to insignificance.",
+            "link": "https://www.amazon.com/Gullivers-Travels-Dover-Thrift-Editions/dp/0486292738"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1699201107/jungle_mej4as.webp",
+            "title": "The Jungle Book",
+            "description": "Most of the characters are animals such as Shere Khan the tiger and Baloo the bear, though a principal character is a boy called Mowgli, who is raised in the jungle by wolves. ",
+            "link": "https://www.amazon.com/Jungle-Book-Rudyard-Kipling/dp/9387669335/"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1699201353/wizard_jreyrb.webp",
+            "title": "The Wizard of Oz",
+            "description": "Journey through the magical world of Oz with Dorothy and her friends",
+            "link": "https://www.amazon.com/Wizard-Oz-Collection-Frank-Baum/dp/1782263209"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1699201923/Buratino_znlyvt.webp",
+            "title": "The Adventures of Buratino",
+            "description": "Buratino is wooden toy who befriends other toys from a theatre owned by evil Karabas-Barabas. He decides to free them with the golden key given by Tortila the Tortoise.",
+            "link": "https://www.amazon.com/Priklyucheniya-Buratino/dp/5488016279"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560603/books/literature_and_fiction_the_kite_runner_y109uf.webp",
+            "title": "The Kite Runner",
+            "description": "A novel exploring friendship, betrayal, and redemption set in Afghanistan.",
+            "link": "https://en.wikipedia.org/wiki/The_Kite_Runner"
+          }
+    ],
+    "Business and Health": [
+        {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560585/books/business_and_health_thinking_fast_and_slow_u1vmgq.webp",
+            "title": "Thinking, Fast and Slow",
+            "description": "Explores the dual systems of thinking that drive our judgments and decisions, and how they impact our lives.",
+            "link": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560596/books/business_and_health_the_lean_startup_idpjug.webp",
+            "title": "The Lean Startup",
+            "description": "Introduces a methodology for developing businesses and products, emphasizing continuous innovation and customer feedback.",
+            "link": "https://en.wikipedia.org/wiki/The_Lean_Startup"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560587/books/business_and_health_the_innovator_s_dilemma_dtzt9a.webp",
+            "title": "The Innovator's Dilemma",
+            "description": "Examines why well-managed companies can fail despite good products and provides insights into disruptive innovation.",
+            "link": "https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560602/books/business_and_health_influence_the_psychology_of_persuasion_xz5gjg.webp",
+            "title": "Influence: The Psychology of Persuasion",
+            "description": "Unveils the psychology behind influence and persuasion, crucial skills in business and everyday interactions.",
+            "link": "https://en.wikipedia.org/wiki/Influence:_The_Psychology_of_Persuasion"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560586/books/business_and_health_how_to_win_friends_and_influence_people_swu3fz.webp",
+            "title": "How to Win Friends and Influence People",
+            "description": "Provides timeless advice on effective communication, relationship-building, and influencing people positively.",
+            "link": "https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560583/books/business_and_health_eat_right_4_your_type_xcxs1f.webp",
+            "title": "Eat Right 4 Your Type",
+            "description": "Introduces the blood type diet concept, suggesting that blood type can influence dietary needs and health.",
+            "link": "https://www.amazon.com/Right-Your-Type-Peter-DAdamo/dp/0061441848"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560612/books/business_and_health_bong_app%C3%A9tit_mastering_the_art_of_cooking_with_weed_a_cookbook_pdm4bq.webp",
+            "title": "Bong Appétit: Mastering the Art of Cooking with Weed: A Cookbook",
+            "description": "This cannabis cookbook features 65 high-end recipes for sweet and savory dishes as well as cocktails.",
+            "link": "https://www.amazon.com/Bong-App%C3%A9tit-Mastering-Cooking-Weed/dp/0399580107"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560584/books/business_and_health_healing_back_pain_the_mind-body_connection_espqml.webp",
+            "title": "Healing Back Pain: The Mind-Body Connection",
+            "description": "Explores the mind-body connection in understanding and healing back pain.",
+            "link": "https://www.amazon.com/Healing-Back-Pain-Mind-Body-Connection/dp/0446557684"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695662351/books/manylives_manymasters_yb97pz.webp",
+            "title": "Many Lives, Many Masters",
+            "description": "The True Story of a Prominent Psychiatrist, His Young Patient, and the Past-Life Therapy That Changed Both Their Lives.",
+            "link": "https://www.amazon.com/Many-Lives-Masters-Prominent-Psychiatrist/dp/0671657860"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560591/books/business_and_health_how_to_change_your_mind_sl7lvk.webp",
+            "title": "How to Change Your Mind",
+            "description": "Michael Pollan traces the eventful history of psychedelics, from Hofmann's first encounter with LSD to the first surge of research into the field, to the widespread",
+            "link": "https://www.amazon.com/Change-Your-Mind-Consciousness-Transcendence/dp/1594204225"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560608/books/business_and_health_rich_dad_poor_dad_i5rxoo.webp",
+            "title": "Rich Dad Poor Dad",
+            "description": "Presents personal finance lessons based on the author's two 'dads' and their differing philosophies on money.",
+            "link": "https://en.wikipedia.org/wiki/Rich_Dad_Poor_Dad"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560603/books/business_and_health_thinking_strategically_jjy5dc.webp",
+            "title": "Thinking Strategically",
+            "description": "Introduces the principles of game theory and how they can be applied to decision-making and strategy.",
+            "link": "https://en.wikipedia.org/wiki/Thinking_Strategically"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560588/books/business_and_health_the_monk_who_sold_his_ferrari_no4ktt.webp",
+            "title": "The Monk Who Sold His Ferrari",
+            "description": "A motivational book that offers a step-by-step approach to living with greater courage, balance, abundance, and joy.",
+            "link": "https://en.wikipedia.org/wiki/The_Monk_Who_Sold_His_Ferrari"
+          }
+      
+    ],
+    "History and Biographies": [
+        
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560608/books/history_and_biographies_hebrew_bible_-_hatanach_yre64o.webp",
+                "title": "Hebrew Bible - HaTanach",
+                "description": "Hebrew Bible comprising the sacred scriptures of Judaism.",
+                "link": "https://en.wikipedia.org/wiki/Hebrew_Bible"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560603/books/history_and_biographies_mastering_the_art_of_soviet_cooking_hraxbp.webp",
+                "title": "Mastering the Art of Soviet Cooking",
+                "description": "A memoir and history of Soviet Russia, exploring its culture and history through food.",
+                "link": "https://www.amazon.com/Mastering-Art-Soviet-Cooking-Longing/dp/0307886816"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560599/books/history_and_biographies_fermat_s_last_theorem_fune1c.webp",
+                "title": "Fermat's Last Theorem",
+                "description": "A book about the theorem that remained unsolved for centuries and the eventual proof of Fermat's Last Theorem.",
+                "link": "https://www.amazon.com/Fermats-Last-Theorem-Simon-Singh/dp/1841157910/ref=sr_1_1?keywords=Fermats-Last-Theorem+Simon-Singh&qid=1695473403&sr=8-1"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560586/books/history_and_biographies_the_black_swan_zutmkt.jpg",
+                "title": "The Black Swan",
+                "description": "Examines rare and unpredictable events that have a major impact and are difficult to predict.",
+                "link": "https://en.wikipedia.org/wiki/The_Black_Swan_(Taleb_book)"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560598/books/history_and_biographies_the_romanovs_1613-1918_xjebf0.webp",
+                "title": "The Romanovs: 1613-1918",
+                "description": "Traces the history of the Romanov dynasty in Russia from its beginnings to its tragic end in 1918.",
+                "link": "https://en.wikipedia.org/wiki/The_Romanovs_1613%E2%80%931918"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560598/books/history_and_biographies_young_stalin_w4qpry.webp",
+                "title": "Young Stalin",
+                "description": "A biography of Joseph Stalin, focusing on his early years and rise to power.",
+                "link": "https://www.amazon.com/Young-Stalin-Simon-Sebag-Montefiore/dp/1400096138"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560588/books/history_and_biographies_churchill_walking_with_destiny_jx6xep.webp",
+                "title": "Churchill: Walking with Destiny",
+                "description": "A biography of Winston Churchill, chronicling his life and leadership during critical times.",
+                "link": "https://www.amazon.com/Churchill-Walking-Destiny-Andrew-Roberts/dp/1101980990"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560586/books/history_and_biographies_a_state_at_any_cost_the_life_of_david_ben-gurion_gqvfzu.webp",
+                "title": "A State at Any Cost: The Life of David Ben-Gurion",
+                "description": "A biography of David Ben-Gurion, the primary founder and the first Prime Minister of Israel.",
+                "link": "https://www.amazon.com/State-Any-Cost-David-Ben-Gurion/dp/0374112649"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560618/books/history_and_biographies_no_room_for_small_dreams_lmzyd6.webp",
+                "title": "No Room for Small Dreams",
+                "description": "Autobiography of Shimon Peres, focusing on his visions and experiences as a prominent Israeli statesman.",
+                "link": "https://www.amazon.com/No-Room-Small-Dreams-Imagination/dp/0062561448"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560583/books/history_and_biographies_bibi_my_story_jwn13y.webp",
+                "title": "Bibi: My Story",
+                "description": "An autobiography of Benjamin Netanyahu, delving into his political career and beliefs.",
+                "link": "https://www.amazon.com/Bibi-My-Story-Benjamin-Netanyahu/dp/1668008440"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560619/books/history_and_biographies_the_silk_roads_f2sz7f.webp",
+                "title": "The Silk Roads",
+                "description": "Explores the historical and contemporary significance of the Silk Road trade routes.",
+                "link": "https://www.amazon.com/Silk-Roads-New-History-World/dp/1101912375"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560629/books/history_and_biographies_the_new_silk_roads_n4pygq.webp",
+                "title": "The New Silk Roads",
+                "description": "An updated exploration of the Silk Road concept in the 21st century, encompassing global geopolitics.",
+                "link": "https://www.amazon.com/New-Silk-Roads-Present-Future/dp/1526607425"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560602/books/history_and_biographies_former_people_the_final_days_of_the_russian_aristocracy_nnq34a.webp",
+                "title": "Former People: The Final Days of the Russian Aristocracy",
+                "description": "Details the lives of the Russian aristocracy during the Russian Revolution and their subsequent fate.",
+                "link": "https://www.amazon.com/Former-People-Final-Russian-Aristocracy/dp/1250037794"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560586/books/history_and_biographies_working_the_rough_stone_freemasonry_and_society_in_eighteenth-century_russia_hsfull.webp",
+                "title": "Working the Rough Stone: Freemasonry and Society in Eighteenth-century Russia",
+                "description": "Examines Freemasonry's historical and social influence in 18th-century Russia.",
+                "link": "https://www.amazon.com/Working-Rough-Stone-Freemasonry-Eighteenth-Century/dp/087580246X"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560583/books/history_and_biographies_rasputin_faith_power_and_the_twilight_of_the_romanovs_rbsabu.webp",
+                "title": "Rasputin: Faith, Power, and the Twilight of the Romanovs",
+                "description": "Biography of Grigori Rasputin, a mystic and advisor to the Romanov family in late Imperial Russia.",
+                "link": "https://www.amazon.com/Rasputin-Faith-Power-Twilight-Romanovs/dp/0374240841"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560587/books/history_and_biographies_the_man_without_a_face_lnufhs.webp",
+                "title": "The Man Without a Face",
+                "description": "A biography of Vladimir Putin, exploring his rise to power and his impact on Russia and the world.",
+                "link": "https://www.amazon.com/Man-Without-Face-Unlikely-Vladimir/dp/1594486514"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560602/books/history_and_biographies_a_place_among_the_nations_dmkhgr.webp",
+                "title": "A Place Among the Nations",
+                "description": "Examines Israel's foreign policy and its challenges in the context of the Middle East.",
+                "link": "https://www.amazon.com/Place-Among-Nations-Benjamin-Netanyahu/dp/0553089749"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560600/books/history_and_biographies_the_code_book_liz7hs.webp",
+                "title": "The Code Book",
+                "description": "Explores the history and science of codes and code-breaking, covering their impact on society and technology.",
+                "link": "https://en.wikipedia.org/wiki/The_Code_Book"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560610/books/history_and_biographies_jerusalem_the_biography_k6gvrr.webp",
+                "title": "Jerusalem: The Biography",
+                "description": "Presents a biography of the city of Jerusalem, covering its history, religious significance, and political importance.",
+                "link": "https://www.amazon.com/Code-Book-Science-Secrecy-Cryptography/dp/0385495323"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560589/books/history_and_biographies_big_bang_io6vyq.webp",
+                "title": "Big Bang",
+                "description": "Explores the history and concepts of the Big Bang theory, a fundamental idea in astrophysics.",
+                "link": "https://www.amazon.com/Big-Bang-Universe-Simon-Singh/dp/0007162219"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560600/books/history_and_biographies_the_templar_revelation_bikxsx.webp",
+                "title": "The Templar Revelation",
+                "description": "Discusses the history and mysteries surrounding the Knights Templar and their role in Christianity.",
+                "link": "https://www.amazon.com/Templar-Revelation-Secret-Guardians-Identity/dp/0684848910"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560603/books/history_and_biographies_einstein_his_life_and_universe_z66nmc.webp",
+                "title": "Einstein: His Life and Universe",
+                "description": "A biography of Albert Einstein, exploring his life, scientific contributions, and impact on the world.",
+                "link": "https://www.amazon.com/Einstein-Life-Universe-Walter-Isaacson/dp/0743264746"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560598/books/history_and_biographies_the_jewish_war_qw1ntb.webp",
+                "title": "The Jewish War",
+                "description": "An account of the Jewish revolt against Rome, written by ancient historian Flavius Josephus.",
+                "link": "https://en.wikipedia.org/wiki/The_Jewish_War"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560597/books/history_and_biographies_stalin_the_court_of_the_red_tsar_qgurae.webp",
+                "title": "Stalin: The Court of the Red Tsar",
+                "description": "A biography of Joseph Stalin, focusing on his personal and political life.",
+                "link": "https://en.wikipedia.org/wiki/Stalin:_The_Court_of_the_Red_Tsar"
+              },
+              {
+                "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560584/books/history_and_biographies_the_oligarchs_k0ndns.webp",
+                "title": "The Oligarchs",
+                "description": "Examines the rise of oligarchs in post-Soviet Russia and their impact on the country.",
+                "link": "https://www.amazon.com/Oligarchs-Wealth-Power-New-Russia/dp/1610390709"
+              }
+            
+          
+    ]
+  
+    }

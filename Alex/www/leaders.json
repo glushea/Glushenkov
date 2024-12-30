@@ -139,6 +139,12 @@
         "link": "https://en.wikipedia.org/wiki/Alain_Delon"
       },
       {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Garri_Kasparow_%2818776605665%29_%28cropped%29_2.jpg/440px-Garri_Kasparow_%2818776605665%29_%28cropped%29_2.jpg",
+        "title": "Garry Kasparov",
+        "description": "Garry Kasparov, born April 13, 1963, in Baku, Azerbaijan SSR, is a celebrated Russian chess grandmaster, former world chess champion, writer, and political activist. He became the youngest undisputed world chess champion in 1985, defeating Anatoly Karpov at just 22 years old, and went on to dominate the chess world for two decades, holding the No. 1 ranking for a record 255 months. Known for his aggressive, strategic play, Kasparov also made headlines in the 1990s for his historic matches against IBM's Deep Blue computer, which marked a key moment in the intersection of AI and chess. Since retiring from professional chess in 2005, he has been an outspoken critic of Vladimir Putin, advocating for democratic reforms in Russia, and is a prolific author on topics spanning chess, artificial intelligence, and politics.",
+        "link": "https://en.wikipedia.org/wiki/Garry_Kasparov"
+      },
+      {
         "image": "https://m.media-amazon.com/images/M/MV5BMTkyODczMTM2OV5BMl5BanBnXkFtZTYwMjE2MjI2._V1_FMjpg_UX1000_.webp",
         "title": "Marcello Mastroianni",
         "description": "Marcello Mastroianni, the epitome of Italian sophistication, graced the silver screen with his effortless charm, magnetic charisma, and remarkable versatility, establishing himself as one of cinema's most celebrated leading men. With his iconic performances and timeless style, he became synonymous with the golden era of Italian cinema, captivating audiences worldwide and leaving an enduring legacy as a true cinematic legend.",
@@ -149,6 +155,30 @@
         "title": "Alexander Pushkin",
         "description": "Alexander Pushkin, the father of Russian literature, revolutionized the literary landscape with his groundbreaking works, including poetry, drama, and prose, which continue to inspire and captivate audiences worldwide. With his unparalleled mastery of language and profound exploration of themes such as love, freedom, and national identity, he became a cultural icon, leaving an indelible mark on Russian literature and establishing a legacy that endures through the ages.",
         "link": "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+      },
+      {
+        "image": "https://images.findagrave.com/photos/2008/14/23980841_120046332827.jpg",
+        "title": "Anatoly Rybakov",
+        "description": "Anatoly Rybakov, born January 1, 1911, and passing on December 23, 1998, was a prominent Soviet and Russian novelist, best known for his works that explore Soviet society and the political repression of Stalin’s era. His most famous novel, Children of the Arbat, published in 1987, is part of a trilogy that candidly depicts life in the 1930s under Stalin’s rule and became a landmark in Russian literature for its critical view of the Soviet regime. Other notable works include Heavy Sand, a novel about the Holocaust and the Nazi occupation of Ukraine, and The Bronze Bird, a popular children's adventure story. Despite facing censorship and restrictions, Rybakov’s writings left a lasting impact on Russian literature, shedding light on suppressed aspects of Soviet history.",
+        "link": "https://en.wikipedia.org/wiki/Anatoly_Rybakov"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Taylor%2C_Elizabeth_posed.jpg/440px-Taylor%2C_Elizabeth_posed.jpg",
+        "title": "Elizabeth Taylor",
+        "description": "Elizabeth Taylor, born on February 27, 1932, in Hampstead, London, was a legendary British-American actress, known for her captivating beauty, remarkable talent, and a career that spanned over six decades. Rising to fame as a child star in the 1940s with films like National Velvet (1944), she became one of Hollywood's most iconic leading ladies, earning two Academy Awards for Best Actress for her performances in Butterfield 8 (1960) and Who's Afraid of Virginia Woolf? (1966). Taylor was also known for her glamorous lifestyle, multiple marriages, and her philanthropic efforts, particularly in raising awareness and funds for AIDS research. Throughout her career, she appeared in numerous classic films, including Cleopatra (1963) and Cat on a Hot Tin Roof (1958), solidifying her status as a cultural icon and one of the greatest actresses in film history. Taylor passed away on March 23, 2011, leaving behind a lasting legacy in the entertainment industry.",
+        "link": "https://en.wikipedia.org/wiki/Elizabeth_Taylor"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Peter_I._%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D1%86%D0%B0%D1%80%D1%8F_%D0%9F%D0%B5%D1%82%D1%80%D0%B0_I_%28%D0%BF%D1%80%D0%B8%D0%B6%D0%B8%D0%B7%D0%BD%D0%B5%D0%BD%D1%8B%D0%B9%29._%D1%85%D1%83%D0%B4.Moor_v1%28b%29.jpg/440px-Peter_I._%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D1%86%D0%B0%D1%80%D1%8F_%D0%9F%D0%B5%D1%82%D1%80%D0%B0_I_%28%D0%BF%D1%80%D0%B8%D0%B6%D0%B8%D0%B7%D0%BD%D0%B5%D0%BD%D1%8B%D0%B9%29._%D1%85%D1%83%D0%B4.Moor_v1%28b%29.jpg",
+        "title": "Peter the Great",
+        "description": "Peter the Great, born on 1672, in Moscow, ruled Russia from 1682 until his death in 1725 and is renowned for modernizing the country. He implemented sweeping reforms to westernize Russia’s economy, military, and culture, establishing St. Petersburg as the new capital. Peter reorganized the military, founded the Russian Academy of Sciences, and strengthened the central government, positioning Russia as a major European power. His reign, however, was marked by autocratic rule and suppression of dissent.",
+        "link": "https://en.wikipedia.org/wiki/Peter_the_Great"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Monica_Bellucci_San_Sebasti%C3%A1n.jpg/440px-Monica_Bellucci_San_Sebasti%C3%A1n.jpg",
+        "title": "Monica Bellucci",
+        "description": "Monica Bellucci, born on September 30, 1964, in Città di Castello, Italy, is an internationally acclaimed Italian actress and model known for her beauty, versatility, and roles in European and Hollywood films. She began her career as a model before transitioning to acting in the early 1990s, gaining recognition with roles in Italian and French cinema, including Malèna (2000) and The Apartment (1996). Bellucci’s career expanded globally with appearances in Hollywood films such as The Matrix Reloaded (2003) and The Passion of the Christ (2004). Praised for her presence and acting range, she became the oldest Bond girl at 51 in Spectre (2015), further establishing her as a symbol of timeless elegance in cinema.",
+        "link": "https://en.wikipedia.org/wiki/Monica_Bellucci"
       },
       {
         "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560532/anton-chekhov_zdnsbs.webp",
